@@ -61,6 +61,8 @@ jobs:
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python fpl_api_test.py
+      - name: Test TheSportsDB free API
+        run: python fpl_sportsdb_test.py
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
