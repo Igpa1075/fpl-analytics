@@ -5,7 +5,7 @@
     {
       "entry": 1517924,
       "team_name": "Meatball",
-      "total": 644,
+      "total": 645,
       "rank": 1,
       "captain_id": 411,
       "starting_ids": [
@@ -116,7 +116,7 @@
     {
       "entry": 715977,
       "team_name": "Maestroni",
-      "total": 574,
+      "total": 575,
       "rank": 4,
       "captain_id": 411,
       "starting_ids": [
@@ -153,7 +153,7 @@
     {
       "entry": 1936456,
       "team_name": "Team_D",
-      "total": 567,
+      "total": 574,
       "rank": 5,
       "captain_id": 411,
       "starting_ids": [
@@ -190,7 +190,7 @@
     {
       "entry": 2639391,
       "team_name": "S.W.A.T. LA",
-      "total": 566,
+      "total": 573,
       "rank": 6,
       "captain_id": 411,
       "starting_ids": [
@@ -227,7 +227,7 @@
     {
       "entry": 1347510,
       "team_name": "WΞΞKΞND WΛRRIOR",
-      "total": 542,
+      "total": 544,
       "rank": 7,
       "captain_id": 40,
       "starting_ids": [
@@ -262,47 +262,10 @@
       ]
     },
     {
-      "entry": 2498334,
-      "team_name": "Kananir",
-      "total": 539,
-      "rank": 8,
-      "captain_id": 40,
-      "starting_ids": [
-        572,
-        277,
-        31,
-        449,
-        8,
-        399,
-        40,
-        124,
-        68,
-        411,
-        166
-      ],
-      "all_ids": [
-        572,
-        277,
-        31,
-        449,
-        8,
-        399,
-        40,
-        124,
-        68,
-        411,
-        166,
-        109,
-        94,
-        115,
-        165
-      ]
-    },
-    {
       "entry": 478722,
       "team_name": "FC Barcelona SD",
-      "total": 538,
-      "rank": 9,
+      "total": 540,
+      "rank": 8,
       "captain_id": 411,
       "starting_ids": [
         250,
@@ -333,6 +296,43 @@
         94,
         8,
         445
+      ]
+    },
+    {
+      "entry": 2498334,
+      "team_name": "Kananir",
+      "total": 539,
+      "rank": 9,
+      "captain_id": 40,
+      "starting_ids": [
+        572,
+        277,
+        31,
+        449,
+        8,
+        399,
+        40,
+        124,
+        68,
+        411,
+        166
+      ],
+      "all_ids": [
+        572,
+        277,
+        31,
+        449,
+        8,
+        399,
+        40,
+        124,
+        68,
+        411,
+        166,
+        109,
+        94,
+        115,
+        165
       ]
     },
     {
@@ -449,7 +449,7 @@
     {
       "entry": 5150250,
       "team_name": "Chubais",
-      "total": 470,
+      "total": 471,
       "rank": 13,
       "captain_id": 411,
       "starting_ids": [

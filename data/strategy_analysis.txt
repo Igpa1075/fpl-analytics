@@ -14,7 +14,7 @@ Rival captain choices in the completed GW:
   Cherif                 FWD rivals  0/12 | score  3.27
   Neto                   MID rivals  0/12 | score  4.92
   Palmer                 MID rivals  1/12 | score  3.96
-  Dewsbury-Hall          MID rivals  1/12 | score  4.33
+  Dewsbury-Hall          MID rivals  1/12 | score  4.49
   Vuskovic               DEF rivals  1/12 | score  5.62
   Leno                   GKP rivals  2/12 | score  3.74
   Mbeumo                 MID rivals  3/12 | score  4.18
@@ -40,16 +40,16 @@ Only players with >=180 season minutes and non-unavailable status.
     Rice                ARS £7.4m | rivals  0/12 | score 5.33
     Manzambi            AVL £6.2m | rivals  2/12 | score 5.33
     Henderson           CHE £4.9m | rivals  0/12 | score 4.92
+    Rudoni              COV £4.9m | rivals  1/12 | score 4.75
     Rogers              CHE £8.2m | rivals 11/12 | score 4.69
     Iwobi               FUL £5.4m | rivals  0/12 | score 4.59
-    Rudoni              COV £4.9m | rivals  1/12 | score 4.58
     Doku                MCI £7.5m | rivals  1/12 | score 4.47
   FWD:
     Evanilson           BOU £6.4m | rivals  2/12 | score 6.45
+    Barry               EVE £5.6m | rivals  1/12 | score 5.16
     Isak                LIV £9.2m | rivals  3/12 | score 4.91
     McBurnie            HUL £5.5m | rivals  0/12 | score 4.39
     Thiago              BRE £7.8m | rivals  0/12 | score 4.12
-    Barry               EVE £5.6m | rivals  1/12 | score 4.00
     Kostoulas           BHA £5.8m | rivals  5/12 | score 3.96
     Calvert-Lewin       LEE £6.1m | rivals  2/12 | score 3.23
     Havertz             ARS £7.4m | rivals  1/12 | score 3.11
@@ -58,8 +58,8 @@ Only players with >=180 season minutes and non-unavailable status.
     Kinsky              TOT £4.4m | rivals  0/12 | score 4.07
     Trafford            LEE £5.0m | rivals  0/12 | score 3.80
     Petrović            BOU £4.5m | rivals  0/12 | score 3.55
-    Pickford            EVE £5.5m | rivals  2/12 | score 3.35
     Suzuki              AVL £5.0m | rivals  1/12 | score 3.31
+    Pickford            EVE £5.5m | rivals  2/12 | score 3.19
     Kelleher            BRE £5.0m | rivals  0/12 | score 2.98
     Donnarumma          MCI £5.5m | rivals  0/12 | score 2.95
 \nNEXT: model transfers with current selling prices, free transfers,

@@ -12,7 +12,7 @@ Slot Player                 Club  Pos     £m  Form   PPG  Score Status
    5 Mbeumo                 MUN   MID    7.9   3.8   4.9   4.13 a
    6 Neto                   CHE   MID    6.6   5.2   4.4   4.96 a
    7 Palmer                 CHE   MID    9.8   3.4   5.0   3.88 a
-   8 Dewsbury-Hall          EVE   MID    6.6   4.4   4.2   4.34 a
+   8 Dewsbury-Hall          EVE   MID    6.6   4.6   4.3   4.51 a
    9 Tavernier              BOU   MID    6.6   4.8   6.1   5.19 a
   10 Haaland (C)            MCI   FWD   15.8   5.8   7.6   6.34 a
   11 N.Jackson (VC)         AVL   FWD    7.0   6.6   5.4   6.24 a
@@ -29,7 +29,7 @@ Formation: 3-5-2
   DEF Calafiori              ARS  score 4.79
   MID Tavernier              BOU  score 5.19
   MID Neto                   CHE  score 4.96
-  MID Dewsbury-Hall          EVE  score 4.34
+  MID Dewsbury-Hall          EVE  score 4.51
   MID Mbeumo                 MUN  score 4.13
   MID Palmer                 CHE  score 3.88
   FWD Haaland                MCI  score 6.34

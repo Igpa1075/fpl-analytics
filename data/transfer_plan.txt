@@ -24,10 +24,10 @@ OUT? Ouattara (DEF, IPS) | heuristic 3.32 | estimated budget ceiling £4.9m
 OUT? Vuskovic (DEF, BHA) | heuristic 5.28 | estimated budget ceiling £6.1m
   -> Konsa                ARS £4.8m | FDR 3.7 | rivals 6/12 | score +0.92
   -> Van Hecke            TOT £5.0m | FDR 2.3 | rivals 3/12 | score +0.47
-OUT? Dewsbury-Hall (MID, EVE) | heuristic 3.87 | estimated budget ceiling £7.5m
-  -> Manzambi             AVL £6.2m | FDR 2.3 | rivals 2/12 | score +1.39
-  -> Henderson            CHE £4.9m | FDR 2.3 | rivals 0/12 | score +0.99
-  -> Rice                 ARS £7.4m | FDR 3.7 | rivals 0/12 | score +0.89
+OUT? Dewsbury-Hall (MID, EVE) | heuristic 4.02 | estimated budget ceiling £7.5m
+  -> Manzambi             AVL £6.2m | FDR 2.3 | rivals 2/12 | score +1.24
+  -> Henderson            CHE £4.9m | FDR 2.3 | rivals 0/12 | score +0.84
+  -> Rice                 ARS £7.4m | FDR 3.7 | rivals 0/12 | score +0.75
 OUT? Mbeumo (MID, MUN) | heuristic 3.84 | estimated budget ceiling £8.8m
   -> Manzambi             AVL £6.2m | FDR 2.3 | rivals 2/12 | score +1.42
   -> Henderson            CHE £4.9m | FDR 2.3 | rivals 0/12 | score +1.02
@@ -42,8 +42,8 @@ OUT? Tavernier (MID, BOU) | heuristic 4.82 | estimated budget ceiling £7.5m
   -> Manzambi             AVL £6.2m | FDR 2.3 | rivals 2/12 | score +0.44
   -> Henderson            CHE £4.9m | FDR 2.3 | rivals 0/12 | score +0.04
 OUT? Cherif (FWD, COV) | heuristic 3.23 | estimated budget ceiling £5.9m
+  -> Barry                EVE £5.6m | FDR 3.7 | rivals 1/12 | score +1.38
   -> McBurnie             HUL £5.5m | FDR 3.0 | rivals 0/12 | score +0.90
-  -> Barry                EVE £5.6m | FDR 3.7 | rivals 1/12 | score +0.35
 OUT? Haaland (FWD, MCI) | heuristic 5.89 | estimated budget ceiling £16.7m
   -> Evanilson            BOU £6.4m | FDR 3.3 | rivals 2/12 | score +0.02
 
