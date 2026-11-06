@@ -43,6 +43,9 @@ jobs:
       - name: Plan transfers
         run: python fpl_transfer_planner.py > data/transfer_plan.txt
   
+      - name: Decide whether to transfer
+        run: python fpl_decision.py > data/transfer_decision.txt
+  
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
