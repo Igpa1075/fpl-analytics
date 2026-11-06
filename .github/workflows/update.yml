@@ -31,6 +31,9 @@ jobs:
       - name: Generate personal team analysis
         run: python fpl_team.py > data/team_analysis.txt
   
+      - name: Analyze friends mini-league
+        run: python fpl_league.py > data/league_analysis.txt
+  
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
