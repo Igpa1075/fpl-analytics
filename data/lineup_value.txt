@@ -20,18 +20,18 @@ Best legal XI (estimated): 69.50 points before captain multiplier
 Potential single transfers, ranked by impact on the *whole XI*:
 CAUTION: price eligibility uses current market price as sale-price upper bound.
 Any option must be checked against your actual FPL selling price.
+  Ouattara           -> Konsa              +4.40 estimated XI pts | £4.8m | new player starts: True
+  O'Shea             -> Konsa              +4.40 estimated XI pts | £4.8m | new player starts: True
+  Calafiori          -> Konsa              +3.70 estimated XI pts | £4.8m | new player starts: True
+  Vuskovic           -> Konsa              +2.70 estimated XI pts | £4.8m | new player starts: True
   Palmer             -> Rice               +2.00 estimated XI pts | £7.4m | new player starts: True
   Mbeumo             -> Rice               +2.00 estimated XI pts | £7.4m | new player starts: True
   Calafiori          -> Van Hecke          +1.70 estimated XI pts | £5.0m | new player starts: True
   Dewsbury-Hall      -> Rice               +1.60 estimated XI pts | £7.4m | new player starts: True
+  De Cuyper          -> Konsa              +1.40 estimated XI pts | £4.8m | new player starts: True
   Haaland            -> Evanilson          +1.30 estimated XI pts | £6.4m | new player starts: True
   Palmer             -> Manzambi           +1.20 estimated XI pts | £6.2m | new player starts: True
   Palmer             -> Rudoni             +1.20 estimated XI pts | £4.9m | new player starts: True
-  Palmer             -> Iwobi              +1.20 estimated XI pts | £5.4m | new player starts: True
-  Mbeumo             -> Manzambi           +1.20 estimated XI pts | £6.2m | new player starts: True
-  Mbeumo             -> Rudoni             +1.20 estimated XI pts | £4.9m | new player starts: True
-  Mbeumo             -> Iwobi              +1.20 estimated XI pts | £5.4m | new player starts: True
-  Calafiori          -> Hill               +1.00 estimated XI pts | £5.6m | new player starts: True
 
 DECISION: WATCHLIST ONLY. No automatic transfer approval.
 Compare 3-5 GW outlook, verified sale prices, availability, and value of saving FT.

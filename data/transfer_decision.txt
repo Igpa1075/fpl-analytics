@@ -12,18 +12,18 @@ Holding one FT yields two FTs next GW, subject to FPL rules.
 WATCHLIST: possible one-for-one replacements (NOT approved transfers)
 Budget ceiling assumes full current market price for outgoing player;
 real sale price may be lower, so some options can be unaffordable.
-  O'Shea            -> Konsa             DEF ARS £4.8m | 5 fixtures / avg FDR 3.2 | 6/12 rivals | heuristic +3.48
-  Ouattara          -> Konsa             DEF ARS £4.8m | 5 fixtures / avg FDR 3.2 | 6/12 rivals | heuristic +3.18
-  Calafiori         -> Konsa             DEF ARS £4.8m | 5 fixtures / avg FDR 3.2 | 6/12 rivals | heuristic +1.93
+  O'Shea            -> Konsa             DEF ARS £4.8m | 5 fixtures / avg FDR 3.2 | 6/12 rivals | heuristic +3.91
+  Ouattara          -> Konsa             DEF ARS £4.8m | 5 fixtures / avg FDR 3.2 | 6/12 rivals | heuristic +3.60
+  Calafiori         -> Konsa             DEF ARS £4.8m | 5 fixtures / avg FDR 3.2 | 6/12 rivals | heuristic +2.36
   Palmer            -> Manzambi          MID AVL £6.2m | 5 fixtures / avg FDR 2.4 | 2/12 rivals | heuristic +1.72
   Palmer            -> Rice              MID ARS £7.4m | 5 fixtures / avg FDR 3.2 | 0/12 rivals | heuristic +1.50
   Mbeumo            -> Manzambi          MID AVL £6.2m | 5 fixtures / avg FDR 2.4 | 2/12 rivals | heuristic +1.45
+  Vuskovic          -> Konsa             DEF ARS £4.8m | 5 fixtures / avg FDR 3.2 | 6/12 rivals | heuristic +1.35
   Dewsbury-Hall     -> Manzambi          MID AVL £6.2m | 5 fixtures / avg FDR 2.4 | 2/12 rivals | heuristic +1.30
   Calafiori         -> Van Hecke         DEF TOT £5.0m | 5 fixtures / avg FDR 2.8 | 3/12 rivals | heuristic +1.28
   Mbeumo            -> Rice              MID ARS £7.4m | 5 fixtures / avg FDR 3.2 | 0/12 rivals | heuristic +1.23
   Palmer            -> Henderson         MID CHE £4.9m | 5 fixtures / avg FDR 2.8 | 0/12 rivals | heuristic +1.11
   Dewsbury-Hall     -> Rice              MID ARS £7.4m | 5 fixtures / avg FDR 3.2 | 0/12 rivals | heuristic +1.09
-  Cherif            -> McBurnie          FWD HUL £5.5m | 5 fixtures / avg FDR 3.6 | 0/12 rivals | heuristic +0.97
 
 TO APPROVE A TRANSFER: verify live sale price, minutes and injury news;
 compare starting-XI improvement over 3-5 GWs and value of banking FT.

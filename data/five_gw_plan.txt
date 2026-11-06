@@ -14,18 +14,18 @@ TRANSFER WATCHLIST: five-GW scenario gain vs HOLD (no future transfers)
 NOT a recommendation: selling prices, actual minutes, news and FT rollover value unverified.
 The HOLD scenario assumes no transfer in any of five GWs; this is NOT a fair
 full comparison to a strategy that banks a transfer and uses two next GW.
+  Ouattara          -> Konsa             DEF ARS £4.8m | 5GW heuristic +17.6 | captain changes 1
+  O'Shea            -> Konsa             DEF ARS £4.8m | 5GW heuristic +17.6 | captain changes 1
+  Calafiori         -> Konsa             DEF ARS £4.8m | 5GW heuristic +13.0 | captain changes 1
   Palmer            -> Manzambi          MID AVL £6.2m | 5GW heuristic +8.4 | captain changes 0
   Mbeumo            -> Manzambi          MID AVL £6.2m | 5GW heuristic +7.9 | captain changes 0
+  Vuskovic          -> Konsa             DEF ARS £4.8m | 5GW heuristic +7.7 | captain changes 1
   Dewsbury-Hall     -> Manzambi          MID AVL £6.2m | 5GW heuristic +7.4 | captain changes 0
   Palmer            -> Rice              MID ARS £7.4m | 5GW heuristic +6.3 | captain changes 0
   Calafiori         -> Van Hecke         DEF TOT £5.0m | 5GW heuristic +6.2 | captain changes 0
   Mbeumo            -> Rice              MID ARS £7.4m | 5GW heuristic +5.9 | captain changes 0
   Dewsbury-Hall     -> Rice              MID ARS £7.4m | 5GW heuristic +5.4 | captain changes 0
   Neto              -> Manzambi          MID AVL £6.2m | 5GW heuristic +3.8 | captain changes 0
-  Palmer            -> Rogers            MID CHE £8.2m | 5GW heuristic +3.6 | captain changes 0
-  Mbeumo            -> Rogers            MID CHE £8.2m | 5GW heuristic +3.1 | captain changes 0
-  Palmer            -> Rudoni            MID COV £4.9m | 5GW heuristic +2.9 | captain changes 0
-  Mbeumo            -> Rudoni            MID COV £4.9m | 5GW heuristic +2.4 | captain changes 0
 
 DECISION: REVIEW ONLY; no automatic approval or -4 hit.
 Check real sale prices, starting probability, fixture changes, injury news,

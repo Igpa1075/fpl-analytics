@@ -8,18 +8,18 @@ Role annotations DO NOT automatically add fantasy points; avoids double counting
 NO TRANSFERS THROUGH GW14: 376.8 heuristic pts (not calibrated xP)
 
 ONE TRANSFER NOW (GW10): 5-GW projected heuristic gain
+  Ouattara -> Konsa: +17.6
+  O'Shea -> Konsa: +17.6
+  Calafiori -> Konsa: +13.0
   Palmer -> Manzambi: +8.4
   Mbeumo -> Manzambi: +7.9
-  Dewsbury-Hall -> Manzambi: +7.4
-  Palmer -> Rice: +6.3
-  Calafiori -> Van Hecke: +6.2
 
 BANK GW10, USE TWO FTs IN GW11 (limited search; assumes GW11 prices/status unchanged):
-  Mbeumo->Manzambi; Cherif->Evanilson: +16.7 vs no-transfer baseline
-  Palmer->Manzambi; Cherif->Evanilson: +16.5 vs no-transfer baseline
-  Palmer->Manzambi; Ouattara->Gabriel: +16.2 vs no-transfer baseline
-  Palmer->Manzambi; O'Shea->Gabriel: +16.2 vs no-transfer baseline
-  Mbeumo->Manzambi; Ouattara->Van Hecke: +15.1 vs no-transfer baseline
+  Ouattara->Konsa; Mbeumo->Manzambi: +17.4 vs no-transfer baseline
+  Mbeumo->Manzambi; Ouattara->Konsa: +17.4 vs no-transfer baseline
+  Mbeumo->Manzambi; O'Shea->Konsa: +17.4 vs no-transfer baseline
+  O'Shea->Konsa; Mbeumo->Manzambi: +17.4 vs no-transfer baseline
+  Ouattara->Konsa; Dewsbury-Hall->Manzambi: +17.4 vs no-transfer baseline
 
 CAUTION: scenarios use an approximate model, not probability of beating rivals.
 No player-specific role adjustment until match-by-match role data are ingested.
