@@ -40,6 +40,9 @@ jobs:
       - name: Analyze transfer strategy
         run: python fpl_strategy.py > data/strategy_analysis.txt
   
+      - name: Plan transfers
+        run: python fpl_transfer_planner.py > data/transfer_plan.txt
+  
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
