@@ -25,6 +25,9 @@ jobs:
       - name: Download FPL data
         run: python fpl_sync.py
 
+      - name: Generate FPL analysis
+        run: python fpl_analysis.py > data/analysis.txt
+  
       - name: Generate personal team analysis
         run: python fpl_team.py > data/team_analysis.txt
   
