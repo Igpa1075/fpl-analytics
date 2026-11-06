@@ -64,7 +64,9 @@ jobs:
       - name: Test TheSportsDB free API
         run: python fpl_sportsdb_test.py
       - name: Test ESPN Premier League lineups
-        run: python fpl_espn_test.py  
+        run: python fpl_espn_test.py   
+      - name: Collect recent ESPN lineups
+        run: python fpl_espn_collect.py
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
