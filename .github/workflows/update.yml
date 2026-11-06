@@ -81,7 +81,8 @@ jobs:
 
       - name: Verify ESPN matches using team IDs
         run: python fpl_fixture_verify_v2.py
-
+      - name: Verify ESPN player identities
+        run: python fpl_player_verify.py
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
