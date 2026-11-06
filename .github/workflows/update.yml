@@ -55,6 +55,9 @@ jobs:
       - name: Compare transfer strategies and tactical roles
         run: python fpl_strategy_roles.py > data/strategy_roles.txt
 
+      - name: Audit real player roles
+        run: python fpl_roles_audit.py > data/roles_audit.txt
+
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
