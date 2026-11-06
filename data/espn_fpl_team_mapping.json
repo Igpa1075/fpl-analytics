@@ -1,6 +1,7 @@
 {
-  "Everton": 9,
   "Newcastle United": 17,
+  "Everton": 9,
+  "Crystal Palace": 8,
   "Aston Villa": 2,
   "Coventry City": 7,
   "Arsenal": 1,
@@ -12,11 +13,10 @@
   "Nottingham Forest": 18,
   "Leeds United": 13,
   "Manchester United": 16,
+  "Sunderland": 20,
   "Ipswich Town": 12,
   "Fulham": 10,
+  "Brighton & Hove Albion": 5,
   "Tottenham Hotspur": 19,
-  "AFC Bournemouth": 3,
-  "Sunderland": 20,
-  "Crystal Palace": 8,
-  "Brighton & Hove Albion": 5
+  "AFC Bournemouth": 3
 }

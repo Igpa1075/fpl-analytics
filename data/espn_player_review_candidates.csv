@@ -1,0 +1,231 @@
+espn_id,espn_player,espn_team,appearances,candidate_rank,fpl_id,fpl_player,fpl_team,same_team,name_similarity,decision
+323986,Nico González,Newcastle United,4,1,405,Nico González Iglesias,Newcastle,True,0.75,MANUAL_REVIEW
+323986,Nico González,Newcastle United,4,2,475,Nicolò Savona,Nott'm Forest,False,0.583,MANUAL_REVIEW
+323986,Nico González,Newcastle United,4,3,598,Nico Elvedi,Leeds,False,0.545,MANUAL_REVIEW
+323986,Nico González,Newcastle United,4,4,387,Nico O'Reilly,Man City,False,0.522,MANUAL_REVIEW
+323986,Nico González,Newcastle United,4,5,442,Nick Pope,Newcastle,True,0.5,MANUAL_REVIEW
+202232,Joelinton,Newcastle United,3,1,348,Joël Piroe,Leeds,False,0.667,MANUAL_REVIEW
+202232,Joelinton,Newcastle United,3,2,148,Jorrel Hato,Chelsea,False,0.632,MANUAL_REVIEW
+202232,Joelinton,Newcastle United,3,3,329,Joe Rodon,Leeds,False,0.588,MANUAL_REVIEW
+202232,Joelinton,Newcastle United,3,4,603,Jayden Lienou,Leeds,False,0.571,MANUAL_REVIEW
+202232,Joelinton,Newcastle United,3,5,414,Tom Heaton,Man Utd,False,0.556,MANUAL_REVIEW
+262594,Vitaliy Mykolenko,Everton,3,1,233,Vitalii Mykolenko,Everton,True,0.938,MANUAL_REVIEW
+262594,Vitaliy Mykolenko,Everton,3,2,98,Vitaly Janelt,Brentford,False,0.5,MANUAL_REVIEW
+262594,Vitaliy Mykolenko,Everton,3,3,471,Nikola Milenković,Nott'm Forest,False,0.5,MANUAL_REVIEW
+262594,Vitaliy Mykolenko,Everton,3,4,450,Tino Livramento,Newcastle,False,0.467,MANUAL_REVIEW
+262594,Vitaliy Mykolenko,Everton,3,5,513,Xavi Simons,Spurs,False,0.462,MANUAL_REVIEW
+297370,Yéremy Pino,Crystal Palace,4,1,211,Yéremy Pino Santos,Crystal Palace,True,0.769,MANUAL_REVIEW
+297370,Yéremy Pino,Crystal Palace,4,2,400,Jérémy Doku,Man City,False,0.6,MANUAL_REVIEW
+297370,Yéremy Pino,Crystal Palace,4,3,33,Tyrone Mings,Aston Villa,False,0.571,MANUAL_REVIEW
+297370,Yéremy Pino,Crystal Palace,4,4,410,Jeremy Monga,Man City,False,0.571,MANUAL_REVIEW
+297370,Yéremy Pino,Crystal Palace,4,5,479,Tyler Bindon,Nott'm Forest,False,0.571,MANUAL_REVIEW
+214375,Emiliano Buendía,Aston Villa,2,1,41,Emiliano Buendía Stati,Aston Villa,True,0.857,MANUAL_REVIEW
+214375,Emiliano Buendía,Aston Villa,2,2,237,Iliman Ndiaye,Man City,False,0.667,MANUAL_REVIEW
+214375,Emiliano Buendía,Aston Villa,2,3,164,Geovany Quenda,Chelsea,False,0.571,MANUAL_REVIEW
+214375,Emiliano Buendía,Aston Villa,2,4,65,Julián Araujo Zúñiga,Bournemouth,False,0.545,MANUAL_REVIEW
+214375,Emiliano Buendía,Aston Villa,2,5,590,Steven Benda,Nott'm Forest,False,0.538,MANUAL_REVIEW
+382839,Alysson,Aston Villa,3,1,350,Alisson Becker,Liverpool,False,0.6,MANUAL_REVIEW
+382839,Alysson,Aston Villa,3,2,635,Hugo Larsson,Fulham,False,0.556,MANUAL_REVIEW
+382839,Alysson,Aston Villa,3,3,260,Harry Wilson,Leeds,False,0.556,MANUAL_REVIEW
+382839,Alysson,Aston Villa,3,4,108,Callum Wilson,Brentford,False,0.526,MANUAL_REVIEW
+382839,Alysson,Aston Villa,3,5,607,Luka Lynch,Aston Villa,True,0.5,MANUAL_REVIEW
+196176,David Raya,Arsenal,4,1,1,David Raya Martín,Arsenal,True,0.75,MANUAL_REVIEW
+196176,David Raya,Arsenal,4,2,296,David Akintola,Hull City,False,0.636,MANUAL_REVIEW
+196176,David Raya,Arsenal,4,3,74,David Brooks,Bournemouth,False,0.6,MANUAL_REVIEW
+196176,David Raya,Arsenal,4,4,365,Calvin Ramsay,Liverpool,False,0.571,MANUAL_REVIEW
+196176,David Raya,Arsenal,4,5,304,Dara O'Shea,Ipswich Town,False,0.556,MANUAL_REVIEW
+236322,Gabriel Magalhães,Arsenal,4,1,4,Gabriel dos Santos Magalhães,Arsenal,True,0.78,MANUAL_REVIEW
+236322,Gabriel Magalhães,Arsenal,4,2,278,Charlie Hughes,Hull City,False,0.552,MANUAL_REVIEW
+236322,Gabriel Magalhães,Arsenal,4,3,331,Gabriel Gudmundsson,Leeds,False,0.529,MANUAL_REVIEW
+236322,Gabriel Magalhães,Arsenal,4,4,18,Gabriel Martinelli Silva,Arsenal,True,0.526,MANUAL_REVIEW
+236322,Gabriel Magalhães,Arsenal,4,5,27,Gabriel Fernando de Jesus,Arsenal,True,0.526,MANUAL_REVIEW
+231859,Ezri Konsa,Arsenal,4,1,31,Ezri Konsa Ngoyo,Arsenal,True,0.783,MANUAL_REVIEW
+231859,Ezri Konsa,Arsenal,4,2,597,Zion Suzuki,Aston Villa,False,0.526,MANUAL_REVIEW
+231859,Ezri Konsa,Arsenal,4,3,369,Rio Ngumoha,Liverpool,False,0.526,MANUAL_REVIEW
+231859,Ezri Konsa,Arsenal,4,4,370,Federico Chiesa,Liverpool,False,0.522,MANUAL_REVIEW
+231859,Ezri Konsa,Arsenal,4,5,94,Kevin Schade,Brentford,False,0.5,MANUAL_REVIEW
+241077,Ben White,Arsenal,3,1,10,Benjamin White,Arsenal,True,0.762,MANUAL_REVIEW
+241077,Ben White,Arsenal,3,2,643,Ben Chilwell,Crystal Palace,False,0.632,MANUAL_REVIEW
+241077,Ben White,Arsenal,3,3,172,Ben Wilson,Coventry City,False,0.588,MANUAL_REVIEW
+241077,Ben White,Arsenal,3,4,508,Ben Davies,Spurs,False,0.588,MANUAL_REVIEW
+241077,Ben White,Arsenal,3,5,199,Walter Benítez,Crystal Palace,False,0.571,MANUAL_REVIEW
+209581,Mikel Merino,Arsenal,1,1,17,Mikel Merino Zazón,Arsenal,True,0.815,MANUAL_REVIEW
+209581,Mikel Merino,Arsenal,1,2,615,Michele Di Gregorio,Bournemouth,False,0.571,MANUAL_REVIEW
+209581,Mikel Merino,Arsenal,1,3,246,Merlin Röhl,Everton,False,0.571,MANUAL_REVIEW
+209581,Mikel Merino,Arsenal,1,4,523,Mikey Moore,Spurs,False,0.571,MANUAL_REVIEW
+209581,Mikel Merino,Arsenal,1,5,560,Mike Penders,Chelsea,False,0.545,MANUAL_REVIEW
+158626,Emiliano Martínez,Chelsea,2,1,28,Emiliano Martínez Romero,Chelsea,True,0.842,MANUAL_REVIEW
+158626,Emiliano Martínez,Chelsea,2,2,419,Lisandro Martínez,Man Utd,False,0.812,MANUAL_REVIEW
+158626,Emiliano Martínez,Chelsea,2,3,41,Emiliano Buendía Stati,Aston Villa,False,0.611,MANUAL_REVIEW
+158626,Emiliano Martínez,Chelsea,2,4,291,Eliot Matazo,Hull City,False,0.593,MANUAL_REVIEW
+158626,Emiliano Martínez,Chelsea,2,5,175,Milan van Ewijk,Coventry City,False,0.552,MANUAL_REVIEW
+296410,Levi Colwill,Chelsea,4,1,149,Levi Samuels Colwill,Chelsea,True,0.759,MANUAL_REVIEW
+296410,Levi Colwill,Chelsea,4,2,469,Neco Williams,Nott'm Forest,False,0.609,MANUAL_REVIEW
+296410,Levi Colwill,Chelsea,4,3,395,Rico Lewis,Man City,False,0.6,MANUAL_REVIEW
+296410,Levi Colwill,Chelsea,4,4,449,Lewis Hall,Newcastle,False,0.6,MANUAL_REVIEW
+296410,Levi Colwill,Chelsea,4,5,280,Lewie Coyle,Hull City,False,0.571,MANUAL_REVIEW
+289877,Moisés Caicedo,Chelsea,4,1,159,Moisés Caicedo Corozo,Chelsea,True,0.812,MANUAL_REVIEW
+289877,Moisés Caicedo,Chelsea,4,2,259,Issa Diop,Ipswich Town,False,0.571,MANUAL_REVIEW
+289877,Moisés Caicedo,Chelsea,4,3,594,Promise David,Brighton,False,0.56,MANUAL_REVIEW
+289877,Moisés Caicedo,Chelsea,4,4,617,Mohamed-Ali Cho,Hull City,False,0.538,MANUAL_REVIEW
+289877,Moisés Caicedo,Chelsea,4,5,13,Declan Rice,Arsenal,False,0.522,MANUAL_REVIEW
+284960,João Pedro,Chelsea,2,1,329,Joe Rodon,Leeds,False,0.588,MANUAL_REVIEW
+284960,João Pedro,Chelsea,2,2,54,Joao Gomes,Aston Villa,False,0.556,MANUAL_REVIEW
+284960,João Pedro,Chelsea,2,3,348,Joël Piroe,Leeds,False,0.556,MANUAL_REVIEW
+284960,João Pedro,Chelsea,2,4,119,João Pedro Loureiro da Costa,Brighton,False,0.545,MANUAL_REVIEW
+284960,João Pedro,Chelsea,2,5,165,João Pedro Junqueira de Jesus,Chelsea,True,0.529,MANUAL_REVIEW
+256115,Pedro Neto,Chelsea,4,1,156,Pedro Lomba Neto,Chelsea,True,0.783,MANUAL_REVIEW
+256115,Pedro Neto,Chelsea,4,2,9,Piero Hincapié,Arsenal,False,0.545,MANUAL_REVIEW
+256115,Pedro Neto,Chelsea,4,3,341,Wilfried Gnonto,Leeds,False,0.522,MANUAL_REVIEW
+256115,Pedro Neto,Chelsea,4,4,337,Brenden Aaronson,Leeds,False,0.5,MANUAL_REVIEW
+256115,Pedro Neto,Chelsea,4,5,537,Jenson Seelt,Sunderland,False,0.5,MANUAL_REVIEW
+193010,Oliver McBurnie,Hull City,4,1,295,Oli McBurnie,Hull City,True,0.88,MANUAL_REVIEW
+193010,Oliver McBurnie,Hull City,4,2,171,Oliver Dovin,Coventry City,False,0.56,MANUAL_REVIEW
+193010,Oliver McBurnie,Hull City,4,3,114,Olivier Boscagli,Brighton,False,0.552,MANUAL_REVIEW
+193010,Oliver McBurnie,Hull City,4,4,199,Walter Benítez,Crystal Palace,False,0.519,MANUAL_REVIEW
+193010,Oliver McBurnie,Hull City,4,5,266,Tom Cairney,Fulham,False,0.5,MANUAL_REVIEW
+218522,Bruno Guimarães,Arsenal,2,1,452,Bruno Guimarães Rodriguez Moura,Arsenal,True,0.667,MANUAL_REVIEW
+218522,Bruno Guimarães,Arsenal,2,2,282,Ryan Giles,Hull City,False,0.522,MANUAL_REVIEW
+218522,Bruno Guimarães,Arsenal,2,3,293,Abu Kamara,Hull City,False,0.522,MANUAL_REVIEW
+218522,Bruno Guimarães,Arsenal,2,4,216,Romain Esse,Crystal Palace,False,0.5,MANUAL_REVIEW
+218522,Bruno Guimarães,Arsenal,2,5,592,Abdoul Ouattara,Ipswich Town,False,0.5,MANUAL_REVIEW
+238318,Ferdi Kadioglu,Brighton & Hove Albion,3,1,113,Ferdi Kadıoğlu,Brighton,True,0.96,MANUAL_REVIEW
+238318,Ferdi Kadioglu,Brighton & Hove Albion,3,2,292,Abdülkadir Ömür,Hull City,False,0.519,MANUAL_REVIEW
+238318,Ferdi Kadioglu,Brighton & Hove Albion,3,3,620,El Hadji Malick Diouf,Brentford,False,0.516,MANUAL_REVIEW
+238318,Ferdi Kadioglu,Brighton & Hove Albion,3,4,245,Tyler Dibling,Everton,False,0.48,MANUAL_REVIEW
+238318,Ferdi Kadioglu,Brighton & Hove Albion,3,5,533,Nordi Mukiele,Sunderland,False,0.48,MANUAL_REVIEW
+387489,Chema Andrés,Brighton & Hove Albion,4,1,192,Kai Andrews,Coventry City,False,0.667,MANUAL_REVIEW
+387489,Chema Andrés,Brighton & Hove Albion,4,2,253,Joachim Andersen,Fulham,False,0.615,MANUAL_REVIEW
+387489,Chema Andrés,Brighton & Hove Albion,4,3,580,Shea Charles,Fulham,False,0.545,MANUAL_REVIEW
+387489,Chema Andrés,Brighton & Hove Albion,4,4,525,Mateus Fernandes,Spurs,False,0.538,MANUAL_REVIEW
+387489,Chema Andrés,Brighton & Hove Albion,4,5,639,José María Andrés Baixauli,Brighton,True,0.529,MANUAL_REVIEW
+132659,Pascal Gross,Brighton & Hove Albion,4,1,124,Pascal Groß,Brighton,True,0.9,MANUAL_REVIEW
+132659,Pascal Gross,Brighton & Hove Albion,4,2,328,Pascal Struijk,Brighton,True,0.583,MANUAL_REVIEW
+132659,Pascal Gross,Brighton & Hove Albion,4,3,264,Oscar Bobb,Fulham,False,0.5,MANUAL_REVIEW
+132659,Pascal Gross,Brighton & Hove Albion,4,4,558,Xaver Schlager,Nott'm Forest,False,0.5,MANUAL_REVIEW
+132659,Pascal Gross,Brighton & Hove Albion,4,5,524,Callum Olusesi,Spurs,False,0.5,MANUAL_REVIEW
+387655,Charalambos Kostoulas,Brighton & Hove Albion,4,1,138,Charalampos Kostoulas,Brighton,True,0.95,MANUAL_REVIEW
+387655,Charalambos Kostoulas,Brighton & Hove Albion,4,2,557,Christos Tzolis,Arsenal,False,0.588,MANUAL_REVIEW
+387655,Charalambos Kostoulas,Brighton & Hove Albion,4,3,465,William Osula,Newcastle,False,0.5,MANUAL_REVIEW
+387655,Charalambos Kostoulas,Brighton & Hove Albion,4,4,570,César Palacios,Fulham,False,0.485,MANUAL_REVIEW
+387655,Charalambos Kostoulas,Brighton & Hove Albion,4,5,645,Christos Mouzakitis,Hull City,False,0.474,MANUAL_REVIEW
+192278,Diego Gómez,Brighton & Hove Albion,4,1,127,Diego Gómez Amarilla,Brighton,True,0.714,MANUAL_REVIEW
+192278,Diego Gómez,Brighton & Hove Albion,4,2,359,Joe Gomez,Liverpool,False,0.667,MANUAL_REVIEW
+192278,Diego Gómez,Brighton & Hove Albion,4,3,117,Diego Coppola,Brighton,True,0.545,MANUAL_REVIEW
+192278,Diego Gómez,Brighton & Hove Albion,4,4,54,Joao Gomes,Aston Villa,False,0.526,MANUAL_REVIEW
+192278,Diego Gómez,Brighton & Hove Albion,4,5,242,Tyrique George,Everton,False,0.522,MANUAL_REVIEW
+301894,Igor Thiago,Brentford,4,1,106,Igor Thiago Nascimento Rodrigues,Brentford,True,0.513,MANUAL_REVIEW
+301894,Igor Thiago,Brentford,4,2,51,George Hemmings,Aston Villa,False,0.5,MANUAL_REVIEW
+301894,Igor Thiago,Brentford,4,3,188,Victor Torp,Coventry City,False,0.5,MANUAL_REVIEW
+301894,Igor Thiago,Brentford,4,4,369,Rio Ngumoha,Liverpool,False,0.5,MANUAL_REVIEW
+301894,Igor Thiago,Brentford,4,5,488,Ibrahim Sangaré,Nott'm Forest,False,0.5,MANUAL_REVIEW
+234878,Rúben Dias,Manchester City,4,1,508,Ben Davies,Spurs,False,0.667,MANUAL_REVIEW
+234878,Rúben Dias,Manchester City,4,2,172,Ben Wilson,Coventry City,False,0.556,MANUAL_REVIEW
+234878,Rúben Dias,Manchester City,4,3,19,Martín Zubimendi Ibáñez,Arsenal,False,0.533,MANUAL_REVIEW
+234878,Rúben Dias,Manchester City,4,4,153,Axel Disasi,Crystal Palace,False,0.526,MANUAL_REVIEW
+234878,Rúben Dias,Manchester City,4,5,637,Robinio Vaz,Hull City,False,0.526,MANUAL_REVIEW
+338894,Murillo,Nottingham Forest,4,1,431,Amad Diallo,Man Utd,False,0.588,MANUAL_REVIEW
+338894,Murillo,Nottingham Forest,4,2,472,Murillo Costa dos Santos,Nott'm Forest,True,0.5,MANUAL_REVIEW
+338894,Murillo,Nottingham Forest,4,3,60,James Hill,Bournemouth,False,0.5,MANUAL_REVIEW
+338894,Murillo,Nottingham Forest,4,4,443,Mark Gillespie,Newcastle,False,0.5,MANUAL_REVIEW
+338894,Murillo,Nottingham Forest,4,5,531,Melker Ellborg,Sunderland,False,0.5,MANUAL_REVIEW
+338876,Jair Paula,Nottingham Forest,3,1,474,Jair Paula da Cunha Filho,Nott'm Forest,True,0.6,MANUAL_REVIEW
+338876,Jair Paula,Nottingham Forest,3,2,112,Jan Paul van Hecke,Spurs,False,0.583,MANUAL_REVIEW
+338876,Jair Paula,Nottingham Forest,3,3,152,Marco Palestra,Chelsea,False,0.545,MANUAL_REVIEW
+338876,Jair Paula,Nottingham Forest,3,4,570,César Palacios,Fulham,False,0.545,MANUAL_REVIEW
+338876,Jair Paula,Nottingham Forest,3,5,651,Juan Angulo,Sunderland,False,0.526,MANUAL_REVIEW
+146679,Daniel Muñoz,Nottingham Forest,3,1,201,Daniel Muñoz Mejía,Nott'm Forest,True,0.815,MANUAL_REVIEW
+146679,Daniel Muñoz,Nottingham Forest,3,2,343,Daniel James,Leeds,False,0.636,MANUAL_REVIEW
+146679,Daniel Muñoz,Nottingham Forest,3,3,608,Daniel Jebbison,Bournemouth,False,0.56,MANUAL_REVIEW
+146679,Daniel Muñoz,Nottingham Forest,3,4,561,Aaron Anselmino,Chelsea,False,0.56,MANUAL_REVIEW
+146679,Daniel Muñoz,Nottingham Forest,3,5,308,Darnell Furlong,Ipswich Town,False,0.56,MANUAL_REVIEW
+376481,Estêvão,Chelsea,1,1,590,Steven Benda,Nott'm Forest,False,0.556,MANUAL_REVIEW
+376481,Estêvão,Chelsea,1,2,633,Honest Ahanor,Crystal Palace,False,0.526,MANUAL_REVIEW
+376481,Estêvão,Chelsea,1,3,385,James Trafford,Leeds,False,0.5,MANUAL_REVIEW
+376481,Estêvão,Chelsea,1,4,462,Sean Steur,Newcastle,False,0.5,MANUAL_REVIEW
+376481,Estêvão,Chelsea,1,5,143,Trevoh Chalobah,Chelsea,True,0.476,MANUAL_REVIEW
+238902,Diogo Dalot,Manchester United,3,1,417,Diogo Dalot Teixeira,Man Utd,True,0.714,MANUAL_REVIEW
+238902,Diogo Dalot,Manchester United,3,2,517,Wilson Odobert,Spurs,False,0.522,MANUAL_REVIEW
+238902,Diogo Dalot,Manchester United,3,3,431,Amad Diallo,Man Utd,True,0.5,MANUAL_REVIEW
+238902,Diogo Dalot,Manchester United,3,4,127,Diego Gómez Amarilla,Brighton,False,0.5,MANUAL_REVIEW
+238902,Diogo Dalot,Manchester United,3,5,352,Freddie Woodman,Liverpool,False,0.5,MANUAL_REVIEW
+124091,Bruno Fernandes,Manchester United,3,1,426,Bruno Borges Fernandes,Man Utd,True,0.824,MANUAL_REVIEW
+124091,Bruno Fernandes,Manchester United,3,2,155,Enzo Fernández,Man City,False,0.741,MANUAL_REVIEW
+124091,Bruno Fernandes,Manchester United,3,3,525,Mateus Fernandes,Spurs,False,0.69,MANUAL_REVIEW
+124091,Bruno Fernandes,Manchester United,3,4,27,Gabriel Fernando de Jesus,Arsenal,False,0.611,MANUAL_REVIEW
+124091,Bruno Fernandes,Manchester United,3,5,657,Gustavo Nunes Fernandes Gomes,Brentford,False,0.55,MANUAL_REVIEW
+314858,Andrey Santos,Manchester United,3,1,162,Andrey Nascimento dos Santos,Man Utd,True,0.649,MANUAL_REVIEW
+314858,Andrey Santos,Manchester United,3,2,211,Yéremy Pino Santos,Crystal Palace,False,0.643,MANUAL_REVIEW
+314858,Andrey Santos,Manchester United,3,3,38,Andrés García,Aston Villa,False,0.583,MANUAL_REVIEW
+314858,Andrey Santos,Manchester United,3,4,192,Kai Andrews,Coventry City,False,0.545,MANUAL_REVIEW
+314858,Andrey Santos,Manchester United,3,5,502,Andrew Robertson,Spurs,False,0.519,MANUAL_REVIEW
+259902,Matheus Cunha,Manchester United,2,1,389,Matheus Nunes,Man City,False,0.75,MANUAL_REVIEW
+259902,Matheus Cunha,Manchester United,2,2,428,Matheus Santos Carneiro da Cunha,Man Utd,True,0.6,MANUAL_REVIEW
+259902,Matheus Cunha,Manchester United,2,3,525,Mateus Fernandes,Spurs,False,0.593,MANUAL_REVIEW
+259902,Matheus Cunha,Manchester United,2,4,97,Mathias Jensen,Brentford,False,0.56,MANUAL_REVIEW
+259902,Matheus Cunha,Manchester United,2,5,217,Matheus França de Oliveira,Crystal Palace,False,0.514,MANUAL_REVIEW
+104943,Andy Robertson,Tottenham Hotspur,3,1,502,Andrew Robertson,Spurs,True,0.857,MANUAL_REVIEW
+104943,Andy Robertson,Tottenham Hotspur,3,2,455,Sandro Tonali,Spurs,True,0.64,MANUAL_REVIEW
+104943,Andy Robertson,Tottenham Hotspur,3,3,198,Dean Henderson,Crystal Palace,False,0.615,MANUAL_REVIEW
+104943,Andy Robertson,Tottenham Hotspur,3,4,481,Elliot Anderson,Man City,False,0.593,MANUAL_REVIEW
+104943,Andy Robertson,Tottenham Hotspur,3,5,265,Sander Berge,Fulham,False,0.583,MANUAL_REVIEW
+289824,Djordje Petrovic,AFC Bournemouth,4,1,57,Đorđe Petrović,Bournemouth,True,0.846,MANUAL_REVIEW
+289824,Djordje Petrovic,AFC Bournemouth,4,2,101,Jordan Henderson,Chelsea,False,0.533,MANUAL_REVIEW
+289824,Djordje Petrovic,AFC Bournemouth,4,3,348,Joël Piroe,Leeds,False,0.5,MANUAL_REVIEW
+289824,Djordje Petrovic,AFC Bournemouth,4,4,226,Jordan Pickford,Everton,False,0.483,MANUAL_REVIEW
+289824,Djordje Petrovic,AFC Bournemouth,4,5,148,Jorrel Hato,Chelsea,False,0.48,MANUAL_REVIEW
+346588,António Silva,AFC Bournemouth,4,1,99,Antoni Milambo,Brentford,False,0.72,MANUAL_REVIEW
+346588,António Silva,AFC Bournemouth,4,2,335,Anton Stach,Leeds,False,0.636,MANUAL_REVIEW
+346588,António Silva,AFC Bournemouth,4,3,454,Anthony Elanga,Newcastle,False,0.56,MANUAL_REVIEW
+346588,António Silva,AFC Bournemouth,4,4,496,Antonín Kinský,Spurs,False,0.56,MANUAL_REVIEW
+346588,António Silva,AFC Bournemouth,4,5,176,Jay Dasilva,Coventry City,False,0.545,MANUAL_REVIEW
+357719,Rayan,AFC Bournemouth,4,1,399,Rayan Cherki,Man City,False,0.625,MANUAL_REVIEW
+357719,Rayan,AFC Bournemouth,4,2,282,Ryan Giles,Hull City,False,0.571,MANUAL_REVIEW
+357719,Rayan,AFC Bournemouth,4,3,489,Ryan Yates,Nott'm Forest,False,0.571,MANUAL_REVIEW
+357719,Rayan,AFC Bournemouth,4,4,392,Rayan Aït-Nouri,Man City,False,0.556,MANUAL_REVIEW
+357719,Rayan,AFC Bournemouth,4,5,1,David Raya Martín,Arsenal,False,0.5,MANUAL_REVIEW
+102368,Evanilson,AFC Bournemouth,4,1,172,Ben Wilson,Coventry City,False,0.778,MANUAL_REVIEW
+102368,Evanilson,AFC Bournemouth,4,2,139,Evan Ferguson,Brighton,False,0.667,MANUAL_REVIEW
+102368,Evanilson,AFC Bournemouth,4,3,363,Giovanni Leoni,Liverpool,False,0.636,MANUAL_REVIEW
+102368,Evanilson,AFC Bournemouth,4,4,501,Kevin Danso,Sunderland,False,0.632,MANUAL_REVIEW
+102368,Evanilson,AFC Bournemouth,4,5,608,Daniel Jebbison,Bournemouth,True,0.609,MANUAL_REVIEW
+233945,Marcos Senesi,Tottenham Hotspur,1,1,498,Marcos Senesi Barón,Spurs,True,0.828,MANUAL_REVIEW
+233945,Marcos Senesi,Tottenham Hotspur,1,2,386,Marcus Bettinelli,Man City,False,0.643,MANUAL_REVIEW
+233945,Marcos Senesi,Tottenham Hotspur,1,3,68,Marcus Tavernier,Bournemouth,False,0.593,MANUAL_REVIEW
+233945,Marcos Senesi,Tottenham Hotspur,1,4,388,Marc Guéhi,Man City,False,0.571,MANUAL_REVIEW
+233945,Marcos Senesi,Tottenham Hotspur,1,5,152,Marco Palestra,Chelsea,False,0.56,MANUAL_REVIEW
+194115,Dominic Solanke,Tottenham Hotspur,3,1,526,Dominic Solanke-Mitchell,Spurs,True,0.778,MANUAL_REVIEW
+194115,Dominic Solanke,Tottenham Hotspur,3,2,368,Dominik Szoboszlai,Liverpool,False,0.645,MANUAL_REVIEW
+194115,Dominic Solanke,Tottenham Hotspur,3,3,346,Dominic Calvert-Lewin,Leeds,False,0.545,MANUAL_REVIEW
+194115,Dominic Solanke,Tottenham Hotspur,3,4,231,Michael Keane,Everton,False,0.538,MANUAL_REVIEW
+194115,Dominic Solanke,Tottenham Hotspur,3,5,475,Nicolò Savona,Nott'm Forest,False,0.538,MANUAL_REVIEW
+304470,Sávio,Tottenham Hotspur,1,1,259,Issa Diop,Ipswich Town,False,0.615,MANUAL_REVIEW
+304470,Sávio,Tottenham Hotspur,1,2,513,Xavi Simons,Spurs,True,0.533,MANUAL_REVIEW
+304470,Sávio,Tottenham Hotspur,1,3,595,Zavier Gozo,Crystal Palace,False,0.533,MANUAL_REVIEW
+304470,Sávio,Tottenham Hotspur,1,4,74,David Brooks,Bournemouth,False,0.5,MANUAL_REVIEW
+304470,Sávio,Tottenham Hotspur,1,5,302,David Button,Ipswich Town,False,0.5,MANUAL_REVIEW
+256607,Florentino,Ipswich Town,4,1,568,Valentín Barco,Chelsea,False,0.609,MANUAL_REVIEW
+256607,Florentino,Ipswich Town,4,2,141,Filip Jörgensen,Chelsea,False,0.583,MANUAL_REVIEW
+256607,Florentino,Ipswich Town,4,3,591,Julio Enciso,Ipswich Town,True,0.571,MANUAL_REVIEW
+256607,Florentino,Ipswich Town,4,4,571,Florentino Ibrain Morris Luís,Ipswich Town,True,0.556,MANUAL_REVIEW
+256607,Florentino,Ipswich Town,4,5,366,Florian Wirtz,Liverpool,False,0.545,MANUAL_REVIEW
+322654,Emersonn,Ipswich Town,4,1,139,Evan Ferguson,Brighton,False,0.6,MANUAL_REVIEW
+322654,Emersonn,Ipswich Town,4,2,198,Dean Henderson,Crystal Palace,False,0.571,MANUAL_REVIEW
+322654,Emersonn,Ipswich Town,4,3,430,Mason Mount,Man Utd,False,0.556,MANUAL_REVIEW
+322654,Emersonn,Ipswich Town,4,4,378,James McConnell,Liverpool,False,0.545,MANUAL_REVIEW
+322654,Emersonn,Ipswich Town,4,5,481,Elliot Anderson,Man City,False,0.545,MANUAL_REVIEW
+318680,Fatawu Issahaku,Ipswich Town,2,1,611,Aaron Wan-Bissaka,Aston Villa,False,0.552,MANUAL_REVIEW
+318680,Fatawu Issahaku,Ipswich Town,2,2,540,Arthur Masuaku,Sunderland,False,0.519,MANUAL_REVIEW
+318680,Fatawu Issahaku,Ipswich Town,2,3,464,Yoane Wissa,Newcastle,False,0.5,MANUAL_REVIEW
+318680,Fatawu Issahaku,Ipswich Town,2,4,315,Abdul Fatawu,Ipswich Town,True,0.48,MANUAL_REVIEW
+318680,Fatawu Issahaku,Ipswich Town,2,5,446,Fabian Schär,Newcastle,False,0.48,MANUAL_REVIEW
+197399,Jefferson Lerma,Crystal Palace,1,1,213,Jefferson Lerma Solís,Crystal Palace,True,0.848,MANUAL_REVIEW
+197399,Jefferson Lerma,Crystal Palace,1,2,139,Evan Ferguson,Brighton,False,0.538,MANUAL_REVIEW
+197399,Jefferson Lerma,Crystal Palace,1,3,101,Jordan Henderson,Chelsea,False,0.483,MANUAL_REVIEW
+197399,Jefferson Lerma,Crystal Palace,1,4,111,Jason Steele,Brighton,False,0.48,MANUAL_REVIEW
+197399,Jefferson Lerma,Crystal Palace,1,5,104,Frank Onyeka,Coventry City,False,0.48,MANUAL_REVIEW
+274285,Costinha,Brighton & Hove Albion,1,1,473,Ola Aina,Nott'm Forest,False,0.533,MANUAL_REVIEW
+274285,Costinha,Brighton & Hove Albion,1,2,300,Christian Walton,Ipswich Town,False,0.522,MANUAL_REVIEW
+274285,Costinha,Brighton & Hove Albion,1,3,633,Honest Ahanor,Crystal Palace,False,0.5,MANUAL_REVIEW
+274285,Costinha,Brighton & Hove Albion,1,4,21,Christian Nørgaard,Everton,False,0.5,MANUAL_REVIEW
+274285,Costinha,Brighton & Hove Albion,1,5,268,Josh King,Fulham,False,0.5,MANUAL_REVIEW
