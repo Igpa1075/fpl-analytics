@@ -1,0 +1,66 @@
+ASG rival-aware shortlist | completed GW9 | 12 rivals
+CAUTION: rival squads and your own squad are from the last COMPLETED GW.
+Ownership is based on these rivals, not worldwide FPL ownership.
+Scores are ranking HEURISTICS, not projected points or probabilities.
+No automatic transfer advice: current squad, sale prices, free transfers,
+and future fixtures must be checked before a decision.\n
+Rival captain choices in the completed GW:
+  Haaland: 9/12
+  Rogers: 2/12
+  Palmer: 1/12
+\nYour owned players: rival ownership and heuristic
+  Ouattara               DEF rivals  0/12 | score  4.10
+  O'Shea                 DEF rivals  0/12 | score  3.78
+  Cherif                 FWD rivals  0/12 | score  3.79
+  Neto                   MID rivals  0/12 | score  5.76
+  Palmer                 MID rivals  1/12 | score  4.48
+  Dewsbury-Hall          MID rivals  1/12 | score  4.99
+  Vuskovic               DEF rivals  1/12 | score  6.46
+  Leno                   GKP rivals  2/12 | score  4.33
+  Mbeumo                 MID rivals  3/12 | score  4.83
+  N.Jackson              FWD rivals  6/12 | score  7.22
+  Verbruggen             GKP rivals  6/12 | score  6.54
+  Calafiori              DEF rivals  7/12 | score  5.57
+  Tavernier              MID rivals  8/12 | score  6.04
+  De Cuyper              DEF rivals  9/12 | score  7.77
+  Haaland                FWD rivals 11/12 | score  7.34
+\nPotential DIFFERENTIALS (not purchase recommendations):
+Only players with >=180 season minutes and non-unavailable status.
+  DEF:
+    Konsa               ARS £4.8m | rivals  6/12 | score 7.65
+    Gabriel             ARS £8.0m | rivals  3/12 | score 7.57
+    Van Hecke           TOT £5.0m | rivals  3/12 | score 6.75
+    Hill                BOU £5.6m | rivals  0/12 | score 5.70
+    White               ARS £5.4m | rivals  0/12 | score 5.48
+    Silva               BOU £5.1m | rivals  1/12 | score 5.33
+    Muharemović         LEE £5.1m | rivals  1/12 | score 4.90
+    Boscagli            BHA £4.5m | rivals  0/12 | score 4.75
+  MID:
+    Ayari               BHA £5.4m | rivals  0/12 | score 6.44
+    Rice                ARS £7.4m | rivals  0/12 | score 6.24
+    Manzambi            AVL £6.2m | rivals  2/12 | score 6.10
+    Henderson           CHE £4.9m | rivals  0/12 | score 5.64
+    Iwobi               FUL £5.4m | rivals  0/12 | score 5.37
+    Rogers              CHE £8.2m | rivals 11/12 | score 5.34
+    Rudoni              COV £4.9m | rivals  1/12 | score 5.33
+    Doku                MCI £7.5m | rivals  1/12 | score 5.19
+  FWD:
+    Evanilson           BOU £6.4m | rivals  2/12 | score 7.56
+    Isak                LIV £9.2m | rivals  3/12 | score 5.56
+    McBurnie            HUL £5.5m | rivals  0/12 | score 5.17
+    Thiago              BRE £7.8m | rivals  0/12 | score 4.84
+    Barry               EVE £5.6m | rivals  1/12 | score 4.62
+    Kostoulas           BHA £5.8m | rivals  5/12 | score 4.48
+    Calvert-Lewin       LEE £6.1m | rivals  2/12 | score 3.70
+    Havertz             ARS £7.4m | rivals  1/12 | score 3.57
+  GKP:
+    Raya                ARS £6.2m | rivals  3/12 | score 6.00
+    Kinsky              TOT £4.4m | rivals  0/12 | score 4.72
+    Trafford            LEE £5.0m | rivals  0/12 | score 4.32
+    Petrović            BOU £4.5m | rivals  0/12 | score 4.21
+    Suzuki              AVL £5.0m | rivals  1/12 | score 3.83
+    Kelleher            BRE £5.0m | rivals  0/12 | score 3.38
+    Donnarumma          MCI £5.5m | rivals  0/12 | score 3.34
+    A.Becker            LIV £5.5m | rivals  0/12 | score 3.29
+\nNEXT: model transfers with current selling prices, free transfers,
+future fixtures, minutes risk, and uncertainty before estimating rank gains.
