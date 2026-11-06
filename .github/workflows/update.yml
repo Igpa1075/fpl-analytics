@@ -57,7 +57,10 @@ jobs:
 
       - name: Audit real player roles
         run: python fpl_roles_audit.py > data/roles_audit.txt
-
+      - name: Test API-Football connection
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: python fpl_api_test.py
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
