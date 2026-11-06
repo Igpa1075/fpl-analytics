@@ -2439,7 +2439,7 @@
       "pulse_id": 29
     }
   ],
-  "total_players": 11246332,
+  "total_players": 11246347,
   "element_stats": [
     {
       "label": "Minutes played",
@@ -43868,7 +43868,7 @@
           "likelihood": 0
         }
       ],
-      "price_change_locked_until": "2026-11-06T14:00:09.350861Z",
+      "price_change_locked_until": null,
       "price_change_calibrating": false,
       "dreamteam_count": 0,
       "element_type": 1,
@@ -48066,7 +48066,7 @@
           "likelihood": 0
         }
       ],
-      "price_change_locked_until": "2026-11-06T14:00:09.722368Z",
+      "price_change_locked_until": null,
       "price_change_calibrating": false,
       "dreamteam_count": 1,
       "element_type": 2,
@@ -66462,7 +66462,7 @@
     {
       "can_transact": true,
       "can_select": true,
-      "chance_of_playing_next_round": 50,
+      "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 100,
       "code": 535301,
       "cost_change_event": 0,
@@ -66499,7 +66499,7 @@
       "form": "2.0",
       "id": 131,
       "in_dreamteam": false,
-      "news": "Hamstring injury - 50% chance of playing",
+      "news": "Hamstring injury - Unknown return date",
       "news_added": "2026-11-03T22:00:07.995956Z",
       "now_cost": 49,
       "photo": "535301.jpg",
@@ -66509,7 +66509,7 @@
       "selected_by_percent": "0.2",
       "special": false,
       "squad_number": null,
-      "status": "d",
+      "status": "i",
       "team": 16,
       "team_code": 1,
       "total_points": 8,
@@ -66559,7 +66559,7 @@
       "penalties_order": null,
       "penalties_text": "",
       "scout_risks": [],
-      "scout_news_link": "https://www.manutd.com/en/news/carlos-baleba-injury-confirmed-after-roma",
+      "scout_news_link": "https://www.manutd.com/en/news/injury-update-carlos-baleba-roma-aston-villa",
       "influence_rank": 353,
       "influence_rank_type": 160,
       "creativity_rank": 264,
@@ -67224,7 +67224,7 @@
     {
       "can_transact": true,
       "can_select": true,
-      "chance_of_playing_next_round": 0,
+      "chance_of_playing_next_round": 75,
       "chance_of_playing_this_round": 0,
       "code": 596777,
       "cost_change_event": 0,
@@ -67250,7 +67250,7 @@
           "likelihood": -3
         }
       ],
-      "price_change_locked_until": null,
+      "price_change_locked_until": "2026-11-14T14:00:09.466180Z",
       "price_change_calibrating": false,
       "dreamteam_count": 0,
       "element_type": 3,
@@ -67261,7 +67261,7 @@
       "form": "0.0",
       "id": 415,
       "in_dreamteam": false,
-      "news": "Hamstring injury - Unknown return date",
+      "news": "Hamstring injury - 75% chance of playing",
       "news_added": "2026-09-27T21:30:07.831640Z",
       "now_cost": 57,
       "photo": "596777.jpg",
@@ -67271,7 +67271,7 @@
       "selected_by_percent": "0.3",
       "special": false,
       "squad_number": null,
-      "status": "i",
+      "status": "d",
       "team": 16,
       "team_code": 1,
       "total_points": 10,
@@ -67321,7 +67321,7 @@
       "penalties_order": null,
       "penalties_text": "",
       "scout_risks": [],
-      "scout_news_link": "https://www.manutd.com/en/news/press-conference-team-news-for-como-v-united",
+      "scout_news_link": "https://www.manutd.com/en/news/team-news-for-united-v-aston-villa-8-nov",
       "influence_rank": 273,
       "influence_rank_type": 120,
       "creativity_rank": 206,

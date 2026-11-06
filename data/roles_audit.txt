@@ -1,0 +1,6 @@
+FPL REAL MATCH ROLE AUDIT | observational only
+FPL position determines scoring and legal squad structure; real role is a separate signal.
+NO MATCH DATA: data/match_roles.csv not found.
+Create a CSV with columns: fpl_id,match_date,minutes,actual_role,source_url
+Use an authorized match-lineups provider or manually verified match reports.
+Do not assume player profile position = actual position in every match.
