@@ -37,6 +37,9 @@ jobs:
       - name: Save mini-league history
         run: python fpl_league_history.py
   
+      - name: Analyze transfer strategy
+        run: python fpl_strategy.py > data/strategy_analysis.txt
+  
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
