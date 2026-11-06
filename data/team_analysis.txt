@@ -1,0 +1,40 @@
+FPL team review | Chubais | last completed GW 9
+Bank at GW9 deadline: £0.9m
+WARNING: picks are from the last completed GW, not confirmed live next-GW transfers.
+Score is a simple heuristic, NOT a calibrated points prediction.
+
+Slot Player                 Club  Pos     £m  Form   PPG  Score Status
+---------------------------------------------------------------------------------
+   1 Leno                   FUL   GKP    4.5   4.5   4.0   4.35 a
+   2 De Cuyper              BHA   DEF    5.4   7.8   7.7   7.77 a
+   3 Ouattara               IPS   DEF    4.0   4.8   2.8   4.20 a
+   4 O'Shea                 IPS   DEF    4.0   4.2   3.0   3.84 a
+   5 Mbeumo                 MUN   MID    7.9   4.8   4.9   4.83 a
+   6 Neto                   CHE   MID    6.6   6.5   4.4   5.87 a
+   7 Palmer                 CHE   MID    9.8   4.2   5.0   4.44 a
+   8 Dewsbury-Hall          EVE   MID    6.6   5.2   4.6   5.02 a
+   9 Tavernier              BOU   MID    6.6   6.0   6.1   6.03 a
+  10 Haaland (C)            MCI   FWD   15.8   7.2   7.6   7.32 a
+  11 N.Jackson (VC)         AVL   FWD    7.0   8.2   5.4   7.36 a
+  12 Verbruggen             BHA   GKP    4.6   7.0   5.7   6.61 a
+  13 Vuskovic               BHA   DEF    5.2   6.5   6.4   6.47 a
+  14 Calafiori              ARS   DEF    5.9   5.5   5.7   5.56 a
+  15 Cherif                 COV   FWD    5.0   4.0   3.4   3.82 a
+
+Suggested XI based on the heuristic (review injury/news before deadline):
+Formation: 3-5-2
+  GKP Verbruggen             BHA  score 6.61
+  DEF De Cuyper              BHA  score 7.77
+  DEF Vuskovic               BHA  score 6.47
+  DEF Calafiori              ARS  score 5.56
+  MID Tavernier              BOU  score 6.03
+  MID Neto                   CHE  score 5.87
+  MID Dewsbury-Hall          EVE  score 5.02
+  MID Mbeumo                 MUN  score 4.83
+  MID Palmer                 CHE  score 4.44
+  FWD N.Jackson              AVL  score 7.36
+  FWD Haaland                MCI  score 7.32
+Heuristic captain candidate: De Cuyper (verify minutes and fixture)
+Bench: Leno, Ouattara, O'Shea, Cherif
+
+Transfer recommendations require live squad, free transfers, selling prices, and current fixtures.
