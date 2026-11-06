@@ -46,6 +46,9 @@ jobs:
       - name: Decide whether to transfer
         run: python fpl_decision.py > data/transfer_decision.txt
   
+      - name: Evaluate starting XI transfer impact
+        run: python fpl_lineup_value.py > data/lineup_value.txt
+
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
