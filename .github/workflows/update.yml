@@ -98,6 +98,9 @@ jobs:
       - name: Verify ESPN player IDs in match summaries
         run: python fpl_espn_identity_verify.py
        
+      - name: Crosscheck ESPN lineups against FPL minutes
+        run: python fpl_minutes_crosscheck.py
+
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
