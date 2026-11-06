@@ -77,47 +77,10 @@
       ]
     },
     {
-      "entry": 1653100,
-      "team_name": "Yerazzurri",
-      "total": 581,
-      "rank": 3,
-      "captain_id": 411,
-      "starting_ids": [
-        572,
-        115,
-        391,
-        31,
-        453,
-        40,
-        399,
-        427,
-        124,
-        411,
-        379
-      ],
-      "all_ids": [
-        572,
-        115,
-        391,
-        31,
-        453,
-        40,
-        399,
-        427,
-        124,
-        411,
-        379,
-        250,
-        138,
-        305,
-        8
-      ]
-    },
-    {
       "entry": 1936456,
       "team_name": "Team_D",
-      "total": 579,
-      "rank": 4,
+      "total": 582,
+      "rank": 3,
       "captain_id": 411,
       "starting_ids": [
         572,
@@ -153,8 +116,8 @@
     {
       "entry": 2639391,
       "team_name": "S.W.A.T. LA",
-      "total": 578,
-      "rank": 5,
+      "total": 581,
+      "rank": 4,
       "captain_id": 411,
       "starting_ids": [
         572,
@@ -185,6 +148,43 @@
         399,
         305,
         586
+      ]
+    },
+    {
+      "entry": 1653100,
+      "team_name": "Yerazzurri",
+      "total": 581,
+      "rank": 4,
+      "captain_id": 411,
+      "starting_ids": [
+        572,
+        115,
+        391,
+        31,
+        453,
+        40,
+        399,
+        427,
+        124,
+        411,
+        379
+      ],
+      "all_ids": [
+        572,
+        115,
+        391,
+        31,
+        453,
+        40,
+        399,
+        427,
+        124,
+        411,
+        379,
+        250,
+        138,
+        305,
+        8
       ]
     },
     {
@@ -227,7 +227,7 @@
     {
       "entry": 1347510,
       "team_name": "WΞΞKΞND WΛRRIOR",
-      "total": 544,
+      "total": 551,
       "rank": 7,
       "captain_id": 40,
       "starting_ids": [
@@ -449,7 +449,7 @@
     {
       "entry": 5150250,
       "team_name": "Chubais",
-      "total": 471,
+      "total": 478,
       "rank": 13,
       "captain_id": 411,
       "starting_ids": [

@@ -1,4 +1,4 @@
-FPL shortlist | next GW: 11 | players: 306
+FPL shortlist | next GW: 11 | players: 307
 Score is a ranking heuristic, NOT a predicted points value.
 
 Player                   Team  Pos     £m   Form    PPG   FDR   Score
@@ -9,12 +9,13 @@ N.Jackson                AVL   FWD    7.0    6.6    5.4   2.3    6.10
 Evanilson                BOU   FWD    6.4    6.8    5.8   3.3    5.91
 Haaland                  MCI   FWD   15.8    5.8    7.6   3.3    5.89
 Gabriel                  ARS   DEF    8.0    6.6    6.4   3.7    5.83
+Barry                    EVE   FWD    5.6    7.0    5.5   3.7    5.78
 Van Hecke                TOT   DEF    5.0    5.8    5.9   2.3    5.76
-Barry                    EVE   FWD    5.6    6.4    5.2   3.7    5.34
 Verbruggen               BHA   GKP    4.6    5.6    5.7   3.0    5.30
 Vuskovic                 BHA   DEF    5.2    5.2    6.4   3.0    5.28
 Manzambi                 AVL   MID    6.2    4.8    6.3   2.3    5.25
 Ayari                    BHA   MID    5.4    5.6    5.4   3.0    5.20
+Dewsbury-Hall            EVE   MID    6.6    6.0    5.0   3.7    5.05
 Henderson                CHE   MID    4.9    4.6    6.2   2.3    4.85
 Neto                     CHE   MID    6.6    5.2    4.4   2.3    4.85
 Tavernier                BOU   MID    6.6    4.8    6.1   3.3    4.82
@@ -22,4 +23,3 @@ Rice                     ARS   MID    7.4    5.4    5.2   3.7    4.76
 Isak                     LIV   FWD    9.2    4.0    6.6   2.7    4.73
 Rudoni                   COV   MID    4.9    5.2    3.9   2.3    4.68
 Raya                     ARS   GKP    6.2    4.8    6.0   3.7    4.66
-Rogers                   CHE   MID    8.2    4.2    5.6   2.3    4.63

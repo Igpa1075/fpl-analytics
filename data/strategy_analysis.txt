@@ -11,10 +11,10 @@ Rival captain choices in the completed GW:
 \nYour owned players: rival ownership and heuristic
   Ouattara               DEF rivals  0/12 | score  3.45
   O'Shea                 DEF rivals  0/12 | score  3.26
-  Cherif                 FWD rivals  0/12 | score  3.27
+  Cherif                 FWD rivals  0/12 | score  3.26
   Neto                   MID rivals  0/12 | score  4.92
   Palmer                 MID rivals  1/12 | score  3.96
-  Dewsbury-Hall          MID rivals  1/12 | score  4.49
+  Dewsbury-Hall          MID rivals  1/12 | score  5.65
   Vuskovic               DEF rivals  1/12 | score  5.62
   Leno                   GKP rivals  2/12 | score  3.74
   Mbeumo                 MID rivals  3/12 | score  4.18
@@ -45,8 +45,8 @@ Only players with >=180 season minutes and non-unavailable status.
     Iwobi               FUL £5.4m | rivals  0/12 | score 4.59
     Doku                MCI £7.5m | rivals  1/12 | score 4.47
   FWD:
+    Barry               EVE £5.6m | rivals  1/12 | score 6.47
     Evanilson           BOU £6.4m | rivals  2/12 | score 6.45
-    Barry               EVE £5.6m | rivals  1/12 | score 5.98
     Isak                LIV £9.2m | rivals  3/12 | score 4.91
     McBurnie            HUL £5.5m | rivals  0/12 | score 4.39
     Thiago              BRE £7.8m | rivals  0/12 | score 4.12

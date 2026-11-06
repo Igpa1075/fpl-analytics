@@ -1,11 +1,15 @@
 espn_event_id,match_date,teams,status,fpl_fixture_id,time_difference_hours
+401879242,2026-11-06T20:00Z,Coventry City / Everton,UNVERIFIED,,
 401878762,2026-11-02T20:00Z,Everton / Newcastle United,VERIFIED,89,0.0
-401879254,2026-10-25T14:00Z,Crystal Palace / Newcastle United,VERIFIED,75,0.0
-401879258,2026-10-17T16:30Z,Aston Villa / Newcastle United,VERIFIED,68,0.0
-401879267,2026-10-12T19:00Z,Coventry City / Newcastle United,VERIFIED,54,0.0
 401878768,2026-10-24T14:00Z,Arsenal / Everton,VERIFIED,71,0.0
 401878771,2026-10-17T11:30Z,Chelsea / Everton,VERIFIED,64,0.0
 401878774,2026-10-11T13:00Z,Everton / Hull City,VERIFIED,56,0.0
+401879247,2026-10-31T15:00Z,Coventry City / Sunderland,VERIFIED,85,0.0
+401879255,2026-10-24T14:00Z,Coventry City / Fulham,VERIFIED,74,0.0
+401879257,2026-10-19T19:00Z,Coventry City / Tottenham Hotspur,VERIFIED,70,0.0
+401879267,2026-10-12T19:00Z,Coventry City / Newcastle United,VERIFIED,54,0.0
+401879254,2026-10-25T14:00Z,Crystal Palace / Newcastle United,VERIFIED,75,0.0
+401879258,2026-10-17T16:30Z,Aston Villa / Newcastle United,VERIFIED,68,0.0
 401879246,2026-11-01T16:30Z,Arsenal / Liverpool,VERIFIED,87,0.0
 401878765,2026-10-25T14:00Z,Brighton & Hove Albion / Liverpool,VERIFIED,78,0.0
 401879262,2026-10-17T14:00Z,Brentford / Liverpool,VERIFIED,62,0.0
@@ -26,9 +30,6 @@ espn_event_id,match_date,teams,status,fpl_fixture_id,time_difference_hours
 401878776,2026-10-10T14:00Z,Aston Villa / Brentford,VERIFIED,52,0.0
 401879253,2026-10-23T19:00Z,Ipswich Town / Nottingham Forest,VERIFIED,77,0.0
 401879266,2026-10-11T13:00Z,Crystal Palace / Nottingham Forest,VERIFIED,55,0.0
-401879247,2026-10-31T15:00Z,Coventry City / Sunderland,VERIFIED,85,0.0
-401879255,2026-10-24T14:00Z,Coventry City / Fulham,VERIFIED,74,0.0
-401879257,2026-10-19T19:00Z,Coventry City / Tottenham Hotspur,VERIFIED,70,0.0
 401878772,2026-10-10T14:00Z,Brighton & Hove Albion / Sunderland,VERIFIED,60,0.0
 401878763,2026-10-31T15:00Z,Hull City / Ipswich Town,VERIFIED,86,0.0
 401878770,2026-10-17T14:00Z,Fulham / Hull City,VERIFIED,65,0.0
