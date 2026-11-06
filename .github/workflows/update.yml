@@ -25,6 +25,9 @@ jobs:
       - name: Download FPL data
         run: python fpl_sync.py
 
+      - name: Generate FPL analysis
+        run: python fpl_analysis.py > data/analysis.txt
+  
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
