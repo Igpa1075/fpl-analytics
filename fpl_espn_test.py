@@ -16,7 +16,7 @@ def get(path):
         return None
 
 print("ESPN PREMIER LEAGUE LINEUP TEST")
-data = get("/scoreboard?dates=20260801-20261106&limit=150")
+data = get("/scoreboard?dates=20261031")
 
 if not data:
     raise SystemExit("Scoreboard unavailable")
