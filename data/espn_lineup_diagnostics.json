@@ -52,58 +52,6 @@
     ]
   },
   {
-    "event_id": "401879254",
-    "team": "Crystal Palace",
-    "starters": 11,
-    "formation": "3-4-2-1",
-    "roster_keys": [
-      "formation",
-      "homeAway",
-      "roster",
-      "team",
-      "uniform",
-      "winner"
-    ],
-    "player_keys": [
-      "active",
-      "athlete",
-      "formationPlace",
-      "jersey",
-      "media",
-      "position",
-      "starter",
-      "stats",
-      "subbedIn",
-      "subbedOut"
-    ]
-  },
-  {
-    "event_id": "401879254",
-    "team": "Newcastle United",
-    "starters": 11,
-    "formation": "4-2-3-1",
-    "roster_keys": [
-      "formation",
-      "homeAway",
-      "roster",
-      "team",
-      "uniform",
-      "winner"
-    ],
-    "player_keys": [
-      "active",
-      "athlete",
-      "formationPlace",
-      "jersey",
-      "media",
-      "position",
-      "starter",
-      "stats",
-      "subbedIn",
-      "subbedOut"
-    ]
-  },
-  {
     "event_id": "401879258",
     "team": "Newcastle United",
     "starters": 11,
@@ -411,58 +359,6 @@
       "jersey",
       "media",
       "plays",
-      "position",
-      "starter",
-      "stats",
-      "subbedIn",
-      "subbedOut"
-    ]
-  },
-  {
-    "event_id": "401878765",
-    "team": "Liverpool",
-    "starters": 11,
-    "formation": "4-2-3-1",
-    "roster_keys": [
-      "formation",
-      "homeAway",
-      "roster",
-      "team",
-      "uniform",
-      "winner"
-    ],
-    "player_keys": [
-      "active",
-      "athlete",
-      "formationPlace",
-      "jersey",
-      "media",
-      "position",
-      "starter",
-      "stats",
-      "subbedIn",
-      "subbedOut"
-    ]
-  },
-  {
-    "event_id": "401878765",
-    "team": "Brighton & Hove Albion",
-    "starters": 11,
-    "formation": "4-2-3-1",
-    "roster_keys": [
-      "formation",
-      "homeAway",
-      "roster",
-      "team",
-      "uniform",
-      "winner"
-    ],
-    "player_keys": [
-      "active",
-      "athlete",
-      "formationPlace",
-      "jersey",
-      "media",
       "position",
       "starter",
       "stats",
@@ -837,58 +733,6 @@
     ]
   },
   {
-    "event_id": "401879252",
-    "team": "Manchester United",
-    "starters": 11,
-    "formation": "4-2-3-1",
-    "roster_keys": [
-      "formation",
-      "homeAway",
-      "roster",
-      "team",
-      "uniform",
-      "winner"
-    ],
-    "player_keys": [
-      "active",
-      "athlete",
-      "formationPlace",
-      "jersey",
-      "media",
-      "position",
-      "starter",
-      "stats",
-      "subbedIn",
-      "subbedOut"
-    ]
-  },
-  {
-    "event_id": "401879252",
-    "team": "AFC Bournemouth",
-    "starters": 11,
-    "formation": "4-2-3-1",
-    "roster_keys": [
-      "formation",
-      "homeAway",
-      "roster",
-      "team",
-      "uniform",
-      "winner"
-    ],
-    "player_keys": [
-      "active",
-      "athlete",
-      "formationPlace",
-      "jersey",
-      "media",
-      "position",
-      "starter",
-      "stats",
-      "subbedIn",
-      "subbedOut"
-    ]
-  },
-  {
     "event_id": "401879260",
     "team": "Leeds United",
     "starters": 11,
@@ -1097,58 +941,6 @@
     ]
   },
   {
-    "event_id": "401878764",
-    "team": "Sunderland",
-    "starters": 11,
-    "formation": "4-2-3-1",
-    "roster_keys": [
-      "formation",
-      "homeAway",
-      "roster",
-      "team",
-      "uniform",
-      "winner"
-    ],
-    "player_keys": [
-      "active",
-      "athlete",
-      "formationPlace",
-      "jersey",
-      "media",
-      "position",
-      "starter",
-      "stats",
-      "subbedIn",
-      "subbedOut"
-    ]
-  },
-  {
-    "event_id": "401878764",
-    "team": "Leeds United",
-    "starters": 11,
-    "formation": "3-4-2-1",
-    "roster_keys": [
-      "formation",
-      "homeAway",
-      "roster",
-      "team",
-      "uniform",
-      "winner"
-    ],
-    "player_keys": [
-      "active",
-      "athlete",
-      "formationPlace",
-      "jersey",
-      "media",
-      "position",
-      "starter",
-      "stats",
-      "subbedIn",
-      "subbedOut"
-    ]
-  },
-  {
     "event_id": "401879249",
     "team": "Brentford",
     "starters": 11,
@@ -1179,58 +971,6 @@
     "team": "Nottingham Forest",
     "starters": 11,
     "formation": "3-4-2-1",
-    "roster_keys": [
-      "formation",
-      "homeAway",
-      "roster",
-      "team",
-      "uniform",
-      "winner"
-    ],
-    "player_keys": [
-      "active",
-      "athlete",
-      "formationPlace",
-      "jersey",
-      "media",
-      "position",
-      "starter",
-      "stats",
-      "subbedIn",
-      "subbedOut"
-    ]
-  },
-  {
-    "event_id": "401878766",
-    "team": "Hull City",
-    "starters": 11,
-    "formation": "5-4-1",
-    "roster_keys": [
-      "formation",
-      "homeAway",
-      "roster",
-      "team",
-      "uniform",
-      "winner"
-    ],
-    "player_keys": [
-      "active",
-      "athlete",
-      "formationPlace",
-      "jersey",
-      "media",
-      "position",
-      "starter",
-      "stats",
-      "subbedIn",
-      "subbedOut"
-    ]
-  },
-  {
-    "event_id": "401878766",
-    "team": "Brentford",
-    "starters": 11,
-    "formation": "4-2-3-1",
     "roster_keys": [
       "formation",
       "homeAway",
