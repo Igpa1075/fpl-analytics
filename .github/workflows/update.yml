@@ -92,7 +92,8 @@ jobs:
 
       - name: Match ESPN players with FPL V4
         run: python fpl_espn_match_v4.py
-
+      - name: Audit ESPN and FPL player identities
+        run: python fpl_identity_audit.py
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
