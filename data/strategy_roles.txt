@@ -1,27 +1,2 @@
 CHUBAIS | GW10 strategy & tactical roles | EXPERIMENTAL
-Bank at GW9: GBP 0.9m; one FT confirmed; no transfers since GW9.
-Selling prices, future injuries, actual match roles and transfers remain unverified.
-ROLE ANNOTATIONS (FPL positions remain unchanged for all rules):
-  De Cuyper: FPL DEF; on-pitch LW / advanced left winger (recent PL matches); https://www.fotmob.com/players/1134871
-Other players: real match roles UNKNOWN until verified from match lineups.
-Role annotations DO NOT automatically add fantasy points; avoids double counting.
-NO TRANSFERS THROUGH GW14: 376.8 heuristic pts (not calibrated xP)
-
-ONE TRANSFER NOW (GW10): 5-GW projected heuristic gain
-  Ouattara -> Konsa: +17.6
-  O'Shea -> Konsa: +17.6
-  Calafiori -> Konsa: +13.0
-  Palmer -> Manzambi: +8.4
-  Mbeumo -> Manzambi: +7.9
-
-BANK GW10, USE TWO FTs IN GW11 (limited search; assumes GW11 prices/status unchanged):
-  Ouattara->Konsa; Mbeumo->Manzambi: +17.4 vs no-transfer baseline
-  Mbeumo->Manzambi; Ouattara->Konsa: +17.4 vs no-transfer baseline
-  Mbeumo->Manzambi; O'Shea->Konsa: +17.4 vs no-transfer baseline
-  O'Shea->Konsa; Mbeumo->Manzambi: +17.4 vs no-transfer baseline
-  Ouattara->Konsa; Dewsbury-Hall->Manzambi: +17.4 vs no-transfer baseline
-
-CAUTION: scenarios use an approximate model, not probability of beating rivals.
-No player-specific role adjustment until match-by-match role data are ingested.
-Do not treat these scenarios as approved transfers; verify selling prices, lineup and news.
-FT confirmation expires after GW10; next GW requires a fresh check.
+STOP: user confirmation is only valid for GW10 with GW9 squad.

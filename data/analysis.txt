@@ -1,25 +1,25 @@
-FPL shortlist | next GW: 10 | players: 305
+FPL shortlist | next GW: 11 | players: 306
 Score is a ranking heuristic, NOT a predicted points value.
 
 Player                   Team  Pos     £m   Form    PPG   FDR   Score
 ------------------------------------------------------------------------
-Konsa                    ARS   DEF    4.8    9.2    6.1   3.0    7.63
-De Cuyper                BHA   DEF    5.4    7.8    7.7   2.7    7.48
-Evanilson                BOU   FWD    6.4    8.5    5.8   2.7    7.28
-N.Jackson                AVL   FWD    7.0    8.2    5.4   2.3    7.12
-Gabriel                  ARS   DEF    8.0    8.2    6.4   3.0    7.12
-Haaland                  MCI   FWD   15.8    7.2    7.6   3.0    6.90
-Van Hecke                TOT   DEF    5.0    7.2    5.9   2.7    6.50
-Verbruggen               BHA   GKP    4.6    7.0    5.7   2.7    6.31
-Vuskovic                 BHA   DEF    5.2    6.5    6.4   2.7    6.23
-Ayari                    BHA   MID    5.4    7.0    5.4   2.7    6.20
-Manzambi                 AVL   MID    6.2    6.0    6.3   2.3    6.02
-Rice                     ARS   MID    7.4    6.8    5.2   3.0    5.87
-Tavernier                BOU   MID    6.6    6.0    6.1   2.7    5.81
-Raya                     ARS   GKP    6.2    6.0    6.0   3.0    5.64
-Neto                     CHE   MID    6.6    6.5    4.4   2.7    5.55
-Hill                     BOU   DEF    5.6    6.5    4.2   2.7    5.49
-Henderson                CHE   MID    4.9    5.8    6.2   2.7    5.43
-Isak                     LIV   FWD    9.2    5.0    6.6   2.7    5.36
-Calafiori                ARS   DEF    5.9    5.5    5.7   3.0    5.24
-White                    ARS   DEF    5.4    5.2    6.0   3.0    5.15
+De Cuyper                BHA   DEF    5.4    6.2    7.7   3.0    6.32
+Konsa                    ARS   DEF    4.8    7.4    6.1   3.7    6.20
+N.Jackson                AVL   FWD    7.0    6.6    5.4   2.3    6.10
+Evanilson                BOU   FWD    6.4    6.8    5.8   3.3    5.91
+Haaland                  MCI   FWD   15.8    5.8    7.6   3.3    5.89
+Gabriel                  ARS   DEF    8.0    6.6    6.4   3.7    5.83
+Van Hecke                TOT   DEF    5.0    5.8    5.9   2.3    5.76
+Verbruggen               BHA   GKP    4.6    5.6    5.7   3.0    5.30
+Vuskovic                 BHA   DEF    5.2    5.2    6.4   3.0    5.28
+Manzambi                 AVL   MID    6.2    4.8    6.3   2.3    5.25
+Ayari                    BHA   MID    5.4    5.6    5.4   3.0    5.20
+Henderson                CHE   MID    4.9    4.6    6.2   2.3    4.85
+Neto                     CHE   MID    6.6    5.2    4.4   2.3    4.85
+Tavernier                BOU   MID    6.6    4.8    6.1   3.3    4.82
+Rice                     ARS   MID    7.4    5.4    5.2   3.7    4.76
+Isak                     LIV   FWD    9.2    4.0    6.6   2.7    4.73
+Raya                     ARS   GKP    6.2    4.8    6.0   3.7    4.66
+Rogers                   CHE   MID    8.2    4.2    5.6   2.3    4.63
+Rudoni                   COV   MID    4.9    5.0    3.8   2.3    4.52
+Hill                     BOU   DEF    5.6    5.2    4.2   3.3    4.45

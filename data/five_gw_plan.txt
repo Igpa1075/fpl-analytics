@@ -2,32 +2,5 @@ CHUBAIS | Five-gameweek scenario model | NOT calibrated predictions
 FPL ep_next anchors GW1; later GWs use a form/PPG proxy adjusted by FDR.
 Captain is optimized each GW. No vice-captain, autosubs, chips, bonus projections,
 future transfers, rotation forecasting, or rival-rank probabilities are modeled.
-GW10–GW14 | 1 free transfer | GW9 bank £0.9m (unverified today)
-HOLD scenario total: 376.8 heuristic points (includes captain bonus)
-  GW10:  79.6 | captain N.Jackson
-  GW11:  76.3 | captain De Cuyper
-  GW12:  73.0 | captain De Cuyper
-  GW13:  71.6 | captain Haaland
-  GW14:  76.3 | captain De Cuyper
-
-TRANSFER WATCHLIST: five-GW scenario gain vs HOLD (no future transfers)
-NOT a recommendation: selling prices, actual minutes, news and FT rollover value unverified.
-The HOLD scenario assumes no transfer in any of five GWs; this is NOT a fair
-full comparison to a strategy that banks a transfer and uses two next GW.
-  Ouattara          -> Konsa             DEF ARS £4.8m | 5GW heuristic +17.6 | captain changes 1
-  O'Shea            -> Konsa             DEF ARS £4.8m | 5GW heuristic +17.6 | captain changes 1
-  Calafiori         -> Konsa             DEF ARS £4.8m | 5GW heuristic +13.0 | captain changes 1
-  Palmer            -> Manzambi          MID AVL £6.2m | 5GW heuristic +8.4 | captain changes 0
-  Mbeumo            -> Manzambi          MID AVL £6.2m | 5GW heuristic +7.9 | captain changes 0
-  Vuskovic          -> Konsa             DEF ARS £4.8m | 5GW heuristic +7.7 | captain changes 1
-  Dewsbury-Hall     -> Manzambi          MID AVL £6.2m | 5GW heuristic +7.4 | captain changes 0
-  Palmer            -> Rice              MID ARS £7.4m | 5GW heuristic +6.3 | captain changes 0
-  Calafiori         -> Van Hecke         DEF TOT £5.0m | 5GW heuristic +6.2 | captain changes 0
-  Mbeumo            -> Rice              MID ARS £7.4m | 5GW heuristic +5.9 | captain changes 0
-  Dewsbury-Hall     -> Rice              MID ARS £7.4m | 5GW heuristic +5.4 | captain changes 0
-  Neto              -> Manzambi          MID AVL £6.2m | 5GW heuristic +3.8 | captain changes 0
-
-DECISION: REVIEW ONLY; no automatic approval or -4 hit.
-Check real sale prices, starting probability, fixture changes, injury news,
-and value of having two free transfers next GW before acting.
-Reconfirm squad and FT after GW10; never reuse GW9 confirmation indefinitely.
+STOP: GW9 confirmation/1 free transfer applies to GW10 only.
+Verify current picks, bank, selling prices and free transfers before running for another GW.
