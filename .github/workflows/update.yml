@@ -67,6 +67,8 @@ jobs:
         run: python fpl_espn_test.py   
       - name: Collect recent ESPN lineups
         run: python fpl_espn_collect.py
+      - name: Match ESPN players with FPL
+        run: python fpl_espn_match.py
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
