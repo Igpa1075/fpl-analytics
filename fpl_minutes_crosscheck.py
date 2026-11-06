@@ -3,139 +3,197 @@ import csv
 import json
 import time
 import urllib.request
-from collections import Counter, defaultdict
+from collections import Counter
 from pathlib import Path
 
 DATA = Path("data")
 API = "https://fantasy.premierleague.com/api/"
 
-def read_csv(name):
-    with (DATA / name).open(
+
+def read_csv(filename):
+    with (DATA / filename).open(
         encoding="utf-8-sig", newline=""
     ) as f:
         return list(csv.DictReader(f))
 
-def fetch(url):
-    req = urllib.request.Request(
-        url, headers={"User-Agent": "Mozilla/5.0"}
-    )
-    with urllib.request.urlopen(req, timeout=30) as f:
-        return json.load(f)
 
+def fetch_player(player_id):
+    url = API + f"element-summary/{player_id}/"
+
+    for attempt in range(3):
+        try:
+            request = urllib.request.Request(
+                url,
+                headers={"User-Agent": "Mozilla/5.0"}
+            )
+            with urllib.request.urlopen(
+                request, timeout=30
+            ) as response:
+                return json.load(response)
+        except Exception:
+            if attempt == 2:
+                raise
+            time.sleep(2 * (attempt + 1))
+
+
+lineups = read_csv("espn_fpl_matches_v4.csv")
 audit = read_csv("espn_identity_audit.csv")
-lineups = read_csv("espn_lineups.csv")
-verified = read_csv("espn_fixture_verification_v2.csv")
+fixtures = read_csv("espn_fixture_verification_v2.csv")
 
 fixture_map = {
-    r["espn_event_id"]: int(r["fpl_fixture_id"])
-    for r in verified
+    r["espn_event_id"]: r["fpl_fixture_id"]
+    for r in fixtures
     if r["status"] == "VERIFIED"
+    and r["fpl_fixture_id"]
 }
 
-targets = {}
+# Candidates are not automatically accepted as matches.
+candidate_map = {}
 
-for r in audit:
-    espn_id = r["espn_id"]
-    if espn_id not in targets:
-        targets[espn_id] = r
+for row in audit:
+    if row["category"] != "UNRESOLVED_CANDIDATE":
+        continue
 
-appearances = defaultdict(list)
+    espn_id = row["espn_id"]
+    candidate_map.setdefault(espn_id, []).append(
+        row["fpl_id"]
+    )
 
-for r in lineups:
-    if r["espn_id"] in targets:
-        appearances[r["espn_id"]].append(r)
+# Use a candidate only if the audit lists exactly one.
+unique_candidates = {
+    espn_id: ids[0]
+    for espn_id, ids in candidate_map.items()
+    if len(set(ids)) == 1
+}
 
-# Fetch each candidate FPL player only once.
+player_ids = set()
+
+for row in lineups:
+    player_id = row["fpl_id"]
+
+    if not player_id:
+        player_id = unique_candidates.get(
+            row["espn_id"], ""
+        )
+
+    if player_id:
+        player_ids.add(player_id)
+
+print("Players to request:", len(player_ids))
+
 history_cache = {}
 errors = {}
 
-for espn_id, target in targets.items():
-    fpl_id = target["fpl_id"]
-
-    if fpl_id in history_cache:
-        continue
-
+for index, player_id in enumerate(
+    sorted(player_ids), start=1
+):
     try:
-        data = fetch(
-            API + "element-summary/" + fpl_id + "/"
-        )
-        history_cache[fpl_id] = {
-            int(h["fixture"]): h
+        data = fetch_player(player_id)
+        history_cache[player_id] = {
+            str(h["fixture"]): h
             for h in data.get("history", [])
             if h.get("fixture") is not None
         }
     except Exception as exc:
-        errors[fpl_id] = str(exc)
+        errors[player_id] = str(exc)
 
-    time.sleep(0.2)
+    if index % 50 == 0:
+        print(f"Downloaded {index}/{len(player_ids)}")
 
-output = []
+    time.sleep(0.15)
 
-for espn_id, target in targets.items():
-    fpl_id = target["fpl_id"]
-    history = history_cache.get(fpl_id, {})
+results = []
 
-    for appearance in appearances[espn_id]:
-        event_id = appearance["event_id"]
-        fixture_id = fixture_map.get(event_id)
+for row in lineups:
+    espn_id = row["espn_id"]
+    event_id = row["event_id"]
+    matched_id = row["fpl_id"]
+    candidate_id = unique_candidates.get(
+        espn_id, ""
+    )
 
-        minutes = ""
-        if fpl_id in errors:
-            status = "API_ERROR"
-        elif fixture_id is None:
-            status = "FIXTURE_NOT_VERIFIED"
-        elif fixture_id not in history:
+    player_id = matched_id or candidate_id
+    fixture_id = fixture_map.get(event_id, "")
+    minutes = ""
+
+    if not player_id:
+        status = "NO_ID_CANDIDATE"
+
+    elif not fixture_id:
+        status = "FIXTURE_NOT_VERIFIED"
+
+    elif player_id in errors:
+        status = "API_ERROR"
+
+    else:
+        history = history_cache.get(player_id, {})
+        match = history.get(fixture_id)
+
+        if match is None:
             status = "NO_FPL_HISTORY"
         else:
-            minutes = history[fixture_id].get("minutes", 0)
+            minutes = match.get("minutes", 0)
+
             if minutes > 0:
                 status = "MINUTES_CONFIRMED"
             else:
                 status = "ZERO_MINUTES"
 
-        output.append({
-            "category": target["category"],
-            "espn_id": espn_id,
-            "espn_player": target["espn_name"],
-            "espn_team": target["espn_team"],
-            "fpl_id": fpl_id,
-            "fpl_player": target["fpl_name"],
-            "espn_event_id": event_id,
-            "fpl_fixture_id": fixture_id or "",
-            "fpl_minutes": minutes,
-            "status": status
-        })
+    results.append({
+        "category": (
+            "V4_MATCHED"
+            if matched_id else "UNRESOLVED_CANDIDATE"
+        ),
+        "espn_id": espn_id,
+        "espn_player": row["player"],
+        "espn_team": row["team"],
+        "fpl_id": player_id,
+        "fpl_player": "",
+        "espn_event_id": event_id,
+        "fpl_fixture_id": fixture_id,
+        "fpl_minutes": minutes,
+        "status": status
+    })
 
-path = DATA / "espn_fpl_minutes_crosscheck.csv"
+fields = [
+    "category", "espn_id", "espn_player",
+    "espn_team", "fpl_id", "fpl_player",
+    "espn_event_id", "fpl_fixture_id",
+    "fpl_minutes", "status"
+]
 
-with path.open("w", newline="", encoding="utf-8") as f:
+with (
+    DATA / "espn_fpl_minutes_crosscheck.csv"
+).open("w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(
-        f, fieldnames=list(output[0])
+        f, fieldnames=fields
     )
     writer.writeheader()
-    writer.writerows(output)
+    writer.writerows(results)
 
-counts = Counter(r["status"] for r in output)
+counts = Counter(
+    row["status"] for row in results
+)
 
 summary = {
-    "players": len(targets),
-    "appearances": len(output),
+    "total_espn_rows": len(lineups),
+    "rows_checked": len(results),
+    "unique_fpl_ids_requested": len(player_ids),
     "status_counts": dict(counts),
     "api_errors": errors,
     "note": (
-        "Positive FPL minutes corroborate participation, "
-        "not necessarily a start. Unresolved identities "
-        "remain suggestions only."
+        "FPL minutes corroborate participation, "
+        "not starting XI. Candidate identities "
+        "remain unconfirmed. Unverified fixtures "
+        "must be reviewed separately."
     )
 }
 
-with (DATA / "espn_fpl_minutes_summary.json").open(
-    "w", encoding="utf-8"
-) as f:
+with (
+    DATA / "espn_fpl_minutes_summary.json"
+).open("w", encoding="utf-8") as f:
     json.dump(
         summary, f, indent=2, ensure_ascii=False
     )
 
-print("ESPN VS FPL MINUTES CROSSCHECK")
 print(json.dumps(summary, indent=2))
-print("Saved:", path)
