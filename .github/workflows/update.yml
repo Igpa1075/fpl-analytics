@@ -49,6 +49,9 @@ jobs:
       - name: Evaluate starting XI transfer impact
         run: python fpl_lineup_value.py > data/lineup_value.txt
 
+      - name: Forecast five gameweeks
+        run: python fpl_five_gw.py > data/five_gw_plan.txt
+
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
