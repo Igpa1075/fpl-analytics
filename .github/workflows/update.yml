@@ -101,6 +101,9 @@ jobs:
       - name: Crosscheck ESPN lineups against FPL minutes
         run: python fpl_minutes_crosscheck.py
 
+      - name: Audit ESPN starting XI against FPL
+        run: python fpl_starting_xi_audit.py
+
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
