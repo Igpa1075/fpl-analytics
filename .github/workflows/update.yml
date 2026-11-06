@@ -90,6 +90,9 @@ jobs:
       - name: Generate player review candidates
         run: python fpl_player_review.py
 
+      - name: Match ESPN players with FPL V4
+        run: python fpl_espn_match_v4.py
+
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
