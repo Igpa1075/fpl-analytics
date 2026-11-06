@@ -34,6 +34,9 @@ jobs:
       - name: Analyze friends mini-league
         run: python fpl_league.py > data/league_analysis.txt
   
+      - name: Save mini-league history
+        run: python fpl_league_history.py
+  
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
