@@ -42,7 +42,7 @@ OUT? Tavernier (MID, BOU) | heuristic 4.82 | estimated budget ceiling £7.5m
   -> Manzambi             AVL £6.2m | FDR 2.3 | rivals 2/12 | score +0.44
   -> Henderson            CHE £4.9m | FDR 2.3 | rivals 0/12 | score +0.04
 OUT? Cherif (FWD, COV) | heuristic 3.23 | estimated budget ceiling £5.9m
-  -> Barry                EVE £5.6m | FDR 3.7 | rivals 1/12 | score +1.38
+  -> Barry                EVE £5.6m | FDR 3.7 | rivals 1/12 | score +2.12
   -> McBurnie             HUL £5.5m | FDR 3.0 | rivals 0/12 | score +0.90
 OUT? Haaland (FWD, MCI) | heuristic 5.89 | estimated budget ceiling £16.7m
   -> Evanilson            BOU £6.4m | FDR 3.3 | rivals 2/12 | score +0.02

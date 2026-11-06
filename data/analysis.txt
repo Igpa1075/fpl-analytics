@@ -10,6 +10,7 @@ Evanilson                BOU   FWD    6.4    6.8    5.8   3.3    5.91
 Haaland                  MCI   FWD   15.8    5.8    7.6   3.3    5.89
 Gabriel                  ARS   DEF    8.0    6.6    6.4   3.7    5.83
 Van Hecke                TOT   DEF    5.0    5.8    5.9   2.3    5.76
+Barry                    EVE   FWD    5.6    6.4    5.2   3.7    5.34
 Verbruggen               BHA   GKP    4.6    5.6    5.7   3.0    5.30
 Vuskovic                 BHA   DEF    5.2    5.2    6.4   3.0    5.28
 Manzambi                 AVL   MID    6.2    4.8    6.3   2.3    5.25
@@ -22,4 +23,3 @@ Isak                     LIV   FWD    9.2    4.0    6.6   2.7    4.73
 Rudoni                   COV   MID    4.9    5.2    3.9   2.3    4.68
 Raya                     ARS   GKP    6.2    4.8    6.0   3.7    4.66
 Rogers                   CHE   MID    8.2    4.2    5.6   2.3    4.63
-Barry                    EVE   FWD    5.6    5.4    4.7   3.7    4.61

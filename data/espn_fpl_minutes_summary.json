@@ -1,0 +1,9 @@
+{
+  "players": 46,
+  "appearances": 142,
+  "status_counts": {
+    "MINUTES_CONFIRMED": 142
+  },
+  "api_errors": {},
+  "note": "Positive FPL minutes corroborate participation, not necessarily a start. Unresolved identities remain suggestions only."
+}
