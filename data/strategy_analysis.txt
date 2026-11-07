@@ -28,7 +28,7 @@ Rival captain choices in the completed GW:
 Only players with >=180 season minutes and non-unavailable status.
   DEF:
     Konsa               ARS £4.8m | rivals  6/12 | score 6.95
-    Gabriel             ARS £8.0m | rivals  3/12 | score 6.53
+    Gabriel             ARS £8.1m | rivals  3/12 | score 6.53
     Van Hecke           TOT £5.0m | rivals  3/12 | score 5.83
     Hill                BOU £5.6m | rivals  0/12 | score 4.85
     White               ARS £5.4m | rivals  0/12 | score 4.83
@@ -36,8 +36,8 @@ Only players with >=180 season minutes and non-unavailable status.
     Muharemović         LEE £5.1m | rivals  1/12 | score 4.25
     Boscagli            BHA £4.5m | rivals  0/12 | score 4.10
   MID:
-    Ayari               BHA £5.4m | rivals  0/12 | score 5.53
-    Rice                ARS £7.4m | rivals  0/12 | score 5.33
+    Ayari               BHA £5.5m | rivals  0/12 | score 5.53
+    Rice                ARS £7.5m | rivals  0/12 | score 5.33
     Manzambi            AVL £6.2m | rivals  2/12 | score 5.33
     Henderson           CHE £4.9m | rivals  0/12 | score 4.92
     Rudoni              COV £4.9m | rivals  1/12 | score 4.75
@@ -45,13 +45,13 @@ Only players with >=180 season minutes and non-unavailable status.
     Iwobi               FUL £5.4m | rivals  0/12 | score 4.59
     Doku                MCI £7.5m | rivals  1/12 | score 4.47
   FWD:
-    Barry               EVE £5.6m | rivals  1/12 | score 6.47
-    Evanilson           BOU £6.4m | rivals  2/12 | score 6.45
+    Barry               EVE £5.7m | rivals  1/12 | score 6.47
+    Evanilson           BOU £6.5m | rivals  2/12 | score 6.45
     Isak                LIV £9.2m | rivals  3/12 | score 4.91
     McBurnie            HUL £5.5m | rivals  0/12 | score 4.39
     Thiago              BRE £7.8m | rivals  0/12 | score 4.12
     Kostoulas           BHA £5.8m | rivals  5/12 | score 3.96
-    Calvert-Lewin       LEE £6.1m | rivals  2/12 | score 3.23
+    Calvert-Lewin       LEE £6.0m | rivals  2/12 | score 3.23
     Havertz             ARS £7.4m | rivals  1/12 | score 3.11
   GKP:
     Raya                ARS £6.2m | rivals  3/12 | score 5.22
