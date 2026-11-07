@@ -104,6 +104,9 @@ jobs:
       - name: Audit ESPN starting XI against FPL
         run: python fpl_starting_xi_audit.py
 
+      - name: Calculate starting XI stability
+        run: python fpl_starter_stability.py
+
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
