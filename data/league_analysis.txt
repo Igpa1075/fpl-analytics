@@ -7,8 +7,8 @@ Rank Team                          Points Gap to leader  Gap to me
    1 Meatball                         645             0        167
    2 ⫷ GΛMBLΞR ⫸                      606            39        128
    3 Team_D                           582            63        104
-   4 Yerazzurri                       581            64        103
    4 S.W.A.T. LA                      581            64        103
+   4 Yerazzurri                       581            64        103
    6 Maestroni                        575            70         97
    7 WΞΞKΞND WΛRRIOR                  551            94         73
    8 FC Barcelona SD                  540           105         62
@@ -25,8 +25,8 @@ Rival comparison (latest completed GW):
   Meatball: 5/15 shared players; captain Haaland
   ⫷ GΛMBLΞR ⫸: 6/15 shared players; captain Palmer
   Team_D: 6/15 shared players; captain Haaland
-  Yerazzurri: 5/15 shared players; captain Haaland
   S.W.A.T. LA: 5/15 shared players; captain Haaland
+  Yerazzurri: 5/15 shared players; captain Haaland
   Maestroni: 4/15 shared players; captain Haaland
   WΞΞKΞND WΛRRIOR: 2/15 shared players; captain Rogers
   FC Barcelona SD: 5/15 shared players; captain Haaland

@@ -1,0 +1,36 @@
+{
+  "saved_squad_gw": 9,
+  "future_gws": [
+    11,
+    12,
+    13
+  ],
+  "saved_bank_m": 0.9,
+  "baseline_3gw_proxy": 170.11,
+  "positive_candidates": 26,
+  "outgoing_players_with_options": 8,
+  "best_candidate": {
+    "out": "Ouattara",
+    "out_id": 592,
+    "out_team": "IPS",
+    "in": "Konsa",
+    "in_id": 31,
+    "in_team": "ARS",
+    "position": "DEF",
+    "out_market_price": 4.0,
+    "in_price": 4.8,
+    "gain_3gw_proxy": 4.18,
+    "budget_status": "UNVERIFIED"
+  },
+  "limitations": [
+    "Proxy scores are not calibrated expected points.",
+    "Saved squad and bank may be outdated.",
+    "Selling prices are not available.",
+    "Free transfer count is unknown.",
+    "Budget is an optimistic upper bound.",
+    "No transfer should be executed automatically.",
+    "One-transfer scenarios only.",
+    "No bonus for nominal tactical positions.",
+    "Bench autosubs and chip strategies omitted."
+  ]
+}

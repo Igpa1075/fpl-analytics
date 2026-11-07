@@ -1,0 +1,9 @@
+out,out_id,out_team,in,in_id,in_team,position,out_market_price,in_price,gain_3gw_proxy,budget_status
+Ouattara,592,IPS,Konsa,31,ARS,DEF,4.0,4.8,4.18,UNVERIFIED
+O'Shea,304,IPS,Konsa,31,ARS,DEF,4.0,4.8,4.18,UNVERIFIED
+Cherif,599,COV,Barry,249,EVE,FWD,5.0,5.7,3.99,UNVERIFIED
+Calafiori,8,ARS,Konsa,31,ARS,DEF,5.9,4.8,2.88,UNVERIFIED
+Mbeumo,427,MUN,Cherki,399,MCI,MID,7.9,7.9,2.79,UNVERIFIED
+Palmer,154,CHE,Cherki,399,MCI,MID,9.8,7.9,2.32,UNVERIFIED
+Vuskovic,504,BHA,Konsa,31,ARS,DEF,5.2,4.8,1.31,UNVERIFIED
+Dewsbury-Hall,236,EVE,Rudoni,183,COV,MID,6.6,4.9,0.67,UNVERIFIED
