@@ -1,0 +1,12 @@
+espn_slot,records,gk,def,mid,fwd,most_common_fpl_category,agreement_pct,category_consistency,examples
+1,76,76,0,0,0,GK,100.0,CONSISTENT_FPL_CATEGORY,"Horníček, Pickford, Raya, Pickford, Pickford, Martinez, Tzolakis, Pickford"
+2,74,0,65,9,0,DEF,87.8,CONSISTENT_FPL_CATEGORY,"Dedić, O'Brien, Röhl, Maitland-Niles, Acheampong, Coyle, Maitland-Niles, van Ewijk"
+3,74,0,70,4,0,DEF,94.6,CONSISTENT_FPL_CATEGORY,"Hall, Lewis-Skelly, Hato, Giles, Branthwaite, Dasilva, Reinildo, Dasilva"
+4,76,0,21,55,0,MID,72.4,MIXED_FPL_CATEGORIES,"N.Gonzalez, Garner, Merino, Garner, Garner, Henderson, Mendy, Armstrong"
+5,80,0,80,0,0,DEF,100.0,CONSISTENT_FPL_CATEGORY,"Schär, Tarkowski, Konsa, Tarkowski, Tarkowski, Lacroix, Egan, Tarkowski"
+6,80,0,79,1,0,DEF,98.8,CONSISTENT_FPL_CATEGORY,"Burn, Branthwaite, Gabriel, O'Brien, Branthwaite, Colwill, Ajayi, Keane"
+7,78,0,2,74,2,MID,94.9,CONSISTENT_FPL_CATEGORY,"Elanga, Röhl, Madueke, Johnson, Röhl, Neto, Gelhardt, Johnson"
+8,76,0,0,76,0,MID,100.0,CONSISTENT_FPL_CATEGORY,"Joelinton, Armstrong, Rice, Armstrong, Armstrong, Caicedo, Crooks, Garner"
+9,72,0,0,8,64,FWD,88.9,CONSISTENT_FPL_CATEGORY,"Osula, Barry, Gyökeres, Barry, Barry, João Pedro, Barry, Awoniyi"
+10,80,0,0,77,3,MID,96.2,CONSISTENT_FPL_CATEGORY,"Willock, Dewsbury-Hall, Ødegaard, Dewsbury-Hall, Dewsbury-Hall, Palmer, Slater, Dewsbury-Hall"
+11,80,0,4,74,2,MID,92.5,CONSISTENT_FPL_CATEGORY,"Barnes, George, Eze, George, Grealish, Rogers, Thomas, Grealish"

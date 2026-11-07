@@ -1,0 +1,11 @@
+{
+  "complete_lineups": 80,
+  "valid_slot_lineups": 80,
+  "invalid_slot_lineups": 0,
+  "matched_player_records": 846,
+  "slots_with_mixed_fpl_categories": [
+    4
+  ],
+  "limitations": "FPL position categories are broad. Agreement does not validate tactical roles, formation coordinates, or attacking involvement.",
+  "invalid_examples": []
+}
