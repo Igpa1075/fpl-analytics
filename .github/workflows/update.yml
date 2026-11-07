@@ -112,6 +112,8 @@ jobs:
         run: python fpl_position_validation.py
       - name: Calculate FPL player value ranking
         run: python fpl_value_ranking.py
+      - name: Analyze personal FPL transfers
+        run: python fpl_personal_transfers.py    
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
