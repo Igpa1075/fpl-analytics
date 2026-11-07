@@ -106,7 +106,8 @@ jobs:
 
       - name: Calculate starting XI stability
         run: python fpl_starter_stability.py
-
+      - name: Analyze real player positions
+        run: python fpl_position_analysis.py
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
