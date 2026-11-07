@@ -1,0 +1,3 @@
+fpl_id,player,team,fpl_position,matches_available,starts_with_position,most_common_slot,primary_slot_role,advanced_slot_starts,position_flag,slot_history,now_cost,total_points
+115,De Cuyper,BHA,DEF,4,4,11,WIDE_ADVANCED_SLOT,4,DEF_ADVANCED_SLOT_CANDIDATE,"11,11,11,11",54,69
+427,Mbeumo,MUN,MID,4,4,9,CENTRAL_FORWARD_SLOT,4,MID_FORWARD_SLOT_CANDIDATE,"9,9,9,9",79,44

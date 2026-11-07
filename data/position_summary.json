@@ -1,0 +1,8 @@
+{
+  "players": 670,
+  "squad_players": 15,
+  "candidates": 2,
+  "teams": 20,
+  "window": 5,
+  "warning": "ESPN formation_place is a lineup slot, not tracking coordinates. Slot meanings may vary with formation. Candidate flags must be verified before tactical conclusions."
+}
