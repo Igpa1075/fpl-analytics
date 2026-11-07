@@ -1,0 +1,20 @@
+{
+  "players": 670,
+  "eligible_players": 185,
+  "my_players": 15,
+  "future_gameweeks": [
+    11,
+    12,
+    13
+  ],
+  "ranking_type": "heuristic",
+  "notes": [
+    "Not calibrated expected points.",
+    "Uses FPL xG, xA, form, points and minutes.",
+    "Uses ESPN starting XI stability.",
+    "Fixture difficulty is an ordinal proxy.",
+    "No bonus is assigned for tactical roles.",
+    "Current selling prices and free transfers are unknown.",
+    "Saved picks may be from an earlier gameweek."
+  ]
+}
