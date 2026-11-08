@@ -19,14 +19,15 @@ def num(value, default=0.0):
 
 
 def forecast(snapshot):
-    event = snapshot.get("next_event_id")
-    deadline = snapshot.get("next_deadline_utc")
     captured = datetime.fromisoformat(snapshot["captured_at_utc"].replace("Z", "+00:00"))
-    if not event or not deadline:
+    future = sorted((e for e in snapshot["bootstrap"].get("events", [])
+                     if e.get("deadline_time") and
+                     datetime.fromisoformat(e["deadline_time"].replace("Z", "+00:00")) > captured),
+                    key=lambda e: e["deadline_time"])
+    if not future:
         return None
-    cutoff = datetime.fromisoformat(deadline.replace("Z", "+00:00"))
-    if captured >= cutoff:
-        return None
+    event = future[0]["id"]
+    deadline = future[0]["deadline_time"]
 
     fixtures = [f for f in snapshot["fixtures"] if f.get("event") == event
                 and not f.get("finished")]
