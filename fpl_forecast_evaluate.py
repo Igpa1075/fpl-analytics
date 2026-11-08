@@ -61,6 +61,12 @@ def main():
     for gw, (_, path, doc) in sorted(by_gw.items()):
         live = fetch(f"/event/{gw}/live/")
         actual = {int(k): v for k, v in ((p["id"], p["stats"]) for p in live["elements"])}
+        snapshot_path = ROOT / "snapshots" / path.name
+        frozen_ppg = {}
+        if snapshot_path.exists():
+            snapshot = json.loads(snapshot_path.read_text(encoding="utf-8"))
+            frozen_ppg = {int(p["id"]): float(p.get("points_per_game") or 0)
+                          for p in snapshot["bootstrap"]["elements"]}
         rows = []
         for p in doc["predictions"]:
             player_id = int(p["player_id"])
@@ -73,9 +79,13 @@ def main():
                 "actual": float(stats["total_points"]),
                 "minutes": int(stats.get("minutes", 0)),
                 "fixtures": len(p.get("fixtures", [])),
+                "frozen_ppg": frozen_ppg.get(player_id),
             })
         played = [r for r in rows if r["minutes"] > 0]
         with_fixture = [r for r in rows if r["fixtures"] > 0]
+        ppg_rows = [dict(r, predicted=r["frozen_ppg"] * r["fixtures"])
+                    for r in with_fixture if r["frozen_ppg"] is not None]
+        comparable = [r for r in with_fixture if r["frozen_ppg"] is not None]
         reports.append({
             "gw": gw,
             "forecast_file": str(path),
@@ -83,6 +93,10 @@ def main():
             "all_players": metrics(rows),
             "scheduled_players": metrics(with_fixture),
             "players_with_minutes": metrics(played),
+            "frozen_ppg_baseline_scheduled": metrics(ppg_rows),
+            "model_on_ppg_comparable_players": metrics(comparable),
+            "model_mae_improvement_vs_ppg": (round(metrics(ppg_rows)["mae"] - metrics(comparable)["mae"], 4)
+                                             if ppg_rows else None),
             "zero_prediction_baseline_scheduled": metrics([
                 dict(r, predicted=0.0) for r in with_fixture]),
             "limitations": [
@@ -90,6 +104,7 @@ def main():
                 "This evaluates all listed players, not a selected fantasy XI.",
                 "Playing-time filter uses outcomes and is diagnostic only.",
                 "Multiple daily snapshots per GW are NOT independent tests.",
+                "PPG baseline uses frozen predeadline PPG multiplied by scheduled fixtures.",
             ],
         })
     report = {
