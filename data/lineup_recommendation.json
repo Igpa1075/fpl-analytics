@@ -1,0 +1,297 @@
+{
+  "target_gw": 11,
+  "forecast_captured_at_utc": "2026-11-08T12:37:23.818899+00:00",
+  "forecast_source": "data/forecasts/2026-11-08.json",
+  "squad_source": "data/picks.json (last completed GW; may be stale)",
+  "squad_event": 9,
+  "expected_xi_points_with_captain": 63.995,
+  "formation": {
+    "defenders": 3,
+    "midfielders": 5,
+    "forwards": 2
+  },
+  "starting_xi": [
+    {
+      "player_id": 109,
+      "name": "Verbruggen",
+      "team_id": 5,
+      "position_id": 1,
+      "price_tenths_million": 46,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 11,
+          "home": false,
+          "difficulty": 2
+        }
+      ],
+      "expected_points": 5.703
+    },
+    {
+      "player_id": 115,
+      "name": "De Cuyper",
+      "team_id": 5,
+      "position_id": 2,
+      "price_tenths_million": 54,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 11,
+          "home": false,
+          "difficulty": 2
+        }
+      ],
+      "expected_points": 6.495
+    },
+    {
+      "player_id": 504,
+      "name": "Vuskovic",
+      "team_id": 5,
+      "position_id": 2,
+      "price_tenths_million": 52,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 11,
+          "home": false,
+          "difficulty": 2
+        }
+      ],
+      "expected_points": 5.737
+    },
+    {
+      "player_id": 8,
+      "name": "Calafiori",
+      "team_id": 1,
+      "position_id": 2,
+      "price_tenths_million": 59,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 17,
+          "home": false,
+          "difficulty": 3
+        }
+      ],
+      "expected_points": 5.106
+    },
+    {
+      "player_id": 236,
+      "name": "Dewsbury-Hall",
+      "team_id": 9,
+      "position_id": 3,
+      "price_tenths_million": 66,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 4,
+          "home": false,
+          "difficulty": 4
+        }
+      ],
+      "expected_points": 5.088
+    },
+    {
+      "player_id": 68,
+      "name": "Tavernier",
+      "team_id": 3,
+      "position_id": 3,
+      "price_tenths_million": 67,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 18,
+          "home": true,
+          "difficulty": 3
+        }
+      ],
+      "expected_points": 4.821
+    },
+    {
+      "player_id": 156,
+      "name": "Neto",
+      "team_id": 6,
+      "position_id": 3,
+      "price_tenths_million": 66,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 13,
+          "home": true,
+          "difficulty": 3
+        }
+      ],
+      "expected_points": 4.136
+    },
+    {
+      "player_id": 154,
+      "name": "Palmer",
+      "team_id": 6,
+      "position_id": 3,
+      "price_tenths_million": 98,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 13,
+          "home": true,
+          "difficulty": 3
+        }
+      ],
+      "expected_points": 3.856
+    },
+    {
+      "player_id": 427,
+      "name": "Mbeumo",
+      "team_id": 16,
+      "position_id": 3,
+      "price_tenths_million": 79,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 14,
+          "home": false,
+          "difficulty": 4
+        }
+      ],
+      "expected_points": 3.74
+    },
+    {
+      "player_id": 411,
+      "name": "Haaland",
+      "team_id": 15,
+      "position_id": 4,
+      "price_tenths_million": 158,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 10,
+          "home": true,
+          "difficulty": 2
+        }
+      ],
+      "expected_points": 7.025
+    },
+    {
+      "player_id": 166,
+      "name": "N.Jackson",
+      "team_id": 2,
+      "position_id": 4,
+      "price_tenths_million": 71,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 20,
+          "home": true,
+          "difficulty": 2
+        }
+      ],
+      "expected_points": 5.263
+    }
+  ],
+  "captain": {
+    "player_id": 411,
+    "name": "Haaland",
+    "team_id": 15,
+    "position_id": 4,
+    "price_tenths_million": 158,
+    "availability": 1.0,
+    "fixtures": [
+      {
+        "opponent": 10,
+        "home": true,
+        "difficulty": 2
+      }
+    ],
+    "expected_points": 7.025
+  },
+  "vice_captain": {
+    "player_id": 115,
+    "name": "De Cuyper",
+    "team_id": 5,
+    "position_id": 2,
+    "price_tenths_million": 54,
+    "availability": 1.0,
+    "fixtures": [
+      {
+        "opponent": 11,
+        "home": false,
+        "difficulty": 2
+      }
+    ],
+    "expected_points": 6.495
+  },
+  "bench_goalkeeper": [
+    {
+      "player_id": 250,
+      "name": "Leno",
+      "team_id": 10,
+      "position_id": 1,
+      "price_tenths_million": 45,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 15,
+          "home": false,
+          "difficulty": 5
+        }
+      ],
+      "expected_points": 3.415
+    }
+  ],
+  "bench_outfield_order": [
+    {
+      "player_id": 304,
+      "name": "O'Shea",
+      "team_id": 12,
+      "position_id": 2,
+      "price_tenths_million": 40,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 19,
+          "home": false,
+          "difficulty": 3
+        }
+      ],
+      "expected_points": 3.098
+    },
+    {
+      "player_id": 592,
+      "name": "Ouattara",
+      "team_id": 12,
+      "position_id": 2,
+      "price_tenths_million": 40,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 19,
+          "home": false,
+          "difficulty": 3
+        }
+      ],
+      "expected_points": 2.736
+    },
+    {
+      "player_id": 599,
+      "name": "Cherif",
+      "team_id": 7,
+      "position_id": 4,
+      "price_tenths_million": 50,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 8,
+          "home": true,
+          "difficulty": 2
+        }
+      ],
+      "expected_points": 2.53
+    }
+  ],
+  "warnings": [
+    "Squad is the last completed GW, not necessarily current predeadline squad.",
+    "Expected points use an unvalidated heuristic baseline.",
+    "Ignores automatic substitutions, chip effects, and transfer optimization.",
+    "Captain and vice-captain selections are advisory only."
+  ]
+}
