@@ -25,11 +25,14 @@ jobs:
         run: python fpl_snapshot.py
       - name: Freeze next-GW baseline predictions
         run: python fpl_forecast_baseline.py
+      - name: Evaluate completed-GW frozen forecasts
+        run: python fpl_forecast_evaluate.py
       - name: Commit immutable daily snapshot
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/snapshots/ data/forecasts/
+          if [ -f data/forecast_evaluation.json ]; then git add data/forecast_evaluation.json; fi
           if ! git diff --cached --quiet; then
             git commit -m "Archive daily FPL market snapshot"
             git pull --rebase origin main
