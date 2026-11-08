@@ -4,7 +4,7 @@
   "error_count": 0,
   "errors": [],
   "warnings": [
-    "No actual free-transfer count or individual selling prices: transfer plans are advisory.",
+    "Verified selling prices and squad are a dated screenshot, not live API values.",
     "No out-of-sample evaluation yet unless completed-GW forecast evaluations exist.",
     "Five-GW projections reuse frozen form and availability; not independent future forecasts.",
     "Two-transfer shortlist is not exhaustive and may exclude better long-term choices.",

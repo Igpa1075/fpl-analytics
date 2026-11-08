@@ -5,6 +5,8 @@
   "forecast_source": "data/forecasts/2026-11-08.json",
   "snapshot_source": "data/snapshots/2026-11-08.json",
   "hold_five_gw_expected_points": 308.086,
+  "verified_private_inputs_used": true,
+  "user_confirmed_bank_and_free_transfers": true,
   "ranked_scenarios": [
     {
       "transfer_count": 2,
@@ -22,7 +24,7 @@
           "in_name": "Konsa"
         }
       ],
-      "remaining_bank_proxy": 10,
+      "remaining_bank_proxy": 9,
       "weekly": [
         {
           "gw": 11,
@@ -47,6 +49,8 @@
       ],
       "five_gw_gross_points": 330.365,
       "gross_gain_vs_hold": 22.279,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 22.279,
       "net_gain_if_all_transfers_cost_4": 14.279
     },
     {
@@ -65,7 +69,7 @@
           "in_name": "Konsa"
         }
       ],
-      "remaining_bank_proxy": 10,
+      "remaining_bank_proxy": 9,
       "weekly": [
         {
           "gw": 11,
@@ -90,6 +94,8 @@
       ],
       "five_gw_gross_points": 330.365,
       "gross_gain_vs_hold": 22.279,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 22.279,
       "net_gain_if_all_transfers_cost_4": 14.279
     },
     {
@@ -133,6 +139,8 @@
       ],
       "five_gw_gross_points": 328.798,
       "gross_gain_vs_hold": 20.712,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 20.712,
       "net_gain_if_all_transfers_cost_4": 12.712
     },
     {
@@ -176,6 +184,8 @@
       ],
       "five_gw_gross_points": 328.798,
       "gross_gain_vs_hold": 20.712,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 20.712,
       "net_gain_if_all_transfers_cost_4": 12.712
     },
     {
@@ -194,7 +204,7 @@
           "in_name": "Konsa"
         }
       ],
-      "remaining_bank_proxy": 3,
+      "remaining_bank_proxy": 2,
       "weekly": [
         {
           "gw": 11,
@@ -219,6 +229,8 @@
       ],
       "five_gw_gross_points": 328.092,
       "gross_gain_vs_hold": 20.006,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 20.006,
       "net_gain_if_all_transfers_cost_4": 12.006
     },
     {
@@ -237,7 +249,7 @@
           "in_name": "Konsa"
         }
       ],
-      "remaining_bank_proxy": 3,
+      "remaining_bank_proxy": 2,
       "weekly": [
         {
           "gw": 11,
@@ -262,6 +274,8 @@
       ],
       "five_gw_gross_points": 328.092,
       "gross_gain_vs_hold": 20.006,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 20.006,
       "net_gain_if_all_transfers_cost_4": 12.006
     },
     {
@@ -305,6 +319,8 @@
       ],
       "five_gw_gross_points": 327.297,
       "gross_gain_vs_hold": 19.211,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 19.211,
       "net_gain_if_all_transfers_cost_4": 11.211
     },
     {
@@ -348,6 +364,8 @@
       ],
       "five_gw_gross_points": 327.297,
       "gross_gain_vs_hold": 19.211,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 19.211,
       "net_gain_if_all_transfers_cost_4": 11.211
     },
     {
@@ -391,6 +409,8 @@
       ],
       "five_gw_gross_points": 325.488,
       "gross_gain_vs_hold": 17.402,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 17.402,
       "net_gain_if_all_transfers_cost_4": 9.402
     },
     {
@@ -434,6 +454,8 @@
       ],
       "five_gw_gross_points": 325.488,
       "gross_gain_vs_hold": 17.402,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 17.402,
       "net_gain_if_all_transfers_cost_4": 9.402
     },
     {
@@ -471,6 +493,8 @@
       ],
       "five_gw_gross_points": 322.891,
       "gross_gain_vs_hold": 14.805,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 14.805,
       "net_gain_if_all_transfers_cost_4": 10.805
     },
     {
@@ -508,6 +532,8 @@
       ],
       "five_gw_gross_points": 322.891,
       "gross_gain_vs_hold": 14.805,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 14.805,
       "net_gain_if_all_transfers_cost_4": 10.805
     },
     {
@@ -545,6 +571,8 @@
       ],
       "five_gw_gross_points": 318.982,
       "gross_gain_vs_hold": 10.896,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 10.896,
       "net_gain_if_all_transfers_cost_4": 6.896
     },
     {
@@ -582,6 +610,8 @@
       ],
       "five_gw_gross_points": 316.835,
       "gross_gain_vs_hold": 8.749,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 8.749,
       "net_gain_if_all_transfers_cost_4": 4.749
     },
     {
@@ -619,6 +649,8 @@
       ],
       "five_gw_gross_points": 316.387,
       "gross_gain_vs_hold": 8.301,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 8.301,
       "net_gain_if_all_transfers_cost_4": 4.301
     },
     {
@@ -656,6 +688,8 @@
       ],
       "five_gw_gross_points": 314.563,
       "gross_gain_vs_hold": 6.477,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 6.477,
       "net_gain_if_all_transfers_cost_4": 2.477
     },
     {
@@ -693,6 +727,8 @@
       ],
       "five_gw_gross_points": 314.486,
       "gross_gain_vs_hold": 6.4,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 6.4,
       "net_gain_if_all_transfers_cost_4": 2.4
     },
     {
@@ -730,44 +766,48 @@
       ],
       "five_gw_gross_points": 314.114,
       "gross_gain_vs_hold": 6.028,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 6.028,
       "net_gain_if_all_transfers_cost_4": 2.028
     },
     {
       "transfer_count": 1,
       "transfers": [
         {
-          "out": 156,
-          "out_name": "Neto",
-          "in": 13,
-          "in_name": "Rice"
+          "out": 304,
+          "out_name": "O'Shea",
+          "in": 332,
+          "in_name": "Justin"
         }
       ],
-      "remaining_bank_proxy": 0,
+      "remaining_bank_proxy": 4,
       "weekly": [
         {
           "gw": 11,
-          "expected_xi_with_captain": 65.101
+          "expected_xi_with_captain": 64.837
         },
         {
           "gw": 12,
-          "expected_xi_with_captain": 61.006
+          "expected_xi_with_captain": 61.964
         },
         {
           "gw": 13,
-          "expected_xi_with_captain": 60.876
+          "expected_xi_with_captain": 60.638
         },
         {
           "gw": 14,
-          "expected_xi_with_captain": 65.143
+          "expected_xi_with_captain": 65.537
         },
         {
           "gw": 15,
-          "expected_xi_with_captain": 60.983
+          "expected_xi_with_captain": 60.558
         }
       ],
-      "five_gw_gross_points": 313.109,
-      "gross_gain_vs_hold": 5.023,
-      "net_gain_if_all_transfers_cost_4": 1.023
+      "five_gw_gross_points": 313.534,
+      "gross_gain_vs_hold": 5.448,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 5.448,
+      "net_gain_if_all_transfers_cost_4": 1.448
     },
     {
       "transfer_count": 1,
@@ -804,6 +844,8 @@
       ],
       "five_gw_gross_points": 312.807,
       "gross_gain_vs_hold": 4.721,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 4.721,
       "net_gain_if_all_transfers_cost_4": 0.721
     },
     {
@@ -834,6 +876,8 @@
       ],
       "five_gw_gross_points": 308.086,
       "gross_gain_vs_hold": 0.0,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 0.0,
       "net_gain_if_all_transfers_cost_4": 0.0
     }
   ],
