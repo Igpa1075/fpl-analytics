@@ -1,0 +1,9 @@
+{
+  "target_gw": 11,
+  "bank_tenths_million": 9,
+  "free_transfers": 2,
+  "verified_current_squad": false,
+  "squad_player_ids": [],
+  "selling_prices_tenths_million": {},
+  "note": "Bank and free transfers user-confirmed for GW11; squad and sale prices unverified."
+}
