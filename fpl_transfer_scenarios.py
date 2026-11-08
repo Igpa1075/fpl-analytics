@@ -141,6 +141,7 @@ def main():
         "baseline_expected_xi_with_captain": round(baseline[0], 3),
         "scenarios": by_count,
         "verified_private_inputs_used": bool(verified and verified["verified_current_squad"]),
+        "current_squad_confirmed": bool(verified and verified["current_squad_confirmed"]),
         "user_confirmed_bank_and_free_transfers": bool(verified),
         "free_transfers": verified["free_transfers"] if verified else None,
         "budget_basis": ("verified_selling_prices" if verified and verified["selling_prices"] is not None
