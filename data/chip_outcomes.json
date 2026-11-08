@@ -1,0 +1,193 @@
+{
+  "design": "retrospective_same_GW_prior_points_nearest_neighbor",
+  "outcome": "total_points_at_GW_plus_1_minus_total_points_at_GW_minus_1",
+  "comparison": "chip at GW vs no chip at GW",
+  "scope": "control cohort only; GW2-8",
+  "limitations": [
+    "Association, NOT causal effect; prior points alone do not control for team quality, injuries or fixtures.",
+    "Nearest-neighbor controls may be reused and are not independent.",
+    "Team value and bank are recorded at the end of the preceding GW; no current-GW fields enter matching.",
+    "Small samples and multiple comparisons make results unstable.",
+    "Missing histories and nonrepresentative entry-ID sampling may bias results.",
+    "Excludes managers using any chip in the following GW.",
+    "This is retrospective; not a prospective prediction or strategy recommendation.",
+    "A GW chip can affect future transfers; two-GW window does not capture full long-term impact."
+  ],
+  "gameweeks": {
+    "2": {
+      "eligible_managers": 15,
+      "chips": {
+        "wildcard": {
+          "status": "insufficient_treated",
+          "treated": 0,
+          "eligible_controls": 14
+        },
+        "freehit": {
+          "status": "insufficient_treated",
+          "treated": 0,
+          "eligible_controls": 14
+        },
+        "bboost": {
+          "status": "insufficient_treated",
+          "treated": 0,
+          "eligible_controls": 14
+        },
+        "3xc": {
+          "status": "insufficient_treated",
+          "treated": 1,
+          "eligible_controls": 14
+        }
+      }
+    },
+    "3": {
+      "eligible_managers": 17,
+      "chips": {
+        "wildcard": {
+          "status": "insufficient_treated",
+          "treated": 3,
+          "eligible_controls": 14
+        },
+        "freehit": {
+          "status": "insufficient_treated",
+          "treated": 0,
+          "eligible_controls": 14
+        },
+        "bboost": {
+          "status": "insufficient_treated",
+          "treated": 0,
+          "eligible_controls": 14
+        },
+        "3xc": {
+          "status": "insufficient_treated",
+          "treated": 0,
+          "eligible_controls": 14
+        }
+      }
+    },
+    "4": {
+      "eligible_managers": 20,
+      "chips": {
+        "wildcard": {
+          "status": "insufficient_treated",
+          "treated": 1,
+          "eligible_controls": 14
+        },
+        "freehit": {
+          "status": "insufficient_treated",
+          "treated": 2,
+          "eligible_controls": 14
+        },
+        "bboost": {
+          "status": "insufficient_treated",
+          "treated": 0,
+          "eligible_controls": 14
+        },
+        "3xc": {
+          "status": "insufficient_treated",
+          "treated": 3,
+          "eligible_controls": 14
+        }
+      }
+    },
+    "5": {
+      "eligible_managers": 20,
+      "chips": {
+        "wildcard": {
+          "status": "insufficient_treated",
+          "treated": 1,
+          "eligible_controls": 17
+        },
+        "freehit": {
+          "status": "insufficient_treated",
+          "treated": 0,
+          "eligible_controls": 17
+        },
+        "bboost": {
+          "status": "insufficient_treated",
+          "treated": 0,
+          "eligible_controls": 17
+        },
+        "3xc": {
+          "status": "insufficient_treated",
+          "treated": 2,
+          "eligible_controls": 17
+        }
+      }
+    },
+    "6": {
+      "eligible_managers": 22,
+      "chips": {
+        "wildcard": {
+          "status": "insufficient_treated",
+          "treated": 3,
+          "eligible_controls": 19
+        },
+        "freehit": {
+          "status": "insufficient_treated",
+          "treated": 0,
+          "eligible_controls": 19
+        },
+        "bboost": {
+          "status": "insufficient_treated",
+          "treated": 0,
+          "eligible_controls": 19
+        },
+        "3xc": {
+          "status": "insufficient_treated",
+          "treated": 0,
+          "eligible_controls": 19
+        }
+      }
+    },
+    "7": {
+      "eligible_managers": 22,
+      "chips": {
+        "wildcard": {
+          "status": "insufficient_treated",
+          "treated": 0,
+          "eligible_controls": 22
+        },
+        "freehit": {
+          "status": "insufficient_treated",
+          "treated": 0,
+          "eligible_controls": 22
+        },
+        "bboost": {
+          "status": "insufficient_treated",
+          "treated": 0,
+          "eligible_controls": 22
+        },
+        "3xc": {
+          "status": "insufficient_treated",
+          "treated": 0,
+          "eligible_controls": 22
+        }
+      }
+    },
+    "8": {
+      "eligible_managers": 21,
+      "chips": {
+        "wildcard": {
+          "status": "insufficient_treated",
+          "treated": 1,
+          "eligible_controls": 20
+        },
+        "freehit": {
+          "status": "insufficient_treated",
+          "treated": 0,
+          "eligible_controls": 20
+        },
+        "bboost": {
+          "status": "insufficient_treated",
+          "treated": 0,
+          "eligible_controls": 20
+        },
+        "3xc": {
+          "status": "insufficient_treated",
+          "treated": 0,
+          "eligible_controls": 20
+        }
+      }
+    }
+  }
+}
