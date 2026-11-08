@@ -3,7 +3,24 @@
   "bank_tenths_million": 9,
   "free_transfers": 2,
   "verified_current_squad": false,
-  "squad_player_ids": [],
+  "squad_player_ids": [
+    250,
+    115,
+    504,
+    8,
+    427,
+    156,
+    154,
+    236,
+    68,
+    411,
+    166,
+    109,
+    592,
+    304,
+    599
+  ],
   "selling_prices_tenths_million": {},
-  "note": "Bank and free transfers user-confirmed for GW11; squad and sale prices unverified."
+  "note": "GW11 15-player squad, £0.9m bank and 2 free transfers confirmed from user screenshot. Selling prices not confirmed; displayed player prices are not necessarily selling prices.",
+  "current_squad_confirmed_from_screenshot": true
 }
