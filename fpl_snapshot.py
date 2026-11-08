@@ -27,8 +27,8 @@ def main():
     bootstrap = fetch("/bootstrap-static/")
     fixtures = fetch("/fixtures/")
     upcoming = sorted(
-        (e for e in bootstrap.get("events", []) if not e.get("finished")
-         and e.get("deadline_time")),
+        (e for e in bootstrap.get("events", []) if e.get("deadline_time")
+         and datetime.fromisoformat(e["deadline_time"].replace("Z", "+00:00")) > now),
         key=lambda e: e["deadline_time"])
     next_event = upcoming[0] if upcoming else None
     # Retain the complete published player fields, including status, news,
