@@ -9,15 +9,23 @@ def load_verified_inputs(target_gw, owned_ids):
     if not CONFIG.exists():
         return None
     data = json.loads(CONFIG.read_text(encoding="utf-8"))
-    if not data.get("verified_current_squad"):
+    if type(data.get("target_gw")) is not int or data["target_gw"] != target_gw:
         return None
+    bank = data.get("bank_tenths_million")
+    free = data.get("free_transfers")
+    if type(bank) is not int or bank < 0 or type(free) is not int or not 0 <= free <= 5:
+        raise ValueError("Invalid user-confirmed bank or free transfers")
+    partial = {"bank": bank, "free_transfers": free, "selling_prices": None,
+               "verified_current_squad": False}
+    if not data.get("verified_current_squad"):
+        return partial
     if type(data.get("target_gw")) is not int or data["target_gw"] != target_gw:
         return None
     squad = data.get("squad_player_ids")
     if not isinstance(squad, list) or len(squad) != 15 or len(set(squad)) != 15:
         raise ValueError("Manual current squad must list exactly 15 distinct player IDs")
     if set(squad) != set(owned_ids):
-        return None  # A different current squad requires a new complete squad integration.
+        return partial  # A different current squad requires a new complete squad integration.
     bank = data.get("bank_tenths_million")
     free = data.get("free_transfers")
     sales = data.get("selling_prices_tenths_million")
@@ -28,7 +36,8 @@ def load_verified_inputs(target_gw, owned_ids):
     if any(type(v) is not int or v < 0 for v in sales.values()):
         raise ValueError("Selling prices must be nonnegative integers in 0.1m units")
     return {"bank": bank, "free_transfers": free,
-            "selling_prices": {int(k): v for k, v in sales.items()}}
+            "selling_prices": {int(k): v for k, v in sales.items()},
+            "verified_current_squad": True}
 
 
 def transfer_hit(count, free_transfers):
