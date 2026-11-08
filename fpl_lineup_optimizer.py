@@ -1,6 +1,6 @@
 """Optimize a legal starting XI and captain from frozen next-GW forecasts.
 
-Uses the last completed GW's squad as a *proxy*, not the actual upcoming
+Uses the latest publicly published GW's squad as a *proxy*, not the actual upcoming
 pre-deadline squad. Recommendations are advisory, never auto-submitted.
 """
 import itertools
@@ -64,7 +64,7 @@ def main():
         "target_gw": forecast["target_gw"],
         "forecast_captured_at_utc": forecast["captured_at_utc"],
         "forecast_source": str(source),
-        "squad_source": "data/picks.json (last completed GW; may be stale)",
+        "squad_source": "data/picks.json (latest publicly published GW; may be stale)",
         "squad_event": picks.get("entry_history", {}).get("event"),
         "expected_xi_points_with_captain": round(best[0][0], 3),
         "formation": {
@@ -78,7 +78,7 @@ def main():
         "bench_goalkeeper": bench_gk,
         "bench_outfield_order": outfield_bench,
         "warnings": [
-            "Squad is the last completed GW, not necessarily current predeadline squad.",
+            "Squad is the latest publicly published GW, not necessarily current predeadline squad.",
             "Expected points use an unvalidated heuristic baseline.",
             "Ignores automatic substitutions, chip effects, and transfer optimization.",
             "Captain and vice-captain selections are advisory only.",
