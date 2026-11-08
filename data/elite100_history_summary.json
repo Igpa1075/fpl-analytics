@@ -1,0 +1,16 @@
+{
+  "cohort": "current_top100",
+  "managers": 101,
+  "coverage": {
+    "1": 101,
+    "2": 101,
+    "3": 101,
+    "4": 101,
+    "5": 101,
+    "6": 101,
+    "7": 101,
+    "8": 101,
+    "9": 101
+  },
+  "note": "Historical squads of current leaders, not historical top-100 rankings."
+}
