@@ -1,0 +1,13 @@
+{
+  "entry_id": 5150250,
+  "latest_public_picks_gw": 10,
+  "next_deadline_gw": 11,
+  "public_squad_is_current_for_next_deadline": false,
+  "source": "Official public entry/event/picks endpoint; published only after GW deadline",
+  "limitations": [
+    "Predeadline private transfers and resulting squad are not publicly visible.",
+    "Last published bank is historical, not guaranteed current.",
+    "Individual current selling prices and free-transfer balance require private FPL data.",
+    "Never automatically execute a transfer based on this public squad."
+  ]
+}

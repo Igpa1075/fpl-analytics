@@ -2,8 +2,8 @@
   "target_gw": 11,
   "forecast_captured_at_utc": "2026-11-08T12:37:23.818899+00:00",
   "forecast_source": "data/forecasts/2026-11-08.json",
-  "squad_source": "data/picks.json (last completed GW; may be stale)",
-  "squad_event": 9,
+  "squad_source": "data/picks.json (latest publicly published GW; may be stale)",
+  "squad_event": 10,
   "expected_xi_points_with_captain": 63.995,
   "formation": {
     "defenders": 3,
@@ -289,7 +289,7 @@
     }
   ],
   "warnings": [
-    "Squad is the last completed GW, not necessarily current predeadline squad.",
+    "Squad is the latest publicly published GW, not necessarily current predeadline squad.",
     "Expected points use an unvalidated heuristic baseline.",
     "Ignores automatic substitutions, chip effects, and transfer optimization.",
     "Captain and vice-captain selections are advisory only."

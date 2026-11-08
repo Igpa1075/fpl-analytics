@@ -10,16 +10,16 @@
       "transfer_count": 2,
       "transfers": [
         {
-          "out": 304,
-          "out_name": "O'Shea",
-          "in": 31,
-          "in_name": "Konsa"
-        },
-        {
           "out": 8,
           "out_name": "Calafiori",
           "in": 112,
           "in_name": "Van Hecke"
+        },
+        {
+          "out": 304,
+          "out_name": "O'Shea",
+          "in": 31,
+          "in_name": "Konsa"
         }
       ],
       "remaining_bank_proxy": 10,
@@ -53,16 +53,16 @@
       "transfer_count": 2,
       "transfers": [
         {
-          "out": 592,
-          "out_name": "Ouattara",
-          "in": 31,
-          "in_name": "Konsa"
-        },
-        {
           "out": 8,
           "out_name": "Calafiori",
           "in": 112,
           "in_name": "Van Hecke"
+        },
+        {
+          "out": 592,
+          "out_name": "Ouattara",
+          "in": 31,
+          "in_name": "Konsa"
         }
       ],
       "remaining_bank_proxy": 10,
@@ -96,16 +96,16 @@
       "transfer_count": 2,
       "transfers": [
         {
-          "out": 304,
-          "out_name": "O'Shea",
-          "in": 31,
-          "in_name": "Konsa"
-        },
-        {
           "out": 154,
           "out_name": "Palmer",
           "in": 13,
           "in_name": "Rice"
+        },
+        {
+          "out": 304,
+          "out_name": "O'Shea",
+          "in": 31,
+          "in_name": "Konsa"
         }
       ],
       "remaining_bank_proxy": 24,
@@ -139,16 +139,16 @@
       "transfer_count": 2,
       "transfers": [
         {
-          "out": 592,
-          "out_name": "Ouattara",
-          "in": 31,
-          "in_name": "Konsa"
-        },
-        {
           "out": 154,
           "out_name": "Palmer",
           "in": 13,
           "in_name": "Rice"
+        },
+        {
+          "out": 592,
+          "out_name": "Ouattara",
+          "in": 31,
+          "in_name": "Konsa"
         }
       ],
       "remaining_bank_proxy": 24,
@@ -182,16 +182,16 @@
       "transfer_count": 2,
       "transfers": [
         {
-          "out": 304,
-          "out_name": "O'Shea",
-          "in": 31,
-          "in_name": "Konsa"
-        },
-        {
           "out": 504,
           "out_name": "Vuskovic",
           "in": 112,
           "in_name": "Van Hecke"
+        },
+        {
+          "out": 304,
+          "out_name": "O'Shea",
+          "in": 31,
+          "in_name": "Konsa"
         }
       ],
       "remaining_bank_proxy": 3,
@@ -225,16 +225,16 @@
       "transfer_count": 2,
       "transfers": [
         {
-          "out": 592,
-          "out_name": "Ouattara",
-          "in": 31,
-          "in_name": "Konsa"
-        },
-        {
           "out": 504,
           "out_name": "Vuskovic",
           "in": 112,
           "in_name": "Van Hecke"
+        },
+        {
+          "out": 592,
+          "out_name": "Ouattara",
+          "in": 31,
+          "in_name": "Konsa"
         }
       ],
       "remaining_bank_proxy": 3,
@@ -268,16 +268,16 @@
       "transfer_count": 2,
       "transfers": [
         {
-          "out": 304,
-          "out_name": "O'Shea",
-          "in": 31,
-          "in_name": "Konsa"
-        },
-        {
           "out": 427,
           "out_name": "Mbeumo",
           "in": 13,
           "in_name": "Rice"
+        },
+        {
+          "out": 304,
+          "out_name": "O'Shea",
+          "in": 31,
+          "in_name": "Konsa"
         }
       ],
       "remaining_bank_proxy": 5,
@@ -310,17 +310,17 @@
     {
       "transfer_count": 2,
       "transfers": [
+        {
+          "out": 427,
+          "out_name": "Mbeumo",
+          "in": 13,
+          "in_name": "Rice"
+        },
         {
           "out": 592,
           "out_name": "Ouattara",
           "in": 31,
           "in_name": "Konsa"
-        },
-        {
-          "out": 427,
-          "out_name": "Mbeumo",
-          "in": 13,
-          "in_name": "Rice"
         }
       ],
       "remaining_bank_proxy": 5,
@@ -353,17 +353,17 @@
     {
       "transfer_count": 2,
       "transfers": [
-        {
-          "out": 304,
-          "out_name": "O'Shea",
-          "in": 31,
-          "in_name": "Konsa"
-        },
         {
           "out": 154,
           "out_name": "Palmer",
           "in": 40,
           "in_name": "Rogers"
+        },
+        {
+          "out": 304,
+          "out_name": "O'Shea",
+          "in": 31,
+          "in_name": "Konsa"
         }
       ],
       "remaining_bank_proxy": 17,
@@ -397,16 +397,16 @@
       "transfer_count": 2,
       "transfers": [
         {
-          "out": 592,
-          "out_name": "Ouattara",
-          "in": 31,
-          "in_name": "Konsa"
-        },
-        {
           "out": 154,
           "out_name": "Palmer",
           "in": 40,
           "in_name": "Rogers"
+        },
+        {
+          "out": 592,
+          "out_name": "Ouattara",
+          "in": 31,
+          "in_name": "Konsa"
         }
       ],
       "remaining_bank_proxy": 17,

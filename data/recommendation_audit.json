@@ -1,0 +1,26 @@
+{
+  "target_gw": 11,
+  "passed": true,
+  "error_count": 0,
+  "errors": [],
+  "warnings": [
+    "No actual free-transfer count or individual selling prices: transfer plans are advisory.",
+    "No out-of-sample evaluation yet unless completed-GW forecast evaluations exist.",
+    "Five-GW projections reuse frozen form and availability; not independent future forecasts.",
+    "Two-transfer shortlist is not exhaustive and may exclude better long-term choices.",
+    "Identical projected scores across different transfer plans may reflect unchanged XI."
+  ],
+  "completed_gws_evaluated": 0,
+  "ready_for_automatic_transfers": false,
+  "checks": {
+    "lineup_formation": {
+      "1": 1,
+      "2": 3,
+      "3": 5,
+      "4": 2
+    },
+    "starting_xi_expected_points": 63.995,
+    "transfer_scenarios": 21,
+    "multiweek_scenarios": 21
+  }
+}

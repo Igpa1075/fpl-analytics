@@ -1,8 +1,8 @@
 {
   "target_gw": 11,
   "forecast_source": "data/forecasts/2026-11-08.json",
-  "squad_source": "data/picks.json, last completed GW",
-  "squad_event": 9,
+  "squad_source": "data/picks.json, latest publicly published GW",
+  "squad_event": 10,
   "bank_tenths_million_proxy": 9,
   "baseline_expected_xi_with_captain": 63.995,
   "scenarios": {
@@ -150,16 +150,16 @@
       {
         "transfers": [
           {
-            "out": 304,
-            "out_name": "O'Shea",
-            "in": 31,
-            "in_name": "Konsa"
-          },
-          {
             "out": 8,
             "out_name": "Calafiori",
             "in": 112,
             "in_name": "Van Hecke"
+          },
+          {
+            "out": 304,
+            "out_name": "O'Shea",
+            "in": 31,
+            "in_name": "Konsa"
           }
         ],
         "projected_xi_with_captain": 68.539,
@@ -169,16 +169,16 @@
       {
         "transfers": [
           {
-            "out": 592,
-            "out_name": "Ouattara",
-            "in": 31,
-            "in_name": "Konsa"
-          },
-          {
             "out": 8,
             "out_name": "Calafiori",
             "in": 112,
             "in_name": "Van Hecke"
+          },
+          {
+            "out": 592,
+            "out_name": "Ouattara",
+            "in": 31,
+            "in_name": "Konsa"
           }
         ],
         "projected_xi_with_captain": 68.539,
@@ -188,16 +188,16 @@
       {
         "transfers": [
           {
-            "out": 304,
-            "out_name": "O'Shea",
-            "in": 31,
-            "in_name": "Konsa"
-          },
-          {
             "out": 154,
             "out_name": "Palmer",
             "in": 13,
             "in_name": "Rice"
+          },
+          {
+            "out": 304,
+            "out_name": "O'Shea",
+            "in": 31,
+            "in_name": "Konsa"
           }
         ],
         "projected_xi_with_captain": 68.34,
@@ -207,16 +207,16 @@
       {
         "transfers": [
           {
-            "out": 592,
-            "out_name": "Ouattara",
-            "in": 31,
-            "in_name": "Konsa"
-          },
-          {
             "out": 154,
             "out_name": "Palmer",
             "in": 13,
             "in_name": "Rice"
+          },
+          {
+            "out": 592,
+            "out_name": "Ouattara",
+            "in": 31,
+            "in_name": "Konsa"
           }
         ],
         "projected_xi_with_captain": 68.34,
@@ -226,16 +226,16 @@
       {
         "transfers": [
           {
-            "out": 304,
-            "out_name": "O'Shea",
-            "in": 31,
-            "in_name": "Konsa"
-          },
-          {
             "out": 427,
             "out_name": "Mbeumo",
             "in": 13,
             "in_name": "Rice"
+          },
+          {
+            "out": 304,
+            "out_name": "O'Shea",
+            "in": 31,
+            "in_name": "Konsa"
           }
         ],
         "projected_xi_with_captain": 68.34,
@@ -245,16 +245,16 @@
       {
         "transfers": [
           {
-            "out": 592,
-            "out_name": "Ouattara",
-            "in": 31,
-            "in_name": "Konsa"
-          },
-          {
             "out": 427,
             "out_name": "Mbeumo",
             "in": 13,
             "in_name": "Rice"
+          },
+          {
+            "out": 592,
+            "out_name": "Ouattara",
+            "in": 31,
+            "in_name": "Konsa"
           }
         ],
         "projected_xi_with_captain": 68.34,
@@ -264,16 +264,16 @@
       {
         "transfers": [
           {
-            "out": 304,
-            "out_name": "O'Shea",
-            "in": 31,
-            "in_name": "Konsa"
-          },
-          {
             "out": 504,
             "out_name": "Vuskovic",
             "in": 112,
             "in_name": "Van Hecke"
+          },
+          {
+            "out": 304,
+            "out_name": "O'Shea",
+            "in": 31,
+            "in_name": "Konsa"
           }
         ],
         "projected_xi_with_captain": 67.908,
@@ -282,17 +282,17 @@
       },
       {
         "transfers": [
+          {
+            "out": 504,
+            "out_name": "Vuskovic",
+            "in": 112,
+            "in_name": "Van Hecke"
+          },
           {
             "out": 592,
             "out_name": "Ouattara",
             "in": 31,
             "in_name": "Konsa"
-          },
-          {
-            "out": 504,
-            "out_name": "Vuskovic",
-            "in": 112,
-            "in_name": "Van Hecke"
           }
         ],
         "projected_xi_with_captain": 67.908,
@@ -301,17 +301,17 @@
       },
       {
         "transfers": [
-          {
-            "out": 304,
-            "out_name": "O'Shea",
-            "in": 31,
-            "in_name": "Konsa"
-          },
           {
             "out": 154,
             "out_name": "Palmer",
             "in": 40,
             "in_name": "Rogers"
+          },
+          {
+            "out": 304,
+            "out_name": "O'Shea",
+            "in": 31,
+            "in_name": "Konsa"
           }
         ],
         "projected_xi_with_captain": 67.582,
@@ -321,16 +321,16 @@
       {
         "transfers": [
           {
-            "out": 592,
-            "out_name": "Ouattara",
-            "in": 31,
-            "in_name": "Konsa"
-          },
-          {
             "out": 154,
             "out_name": "Palmer",
             "in": 40,
             "in_name": "Rogers"
+          },
+          {
+            "out": 592,
+            "out_name": "Ouattara",
+            "in": 31,
+            "in_name": "Konsa"
           }
         ],
         "projected_xi_with_captain": 67.582,
