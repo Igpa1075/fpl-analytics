@@ -9,7 +9,7 @@ DATA = Path("data")
 COHORT = DATA / "control_cohort.json"
 OUTPUT = DATA / "control_history.json"
 GW_MAX = 9
-MANAGERS_PER_RUN = 25
+MANAGERS_PER_RUN = 100
 API = "https://fantasy.premierleague.com/api"
 
 
