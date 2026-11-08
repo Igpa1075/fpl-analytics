@@ -1,6 +1,6 @@
 """Advisory 0/1/2-transfer FPL scenarios from frozen player projections.
 
-IMPORTANT: last completed GW squad, bank and public current prices are proxies.
+IMPORTANT: latest publicly published GW squad, bank and public current prices are proxies.
 Actual sale prices, free transfers, chips and current squad are unavailable.
 No transfer is executed; rankings are NOT actionable until verified.
 """
@@ -125,7 +125,7 @@ def main():
     report = {
         "target_gw": forecast["target_gw"],
         "forecast_source": str(source),
-        "squad_source": "data/picks.json, last completed GW",
+        "squad_source": "data/picks.json, latest publicly published GW",
         "squad_event": picks.get("entry_history", {}).get("event"),
         "bank_tenths_million_proxy": bank,
         "baseline_expected_xi_with_captain": round(baseline[0], 3),
