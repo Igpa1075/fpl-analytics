@@ -44,6 +44,8 @@ def observations(managers, gw):
         observations.append({
             "id": entry,
             "baseline": baseline,
+            "prior_team_value": prev.get("team_value"),
+            "prior_bank": prev.get("bank"),
             "gain_two_gws": end - baseline,
             "chip": current.get("chip"),
         })
@@ -62,7 +64,17 @@ def compare(rows, chip):
                     if abs(c["baseline"] - person["baseline"]) <= MAX_PRE_POINTS_GAP]
         if not eligible:
             continue
-        nearest = min(eligible, key=lambda c: (abs(c["baseline"] - person["baseline"]), c["id"]))
+        def distance(control):
+            # FPL value/bank are stored in tenths of a million.
+            points_gap = abs(control["baseline"] - person["baseline"])
+            value_gap = (abs(control["prior_team_value"] - person["prior_team_value"])
+                         if number(control["prior_team_value"]) and number(person["prior_team_value"])
+                         else 0)
+            bank_gap = (abs(control["prior_bank"] - person["prior_bank"])
+                        if number(control["prior_bank"]) and number(person["prior_bank"])
+                        else 0)
+            return (points_gap + 0.2 * value_gap + 0.1 * bank_gap, control["id"])
+        nearest = min(eligible, key=distance)
         matched.append({
             "treated_gain": person["gain_two_gws"],
             "control_gain": nearest["gain_two_gws"],
@@ -82,7 +94,7 @@ def compare(rows, chip):
         "mean_difference_points": round(statistics.mean(differences), 2),
         "median_difference_points": round(statistics.median(differences), 2),
         "mean_absolute_baseline_gap": round(statistics.mean(m["baseline_gap"] for m in matched), 2),
-        "matching": "same GW, nearest prior-GW cumulative points within 25, with replacement",
+        "matching": "same GW, prior-GW points within 25; distance also includes prior team value and bank when available; with replacement",
     }
 
 
@@ -100,6 +112,7 @@ def main():
         "limitations": [
             "Association, NOT causal effect; prior points alone do not control for team quality, injuries or fixtures.",
             "Nearest-neighbor controls may be reused and are not independent.",
+            "Team value and bank are recorded at the end of the preceding GW; no current-GW fields enter matching.",
             "Small samples and multiple comparisons make results unstable.",
             "Missing histories and nonrepresentative entry-ID sampling may bias results.",
             "Excludes managers using any chip in the following GW.",
