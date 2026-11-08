@@ -53,7 +53,7 @@ def main():
     verified = load_verified_inputs(int(forecast["target_gw"]), original_ids)
     bank = verified["bank"] if verified else int(picks.get("entry_history", {}).get("bank") or 0)
     selling_price = (lambda p: verified["selling_prices"][p["player_id"]]
-                     if verified else int(p["price_tenths_million"]))
+                     if verified and verified["selling_prices"] is not None else int(p["price_tenths_million"]))
     baseline = lineup_score(original)
     if baseline is None:
         raise ValueError("No legal starting XI in original squad")
@@ -140,9 +140,12 @@ def main():
         "bank_tenths_million_proxy": bank,
         "baseline_expected_xi_with_captain": round(baseline[0], 3),
         "scenarios": by_count,
-        "verified_private_inputs_used": bool(verified),
+        "verified_private_inputs_used": bool(verified and verified["verified_current_squad"]),
+        "user_confirmed_bank_and_free_transfers": bool(verified),
         "free_transfers": verified["free_transfers"] if verified else None,
-        "budget_basis": "verified_selling_prices" if verified else "public_price_proxy",
+        "budget_basis": ("verified_selling_prices" if verified and verified["selling_prices"] is not None
+                         else "confirmed_bank_with_public_sale_price_proxy" if verified
+                         else "public_price_proxy"),
         "warnings": [
             "Manual verification required before executing any transfer.",
             "Budget uses CURRENT quoted prices for both purchases and sales; selling proceeds may be lower.",
