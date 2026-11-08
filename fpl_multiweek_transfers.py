@@ -111,7 +111,7 @@ def main():
     for row in results:
         row["gross_gain_vs_hold"] = round(row["five_gw_gross_points"] - hold, 3)
         # Display hypothetical hit costs, not claims about actual free transfers.
-        if plan.get("verified_private_inputs_used"):
+        if plan.get("user_confirmed_bank_and_free_transfers"):
             row["hit_cost"] = transfer_hit(row["transfer_count"], plan["free_transfers"])
             row["net_gain_vs_hold"] = round(row["gross_gain_vs_hold"] - row["hit_cost"], 3)
         row["net_gain_if_all_transfers_cost_4"] = round(
@@ -124,6 +124,7 @@ def main():
         "snapshot_source": str(snapshot_file),
         "hold_five_gw_expected_points": hold,
         "verified_private_inputs_used": plan.get("verified_private_inputs_used", False),
+        "user_confirmed_bank_and_free_transfers": plan.get("user_confirmed_bank_and_free_transfers", False),
         "ranked_scenarios": results,
         "warnings": [
             "Illustrative frozen-data projection, not validated future GW predictions.",
