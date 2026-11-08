@@ -6,9 +6,9 @@
     13
   ],
   "saved_bank_m": 0.9,
-  "baseline_3gw_proxy": 170.11,
-  "positive_candidates": 26,
-  "outgoing_players_with_options": 8,
+  "baseline_3gw_proxy": 170.45,
+  "positive_candidates": 30,
+  "outgoing_players_with_options": 9,
   "best_candidate": {
     "out": "Ouattara",
     "out_id": 592,
@@ -19,7 +19,7 @@
     "position": "DEF",
     "out_market_price": 4.0,
     "in_price": 4.8,
-    "gain_3gw_proxy": 4.18,
+    "gain_3gw_proxy": 5.63,
     "budget_status": "UNVERIFIED"
   },
   "limitations": [

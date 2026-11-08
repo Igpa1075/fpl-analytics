@@ -1,0 +1,28 @@
+{
+  "cohort": "current_overall_top100",
+  "weeks": [
+    7,
+    8,
+    9
+  ],
+  "coverage": {
+    "7": {
+      "managers_observed": 100,
+      "managers_compared": 0
+    },
+    "8": {
+      "managers_observed": 100,
+      "managers_compared": 100
+    },
+    "9": {
+      "managers_observed": 100,
+      "managers_compared": 100
+    }
+  },
+  "limitations": [
+    "Current top 100, not historical top 100",
+    "Transfers inferred from published squads",
+    "Wildcard and Free Hit excluded",
+    "Same-GW reversed transfers invisible"
+  ]
+}

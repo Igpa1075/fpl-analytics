@@ -1,10 +1,10 @@
 {
-  "players_checked": 46,
-  "events_requested": 38,
-  "events_downloaded": 38,
+  "players_checked": 47,
+  "events_requested": 42,
+  "events_downloaded": 42,
   "event_errors": {},
   "status_counts": {
-    "ESPN_ID_CONFIRMED": 46
+    "ESPN_ID_CONFIRMED": 47
   },
   "note": "Confirms ESPN athlete IDs appear in match summaries. Does not independently confirm FPL identity, club registration or starts."
 }
