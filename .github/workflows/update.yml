@@ -125,9 +125,6 @@ jobs:
       - name: Validate random FPL sample
         run: python fpl_control_validation.py
 
-      - name: Grow random FPL control cohort
-        run: python fpl_control_cohort.py
-
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
