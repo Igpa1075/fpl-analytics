@@ -7,6 +7,7 @@ import json
 from collections import Counter
 from pathlib import Path
 from fpl_transfer_scenarios import lineup_score
+from fpl_verified_inputs import transfer_hit
 
 DATA = Path("data")
 SNAPS = DATA / "snapshots"
@@ -110,6 +111,9 @@ def main():
     for row in results:
         row["gross_gain_vs_hold"] = round(row["five_gw_gross_points"] - hold, 3)
         # Display hypothetical hit costs, not claims about actual free transfers.
+        if plan.get("verified_private_inputs_used"):
+            row["hit_cost"] = transfer_hit(row["transfer_count"], plan["free_transfers"])
+            row["net_gain_vs_hold"] = round(row["gross_gain_vs_hold"] - row["hit_cost"], 3)
         row["net_gain_if_all_transfers_cost_4"] = round(
             row["gross_gain_vs_hold"] - 4 * row["transfer_count"], 3)
     results.sort(key=lambda r: (-r["gross_gain_vs_hold"], r["transfer_count"]))
@@ -119,6 +123,7 @@ def main():
         "forecast_source": str(path),
         "snapshot_source": str(snapshot_file),
         "hold_five_gw_expected_points": hold,
+        "verified_private_inputs_used": plan.get("verified_private_inputs_used", False),
         "ranked_scenarios": results,
         "warnings": [
             "Illustrative frozen-data projection, not validated future GW predictions.",
