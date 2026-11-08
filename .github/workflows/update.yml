@@ -122,6 +122,8 @@ jobs:
       - name: Pilot random FPL control sampling
         run: python fpl_control_sample.py
 
+      - name: Validate random FPL sample
+        run: python fpl_control_validation.py
 
       - name: Save updated data
         run: |
