@@ -94,6 +94,9 @@ def main():
                 existing[gw_key] = {
                     "status": "ok",
                     "players": [p["element"] for p in picks],
+                    "starting_xi": [p["element"] for p in picks if p.get("position", 16) <= 11],
+                    "picks": [{"element": p["element"], "position": p.get("position"),
+                               "multiplier": p.get("multiplier")} for p in picks],
                     "captain": next((p["element"] for p in picks if p.get("is_captain")), None),
                     "vice_captain": next((p["element"] for p in picks if p.get("is_vice_captain")), None),
                     "chip": data.get("active_chip"),
@@ -102,6 +105,9 @@ def main():
                     "points": event.get("points"),
                     "total_points": event.get("total_points"),
                     "overall_rank": event.get("overall_rank"),
+                    "bank": event.get("bank"),
+                    "team_value": event.get("value"),
+                    "points_on_bench": event.get("points_on_bench"),
                 }
             time.sleep(0.3)
         save(state)
