@@ -27,7 +27,7 @@ def main():
         print("No transfer scenarios yet.")
         return
     plan = json.loads(SCENARIOS.read_text(encoding="utf-8"))
-    path = DATA / plan["forecast_source"]
+    path = Path(plan["forecast_source"])
     if not path.exists():
         print("Frozen forecast missing.")
         return
