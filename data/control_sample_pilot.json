@@ -1,0 +1,752 @@
+{
+  "study": "random_id_feasibility_pilot",
+  "seed": 20261108,
+  "total_players_at_start": 11259469,
+  "id_upper_bound": 22518938,
+  "attempted": {
+    "10985221": {
+      "status": "ok",
+      "overall_points": 180,
+      "overall_rank": 10979421,
+      "started_event": 6,
+      "current_event": 10
+    },
+    "15118658": {
+      "status": "404"
+    },
+    "7485660": {
+      "status": "ok",
+      "overall_points": 588,
+      "overall_rank": 1863891,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "10006030": {
+      "status": "ok",
+      "overall_points": 370,
+      "overall_rank": 10035083,
+      "started_event": 3,
+      "current_event": 10
+    },
+    "12942113": {
+      "status": "404"
+    },
+    "18601363": {
+      "status": "404"
+    },
+    "494670": {
+      "status": "ok",
+      "overall_points": 583,
+      "overall_rank": 2100260,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "18412793": {
+      "status": "404"
+    },
+    "22481934": {
+      "status": "404"
+    },
+    "14267966": {
+      "status": "404"
+    },
+    "2723173": {
+      "status": "ok",
+      "overall_points": 502,
+      "overall_rank": 6463784,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "14250581": {
+      "status": "404"
+    },
+    "3662472": {
+      "status": "ok",
+      "overall_points": 516,
+      "overall_rank": 5738586,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "19847": {
+      "status": "ok",
+      "overall_points": 637,
+      "overall_rank": 384661,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "12532407": {
+      "status": "404"
+    },
+    "9972610": {
+      "status": "ok",
+      "overall_points": 404,
+      "overall_rank": 9555627,
+      "started_event": 3,
+      "current_event": 10
+    },
+    "22424813": {
+      "status": "404"
+    },
+    "13542350": {
+      "status": "404"
+    },
+    "15676468": {
+      "status": "404"
+    },
+    "2762100": {
+      "status": "ok",
+      "overall_points": 610,
+      "overall_rank": 1019478,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "8839290": {
+      "status": "ok",
+      "overall_points": 480,
+      "overall_rank": 7436503,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "12570003": {
+      "status": "404"
+    },
+    "14269194": {
+      "status": "404"
+    },
+    "2546": {
+      "status": "ok",
+      "overall_points": 614,
+      "overall_rank": 907541,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "14268845": {
+      "status": "404"
+    },
+    "18979584": {
+      "status": "404"
+    },
+    "11270703": {
+      "status": "404"
+    },
+    "6779512": {
+      "status": "ok",
+      "overall_points": 558,
+      "overall_rank": 3390017,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "14505651": {
+      "status": "404"
+    },
+    "13155489": {
+      "status": "404"
+    },
+    "16411476": {
+      "status": "404"
+    },
+    "21909273": {
+      "status": "404"
+    },
+    "6161492": {
+      "status": "ok",
+      "overall_points": 443,
+      "overall_rank": 8689058,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "437881": {
+      "status": "ok",
+      "overall_points": 610,
+      "overall_rank": 1037456,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "13419223": {
+      "status": "404"
+    },
+    "16766817": {
+      "status": "404"
+    },
+    "3238592": {
+      "status": "ok",
+      "overall_points": 540,
+      "overall_rank": 4384901,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "15129348": {
+      "status": "404"
+    },
+    "15384913": {
+      "status": "404"
+    },
+    "16658199": {
+      "status": "404"
+    },
+    "2606130": {
+      "status": "ok",
+      "overall_points": 542,
+      "overall_rank": 4297887,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "18764833": {
+      "status": "404"
+    },
+    "12960991": {
+      "status": "404"
+    },
+    "21675215": {
+      "status": "404"
+    },
+    "17282752": {
+      "status": "404"
+    },
+    "2873428": {
+      "status": "ok",
+      "overall_points": 417,
+      "overall_rank": 9295919,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "2886869": {
+      "status": "ok",
+      "overall_points": 619,
+      "overall_rank": 762167,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "21358685": {
+      "status": "404"
+    },
+    "21385026": {
+      "status": "404"
+    },
+    "12017578": {
+      "status": "404"
+    },
+    "1708206": {
+      "status": "ok",
+      "overall_points": 553,
+      "overall_rank": 3674872,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "9213582": {
+      "status": "ok",
+      "overall_points": 397,
+      "overall_rank": 9660533,
+      "started_event": 2,
+      "current_event": 10
+    },
+    "16658570": {
+      "status": "404"
+    },
+    "5053102": {
+      "status": "ok",
+      "overall_points": 524,
+      "overall_rank": 5280562,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "316681": {
+      "status": "ok",
+      "overall_points": 525,
+      "overall_rank": 5225175,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "8525224": {
+      "status": "ok",
+      "overall_points": 583,
+      "overall_rank": 2089755,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "17556503": {
+      "status": "404"
+    },
+    "13227780": {
+      "status": "404"
+    },
+    "3468441": {
+      "status": "ok",
+      "overall_points": 545,
+      "overall_rank": 4089709,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "8414276": {
+      "status": "ok",
+      "overall_points": 564,
+      "overall_rank": 3055831,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "13468893": {
+      "status": "404"
+    },
+    "21453357": {
+      "status": "404"
+    },
+    "7123250": {
+      "status": "ok",
+      "overall_points": 601,
+      "overall_rank": 1328158,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "1415609": {
+      "status": "ok",
+      "overall_points": 615,
+      "overall_rank": 885944,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "141602": {
+      "status": "ok",
+      "overall_points": 651,
+      "overall_rank": 194704,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "17215246": {
+      "status": "404"
+    },
+    "18452783": {
+      "status": "404"
+    },
+    "12356518": {
+      "status": "404"
+    },
+    "3231241": {
+      "status": "ok",
+      "overall_points": 539,
+      "overall_rank": 4461886,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "5149342": {
+      "status": "ok",
+      "overall_points": 502,
+      "overall_rank": 6427970,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "10377296": {
+      "status": "ok",
+      "overall_points": 419,
+      "overall_rank": 9267330,
+      "started_event": 3,
+      "current_event": 10
+    },
+    "16531981": {
+      "status": "404"
+    },
+    "11118393": {
+      "status": "ok",
+      "overall_points": 118,
+      "overall_rank": 11068287,
+      "started_event": 8,
+      "current_event": 10
+    },
+    "4287037": {
+      "status": "ok",
+      "overall_points": 520,
+      "overall_rank": 5527389,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "17719846": {
+      "status": "404"
+    },
+    "15619108": {
+      "status": "404"
+    },
+    "12380574": {
+      "status": "404"
+    },
+    "3743742": {
+      "status": "ok",
+      "overall_points": 486,
+      "overall_rank": 7196675,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "15444108": {
+      "status": "404"
+    },
+    "12811431": {
+      "status": "404"
+    },
+    "125831": {
+      "status": "ok",
+      "overall_points": 254,
+      "overall_rank": 10759084,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "19564578": {
+      "status": "404"
+    },
+    "8202655": {
+      "status": "ok",
+      "overall_points": 529,
+      "overall_rank": 4980602,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "18317001": {
+      "status": "404"
+    },
+    "7152860": {
+      "status": "ok",
+      "overall_points": 497,
+      "overall_rank": 6664258,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "8281814": {
+      "status": "ok",
+      "overall_points": 560,
+      "overall_rank": 3238246,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "16027927": {
+      "status": "404"
+    },
+    "10725913": {
+      "status": "ok",
+      "overall_points": 251,
+      "overall_rank": 10765937,
+      "started_event": 5,
+      "current_event": 10
+    },
+    "15601185": {
+      "status": "404"
+    },
+    "12080269": {
+      "status": "404"
+    },
+    "2321845": {
+      "status": "ok",
+      "overall_points": 418,
+      "overall_rank": 9287617,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "19491387": {
+      "status": "404"
+    },
+    "6364720": {
+      "status": "ok",
+      "overall_points": 498,
+      "overall_rank": 6616561,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "3078975": {
+      "status": "ok",
+      "overall_points": 533,
+      "overall_rank": 4766458,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "9041806": {
+      "status": "ok",
+      "overall_points": 440,
+      "overall_rank": 8775126,
+      "started_event": 2,
+      "current_event": 10
+    },
+    "15472701": {
+      "status": "404"
+    },
+    "10909239": {
+      "status": "ok",
+      "overall_points": 197,
+      "overall_rank": 10939237,
+      "started_event": 6,
+      "current_event": 10
+    },
+    "15568655": {
+      "status": "404"
+    },
+    "19448730": {
+      "status": "404"
+    },
+    "9829552": {
+      "status": "ok",
+      "overall_points": 410,
+      "overall_rank": 9447182,
+      "started_event": 2,
+      "current_event": 10
+    },
+    "979445": {
+      "status": "ok",
+      "overall_points": 624,
+      "overall_rank": 649708,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "6874581": {
+      "status": "ok",
+      "overall_points": 489,
+      "overall_rank": 7075370,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "18204761": {
+      "status": "404"
+    },
+    "22037978": {
+      "status": "404"
+    },
+    "21762320": {
+      "status": "404"
+    },
+    "7474439": {
+      "status": "ok",
+      "overall_points": 572,
+      "overall_rank": 2611507,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "2665175": {
+      "status": "ok",
+      "overall_points": 609,
+      "overall_rank": 1049128,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "22158873": {
+      "status": "404"
+    },
+    "7668887": {
+      "status": "ok",
+      "overall_points": 537,
+      "overall_rank": 4564118,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "7746942": {
+      "status": "ok",
+      "overall_points": 585,
+      "overall_rank": 1984577,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "14392992": {
+      "status": "404"
+    },
+    "622718": {
+      "status": "ok",
+      "overall_points": 623,
+      "overall_rank": 661196,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "22170936": {
+      "status": "404"
+    },
+    "13632515": {
+      "status": "404"
+    },
+    "2472489": {
+      "status": "ok",
+      "overall_points": 479,
+      "overall_rank": 7463016,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "13102501": {
+      "status": "404"
+    },
+    "764462": {
+      "status": "ok",
+      "overall_points": 491,
+      "overall_rank": 6966232,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "20548348": {
+      "status": "404"
+    },
+    "789256": {
+      "status": "ok",
+      "overall_points": 543,
+      "overall_rank": 4235334,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "7998223": {
+      "status": "ok",
+      "overall_points": 494,
+      "overall_rank": 6813767,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "11848749": {
+      "status": "404"
+    },
+    "10955996": {
+      "status": "ok",
+      "overall_points": 182,
+      "overall_rank": 10975151,
+      "started_event": 6,
+      "current_event": 10
+    },
+    "6882771": {
+      "status": "ok",
+      "overall_points": 630,
+      "overall_rank": 507855,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "10926423": {
+      "status": "ok",
+      "overall_points": 209,
+      "overall_rank": 10906519,
+      "started_event": 6,
+      "current_event": 10
+    },
+    "15247550": {
+      "status": "404"
+    },
+    "6853871": {
+      "status": "ok",
+      "overall_points": 582,
+      "overall_rank": 2136062,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "7914209": {
+      "status": "ok",
+      "overall_points": 350,
+      "overall_rank": 10236885,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "13943738": {
+      "status": "404"
+    },
+    "6759313": {
+      "status": "ok",
+      "overall_points": 458,
+      "overall_rank": 8249426,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "1590409": {
+      "status": "ok",
+      "overall_points": 534,
+      "overall_rank": 4725890,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "22043948": {
+      "status": "404"
+    },
+    "21003279": {
+      "status": "404"
+    },
+    "3314939": {
+      "status": "ok",
+      "overall_points": 309,
+      "overall_rank": 10523823,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "20765800": {
+      "status": "404"
+    },
+    "9129397": {
+      "status": "ok",
+      "overall_points": 487,
+      "overall_rank": 7153132,
+      "started_event": 2,
+      "current_event": 10
+    },
+    "1231401": {
+      "status": "ok",
+      "overall_points": 540,
+      "overall_rank": 4394016,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "2251692": {
+      "status": "ok",
+      "overall_points": 502,
+      "overall_rank": 6465948,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "20404816": {
+      "status": "404"
+    },
+    "20975781": {
+      "status": "404"
+    },
+    "7968610": {
+      "status": "ok",
+      "overall_points": 496,
+      "overall_rank": 6750856,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "11593108": {
+      "status": "404"
+    },
+    "10666574": {
+      "status": "ok",
+      "overall_points": 328,
+      "overall_rank": 10404641,
+      "started_event": 4,
+      "current_event": 10
+    },
+    "22062398": {
+      "status": "404"
+    },
+    "3946235": {
+      "status": "ok",
+      "overall_points": 384,
+      "overall_rank": 9859462,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "22447234": {
+      "status": "404"
+    },
+    "2460487": {
+      "status": "ok",
+      "overall_points": 584,
+      "overall_rank": 2054029,
+      "started_event": 1,
+      "current_event": 10
+    },
+    "17763838": {
+      "status": "404"
+    },
+    "12678397": {
+      "status": "404"
+    },
+    "11775564": {
+      "status": "404"
+    },
+    "16702663": {
+      "status": "404"
+    }
+  },
+  "notes": [
+    "Random IDs are not guaranteed to represent all FPL managers.",
+    "Registration order may cause bias.",
+    "No rank or activity filters applied.",
+    "Pilot is not for causal conclusions."
+  ],
+  "last_checked_utc": "2026-11-08T04:34:58.964780+00:00",
+  "tested_count": 150,
+  "valid_count": 71,
+  "valid_fraction": 0.4733
+}

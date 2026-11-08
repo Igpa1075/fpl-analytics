@@ -1,6 +1,6 @@
 gw,player_id,player,owned,bought,sold,captained
 7,68,Tavernier,38,17,1,0
-7,399,Cherki,18,10,0,0
+7,399,Cherki,18,11,0,0
 7,124,Groß,85,9,0,0
 7,112,Van Hecke,21,9,0,0
 7,53,Manzambi,9,9,0,0
@@ -45,7 +45,7 @@ gw,player_id,player,owned,bought,sold,captained
 7,4,Gabriel,24,0,0,0
 7,236,Dewsbury-Hall,23,0,3,0
 7,504,Vuskovic,19,0,2,0
-7,427,Mbeumo,16,0,2,0
+7,427,Mbeumo,16,0,3,0
 7,480,Gibbs-White,14,0,8,0
 7,368,Szoboszlai,13,0,30,0
 7,497,Dubravka,13,0,1,0
