@@ -8,6 +8,7 @@ import itertools
 import json
 from collections import Counter
 from pathlib import Path
+from fpl_verified_inputs import load_verified_inputs, transfer_hit
 
 DATA = Path("data")
 OUT = DATA / "transfer_scenarios.json"
@@ -49,7 +50,10 @@ def main():
     original_clubs = Counter(p["team_id"] for p in original)
     if any(count > 3 for count in original_clubs.values()):
         raise ValueError("Owned squad violates max-three-per-club")
-    bank = int(picks.get("entry_history", {}).get("bank") or 0)
+    verified = load_verified_inputs(int(forecast["target_gw"]), original_ids)
+    bank = verified["bank"] if verified else int(picks.get("entry_history", {}).get("bank") or 0)
+    selling_price = (lambda p: verified["selling_prices"][p["player_id"]]
+                     if verified else int(p["price_tenths_million"]))
     baseline = lineup_score(original)
     if baseline is None:
         raise ValueError("No legal starting XI in original squad")
@@ -71,7 +75,7 @@ def main():
             if original_clubs[new["team_id"]] >= 3 and new["team_id"] != old["team_id"]:
                 continue
             # Selling at current price is an optimistic approximation.
-            remaining = bank + int(old["price_tenths_million"]) - int(new["price_tenths_million"])
+            remaining = bank + selling_price(old) - int(new["price_tenths_million"])
             if remaining < 0:
                 continue
             choices.append((old, new))
@@ -102,7 +106,7 @@ def main():
         team = [player_map[i] for i in ids] + [new1, new2]
         if max(Counter(p["team_id"] for p in team).values()) > 3:
             continue
-        remaining = bank + sum(int(p["price_tenths_million"]) for p in (old1, old2)) - sum(
+        remaining = bank + sum(selling_price(p) for p in (old1, old2)) - sum(
             int(p["price_tenths_million"]) for p in (new1, new2))
         if remaining < 0:
             continue
@@ -122,6 +126,12 @@ def main():
         by_count[str(n)] = sorted(subset, key=lambda x: (
             -x["gross_gain_vs_hold"], -x["remaining_bank_proxy"],
             str(x["transfers"])))[:10]
+    if verified:
+        for group in by_count.values():
+            for item in group:
+                hits = transfer_hit(len(item["transfers"]), verified["free_transfers"])
+                item["hit_cost"] = hits
+                item["net_gain_vs_hold"] = round(item["gross_gain_vs_hold"] - hits, 3)
     report = {
         "target_gw": forecast["target_gw"],
         "forecast_source": str(source),
@@ -130,8 +140,11 @@ def main():
         "bank_tenths_million_proxy": bank,
         "baseline_expected_xi_with_captain": round(baseline[0], 3),
         "scenarios": by_count,
+        "verified_private_inputs_used": bool(verified),
+        "free_transfers": verified["free_transfers"] if verified else None,
+        "budget_basis": "verified_selling_prices" if verified else "public_price_proxy",
         "warnings": [
-            "NOT an executable transfer recommendation: current squad and actual selling prices unknown.",
+            "Manual verification required before executing any transfer.",
             "Budget uses CURRENT quoted prices for both purchases and sales; selling proceeds may be lower.",
             "Free transfer balance is unknown: no hit cost is deducted. Compare net gain only after confirming hits.",
             "One-GW heuristic projections, NOT a multi-GW optimization.",
