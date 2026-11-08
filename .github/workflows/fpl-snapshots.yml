@@ -35,11 +35,14 @@ jobs:
         run: python fpl_multiweek_transfers.py
       - name: Evaluate completed-GW frozen forecasts
         run: python fpl_forecast_evaluate.py
+      - name: Audit lineup and transfer recommendations
+        run: python fpl_recommendation_audit.py
       - name: Commit immutable daily snapshot
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/snapshots/ data/forecasts/
+          if [ -f data/recommendation_audit.json ]; then git add data/recommendation_audit.json; fi
           if [ -f data/multiweek_transfer_plan.json ]; then git add data/multiweek_transfer_plan.json; fi
           if [ -f data/transfer_scenarios.json ]; then git add data/transfer_scenarios.json; fi
           if [ -f data/lineup_recommendation.json ]; then git add data/lineup_recommendation.json; fi
