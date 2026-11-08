@@ -71,8 +71,20 @@ def main():
     if isinstance(latest_picks_gw, int) and latest_picks_gw < gw - 1:
         warnings.append(f"Squad is from GW{latest_picks_gw}; target is GW{gw}. "
                         "Squad may be outdated.")
+    if transfers.get("verified_private_inputs_used"):
+        for group in transfers["scenarios"].values():
+            for item in group:
+                n = len(item["transfers"])
+                expected_hit = 4 * max(0, n - transfers["free_transfers"])
+                check(item.get("hit_cost") == expected_hit,
+                      "Incorrect verified free-transfer hit cost", errors)
+                check(abs(item.get("net_gain_vs_hold", -9999) -
+                          (item["gross_gain_vs_hold"] - expected_hit)) < .02,
+                      "Incorrect net gain after hits", errors)
+        warnings.append("Verified selling prices and squad are a dated screenshot, not live API values.")
+    else:
+        warnings.append("Selling prices or squad unverified: transfer budget is approximate.")
     warnings.extend([
-        "No actual free-transfer count or individual selling prices: transfer plans are advisory.",
         "No out-of-sample evaluation yet unless completed-GW forecast evaluations exist.",
         "Five-GW projections reuse frozen form and availability; not independent future forecasts.",
         "Two-transfer shortlist is not exhaustive and may exclude better long-term choices.",
