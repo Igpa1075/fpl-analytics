@@ -1,0 +1,10 @@
+{
+  "method": "latest_predeadline_snapshot_per_completed_gw",
+  "completed_gws_evaluated": 0,
+  "gameweeks": [],
+  "warnings": [
+    "Small samples of completed GWs do not establish forecast skill.",
+    "Do not tune model coefficients on the same GWs used to claim out-of-sample accuracy.",
+    "Forecasts are immutable; evaluation can refresh after FPL corrections."
+  ]
+}
