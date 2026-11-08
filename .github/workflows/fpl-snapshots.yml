@@ -27,6 +27,8 @@ jobs:
         run: python fpl_snapshot.py
       - name: Freeze next-GW baseline predictions
         run: python fpl_forecast_baseline.py
+      - name: Refresh latest publicly published entry squad
+        run: python fpl_public_squad.py
       - name: Optimize personal starting XI and captain
         run: python fpl_lineup_optimizer.py
       - name: Compare hold versus one or two transfers
@@ -42,6 +44,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/snapshots/ data/forecasts/
+          if [ -f data/picks.json ]; then git add data/picks.json; fi
+          if [ -f data/squad_freshness.json ]; then git add data/squad_freshness.json; fi
           if [ -f data/recommendation_audit.json ]; then git add data/recommendation_audit.json; fi
           if [ -f data/multiweek_transfer_plan.json ]; then git add data/multiweek_transfer_plan.json; fi
           if [ -f data/transfer_scenarios.json ]; then git add data/transfer_scenarios.json; fi
