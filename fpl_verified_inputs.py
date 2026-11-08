@@ -15,8 +15,13 @@ def load_verified_inputs(target_gw, owned_ids):
     free = data.get("free_transfers")
     if type(bank) is not int or bank < 0 or type(free) is not int or not 0 <= free <= 5:
         raise ValueError("Invalid user-confirmed bank or free transfers")
+    squad = data.get("squad_player_ids")
+    squad_confirmed = (data.get("current_squad_confirmed_from_screenshot") is True
+                       and isinstance(squad, list) and len(squad) == 15
+                       and len(set(squad)) == 15 and set(squad) == set(owned_ids))
     partial = {"bank": bank, "free_transfers": free, "selling_prices": None,
-               "verified_current_squad": False}
+               "verified_current_squad": False,
+               "current_squad_confirmed": squad_confirmed}
     if not data.get("verified_current_squad"):
         return partial
     if type(data.get("target_gw")) is not int or data["target_gw"] != target_gw:
@@ -37,7 +42,8 @@ def load_verified_inputs(target_gw, owned_ids):
         raise ValueError("Selling prices must be nonnegative integers in 0.1m units")
     return {"bank": bank, "free_transfers": free,
             "selling_prices": {int(k): v for k, v in sales.items()},
-            "verified_current_squad": True}
+            "verified_current_squad": True,
+            "current_squad_confirmed": True}
 
 
 def transfer_hit(count, free_transfers):
