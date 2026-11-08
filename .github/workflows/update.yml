@@ -115,7 +115,9 @@ jobs:
       - name: Analyze personal FPL transfers
         run: python fpl_personal_transfers.py 
       - name: Track elite FPL managers
-        run: python fpl_elite100.py     
+        run: python fpl_elite100.py   
+      - name: Backfill elite manager history
+        run: python fpl_elite_history.py        
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
