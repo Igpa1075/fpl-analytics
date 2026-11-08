@@ -2,7 +2,7 @@
   "target_gw": 11,
   "bank_tenths_million": 9,
   "free_transfers": 2,
-  "verified_current_squad": false,
+  "verified_current_squad": true,
   "squad_player_ids": [
     250,
     115,
@@ -20,7 +20,23 @@
     304,
     599
   ],
-  "selling_prices_tenths_million": {},
-  "note": "GW11 15-player squad, £0.9m bank and 2 free transfers confirmed from user screenshot. Selling prices not confirmed; displayed player prices are not necessarily selling prices.",
+  "selling_prices_tenths_million": {
+    "8": 58,
+    "68": 64,
+    "109": 46,
+    "115": 53,
+    "154": 98,
+    "156": 65,
+    "166": 70,
+    "236": 66,
+    "250": 45,
+    "304": 40,
+    "411": 157,
+    "427": 79,
+    "504": 51,
+    "592": 40,
+    "599": 50
+  },
+  "note": "GW11 squad, £0.9m bank, two free transfers, and all 15 selling prices confirmed from user FPL Transfers List screenshots on 2026-11-08. Prices in tenths of £m; do not reuse for later GW.",
   "current_squad_confirmed_from_screenshot": true
 }
