@@ -17,7 +17,7 @@ class PipelineSmokeTests(unittest.TestCase):
                 "event": 10, "finished": False, "team_h": 1, "team_a": 2,
                 "team_h_difficulty": 2, "team_a_difficulty": 4,
             }],
-            "bootstrap": {"elements": [
+            "bootstrap": {"events": [{"id": 10, "deadline_time": (now + timedelta(days=1)).isoformat()}], "elements": [
                 {"id": 1, "web_name": "Test", "team": 1, "element_type": 3,
                  "minutes": 900, "starts": 10, "points_per_game": "5",
                  "form": "6", "status": "a", "now_cost": 75},
@@ -27,7 +27,7 @@ class PipelineSmokeTests(unittest.TestCase):
         self.assertEqual(result["target_gw"], 10)
         self.assertEqual(len(result["predictions"]), 1)
         self.assertGreater(result["predictions"][0]["expected_points"], 0)
-        snapshot["next_deadline_utc"] = (now - timedelta(seconds=1)).isoformat()
+        snapshot["bootstrap"]["events"][0]["deadline_time"] = (now - timedelta(seconds=1)).isoformat()
         self.assertIsNone(forecast(snapshot))
 
     def test_legal_formation_and_captain_double(self):
