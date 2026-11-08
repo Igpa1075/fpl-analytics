@@ -27,6 +27,8 @@ jobs:
         run: python fpl_control_cohort.py
       - name: Collect control GW1-9 history
         run: python fpl_control_history.py
+      - name: Audit control sample quality
+        run: python fpl_control_quality.py
       - name: Compare elite and control strategies
         run: python fpl_cohort_compare.py
       - name: Analyze chip outcomes with pre-decision matching
@@ -36,6 +38,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/control_cohort.json data/control_history.json
+          if [ -f data/control_quality_report.json ]; then git add data/control_quality_report.json; fi
           if [ -f data/cohort_comparison.json ]; then git add data/cohort_comparison.json; fi
           if [ -f data/chip_outcomes.json ]; then git add data/chip_outcomes.json; fi
           if ! git diff --cached --quiet; then
