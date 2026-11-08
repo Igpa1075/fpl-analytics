@@ -27,6 +27,8 @@ jobs:
         run: python fpl_forecast_baseline.py
       - name: Optimize personal starting XI and captain
         run: python fpl_lineup_optimizer.py
+      - name: Compare hold versus one or two transfers
+        run: python fpl_transfer_scenarios.py
       - name: Evaluate completed-GW frozen forecasts
         run: python fpl_forecast_evaluate.py
       - name: Commit immutable daily snapshot
@@ -34,6 +36,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/snapshots/ data/forecasts/
+          if [ -f data/transfer_scenarios.json ]; then git add data/transfer_scenarios.json; fi
           if [ -f data/lineup_recommendation.json ]; then git add data/lineup_recommendation.json; fi
           if [ -f data/forecast_evaluation.json ]; then git add data/forecast_evaluation.json; fi
           if ! git diff --cached --quiet; then
