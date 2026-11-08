@@ -27,11 +27,14 @@ jobs:
         run: python fpl_control_cohort.py
       - name: Collect control GW1-9 history
         run: python fpl_control_history.py
+      - name: Compare elite and control strategies
+        run: python fpl_cohort_compare.py
       - name: Commit control cohort
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/control_cohort.json data/control_history.json
+          if [ -f data/cohort_comparison.json ]; then git add data/cohort_comparison.json; fi
           if ! git diff --cached --quiet; then
             git commit -m "Grow FPL control cohort"
             git pull --rebase
