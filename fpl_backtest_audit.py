@@ -29,6 +29,7 @@ def main():
     archive = load("league_history.json") or {}
     bootstrap = load("bootstrap.json") or {}
     fixtures = load("fixtures.json")
+    historical_players = load("historical_players_gw1_10.json") or {}
     own = {int(row["event"]): row for row in history.get("current", [])}
     complete_own = sorted(set(TARGET_GWS) & set(own))
     elite_coverage = elite.get("coverage", {})
@@ -46,6 +47,8 @@ def main():
         "elite_cohort_coverage": elite_coverage,
         "current_bootstrap_present": bool(bootstrap.get("elements")),
         "fixtures_present": isinstance(fixtures, list),
+        "historical_player_records": len(historical_players.get("players", {})),
+        "historical_player_collection_total": historical_players.get("total_players"),
         "historical_predeadline_player_prices_present": False,
         "historical_predeadline_availability_snapshots_present": False,
         "historical_predeadline_predictions_present": False,
