@@ -9,20 +9,20 @@ Rival captain choices in the completed GW:
   Rogers: 2/12
   Palmer: 1/12
 \nYour owned players: rival ownership and heuristic
-  Ouattara               DEF rivals  0/12 | score  4.00
-  O'Shea                 DEF rivals  0/12 | score  3.32
+  Ouattara               DEF rivals  0/12 | score  3.10
+  O'Shea                 DEF rivals  0/12 | score  2.15
   Cherif                 FWD rivals  0/12 | score  3.26
-  Neto                   MID rivals  0/12 | score  4.95
-  Palmer                 MID rivals  1/12 | score  4.12
+  Neto                   MID rivals  0/12 | score  5.01
+  Palmer                 MID rivals  1/12 | score  3.47
   Dewsbury-Hall          MID rivals  1/12 | score  5.65
-  Vuskovic               DEF rivals  1/12 | score  7.39
-  Leno                   GKP rivals  2/12 | score  4.09
+  Vuskovic               DEF rivals  1/12 | score  7.32
+  Leno                   GKP rivals  2/12 | score  4.49
   Mbeumo                 MID rivals  3/12 | score  4.34
   N.Jackson              FWD rivals  6/12 | score  7.82
-  Verbruggen             GKP rivals  6/12 | score  6.42
+  Verbruggen             GKP rivals  6/12 | score  6.03
   Calafiori              DEF rivals  7/12 | score  5.12
-  Tavernier              MID rivals  8/12 | score  5.54
-  De Cuyper              DEF rivals  9/12 | score  7.44
+  Tavernier              MID rivals  8/12 | score  6.25
+  De Cuyper              DEF rivals  9/12 | score  6.20
   Haaland                FWD rivals 11/12 | score  6.48
 \nPotential DIFFERENTIALS (not purchase recommendations):
 Only players with >=180 season minutes and non-unavailable status.
@@ -31,36 +31,36 @@ Only players with >=180 season minutes and non-unavailable status.
     Gabriel             ARS £8.1m | rivals  3/12 | score 8.68
     Muharemović         LEE £5.1m | rivals  1/12 | score 6.38
     Van Hecke           TOT £5.1m | rivals  3/12 | score 6.29
-    Hill                BOU £5.6m | rivals  0/12 | score 5.37
-    Silva               BOU £5.1m | rivals  1/12 | score 4.91
-    Justin              LEE £4.5m | rivals  1/12 | score 4.90
-    Castagne            FUL £4.5m | rivals  0/12 | score 4.83
+    Hill                BOU £5.6m | rivals  0/12 | score 6.02
+    Silva               BOU £5.1m | rivals  1/12 | score 5.82
+    Castagne            FUL £4.5m | rivals  0/12 | score 5.62
+    Truffert            BOU £5.4m | rivals  0/12 | score 5.05
   MID:
-    Ayari               BHA £5.5m | rivals  0/12 | score 5.81
+    Ayari               BHA £5.5m | rivals  0/12 | score 6.33
+    E.Le Fée            SUN £5.7m | rivals  0/12 | score 5.83
     Rice                ARS £7.5m | rivals  0/12 | score 5.52
-    Groß                BHA £6.3m | rivals 12/12 | score 5.44
     Manzambi            AVL £6.2m | rivals  2/12 | score 5.38
-    Gomez               BHA £5.0m | rivals  0/12 | score 5.29
+    Gomez               BHA £5.0m | rivals  0/12 | score 5.36
     Wirtz               LIV £7.2m | rivals  0/12 | score 5.25
-    E.Le Fée            SUN £5.7m | rivals  0/12 | score 5.25
-    Henderson           CHE £4.9m | rivals  0/12 | score 5.14
+    Groß                BHA £6.3m | rivals 12/12 | score 5.18
+    Ødegaard            ARS £6.7m | rivals  1/12 | score 5.00
   FWD:
-    Evanilson           BOU £6.5m | rivals  2/12 | score 7.72
+    Evanilson           BOU £6.5m | rivals  2/12 | score 7.98
     Barry               EVE £5.7m | rivals  1/12 | score 6.47
     Isak                LIV £9.3m | rivals  3/12 | score 6.02
     McBurnie            HUL £5.5m | rivals  0/12 | score 4.58
-    Kostoulas           BHA £5.8m | rivals  5/12 | score 4.12
+    Kostoulas           BHA £5.8m | rivals  5/12 | score 4.57
     Delap               NFO £5.3m | rivals  0/12 | score 3.88
     Calvert-Lewin       LEE £6.0m | rivals  2/12 | score 3.83
     Havertz             ARS £7.4m | rivals  1/12 | score 3.50
   GKP:
     Raya                ARS £6.2m | rivals  3/12 | score 6.52
     Trafford            LEE £5.0m | rivals  0/12 | score 5.79
+    Roefs               SUN £4.9m | rivals  0/12 | score 4.54
+    Petrović            BOU £4.5m | rivals  0/12 | score 4.43
     Kinsky              TOT £4.4m | rivals  0/12 | score 4.26
-    Roefs               SUN £4.9m | rivals  0/12 | score 4.01
-    Petrović            BOU £4.5m | rivals  0/12 | score 3.78
     Tzolakis            HUL £4.7m | rivals  5/12 | score 3.67
     A.Becker            LIV £5.5m | rivals  0/12 | score 3.42
-    Pickford            EVE £5.5m | rivals  2/12 | score 3.19
+    Kelleher            BRE £5.0m | rivals  0/12 | score 3.31
 \nNEXT: model transfers with current selling prices, free transfers,
 future fixtures, minutes risk, and uncertainty before estimating rank gains.

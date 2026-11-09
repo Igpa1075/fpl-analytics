@@ -1,0 +1,63 @@
+{
+  "target_gameweeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "own_history_available_gws": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "own_total_after_gw10": 528,
+  "league_id": 492197,
+  "league_snapshot_last_finished_gw": 9,
+  "league_snapshot_members": 13,
+  "league_archived_gws": [
+    9
+  ],
+  "elite_cohort_coverage": {
+    "1": 100,
+    "2": 100,
+    "3": 100,
+    "4": 100,
+    "5": 100,
+    "6": 100,
+    "7": 100,
+    "8": 100,
+    "9": 100
+  },
+  "current_bootstrap_present": true,
+  "fixtures_present": true,
+  "historical_player_records": 40,
+  "historical_player_collection_total": 672,
+  "historical_predeadline_player_prices_present": false,
+  "historical_predeadline_availability_snapshots_present": false,
+  "historical_predeadline_predictions_present": false,
+  "backtest_completed": false,
+  "blocking_requirements": [
+    "Collect point-in-time prices and player availability for each GW deadline; current bootstrap prices must not be backfilled as historical prices.",
+    "Construct and freeze predeadline expected-points features using only prior matches and information published before each deadline.",
+    "Implement 15-player squad, starting XI, captain, autosubs, transfers, selling prices, bank and chips with season-specific FPL rules.",
+    "Score simulated decisions on actual GW results and compare to same-GW mini-league standings."
+  ],
+  "warnings": [
+    "Elite top-100 selected retrospectively is subject to survivorship bias.",
+    "Fixture or player match-history value fields are not guaranteed to equal deadline-time purchase prices.",
+    "A GW9 league snapshot cannot be used to rank a GW10 simulated score."
+  ]
+}

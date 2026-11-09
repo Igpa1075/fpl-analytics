@@ -6,20 +6,20 @@ Player                   Team  Pos     £m   Form    PPG   FDR   Score
 Konsa                    ARS   DEF    4.8   10.2    6.3   3.7    7.89
 Gabriel                  ARS   DEF    8.1    9.8    6.6   3.7    7.75
 N.Jackson                AVL   FWD    7.1    8.8    6.0   2.3    7.72
-Evanilson                BOU   FWD    6.5    8.6    6.1   3.3    7.08
-De Cuyper                BHA   DEF    5.5    7.4    7.5   3.0    6.99
-Vuskovic                 BHA   DEF    5.3    7.6    7.0   3.0    6.95
+Evanilson                BOU   FWD    6.5    9.0    6.1   3.3    7.32
+Vuskovic                 BHA   DEF    5.3    7.5    7.0   3.0    6.89
 Van Hecke                TOT   DEF    5.1    6.6    5.7   2.3    6.20
-Verbruggen               BHA   GKP    4.6    6.8    5.7   3.0    6.03
+Ayari                    BHA   MID    5.5    7.0    5.1   3.0    5.95
 Haaland                  MCI   FWD   15.8    6.2    7.0   3.3    5.94
+De Cuyper                BHA   DEF    5.5    5.5    7.5   3.0    5.83
 Raya                     ARS   GKP    6.2    6.8    6.0   3.7    5.82
 Isak                     LIV   FWD    9.3    5.6    6.8   2.7    5.80
 Barry                    EVE   FWD    5.7    7.0    5.5   3.7    5.78
+Tavernier                BOU   MID    6.7    6.5    5.8   3.3    5.73
 Muharemović              LEE   DEF    5.1    6.8    5.6   3.7    5.70
-Ayari                    BHA   MID    5.5    6.2    5.1   3.0    5.47
+Verbruggen               BHA   GKP    4.6    6.2    5.7   3.0    5.66
+Hill                     BOU   DEF    5.6    7.0    4.2   3.3    5.52
+E.Le Fée                 SUN   MID    5.7    6.5    4.6   3.3    5.35
+Silva                    BOU   DEF    5.1    6.8    4.0   3.3    5.33
 Manzambi                 AVL   MID    6.2    5.2    5.7   2.3    5.30
 Trafford                 LEE   GKP    5.0    6.0    5.4   3.7    5.17
-Groß                     BHA   MID    6.3    4.6    7.0   3.0    5.11
-Tavernier                BOU   MID    6.7    5.4    5.8   3.3    5.08
-Henderson                CHE   MID    4.9    5.0    5.4   2.3    5.07
-Wirtz                    LIV   MID    7.2    5.6    4.6   2.7    5.06
