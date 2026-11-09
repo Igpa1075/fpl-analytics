@@ -42,7 +42,18 @@ def main():
     if finished:
         gw = max(e["id"] for e in finished)
         picks = fetch(f"/entry/{ENTRY_ID}/event/{gw}/picks/")
-        save("picks.json", picks)
+        picks_path = OUT / "picks.json"
+        old_gw = 0
+        if picks_path.exists():
+            try:
+                old = json.loads(picks_path.read_text(encoding="utf-8"))
+                old_gw = int(old.get("entry_history", {}).get("event") or 0)
+            except (ValueError, TypeError, KeyError):
+                old_gw = 0
+        if gw >= old_gw:
+            save("picks.json", picks)
+        else:
+            print(f"Preserving newer public picks GW{old_gw}; sync finished GW{gw}")
 
     save("sync_status.json", {
         "entry_id": ENTRY_ID,
