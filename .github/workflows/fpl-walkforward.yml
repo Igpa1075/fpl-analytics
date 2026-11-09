@@ -17,12 +17,14 @@ jobs:
           python-version: '3.12'
       - name: Replay fixed elite100 GW1-GW9 with past-only information
         run: python -u fpl_walkforward_backtest.py
+      - name: Compare against actual elite100 starting XI and captain
+        run: python -u fpl_walkforward_compare.py
       - name: Save reproducible historical replay
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/historical_player_summaries.json data/walkforward_elite100_gw1_9.json 2>/dev/null || true
+          git add data/historical_player_summaries.json data/walkforward_elite100_gw1_9.json data/walkforward_elite100_comparison.json 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m "Archive historical FPL forward-only replay"
             git pull --rebase origin main
