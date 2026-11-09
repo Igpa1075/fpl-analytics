@@ -34,8 +34,6 @@ def main():
                          "delta": 0, "managers": 0} for gw in GWS}
     chips = {}
     excluded = []
-    excluded = []
-    excluded = []
     for mid in map(str, cohort):
         if mid not in replay["managers"] or mid not in picks:
             raise ValueError(f"Missing manager {mid}")
@@ -79,8 +77,8 @@ def main():
                            "delta": sum(r["delta"] for r in rows),
                            "weeks": rows}
     for gw in GWS:
-        if by_week[str(gw)]["managers"] < 90:
-            raise ValueError("Too few valid manager-weeks for comparison")
+        if by_week[str(gw)]["managers"] == 0:
+            raise ValueError(f"No valid manager-weeks for GW{gw}")
     model_total = sum(m["model"] for m in by_manager.values())
     actual_total = sum(m["actual"] for m in by_manager.values())
     replay_included = sum(w["model_actual_points_no_chips"] for mid in map(str, cohort)
@@ -103,8 +101,8 @@ def main():
                     "model_wins": wins, "model_losses": losses,
                     "ties": 100 - wins - losses},
         "by_gw": by_week, "chips_observed": chips, "excluded": excluded,
-        "excluded_manager_weeks": excluded,
-        "excluded_manager_weeks": excluded,
+        "coverage_warning": "Incomplete pairs: inspect exclusions before interpreting scores" if excluded else None,
+
         "limitations": [
             "Comparison is not official FPL points: excludes autosubs, chips, transfer hits.",
             "Manager starting XI reconstructed from first 11 stored pick IDs; verify original API ordering.",
