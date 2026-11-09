@@ -33,6 +33,7 @@ def main():
     by_week = {str(gw): {"gw": gw, "model": 0, "actual": 0,
                          "delta": 0, "managers": 0} for gw in GWS}
     chips = {}
+    excluded = []
     for mid in map(str, cohort):
         if mid not in replay["managers"] or mid not in picks:
             raise ValueError(f"Missing manager {mid}")
@@ -49,9 +50,10 @@ def main():
             xi = list(map(int, p["players"][:11]))
             cap = int(p["captain"])
             if cap not in xi:
-                # Without vice-captain in cache, the effective captain
-                # cannot be reconstructed; do not silently guess.
-                raise ValueError(f"Captain outside first XI, manager {mid}, GW{gw}")
+                # Vice-captain is absent from cached picks. Exclude this
+                # manager-week from BOTH sides, rather than guessing.
+                excluded.append({"manager": mid, "gw": gw, "reason": "captain_outside_xi_vice_unknown"})
+                continue
             missing = [pid for pid in xi + [cap] if gw not in player_gw.get(pid, {})]
             if missing:
                 raise ValueError(f"Missing player history GW{gw}: {missing}")
@@ -74,29 +76,35 @@ def main():
                            "delta": sum(r["delta"] for r in rows),
                            "weeks": rows}
     for gw in GWS:
-        if by_week[str(gw)]["managers"] != 100:
-            raise ValueError("Incomplete 100-manager GW coverage")
+        if by_week[str(gw)]["managers"] < 90:
+            raise ValueError("Too few valid manager-weeks for comparison")
     model_total = sum(m["model"] for m in by_manager.values())
     actual_total = sum(m["actual"] for m in by_manager.values())
-    if model_total != replay["summary"]["model_total"]:
+    replay_included = sum(w["model_actual_points_no_chips"] for mid in map(str, cohort)
+                          for w in replay["managers"][mid]["weeks"]
+                          if not any(e["manager"] == mid and e["gw"] == w["gw"] for e in excluded))
+    if model_total != replay_included:
         raise ValueError("Model replay mismatch; do not publish comparison")
     wins = sum(m["delta"] > 0 for m in by_manager.values())
     losses = sum(m["delta"] < 0 for m in by_manager.values())
     result = {
         "method": "matched_elite100_starting11_captain_double_no_chips_v1",
         "scope": "GW1-GW9, fixed post-hoc elite top-100 cohort",
-        "summary": {"managers": 100, "model_total": model_total,
+        "summary": {"managers": 100, "matched_manager_weeks": sum(x["managers"] for x in by_week.values()),
+                    "excluded_manager_weeks": len(excluded), "model_total": model_total,
                     "actual_total": actual_total,
                     "delta_total": model_total - actual_total,
-                    "model_mean": round(model_total / 100, 2),
-                    "actual_mean": round(actual_total / 100, 2),
-                    "delta_mean": round((model_total - actual_total) / 100, 2),
+                    "model_mean_per_manager_included_weeks": round(model_total / 100, 2),
+                    "actual_mean_per_manager_included_weeks": round(actual_total / 100, 2),
+                    "delta_mean_per_manager_included_weeks": round((model_total - actual_total) / 100, 2),
                     "model_wins": wins, "model_losses": losses,
                     "ties": 100 - wins - losses},
         "by_gw": by_week, "chips_observed": chips,
+        "excluded_manager_weeks": excluded,
         "limitations": [
             "Comparison is not official FPL points: excludes autosubs, chips, transfer hits.",
             "Manager starting XI reconstructed from first 11 stored pick IDs; verify original API ordering.",
+            "Captain-outside-XI manager-weeks excluded from BOTH sides; vice-captain not cached.",
             "GW1 squads are copied from elite managers, not independently drafted by the model.",
             "Replay uses approximate historical prices, current team metadata, and neutral fixture difficulty.",
             "Replay performs exactly one free transfer each GW2-GW9; actual managers have different strategies.",
