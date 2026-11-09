@@ -67,6 +67,9 @@ jobs:
       - name: Run exploratory prior-form transfer simulation
         run: python fpl_backtest_exploratory_transfers.py
 
+      - name: Audit transfer price evidence
+        run: python fpl_backtest_transfer_price_audit.py
+
       - name: Audit historical backtest readiness
         run: python fpl_backtest_audit.py
 
