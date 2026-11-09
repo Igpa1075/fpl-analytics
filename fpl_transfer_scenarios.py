@@ -39,6 +39,12 @@ def main():
     # Latest capture, not filename, determines newest frozen prediction.
     docs = [(json.loads(p.read_text(encoding="utf-8")), p) for p in files]
     forecast, source = max(docs, key=lambda item: item[0]["captured_at_utc"])
+    contextual = DATA / "contextual_forecasts" / source.name
+    if contextual.exists():
+        candidate = json.loads(contextual.read_text(encoding="utf-8"))
+        if (candidate.get("target_gw") == forecast["target_gw"] and
+                candidate.get("baseline_captured_at_utc") == forecast["captured_at_utc"]):
+            forecast, source = candidate, contextual
     picks = json.loads((DATA / "picks.json").read_text(encoding="utf-8"))
     original_ids = [p["element"] for p in picks["picks"]]
     if len(original_ids) != 15 or len(set(original_ids)) != 15:
