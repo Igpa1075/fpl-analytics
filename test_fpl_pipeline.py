@@ -3,6 +3,7 @@ import unittest
 from datetime import datetime, timedelta, timezone
 
 from fpl_forecast_baseline import forecast
+from fpl_contextual_forecast import adjust
 from fpl_transfer_scenarios import lineup_score
 
 
@@ -29,6 +30,26 @@ class PipelineSmokeTests(unittest.TestCase):
         self.assertGreater(result["predictions"][0]["expected_points"], 0)
         snapshot["bootstrap"]["events"][0]["deadline_time"] = (now - timedelta(seconds=1)).isoformat()
         self.assertIsNone(forecast(snapshot))
+
+    def test_contextual_espn_overlay_only_with_verified_coverage(self):
+        baseline = {"captured_at_utc": "2026-11-09T04:00:00+00:00",
+                    "predictions": [
+                        {"player_id": 1, "position_id": 2, "expected_points": 5.0},
+                        {"player_id": 2, "position_id": 3, "expected_points": 5.0},
+                        {"player_id": 3, "position_id": 2, "expected_points": 5.0}]}
+        starters = {1: {"matches_available": "5", "starts": "5"},
+                    2: {"matches_available": "5", "starts": "2"},
+                    3: {"matches_available": "2", "starts": "0"}}
+        roles = {1: {"matches_available": "5", "starts_with_position": "5",
+                     "position_flag": "DEF_ADVANCED_SLOT_CANDIDATE",
+                     "advanced_slot_starts": "5"}}
+        result = adjust(baseline, starters, roles, "2026-11-09T05:00:00+00:00")
+        pts = {p["player_id"]: p["expected_points"] for p in result["predictions"]}
+        self.assertAlmostEqual(pts[1], 5.2)
+        self.assertAlmostEqual(pts[2], 4.55)
+        self.assertAlmostEqual(pts[3], 5.0)
+        self.assertEqual(result["elite_control_usage"], "diagnostic_only_no_points_adjustment")
+        self.assertEqual(baseline["predictions"][0]["expected_points"], 5.0)
 
     def test_legal_formation_and_captain_double(self):
         positions = [1, 1] + [2] * 5 + [3] * 5 + [4] * 3
