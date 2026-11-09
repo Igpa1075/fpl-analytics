@@ -40,6 +40,9 @@ jobs:
       - name: Save mini-league history
         run: python fpl_league_history.py
   
+      - name: Audit historical backtest readiness
+        run: python fpl_backtest_audit.py
+
       - name: Analyze transfer strategy
         run: python fpl_strategy.py > data/strategy_analysis.txt
   
