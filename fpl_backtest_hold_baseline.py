@@ -74,7 +74,9 @@ def main():
             starters = [int(p["element"]) for p in initial_picks if int(p["position"]) <= 11]
             captain = next(int(p["element"]) for p in initial_picks if p.get("is_captain"))
             vice = next(int(p["element"]) for p in initial_picks if p.get("is_vice_captain"))
-            bench = [int(p["element"]) for p in sorted(initial_picks, key=lambda x: x["position"]) if int(p["position"]) > 11]
+            published_bench = [int(p["element"]) for p in sorted(initial_picks, key=lambda x: x["position"]) if int(p["position"]) > 11]
+            # Official FPL positions 12-14 are outfield substitutes; position 15 is GK.
+            bench = [p for p in published_bench if positions[p] == 1] + [p for p in published_bench if positions[p] != 1]
         else:
             starters = choose(squad, positions, prior)
             ordered = sorted(starters, key=lambda pid: (-prior[pid], pid))
