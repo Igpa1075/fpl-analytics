@@ -76,6 +76,9 @@ jobs:
       - name: Run budget-constrained proxy transfer backtest
         run: python fpl_backtest_budget_constrained_proxy.py
 
+      - name: Cross-check historical prices against public GW archive
+        run: python fpl_historical_price_archive_crosscheck.py
+
       - name: Audit historical backtest readiness
         run: python fpl_backtest_audit.py
 
