@@ -41,7 +41,7 @@ def load_history(ids):
     for index, pid in enumerate(sorted(ids), 1):
         if str(pid) not in cache:
             cache[str(pid)] = get(f"/element-summary/{pid}/")
-            if index % 30 == 0:
+            if index % 10 == 0:
                 save(CACHE, cache)
     save(CACHE, cache)
     return cache
@@ -108,9 +108,14 @@ def simulate(start, hist, players, fixtures, gw1_actual):
             before = best_xi(owned, scores, players)[0]
             best = (before, None)
             clubs = Counter(players[i]["team"] for i in owned)
+            # Bounded shortlist: highest projected candidates by FPL position.
+            shortlist = {}
+            for pos in (1, 2, 3, 4):
+                shortlist[pos] = sorted((i for i in players if players[i]["element_type"] == pos
+                                          and i not in owned), key=lambda i: (-scores[i], i))[:8]
             for old in owned:
                 selling = price_before(hist.get(old, {}), gw, players[old]["now_cost"])
-                for new in players:
+                for new in shortlist[players[old]["element_type"]]:
                     if new in owned or players[new]["element_type"] != players[old]["element_type"]:
                         continue
                     if clubs[players[new]["team"]] >= 3 and players[new]["team"] != players[old]["team"]:
