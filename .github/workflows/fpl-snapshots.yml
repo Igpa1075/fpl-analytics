@@ -27,7 +27,7 @@ jobs:
         run: python fpl_snapshot.py
       - name: Freeze next-GW baseline predictions
         run: python fpl_forecast_baseline.py
-      - name: Refresh latest publicly published entry squad
+      - name: Apply verified ESPN role and starter context\n        run: python fpl_contextual_forecast.py\n      - name: Refresh latest publicly published entry squad
         run: python fpl_public_squad.py
       - name: Optimize personal starting XI and captain
         run: python fpl_lineup_optimizer.py
@@ -43,7 +43,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/snapshots/ data/forecasts/
+          git add data/snapshots/ data/forecasts/\n          if [ -d data/contextual_forecasts ]; then git add data/contextual_forecasts/; fi
           if [ -f data/picks.json ]; then git add data/picks.json; fi
           if [ -f data/squad_freshness.json ]; then git add data/squad_freshness.json; fi
           if [ -f data/recommendation_audit.json ]; then git add data/recommendation_audit.json; fi
