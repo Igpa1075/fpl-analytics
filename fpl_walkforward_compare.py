@@ -109,6 +109,7 @@ def main():
             "Manager-weeks with captain outside the first XI or missing player history are excluded from both totals.",
             "Captain not in first 11: exclude both manager-week scores from paired comparison.",
             "Means are per 100 managers across available weeks, not nine-week complete totals when exclusions exist.",
+            "GW8 has many captain-outside-XI records; comparison excludes them and is not full-cohort coverage.",
             "Captain-outside-XI manager-weeks excluded from BOTH sides; vice-captain not cached.",
             "GW1 squads are copied from elite managers, not independently drafted by the model.",
             "Replay uses approximate historical prices, current team metadata, and neutral fixture difficulty.",
