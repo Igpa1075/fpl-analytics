@@ -1,8 +1,8 @@
 {
-  "source_rows": 990,
-  "matched_rows": 738,
-  "unique_matches": 45,
-  "unique_espn_players": 321,
+  "source_rows": 1100,
+  "matched_rows": 814,
+  "unique_matches": 50,
+  "unique_espn_players": 324,
   "issue_counts": {},
   "categories": {},
   "note": "This audit checks internal consistency only. It does not independently verify ESPN lineups against official match reports or historical club registrations."

@@ -2,7 +2,7 @@
   "window": 5,
   "teams_with_complete_matches": 20,
   "teams_with_full_window": 0,
-  "players": 671,
+  "players": 672,
   "squad_players_found": 15,
   "note": "Starts are taken from ESPN starter=true. Only verified matches with complete XIs are included. Unmatched identities are not credited. A zero start rate may reflect injury, transfer, absence or incomplete identity matching, not necessarily rotation. This is descriptive, not a future probability."
 }

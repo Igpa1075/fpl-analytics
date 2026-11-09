@@ -1,113 +1,132 @@
 espn_id,espn_player,espn_team,appearances,previous_status,category,candidate_fpl_ids,candidate_fpl_teams
+291609,Bart Verbruggen,Brighton & Hove Albion,5,REVIEW,NAME_FOUND_SAME_CLUB,109,Brighton
+364962,Luka Vuskovic,Brighton & Hove Albion,5,REVIEW,NAME_FOUND_SAME_CLUB,504,Brighton
+216017,Olivier Boscagli,Brighton & Hove Albion,5,REVIEW,NAME_FOUND_SAME_CLUB,114,Brighton
+304242,Yasin Ayari,Brighton & Hove Albion,5,REVIEW,NAME_FOUND_SAME_CLUB,129,Brighton
+301327,Maxim De Cuyper,Brighton & Hove Albion,5,REVIEW,NAME_FOUND_SAME_CLUB,115,Brighton
 324393,Antonín Kinsky,Tottenham Hotspur,5,REVIEW,NAME_FOUND_SAME_CLUB,496,Spurs
 282583,Jan Paul van Hecke,Tottenham Hotspur,5,REVIEW,NAME_FOUND_SAME_CLUB,112,Spurs
 328050,Archie Gray,Tottenham Hotspur,5,REVIEW,NAME_FOUND_SAME_CLUB,522,Spurs
 261047,Sandro Tonali,Tottenham Hotspur,5,REVIEW,NAME_FOUND_SAME_CLUB,455,Spurs
 266599,Mohammed Kudus,Tottenham Hotspur,5,REVIEW,NAME_FOUND_SAME_CLUB,512,Spurs
+279155,James Hill,AFC Bournemouth,5,REVIEW,NAME_FOUND_SAME_CLUB,60,Bournemouth
+305684,Adrien Truffert,AFC Bournemouth,5,REVIEW,NAME_FOUND_SAME_CLUB,61,Bournemouth
+122268,Adam Smith,AFC Bournemouth,5,REVIEW,NAME_FOUND_SAME_CLUB,64,Bournemouth
+222776,Tyler Adams,AFC Bournemouth,5,REVIEW,NAME_FOUND_SAME_CLUB,73,Bournemouth
+243364,Marcus Tavernier,AFC Bournemouth,5,REVIEW,NAME_FOUND_SAME_CLUB,68,Bournemouth
+147106,Lewis Dunk,Brighton & Hove Albion,4,REVIEW,NAME_FOUND_SAME_CLUB,116,Brighton
 296512,Micky van de Ven,Tottenham Hotspur,4,REVIEW,NAME_FOUND_SAME_CLUB,503,Spurs
 303745,Omar Marmoush,Tottenham Hotspur,4,REVIEW,NAME_FOUND_SAME_CLUB,401,Spurs
-279155,James Hill,AFC Bournemouth,4,REVIEW,NAME_FOUND_SAME_CLUB,60,Bournemouth
-305684,Adrien Truffert,AFC Bournemouth,4,REVIEW,NAME_FOUND_SAME_CLUB,61,Bournemouth
-122268,Adam Smith,AFC Bournemouth,4,REVIEW,NAME_FOUND_SAME_CLUB,64,Bournemouth
-222776,Tyler Adams,AFC Bournemouth,4,REVIEW,NAME_FOUND_SAME_CLUB,73,Bournemouth
-243364,Marcus Tavernier,AFC Bournemouth,4,REVIEW,NAME_FOUND_SAME_CLUB,68,Bournemouth
-291609,Bart Verbruggen,Brighton & Hove Albion,4,REVIEW,NAME_FOUND_SAME_CLUB,109,Brighton
-364962,Luka Vuskovic,Brighton & Hove Albion,4,REVIEW,NAME_FOUND_SAME_CLUB,504,Brighton
-216017,Olivier Boscagli,Brighton & Hove Albion,4,REVIEW,NAME_FOUND_SAME_CLUB,114,Brighton
-304242,Yasin Ayari,Brighton & Hove Albion,4,REVIEW,NAME_FOUND_SAME_CLUB,129,Brighton
-301327,Maxim De Cuyper,Brighton & Hove Albion,4,REVIEW,NAME_FOUND_SAME_CLUB,115,Brighton
+93435,Ryan Christie,AFC Bournemouth,4,REVIEW,NAME_FOUND_SAME_CLUB,75,Bournemouth
 346820,Mateus Fernandes,Tottenham Hotspur,3,REVIEW,NAME_FOUND_SAME_CLUB,525,Spurs
 325042,Mathys Tel,Tottenham Hotspur,3,REVIEW,NAME_FOUND_SAME_CLUB,514,Spurs
-93435,Ryan Christie,AFC Bournemouth,3,REVIEW,NAME_FOUND_SAME_CLUB,75,Bournemouth
-147106,Lewis Dunk,Brighton & Hove Albion,3,REVIEW,NAME_FOUND_SAME_CLUB,116,Brighton
-245916,Justin Kluivert,AFC Bournemouth,2,REVIEW,NAME_FOUND_SAME_CLUB,70,Bournemouth
-194450,James Maddison,Tottenham Hotspur,2,REVIEW,NAME_FOUND_SAME_CLUB,515,Spurs
+245916,Justin Kluivert,AFC Bournemouth,3,REVIEW,NAME_FOUND_SAME_CLUB,70,Bournemouth
 223452,Lewis Cook,AFC Bournemouth,2,REVIEW,NAME_FOUND_SAME_CLUB,71,Bournemouth
-231198,Tosin Adarabioyo,Tottenham Hotspur,1,REVIEW,NAME_FOUND_SAME_CLUB,147,Spurs
+194450,James Maddison,Tottenham Hotspur,2,REVIEW,NAME_FOUND_SAME_CLUB,515,Spurs
+246771,Pascal Struijk,Brighton & Hove Albion,1,REVIEW,NAME_FOUND_SAME_CLUB,328,Brighton
+72487,David Brooks,AFC Bournemouth,1,REVIEW,NAME_FOUND_SAME_CLUB,74,Bournemouth
 290076,Destiny Udogie,Tottenham Hotspur,1,REVIEW,NAME_FOUND_SAME_CLUB,506,Spurs
 266696,Conor Gallagher,Tottenham Hotspur,1,REVIEW,NAME_FOUND_SAME_CLUB,519,Spurs
 356379,Lucas Bergvall,Tottenham Hotspur,1,REVIEW,NAME_FOUND_SAME_CLUB,520,Spurs
-72487,David Brooks,AFC Bournemouth,1,REVIEW,NAME_FOUND_SAME_CLUB,74,Bournemouth
-246771,Pascal Struijk,Brighton & Hove Albion,1,REVIEW,NAME_FOUND_SAME_CLUB,328,Brighton
+231198,Tosin Adarabioyo,Tottenham Hotspur,1,REVIEW,NAME_FOUND_SAME_CLUB,147,Spurs
+387489,Chema Andrés,Brighton & Hove Albion,5,REVIEW,NAME_NOT_FOUND,,
+132659,Pascal Gross,Brighton & Hove Albion,5,REVIEW,NAME_NOT_FOUND,,
+387655,Charalambos Kostoulas,Brighton & Hove Albion,5,REVIEW,NAME_NOT_FOUND,,
+192278,Diego Gómez,Brighton & Hove Albion,5,REVIEW,NAME_NOT_FOUND,,
+301894,Igor Thiago,Brentford,5,REVIEW,NAME_NOT_FOUND,,
+234878,Rúben Dias,Manchester City,5,REVIEW,NAME_NOT_FOUND,,
+297370,Yéremy Pino,Crystal Palace,5,REVIEW,NAME_NOT_FOUND,,
+338894,Murillo,Nottingham Forest,5,REVIEW,NAME_NOT_FOUND,,
+193010,Oliver McBurnie,Hull City,5,REVIEW,NAME_NOT_FOUND,,
+323986,Nico González,Newcastle United,5,REVIEW,NAME_NOT_FOUND,,
 196176,David Raya,Arsenal,5,REVIEW,NAME_NOT_FOUND,,
 236322,Gabriel Magalhães,Arsenal,5,REVIEW,NAME_NOT_FOUND,,
 231859,Ezri Konsa,Arsenal,5,REVIEW,NAME_NOT_FOUND,,
-193010,Oliver McBurnie,Hull City,5,REVIEW,NAME_NOT_FOUND,,
-338894,Murillo,Nottingham Forest,5,REVIEW,NAME_NOT_FOUND,,
-323986,Nico González,Newcastle United,5,REVIEW,NAME_NOT_FOUND,,
-234878,Rúben Dias,Manchester City,5,REVIEW,NAME_NOT_FOUND,,
-104943,Andy Robertson,Tottenham Hotspur,4,REVIEW,NAME_NOT_FOUND,,
-289824,Djordje Petrovic,AFC Bournemouth,4,REVIEW,NAME_NOT_FOUND,,
-346588,António Silva,AFC Bournemouth,4,REVIEW,NAME_NOT_FOUND,,
-102368,Evanilson,AFC Bournemouth,4,REVIEW,NAME_NOT_FOUND,,
-357719,Rayan,AFC Bournemouth,4,REVIEW,NAME_NOT_FOUND,,
-297370,Yéremy Pino,Crystal Palace,4,REVIEW,NAME_NOT_FOUND,,
-296410,Levi Colwill,Chelsea,4,REVIEW,NAME_NOT_FOUND,,
-289877,Moisés Caicedo,Chelsea,4,REVIEW,NAME_NOT_FOUND,,
-256115,Pedro Neto,Chelsea,4,REVIEW,NAME_NOT_FOUND,,
-262594,Vitaliy Mykolenko,Everton,4,REVIEW,NAME_NOT_FOUND,,
+256607,Florentino,Ipswich Town,5,REVIEW,NAME_NOT_FOUND,,
+322654,Emersonn,Ipswich Town,5,REVIEW,NAME_NOT_FOUND,,
+289824,Djordje Petrovic,AFC Bournemouth,5,REVIEW,NAME_NOT_FOUND,,
+346588,António Silva,AFC Bournemouth,5,REVIEW,NAME_NOT_FOUND,,
+102368,Evanilson,AFC Bournemouth,5,REVIEW,NAME_NOT_FOUND,,
+357719,Rayan,AFC Bournemouth,5,REVIEW,NAME_NOT_FOUND,,
+296410,Levi Colwill,Chelsea,5,REVIEW,NAME_NOT_FOUND,,
+289877,Moisés Caicedo,Chelsea,5,REVIEW,NAME_NOT_FOUND,,
+256115,Pedro Neto,Chelsea,5,REVIEW,NAME_NOT_FOUND,,
 338876,Jair Cunha,Nottingham Forest,4,REVIEW,NAME_NOT_FOUND,,
+104943,Andy Robertson,Tottenham Hotspur,4,REVIEW,NAME_NOT_FOUND,,
 146679,Daniel Muñoz,Nottingham Forest,4,REVIEW,NAME_NOT_FOUND,,
-256607,Florentino,Ipswich Town,4,REVIEW,NAME_NOT_FOUND,,
-322654,Emersonn,Ipswich Town,4,REVIEW,NAME_NOT_FOUND,,
-301894,Igor Thiago,Brentford,4,REVIEW,NAME_NOT_FOUND,,
-387489,Chema Andrés,Brighton & Hove Albion,4,REVIEW,NAME_NOT_FOUND,,
-132659,Pascal Gross,Brighton & Hove Albion,4,REVIEW,NAME_NOT_FOUND,,
-387655,Charalambos Kostoulas,Brighton & Hove Albion,4,REVIEW,NAME_NOT_FOUND,,
-192278,Diego Gómez,Brighton & Hove Albion,4,REVIEW,NAME_NOT_FOUND,,
-238902,Diogo Dalot,Manchester United,3,REVIEW,NAME_NOT_FOUND,,
-314858,Andrey Santos,Manchester United,3,REVIEW,NAME_NOT_FOUND,,
-124091,Bruno Fernandes,Manchester United,3,REVIEW,NAME_NOT_FOUND,,
-241077,Ben White,Arsenal,3,REVIEW,NAME_NOT_FOUND,,
-194115,Dominic Solanke,Tottenham Hotspur,3,REVIEW,NAME_NOT_FOUND,,
-218522,Bruno Guimarães,Arsenal,3,REVIEW,NAME_NOT_FOUND,,
-382839,Alysson,Aston Villa,3,REVIEW,NAME_NOT_FOUND,,
-202232,Joelinton,Newcastle United,3,REVIEW,NAME_NOT_FOUND,,
+238902,Diogo Dalot,Manchester United,4,REVIEW,NAME_NOT_FOUND,,
+124091,Bruno Fernandes,Manchester United,4,REVIEW,NAME_NOT_FOUND,,
+262594,Vitaliy Mykolenko,Everton,4,REVIEW,NAME_NOT_FOUND,,
+382839,Alysson,Aston Villa,4,REVIEW,NAME_NOT_FOUND,,
 238318,Ferdi Kadioglu,Brighton & Hove Albion,3,REVIEW,NAME_NOT_FOUND,,
-259902,Matheus Cunha,Manchester United,2,REVIEW,NAME_NOT_FOUND,,
-318680,Fatawu Issahaku,Ipswich Town,2,REVIEW,NAME_NOT_FOUND,,
+194115,Dominic Solanke,Tottenham Hotspur,3,REVIEW,NAME_NOT_FOUND,,
+202232,Joelinton,Newcastle United,3,REVIEW,NAME_NOT_FOUND,,
+218522,Bruno Guimarães,Arsenal,3,REVIEW,NAME_NOT_FOUND,,
+314858,Andrey Santos,Manchester United,3,REVIEW,NAME_NOT_FOUND,,
+259902,Matheus Cunha,Manchester United,3,REVIEW,NAME_NOT_FOUND,,
+241077,Ben White,Arsenal,3,REVIEW,NAME_NOT_FOUND,,
+274285,Costinha,Brighton & Hove Albion,2,REVIEW,NAME_NOT_FOUND,,
 214375,Emiliano Buendía,Aston Villa,2,REVIEW,NAME_NOT_FOUND,,
+197399,Jefferson Lerma,Crystal Palace,2,REVIEW,NAME_NOT_FOUND,,
+318680,Fatawu Issahaku,Ipswich Town,2,REVIEW,NAME_NOT_FOUND,,
 158626,Emiliano Martínez,Chelsea,2,REVIEW,NAME_NOT_FOUND,,
 284960,João Pedro,Chelsea,2,REVIEW,NAME_NOT_FOUND,,
-268533,Pedro Porro,Tottenham Hotspur,1,REVIEW,NAME_NOT_FOUND,,
+376481,Estêvão,Chelsea,1,REVIEW,NAME_NOT_FOUND,,
 233945,Marcos Senesi,Tottenham Hotspur,1,REVIEW,NAME_NOT_FOUND,,
 304470,Sávio,Tottenham Hotspur,1,REVIEW,NAME_NOT_FOUND,,
+268533,Pedro Porro,Tottenham Hotspur,1,REVIEW,NAME_NOT_FOUND,,
 209581,Mikel Merino,Arsenal,1,REVIEW,NAME_NOT_FOUND,,
-197399,Jefferson Lerma,Crystal Palace,1,REVIEW,NAME_NOT_FOUND,,
-274285,Costinha,Brighton & Hove Albion,1,REVIEW,NAME_NOT_FOUND,,
-376481,Estêvão,Chelsea,1,REVIEW,NAME_NOT_FOUND,,
-307118,James Trafford,Leeds United,5,MATCHED,MATCHED_OK,385,Leeds
-318390,Tarik Muharemovic,Leeds United,5,MATCHED,MATCHED_OK,334,Leeds
-231863,James Justin,Leeds United,5,MATCHED,MATCHED_OK,332,Leeds
-253173,Ao Tanaka,Leeds United,5,MATCHED,MATCHED_OK,345,Leeds
-241317,Ethan Ampadu,Leeds United,5,MATCHED,MATCHED_OK,338,Leeds
-250166,Gabriel Gudmundsson,Leeds United,5,MATCHED,MATCHED_OK,331,Leeds
-243408,Jayden Bogle,Leeds United,5,MATCHED,MATCHED_OK,330,Leeds
-197717,Dominic Calvert-Lewin,Leeds United,5,MATCHED,MATCHED_OK,346,Leeds
-203669,Martin Ødegaard,Arsenal,5,MATCHED,MATCHED_OK,15,Arsenal
-238262,Declan Rice,Arsenal,5,MATCHED,MATCHED_OK,13,Arsenal
-307069,Carl Rushworth,Coventry City,5,MATCHED,MATCHED_OK,110,Coventry City
-241093,Ethan Pinnock,Coventry City,5,MATCHED,MATCHED_OK,91,Coventry City
-206172,Jay Da Silva,Coventry City,5,MATCHED,MATCHED_OK,176,Coventry City
-281139,Milan van Ewijk,Coventry City,5,MATCHED,MATCHED_OK,175,Coventry City
-286967,Jack Rudoni,Coventry City,5,MATCHED,MATCHED_OK,183,Coventry City
-387659,Caleb Yirenkyi,Coventry City,5,MATCHED,MATCHED_OK,575,Coventry City
-284199,Konstantinos Tzolakis,Hull City,5,MATCHED,MATCHED_OK,572,Hull City
-168424,John Egan,Hull City,5,MATCHED,MATCHED_OK,277,Hull City
-178051,Semi Ajayi,Hull City,5,MATCHED,MATCHED_OK,279,Hull City
-231826,Lewie Coyle,Hull City,5,MATCHED,MATCHED_OK,280,Hull City
-249851,Regan Slater,Hull City,5,MATCHED,MATCHED_OK,290,Hull City
-159443,Jordan Pickford,Everton,5,MATCHED,MATCHED_OK,226,Everton
-155226,James Tarkowski,Everton,5,MATCHED,MATCHED_OK,229,Everton
-252389,Kiernan Dewsbury-Hall,Everton,5,MATCHED,MATCHED_OK,236,Everton
-276220,James Garner,Everton,5,MATCHED,MATCHED_OK,239,Everton
-378458,Harrison Armstrong,Everton,5,MATCHED,MATCHED_OK,244,Everton
-301166,Thierno Barry,Everton,5,MATCHED,MATCHED_OK,249,Everton
+275599,Caoimhín Kelleher,Brentford,5,MATCHED,MATCHED_OK,82,Brentford
+206173,Kristoffer Ajer,Brentford,5,MATCHED,MATCHED_OK,87,Brentford
+356640,Michael Kayode,Brentford,5,MATCHED,MATCHED_OK,88,Brentford
+284490,Keane Lewis-Potter,Brentford,5,MATCHED,MATCHED_OK,86,Brentford
+217092,Gianluigi Donnarumma,Manchester City,5,MATCHED,MATCHED_OK,384,Man City
+253989,Erling Haaland,Manchester City,5,MATCHED,MATCHED_OK,411,Man City
+268641,Iliman Ndiaye,Manchester City,5,MATCHED,MATCHED_OK,237,Man City
+196876,Alisson Becker,Liverpool,5,MATCHED,MATCHED_OK,350,Liverpool
+157892,Virgil van Dijk,Liverpool,5,MATCHED,MATCHED_OK,356,Liverpool
+355980,Jérémy Jacquet,Liverpool,5,MATCHED,MATCHED_OK,362,Liverpool
+323110,Milos Kerkez,Liverpool,5,MATCHED,MATCHED_OK,358,Liverpool
+270821,Ronald Araujo,Liverpool,5,MATCHED,MATCHED_OK,579,Liverpool
+303748,Florian Wirtz,Liverpool,5,MATCHED,MATCHED_OK,366,Liverpool
+249299,Alexis Mac Allister,Liverpool,5,MATCHED,MATCHED_OK,372,Liverpool
+328238,Bradley Barcola,Liverpool,5,MATCHED,MATCHED_OK,627,Liverpool
+272585,Chris Richards,Crystal Palace,5,MATCHED,MATCHED_OK,202,Crystal Palace
+333419,Adam Wharton,Crystal Palace,5,MATCHED,MATCHED_OK,210,Crystal Palace
+300853,Tyrick Mitchell,Crystal Palace,5,MATCHED,MATCHED_OK,204,Crystal Palace
+219362,Daichi Kamada,Crystal Palace,5,MATCHED,MATCHED_OK,214,Crystal Palace
+301449,Robin Roefs,Sunderland,5,MATCHED,MATCHED_OK,529,Sunderland
+230081,Reinildo Mandava,Sunderland,5,MATCHED,MATCHED_OK,536,Sunderland
+290207,Trai Hume,Sunderland,5,MATCHED,MATCHED_OK,534,Sunderland
+288340,Enzo Le Fée,Sunderland,5,MATCHED,MATCHED_OK,542,Sunderland
+340240,Noah Sadiki,Sunderland,5,MATCHED,MATCHED_OK,545,Sunderland
+149981,Granit Xhaka,Sunderland,5,MATCHED,MATCHED_OK,544,Sunderland
 179497,Matz Sels,Nottingham Forest,5,MATCHED,MATCHED_OK,467,Nott'm Forest
 238886,Xaver Schlager,Nottingham Forest,5,MATCHED,MATCHED_OK,558,Nott'm Forest
 298518,James McAtee,Nottingham Forest,5,MATCHED,MATCHED_OK,486,Nott'm Forest
 291638,Neco Williams,Nottingham Forest,5,MATCHED,MATCHED_OK,469,Nott'm Forest
 307114,Liam Delap,Nottingham Forest,5,MATCHED,MATCHED_OK,167,Nott'm Forest
+284199,Konstantinos Tzolakis,Hull City,5,MATCHED,MATCHED_OK,572,Hull City
+168424,John Egan,Hull City,5,MATCHED,MATCHED_OK,277,Hull City
+178051,Semi Ajayi,Hull City,5,MATCHED,MATCHED_OK,279,Hull City
+231826,Lewie Coyle,Hull City,5,MATCHED,MATCHED_OK,280,Hull City
+249851,Regan Slater,Hull City,5,MATCHED,MATCHED_OK,290,Hull City
+265958,Zion Suzuki,Aston Villa,5,MATCHED,MATCHED_OK,597,Aston Villa
+204679,Victor Lindelöf,Aston Villa,5,MATCHED,MATCHED_OK,37,Aston Villa
+250936,Boubacar Kamara,Aston Villa,5,MATCHED,MATCHED_OK,47,Aston Villa
+308524,Nicolas Jackson,Aston Villa,5,MATCHED,MATCHED_OK,166,Aston Villa
+386992,Johan Manzambi,Aston Villa,5,MATCHED,MATCHED_OK,53,Aston Villa
+319267,Lukás Hornícek,Newcastle United,5,MATCHED,MATCHED_OK,567,Newcastle
+106139,Lewis Hall,Newcastle United,5,MATCHED,MATCHED_OK,449,Newcastle
+243386,Harvey Barnes,Newcastle United,5,MATCHED,MATCHED_OK,453,Newcastle
+203669,Martin Ødegaard,Arsenal,5,MATCHED,MATCHED_OK,15,Arsenal
+238262,Declan Rice,Arsenal,5,MATCHED,MATCHED_OK,13,Arsenal
+168746,Christian Walton,Ipswich Town,5,MATCHED,MATCHED_OK,300,Ipswich Town
+243440,Dara O'Shea,Ipswich Town,5,MATCHED,MATCHED_OK,304,Ipswich Town
+230963,Issa Diop,Ipswich Town,5,MATCHED,MATCHED_OK,259,Ipswich Town
+283086,Leif Davis,Ipswich Town,5,MATCHED,MATCHED_OK,305,Ipswich Town
+336794,Abdoul Ouattara,Ipswich Town,5,MATCHED,MATCHED_OK,592,Ipswich Town
+20975,Julio Enciso,Ipswich Town,5,MATCHED,MATCHED_OK,591,Ipswich Town
 153765,Bernd Leno,Fulham,5,MATCHED,MATCHED_OK,250,Fulham
 263110,Calvin Bassey,Fulham,5,MATCHED,MATCHED_OK,257,Fulham
 313230,David Affengruber,Fulham,5,MATCHED,MATCHED_OK,650,Fulham
@@ -116,207 +135,191 @@ espn_id,espn_player,espn_team,appearances,previous_status,category,candidate_fpl
 87297,Gonzalo García,Fulham,5,MATCHED,MATCHED_OK,569,Fulham
 175063,Alex Iwobi,Fulham,5,MATCHED,MATCHED_OK,261,Fulham
 307111,Oscar Bobb,Fulham,5,MATCHED,MATCHED_OK,264,Fulham
-319267,Lukás Hornícek,Newcastle United,5,MATCHED,MATCHED_OK,567,Newcastle
-106139,Lewis Hall,Newcastle United,5,MATCHED,MATCHED_OK,449,Newcastle
-243386,Harvey Barnes,Newcastle United,5,MATCHED,MATCHED_OK,453,Newcastle
-217092,Gianluigi Donnarumma,Manchester City,5,MATCHED,MATCHED_OK,384,Man City
-253989,Erling Haaland,Manchester City,5,MATCHED,MATCHED_OK,411,Man City
-268641,Iliman Ndiaye,Manchester City,5,MATCHED,MATCHED_OK,237,Man City
-212237,Nico Elvedi,Leeds United,4,MATCHED,MATCHED_OK,598,Leeds
-301449,Robin Roefs,Sunderland,4,MATCHED,MATCHED_OK,529,Sunderland
-230081,Reinildo Mandava,Sunderland,4,MATCHED,MATCHED_OK,536,Sunderland
-290207,Trai Hume,Sunderland,4,MATCHED,MATCHED_OK,534,Sunderland
-288340,Enzo Le Fée,Sunderland,4,MATCHED,MATCHED_OK,542,Sunderland
-340240,Noah Sadiki,Sunderland,4,MATCHED,MATCHED_OK,545,Sunderland
-149981,Granit Xhaka,Sunderland,4,MATCHED,MATCHED_OK,544,Sunderland
-301425,Senne Lammens,Manchester United,4,MATCHED,MATCHED_OK,412,Man Utd
-157073,Harry Maguire,Manchester United,4,MATCHED,MATCHED_OK,418,Man Utd
-340206,Leny Yoro,Manchester United,4,MATCHED,MATCHED_OK,420,Man Utd
-271170,Bryan Mbeumo,Manchester United,4,MATCHED,MATCHED_OK,427,Man Utd
-291630,Amad Diallo,Manchester United,4,MATCHED,MATCHED_OK,431,Man Utd
-298329,Riccardo Calafiori,Arsenal,4,MATCHED,MATCHED_OK,8,Arsenal
-231182,Kai Havertz,Arsenal,4,MATCHED,MATCHED_OK,26,Arsenal
-293236,Noni Madueke,Arsenal,4,MATCHED,MATCHED_OK,16,Arsenal
-386252,Jaydee Canvot,Crystal Palace,4,MATCHED,MATCHED_OK,203,Crystal Palace
-272585,Chris Richards,Crystal Palace,4,MATCHED,MATCHED_OK,202,Crystal Palace
-219362,Daichi Kamada,Crystal Palace,4,MATCHED,MATCHED_OK,214,Crystal Palace
-333419,Adam Wharton,Crystal Palace,4,MATCHED,MATCHED_OK,210,Crystal Palace
-300853,Tyrick Mitchell,Crystal Palace,4,MATCHED,MATCHED_OK,204,Crystal Palace
-368317,Josh Acheampong,Chelsea,4,MATCHED,MATCHED_OK,151,Chelsea
-265653,Morgan Rogers,Chelsea,4,MATCHED,MATCHED_OK,40,Chelsea
-296395,Cole Palmer,Chelsea,4,MATCHED,MATCHED_OK,154,Chelsea
-302002,Tatsuhiro Sakamoto,Coventry City,4,MATCHED,MATCHED_OK,185,Coventry City
-196876,Alisson Becker,Liverpool,4,MATCHED,MATCHED_OK,350,Liverpool
-157892,Virgil van Dijk,Liverpool,4,MATCHED,MATCHED_OK,356,Liverpool
-355980,Jérémy Jacquet,Liverpool,4,MATCHED,MATCHED_OK,362,Liverpool
-323110,Milos Kerkez,Liverpool,4,MATCHED,MATCHED_OK,358,Liverpool
-270821,Ronald Araujo,Liverpool,4,MATCHED,MATCHED_OK,579,Liverpool
-303748,Florian Wirtz,Liverpool,4,MATCHED,MATCHED_OK,366,Liverpool
-249299,Alexis Mac Allister,Liverpool,4,MATCHED,MATCHED_OK,372,Liverpool
-328238,Bradley Barcola,Liverpool,4,MATCHED,MATCHED_OK,627,Liverpool
-311963,Merlin Röhl,Everton,4,MATCHED,MATCHED_OK,246,Everton
-275842,Dan Ndoye,Nottingham Forest,4,MATCHED,MATCHED_OK,483,Nott'm Forest
-168746,Christian Walton,Ipswich Town,4,MATCHED,MATCHED_OK,300,Ipswich Town
-230963,Issa Diop,Ipswich Town,4,MATCHED,MATCHED_OK,259,Ipswich Town
-243440,Dara O'Shea,Ipswich Town,4,MATCHED,MATCHED_OK,304,Ipswich Town
-283086,Leif Davis,Ipswich Town,4,MATCHED,MATCHED_OK,305,Ipswich Town
-336794,Abdoul Ouattara,Ipswich Town,4,MATCHED,MATCHED_OK,592,Ipswich Town
-20975,Julio Enciso,Ipswich Town,4,MATCHED,MATCHED_OK,591,Ipswich Town
-275599,Caoimhín Kelleher,Brentford,4,MATCHED,MATCHED_OK,82,Brentford
-206173,Kristoffer Ajer,Brentford,4,MATCHED,MATCHED_OK,87,Brentford
-284490,Keane Lewis-Potter,Brentford,4,MATCHED,MATCHED_OK,86,Brentford
-356640,Michael Kayode,Brentford,4,MATCHED,MATCHED_OK,88,Brentford
-222396,Antonee Robinson,Fulham,4,MATCHED,MATCHED_OK,254,Fulham
-197163,Timothy Castagne,Fulham,4,MATCHED,MATCHED_OK,258,Fulham
-218998,Sander Berge,Fulham,4,MATCHED,MATCHED_OK,265,Fulham
-286965,Jarrad Branthwaite,Everton,4,MATCHED,MATCHED_OK,230,Everton
-265958,Zion Suzuki,Aston Villa,4,MATCHED,MATCHED_OK,597,Aston Villa
-204679,Victor Lindelöf,Aston Villa,4,MATCHED,MATCHED_OK,37,Aston Villa
-234698,Matty Cash,Aston Villa,4,MATCHED,MATCHED_OK,32,Aston Villa
-250936,Boubacar Kamara,Aston Villa,4,MATCHED,MATCHED_OK,47,Aston Villa
-308524,Nicolas Jackson,Aston Villa,4,MATCHED,MATCHED_OK,166,Aston Villa
-386992,Johan Manzambi,Aston Villa,4,MATCHED,MATCHED_OK,53,Aston Villa
-259517,Joe Willock,Newcastle United,4,MATCHED,MATCHED_OK,460,Newcastle
-243396,Morgan Gibbs-White,Nottingham Forest,4,MATCHED,MATCHED_OK,480,Nott'm Forest
-265907,Marc Guéhi,Manchester City,4,MATCHED,MATCHED_OK,388,Man City
+307118,James Trafford,Leeds United,5,MATCHED,MATCHED_OK,385,Leeds
+318390,Tarik Muharemovic,Leeds United,5,MATCHED,MATCHED_OK,334,Leeds
+231863,James Justin,Leeds United,5,MATCHED,MATCHED_OK,332,Leeds
+253173,Ao Tanaka,Leeds United,5,MATCHED,MATCHED_OK,345,Leeds
+241317,Ethan Ampadu,Leeds United,5,MATCHED,MATCHED_OK,338,Leeds
+250166,Gabriel Gudmundsson,Leeds United,5,MATCHED,MATCHED_OK,331,Leeds
+243408,Jayden Bogle,Leeds United,5,MATCHED,MATCHED_OK,330,Leeds
+197717,Dominic Calvert-Lewin,Leeds United,5,MATCHED,MATCHED_OK,346,Leeds
+301425,Senne Lammens,Manchester United,5,MATCHED,MATCHED_OK,412,Man Utd
+157073,Harry Maguire,Manchester United,5,MATCHED,MATCHED_OK,418,Man Utd
+340206,Leny Yoro,Manchester United,5,MATCHED,MATCHED_OK,420,Man Utd
+271170,Bryan Mbeumo,Manchester United,5,MATCHED,MATCHED_OK,427,Man Utd
+291630,Amad Diallo,Manchester United,5,MATCHED,MATCHED_OK,431,Man Utd
+265653,Morgan Rogers,Chelsea,5,MATCHED,MATCHED_OK,40,Chelsea
+296395,Cole Palmer,Chelsea,5,MATCHED,MATCHED_OK,154,Chelsea
+307069,Carl Rushworth,Coventry City,5,MATCHED,MATCHED_OK,110,Coventry City
+241093,Ethan Pinnock,Coventry City,5,MATCHED,MATCHED_OK,91,Coventry City
+206172,Jay Da Silva,Coventry City,5,MATCHED,MATCHED_OK,176,Coventry City
+281139,Milan van Ewijk,Coventry City,5,MATCHED,MATCHED_OK,175,Coventry City
+286967,Jack Rudoni,Coventry City,5,MATCHED,MATCHED_OK,183,Coventry City
+387659,Caleb Yirenkyi,Coventry City,5,MATCHED,MATCHED_OK,575,Coventry City
+159443,Jordan Pickford,Everton,5,MATCHED,MATCHED_OK,226,Everton
+155226,James Tarkowski,Everton,5,MATCHED,MATCHED_OK,229,Everton
+252389,Kiernan Dewsbury-Hall,Everton,5,MATCHED,MATCHED_OK,236,Everton
+276220,James Garner,Everton,5,MATCHED,MATCHED_OK,239,Everton
+378458,Harrison Armstrong,Everton,5,MATCHED,MATCHED_OK,244,Everton
+301166,Thierno Barry,Everton,5,MATCHED,MATCHED_OK,249,Everton
+270507,Sepp van den Berg,Brentford,4,MATCHED,MATCHED_OK,85,Brentford
+225564,Vitaly Janelt,Brentford,4,MATCHED,MATCHED_OK,98,Brentford
+315530,Dango Ouattara,Brentford,4,MATCHED,MATCHED_OK,95,Brentford
+310958,Kevin Schade,Brentford,4,MATCHED,MATCHED_OK,94,Brentford
 238472,Elliot Anderson,Manchester City,4,MATCHED,MATCHED_OK,481,Man City
 285450,Enzo Fernández,Manchester City,4,MATCHED,MATCHED_OK,155,Man City
 283672,Jérémy Doku,Manchester City,4,MATCHED,MATCHED_OK,400,Man City
-214188,Nordi Mukiele,Sunderland,3,MATCHED,MATCHED_OK,533,Sunderland
+235662,Alexander Isak,Liverpool,4,MATCHED,MATCHED_OK,379,Liverpool
+386252,Jaydee Canvot,Crystal Palace,4,MATCHED,MATCHED_OK,203,Crystal Palace
+214188,Nordi Mukiele,Sunderland,4,MATCHED,MATCHED_OK,533,Sunderland
+243396,Morgan Gibbs-White,Nottingham Forest,4,MATCHED,MATCHED_OK,480,Nott'm Forest
+275842,Dan Ndoye,Nottingham Forest,4,MATCHED,MATCHED_OK,483,Nott'm Forest
+234698,Matty Cash,Aston Villa,4,MATCHED,MATCHED_OK,32,Aston Villa
+162843,John McGinn,Aston Villa,4,MATCHED,MATCHED_OK,45,Aston Villa
+259517,Joe Willock,Newcastle United,4,MATCHED,MATCHED_OK,460,Newcastle
+298329,Riccardo Calafiori,Arsenal,4,MATCHED,MATCHED_OK,8,Arsenal
+231182,Kai Havertz,Arsenal,4,MATCHED,MATCHED_OK,26,Arsenal
+293236,Noni Madueke,Arsenal,4,MATCHED,MATCHED_OK,16,Arsenal
+265907,Marc Guéhi,Manchester City,4,MATCHED,MATCHED_OK,388,Man City
+228393,Exequiel Palacios,Ipswich Town,4,MATCHED,MATCHED_OK,619,Ipswich Town
+295370,Jaden Philogene,Ipswich Town,4,MATCHED,MATCHED_OK,318,Ipswich Town
+218998,Sander Berge,Fulham,4,MATCHED,MATCHED_OK,265,Fulham
+212237,Nico Elvedi,Leeds United,4,MATCHED,MATCHED_OK,598,Leeds
+193297,Youri Tielemans,Manchester United,4,MATCHED,MATCHED_OK,43,Man Utd
+368317,Josh Acheampong,Chelsea,4,MATCHED,MATCHED_OK,151,Chelsea
+127262,Jordan Henderson,Chelsea,4,MATCHED,MATCHED_OK,101,Chelsea
+302002,Tatsuhiro Sakamoto,Coventry City,4,MATCHED,MATCHED_OK,185,Coventry City
+286965,Jarrad Branthwaite,Everton,4,MATCHED,MATCHED_OK,230,Everton
+311963,Merlin Röhl,Everton,4,MATCHED,MATCHED_OK,246,Everton
+222396,Antonee Robinson,Fulham,4,MATCHED,MATCHED_OK,254,Fulham
+197163,Timothy Castagne,Fulham,4,MATCHED,MATCHED_OK,258,Fulham
+228547,Mamadou Sangare,Brentford,3,MATCHED,MATCHED_OK,565,Brentford
+362211,Abdukodir Khusanov,Manchester City,3,MATCHED,MATCHED_OK,393,Man City
+299910,Josko Gvardiol,Manchester City,3,MATCHED,MATCHED_OK,391,Man City
+303785,Matheus Nunes,Manchester City,3,MATCHED,MATCHED_OK,389,Man City
+249524,Cody Gakpo,Liverpool,3,MATCHED,MATCHED_OK,367,Liverpool
+195738,Walter Benítez,Crystal Palace,3,MATCHED,MATCHED_OK,199,Crystal Palace
+282230,Quinten Timber,Crystal Palace,3,MATCHED,MATCHED_OK,644,Crystal Palace
+332648,Anan Khalaili,Crystal Palace,3,MATCHED,MATCHED_OK,588,Crystal Palace
+252747,Jørgen Strand Larsen,Crystal Palace,3,MATCHED,MATCHED_OK,222,Crystal Palace
 318090,Nilson Angulo,Sunderland,3,MATCHED,MATCHED_OK,551,Sunderland
-356295,Chris Rigg,Sunderland,3,MATCHED,MATCHED_OK,548,Sunderland
-233937,Lisandro Martínez,Manchester United,3,MATCHED,MATCHED_OK,419,Man Utd
-193297,Youri Tielemans,Manchester United,3,MATCHED,MATCHED_OK,43,Man Utd
+227472,Mathias Jensen,Brentford,3,MATCHED,MATCHED_OK,97,Brentford
+238990,Nikola Milenkovic,Nottingham Forest,3,MATCHED,MATCHED_OK,471,Nott'm Forest
+243576,Ryan Giles,Hull City,3,MATCHED,MATCHED_OK,282,Hull City
+310599,Tim Iroegbunam,Hull City,3,MATCHED,MATCHED_OK,240,Hull City
+357145,Elliot Stroud,Hull City,3,MATCHED,MATCHED_OK,576,Hull City
+320417,Mohamed Belloumi,Hull City,3,MATCHED,MATCHED_OK,286,Hull City
+301524,João Gomes,Aston Villa,3,MATCHED,MATCHED_OK,54,Aston Villa
+231718,Axel Disasi,Crystal Palace,3,MATCHED,MATCHED_OK,153,Crystal Palace
+198138,Dan Burn,Newcastle United,3,MATCHED,MATCHED_OK,448,Newcastle
+308979,Amar Dedic,Newcastle United,3,MATCHED,MATCHED_OK,593,Newcastle
+319431,William Osula,Newcastle United,3,MATCHED,MATCHED_OK,465,Newcastle
+172836,Jacob Murphy,Newcastle United,3,MATCHED,MATCHED_OK,457,Newcastle
+298008,Rayan Cherki,Manchester City,3,MATCHED,MATCHED_OK,399,Man City
+286347,Daizen Maeda,Ipswich Town,3,MATCHED,MATCHED_OK,562,Ipswich Town
+356212,Nobel Mendy,Hull City,3,MATCHED,MATCHED_OK,586,Hull City
 338814,Carlos Baleba,Manchester United,3,MATCHED,MATCHED_OK,131,Man Utd
+356295,Chris Rigg,Sunderland,3,MATCHED,MATCHED_OK,548,Sunderland
 265918,Maxence Lacroix,Chelsea,3,MATCHED,MATCHED_OK,200,Chelsea
-127262,Jordan Henderson,Chelsea,3,MATCHED,MATCHED_OK,101,Chelsea
+191574,Luke O'Nien,Sunderland,3,MATCHED,MATCHED_OK,539,Sunderland
+282229,Brian Brobbey,Sunderland,3,MATCHED,MATCHED_OK,552,Sunderland
+332343,Mike Penders,Chelsea,3,MATCHED,MATCHED_OK,560,Chelsea
+233937,Lisandro Martínez,Manchester United,3,MATCHED,MATCHED_OK,419,Man Utd
+251100,Pau Torres,Aston Villa,3,MATCHED,MATCHED_OK,34,Aston Villa
+281125,Ian Maatsen,Aston Villa,3,MATCHED,MATCHED_OK,36,Aston Villa
+303444,Malick Thiaw,Newcastle United,3,MATCHED,MATCHED_OK,445,Newcastle
+224077,Yoane Wissa,Newcastle United,3,MATCHED,MATCHED_OK,464,Newcastle
 303931,Bobby Thomas,Coventry City,3,MATCHED,MATCHED_OK,173,Coventry City
 191337,Matt Grimes,Coventry City,3,MATCHED,MATCHED_OK,184,Coventry City
 366817,Sidiki Cherif,Coventry City,3,MATCHED,MATCHED_OK,599,Coventry City
 240495,Brandon Thomas-Asante,Coventry City,3,MATCHED,MATCHED_OK,194,Coventry City
-356212,Nobel Mendy,Hull City,3,MATCHED,MATCHED_OK,586,Hull City
-357145,Elliot Stroud,Hull City,3,MATCHED,MATCHED_OK,576,Hull City
-310599,Tim Iroegbunam,Hull City,3,MATCHED,MATCHED_OK,240,Hull City
-235662,Alexander Isak,Liverpool,3,MATCHED,MATCHED_OK,379,Liverpool
 368864,Tyrique George,Everton,3,MATCHED,MATCHED_OK,242,Everton
-243576,Ryan Giles,Hull City,3,MATCHED,MATCHED_OK,282,Hull City
-320417,Mohamed Belloumi,Hull City,3,MATCHED,MATCHED_OK,286,Hull City
-228393,Exequiel Palacios,Ipswich Town,3,MATCHED,MATCHED_OK,619,Ipswich Town
-295370,Jaden Philogene,Ipswich Town,3,MATCHED,MATCHED_OK,318,Ipswich Town
-270507,Sepp van den Berg,Brentford,3,MATCHED,MATCHED_OK,85,Brentford
-227472,Mathias Jensen,Brentford,3,MATCHED,MATCHED_OK,97,Brentford
-310958,Kevin Schade,Brentford,3,MATCHED,MATCHED_OK,94,Brentford
-315530,Dango Ouattara,Brentford,3,MATCHED,MATCHED_OK,95,Brentford
-198138,Dan Burn,Newcastle United,3,MATCHED,MATCHED_OK,448,Newcastle
-303444,Malick Thiaw,Newcastle United,3,MATCHED,MATCHED_OK,445,Newcastle
-308979,Amar Dedic,Newcastle United,3,MATCHED,MATCHED_OK,593,Newcastle
-224077,Yoane Wissa,Newcastle United,3,MATCHED,MATCHED_OK,464,Newcastle
-319431,William Osula,Newcastle United,3,MATCHED,MATCHED_OK,465,Newcastle
-172836,Jacob Murphy,Newcastle United,3,MATCHED,MATCHED_OK,457,Newcastle
-162843,John McGinn,Aston Villa,3,MATCHED,MATCHED_OK,45,Aston Villa
-195738,Walter Benítez,Crystal Palace,3,MATCHED,MATCHED_OK,199,Crystal Palace
-332648,Anan Khalaili,Crystal Palace,3,MATCHED,MATCHED_OK,588,Crystal Palace
-301524,João Gomes,Aston Villa,3,MATCHED,MATCHED_OK,54,Aston Villa
-238990,Nikola Milenkovic,Nottingham Forest,3,MATCHED,MATCHED_OK,471,Nott'm Forest
-299910,Josko Gvardiol,Manchester City,3,MATCHED,MATCHED_OK,391,Man City
-362211,Abdukodir Khusanov,Manchester City,3,MATCHED,MATCHED_OK,393,Man City
-298008,Rayan Cherki,Manchester City,3,MATCHED,MATCHED_OK,399,Man City
-225564,Vitaly Janelt,Brentford,3,MATCHED,MATCHED_OK,98,Brentford
-303785,Matheus Nunes,Manchester City,3,MATCHED,MATCHED_OK,389,Man City
-194801,Harry Wilson,Leeds United,2,MATCHED,MATCHED_OK,260,Leeds
-191574,Luke O'Nien,Sunderland,2,MATCHED,MATCHED_OK,539,Sunderland
-282229,Brian Brobbey,Sunderland,2,MATCHED,MATCHED_OK,552,Sunderland
-270641,Noah Okafor,Leeds United,2,MATCHED,MATCHED_OK,336,Leeds
-304802,Anton Stach,Leeds United,2,MATCHED,MATCHED_OK,335,Leeds
-352758,Myles Lewis-Skelly,Arsenal,2,MATCHED,MATCHED_OK,7,Arsenal
-280555,Bukayo Saka,Arsenal,2,MATCHED,MATCHED_OK,12,Arsenal
-231718,Axel Disasi,Crystal Palace,2,MATCHED,MATCHED_OK,153,Crystal Palace
+283940,Aaron Hickey,Brentford,2,MATCHED,MATCHED_OK,90,Brentford
+373927,Ayyoub Bouaddi,Manchester City,2,MATCHED,MATCHED_OK,616,Man City
+274632,Ryan Gravenberch,Liverpool,2,MATCHED,MATCHED_OK,371,Liverpool
+250543,Kevin Danso,Sunderland,2,MATCHED,MATCHED_OK,501,Sunderland
+166473,Thomas Meunier,Sunderland,2,MATCHED,MATCHED_OK,541,Sunderland
+206227,Ola Aina,Nottingham Forest,2,MATCHED,MATCHED_OK,473,Nott'm Forest
+392320,Lucas Herrington,Hull City,2,MATCHED,MATCHED_OK,585,Hull City
+342029,Yehor Yarmoliuk,Brentford,2,MATCHED,MATCHED_OK,102,Brentford
+307657,Jaidon Anthony,Brentford,2,MATCHED,MATCHED_OK,105,Brentford
+257206,Dominik Szoboszlai,Liverpool,2,MATCHED,MATCHED_OK,368,Liverpool
+397545,Víctor Muñoz,Liverpool,2,MATCHED,MATCHED_OK,377,Liverpool
+181312,Tyrone Mings,Aston Villa,2,MATCHED,MATCHED_OK,33,Aston Villa
+234172,Dean Henderson,Crystal Palace,2,MATCHED,MATCHED_OK,198,Crystal Palace
+276546,Óscar Mingueza,Crystal Palace,2,MATCHED,MATCHED_OK,207,Crystal Palace
 241187,Jean-Philippe Mateta,Crystal Palace,2,MATCHED,MATCHED_OK,223,Crystal Palace
 273495,Dwight McNeil,Crystal Palace,2,MATCHED,MATCHED_OK,241,Crystal Palace
-332343,Mike Penders,Chelsea,2,MATCHED,MATCHED_OK,560,Chelsea
-353951,Jorrel Hato,Chelsea,2,MATCHED,MATCHED_OK,148,Chelsea
+179233,Fabian Schär,Newcastle United,2,MATCHED,MATCHED_OK,446,Newcastle
+343964,Ousmane Diomande,Nottingham Forest,2,MATCHED,MATCHED_OK,581,Nott'm Forest
 282716,Jurriën Timber,Arsenal,2,MATCHED,MATCHED_OK,5,Arsenal
 303793,Christos Tzolis,Arsenal,2,MATCHED,MATCHED_OK,557,Arsenal
-249524,Cody Gakpo,Liverpool,2,MATCHED,MATCHED_OK,367,Liverpool
-251400,Eberechi Eze,Arsenal,2,MATCHED,MATCHED_OK,14,Arsenal
-283586,Jake O'Brien,Everton,2,MATCHED,MATCHED_OK,232,Everton
-291307,Brennan Johnson,Everton,2,MATCHED,MATCHED_OK,209,Everton
-343964,Ousmane Diomande,Nottingham Forest,2,MATCHED,MATCHED_OK,581,Nott'm Forest
-392320,Lucas Herrington,Hull City,2,MATCHED,MATCHED_OK,585,Hull City
-228547,Mamadou Sangare,Brentford,2,MATCHED,MATCHED_OK,565,Brentford
-153613,Matt Crooks,Hull City,2,MATCHED,MATCHED_OK,289,Hull City
-250478,Sorba Thomas,Hull City,2,MATCHED,MATCHED_OK,642,Hull City
-214402,Ainsley Maitland-Niles,Everton,2,MATCHED,MATCHED_OK,649,Everton
-172850,Jack Grealish,Everton,2,MATCHED,MATCHED_OK,238,Everton
-251100,Pau Torres,Aston Villa,2,MATCHED,MATCHED_OK,34,Aston Villa
-281125,Ian Maatsen,Aston Villa,2,MATCHED,MATCHED_OK,36,Aston Villa
-286347,Daizen Maeda,Ipswich Town,2,MATCHED,MATCHED_OK,562,Ipswich Town
-179233,Fabian Schär,Newcastle United,2,MATCHED,MATCHED_OK,446,Newcastle
-274633,Sven Botman,Newcastle United,2,MATCHED,MATCHED_OK,447,Newcastle
-349078,Lewis Miley,Newcastle United,2,MATCHED,MATCHED_OK,459,Newcastle
-359651,Matias Fernandez-Pardo,Newcastle United,2,MATCHED,MATCHED_OK,634,Newcastle
-181312,Tyrone Mings,Aston Villa,2,MATCHED,MATCHED_OK,33,Aston Villa
-206227,Ola Aina,Nottingham Forest,2,MATCHED,MATCHED_OK,473,Nott'm Forest
-282230,Quinten Timber,Crystal Palace,2,MATCHED,MATCHED_OK,644,Crystal Palace
-252747,Jørgen Strand Larsen,Crystal Palace,2,MATCHED,MATCHED_OK,222,Crystal Palace
-373927,Ayyoub Bouaddi,Manchester City,2,MATCHED,MATCHED_OK,616,Man City
 328464,Nico O'Reilly,Manchester City,2,MATCHED,MATCHED_OK,387,Man City
-274632,Ryan Gravenberch,Liverpool,2,MATCHED,MATCHED_OK,371,Liverpool
-397545,Víctor Muñoz,Liverpool,2,MATCHED,MATCHED_OK,377,Liverpool
+194801,Harry Wilson,Leeds United,2,MATCHED,MATCHED_OK,260,Leeds
+215401,Omar Alderete,Sunderland,2,MATCHED,MATCHED_OK,535,Sunderland
+300331,Pep Chavarría,Chelsea,2,MATCHED,MATCHED_OK,583,Chelsea
+270190,Wesley Fofana,Chelsea,2,MATCHED,MATCHED_OK,145,Chelsea
+362486,Marco Palestra,Chelsea,2,MATCHED,MATCHED_OK,152,Chelsea
+308217,Romeo Lavia,Chelsea,2,MATCHED,MATCHED_OK,161,Chelsea
 374220,Stephen Mfuni,Coventry City,2,MATCHED,MATCHED_OK,656,Coventry City
 256015,Victor Torp,Coventry City,2,MATCHED,MATCHED_OK,188,Coventry City
 194686,Taiwo Awoniyi,Coventry City,2,MATCHED,MATCHED_OK,492,Coventry City
 277383,Yann Gboho,Coventry City,2,MATCHED,MATCHED_OK,655,Coventry City
-215401,Omar Alderete,Sunderland,2,MATCHED,MATCHED_OK,535,Sunderland
-342029,Yehor Yarmoliuk,Brentford,2,MATCHED,MATCHED_OK,102,Brentford
-307657,Jaidon Anthony,Brentford,2,MATCHED,MATCHED_OK,105,Brentford
-250543,Kevin Danso,Sunderland,2,MATCHED,MATCHED_OK,501,Sunderland
-258956,Lukas Nmecha,Leeds United,1,MATCHED,MATCHED_OK,347,Leeds
-251658,Sean Longstaff,Leeds United,1,MATCHED,MATCHED_OK,339,Leeds
+353951,Jorrel Hato,Chelsea,2,MATCHED,MATCHED_OK,148,Chelsea
+214402,Ainsley Maitland-Niles,Everton,2,MATCHED,MATCHED_OK,649,Everton
+172850,Jack Grealish,Everton,2,MATCHED,MATCHED_OK,238,Everton
+328466,Kobbie Mainoo,Manchester United,2,MATCHED,MATCHED_OK,432,Man Utd
+174550,Leon Goretzka,Aston Villa,2,MATCHED,MATCHED_OK,618,Aston Villa
+270641,Noah Okafor,Leeds United,2,MATCHED,MATCHED_OK,336,Leeds
+304802,Anton Stach,Leeds United,2,MATCHED,MATCHED_OK,335,Leeds
+274633,Sven Botman,Newcastle United,2,MATCHED,MATCHED_OK,447,Newcastle
+349078,Lewis Miley,Newcastle United,2,MATCHED,MATCHED_OK,459,Newcastle
+359651,Matias Fernandez-Pardo,Newcastle United,2,MATCHED,MATCHED_OK,634,Newcastle
+352758,Myles Lewis-Skelly,Arsenal,2,MATCHED,MATCHED_OK,7,Arsenal
+280555,Bukayo Saka,Arsenal,2,MATCHED,MATCHED_OK,12,Arsenal
+251400,Eberechi Eze,Arsenal,2,MATCHED,MATCHED_OK,14,Arsenal
+283586,Jake O'Brien,Everton,2,MATCHED,MATCHED_OK,232,Everton
+291307,Brennan Johnson,Everton,2,MATCHED,MATCHED_OK,209,Everton
+153613,Matt Crooks,Hull City,2,MATCHED,MATCHED_OK,289,Hull City
+250478,Sorba Thomas,Hull City,2,MATCHED,MATCHED_OK,642,Hull City
+388605,Honest Ahanor,Crystal Palace,1,MATCHED,MATCHED_OK,633,Crystal Palace
+265915,Wilson Isidor,Sunderland,1,MATCHED,MATCHED_OK,553,Sunderland
+297229,Matteo Ruggeri,Aston Villa,1,MATCHED,MATCHED_OK,596,Aston Villa
+376683,Jannik Schuster,Brentford,1,MATCHED,MATCHED_OK,93,Brentford
+359796,El Hadji Malick Diouf,Brentford,1,MATCHED,MATCHED_OK,620,Brentford
+356075,Trey Nyoni,Liverpool,1,MATCHED,MATCHED_OK,375,Liverpool
+350661,Lewis Koumas,Liverpool,1,MATCHED,MATCHED_OK,381,Liverpool
+273292,Antoine Semenyo,Manchester City,1,MATCHED,MATCHED_OK,397,Man City
+250787,Phil Foden,Manchester City,1,MATCHED,MATCHED_OK,398,Man City
+154595,Mateo Kovacic,Manchester City,1,MATCHED,MATCHED_OK,406,Man City
+291174,Jacob Greaves,Ipswich Town,1,MATCHED,MATCHED_OK,306,Ipswich Town
+222300,Sasa Lukic,Ipswich Town,1,MATCHED,MATCHED_OK,267,Ipswich Town
+241328,Ryan Sessegnon,Fulham,1,MATCHED,MATCHED_OK,269,Fulham
+190974,Kenny Tete,Fulham,1,MATCHED,MATCHED_OK,256,Fulham
 203072,Daniel James,Leeds United,1,MATCHED,MATCHED_OK,343,Leeds
+356044,Ayden Heaven,Manchester United,1,MATCHED,MATCHED_OK,421,Man Utd
+231167,Mason Mount,Manchester United,1,MATCHED,MATCHED_OK,430,Man Utd
+387460,Tymur Tutierov,Sunderland,1,MATCHED,MATCHED_OK,668,Sunderland
+360062,Chemsdine Talbi,Sunderland,1,MATCHED,MATCHED_OK,549,Sunderland
 274649,Jaka Bijol,Leeds United,1,MATCHED,MATCHED_OK,327,Leeds
 259653,Brenden Aaronson,Leeds United,1,MATCHED,MATCHED_OK,337,Leeds
-234172,Dean Henderson,Crystal Palace,1,MATCHED,MATCHED_OK,198,Crystal Palace
-276546,Óscar Mingueza,Crystal Palace,1,MATCHED,MATCHED_OK,207,Crystal Palace
 376274,Geovany Quenda,Chelsea,1,MATCHED,MATCHED_OK,164,Chelsea
+239350,Noussair Mazraoui,Manchester United,1,MATCHED,MATCHED_OK,422,Man Utd
+281121,Taylor Harwood-Bellis,Aston Villa,1,MATCHED,MATCHED_OK,630,Aston Villa
 167127,Luke Shaw,Manchester United,1,MATCHED,MATCHED_OK,423,Man Utd
-328466,Kobbie Mainoo,Manchester United,1,MATCHED,MATCHED_OK,432,Man Utd
+250945,Aaron Wan-Bissaka,Aston Villa,1,MATCHED,MATCHED_OK,611,Aston Villa
+258956,Lukas Nmecha,Leeds United,1,MATCHED,MATCHED_OK,347,Leeds
+251658,Sean Longstaff,Leeds United,1,MATCHED,MATCHED_OK,339,Leeds
 303338,Lucas Gourna-Douath,Hull City,1,MATCHED,MATCHED_OK,589,Hull City
 306557,Mohamed-Ali Cho,Hull City,1,MATCHED,MATCHED_OK,617,Hull City
-356075,Trey Nyoni,Liverpool,1,MATCHED,MATCHED_OK,375,Liverpool
 258906,Viktor Gyökeres,Arsenal,1,MATCHED,MATCHED_OK,25,Arsenal
 254118,Nicolás Domínguez,Nottingham Forest,1,MATCHED,MATCHED_OK,487,Nott'm Forest
-283940,Aaron Hickey,Brentford,1,MATCHED,MATCHED_OK,90,Brentford
 311173,Brooke Norton-Cuffy,Hull City,1,MATCHED,MATCHED_OK,638,Hull City
 277531,Joe Gelhardt,Hull City,1,MATCHED,MATCHED_OK,340,Hull City
 4946,Michael Keane,Everton,1,MATCHED,MATCHED_OK,231,Everton
 384372,Sean Steur,Newcastle United,1,MATCHED,MATCHED_OK,462,Newcastle
-174550,Leon Goretzka,Aston Villa,1,MATCHED,MATCHED_OK,618,Aston Villa
 336460,Hugo Larsson,Fulham,1,MATCHED,MATCHED_OK,635,Fulham
-222300,Sasa Lukic,Ipswich Town,1,MATCHED,MATCHED_OK,267,Ipswich Town
-241328,Ryan Sessegnon,Fulham,1,MATCHED,MATCHED_OK,269,Fulham
-190974,Kenny Tete,Fulham,1,MATCHED,MATCHED_OK,256,Fulham
 296622,Anthony Elanga,Newcastle United,1,MATCHED,MATCHED_OK,454,Newcastle
-250945,Aaron Wan-Bissaka,Aston Villa,1,MATCHED,MATCHED_OK,611,Aston Villa
 246954,Ephron Mason-Clark,Coventry City,1,MATCHED,MATCHED_OK,186,Coventry City
 241253,Ryan Yates,Nottingham Forest,1,MATCHED,MATCHED_OK,489,Nott'm Forest
-250787,Phil Foden,Manchester City,1,MATCHED,MATCHED_OK,398,Man City
-154595,Mateo Kovacic,Manchester City,1,MATCHED,MATCHED_OK,406,Man City
-291174,Jacob Greaves,Ipswich Town,1,MATCHED,MATCHED_OK,306,Ipswich Town
-350661,Lewis Koumas,Liverpool,1,MATCHED,MATCHED_OK,381,Liverpool
-273292,Antoine Semenyo,Manchester City,1,MATCHED,MATCHED_OK,397,Man City
 340640,Tyler Dibling,Everton,1,MATCHED,MATCHED_OK,245,Everton
-257206,Dominik Szoboszlai,Liverpool,1,MATCHED,MATCHED_OK,368,Liverpool
-270190,Wesley Fofana,Chelsea,1,MATCHED,MATCHED_OK,145,Chelsea
-362486,Marco Palestra,Chelsea,1,MATCHED,MATCHED_OK,152,Chelsea
-308217,Romeo Lavia,Chelsea,1,MATCHED,MATCHED_OK,161,Chelsea
-300331,Pep Chavarría,Chelsea,1,MATCHED,MATCHED_OK,583,Chelsea
-356044,Ayden Heaven,Manchester United,1,MATCHED,MATCHED_OK,421,Man Utd
-231167,Mason Mount,Manchester United,1,MATCHED,MATCHED_OK,430,Man Utd
-387460,Tymur Tutierov,Sunderland,1,MATCHED,MATCHED_OK,668,Sunderland
-297229,Matteo Ruggeri,Aston Villa,1,MATCHED,MATCHED_OK,596,Aston Villa
-376683,Jannik Schuster,Brentford,1,MATCHED,MATCHED_OK,93,Brentford
-359796,El Hadji Malick Diouf,Brentford,1,MATCHED,MATCHED_OK,620,Brentford
-265915,Wilson Isidor,Sunderland,1,MATCHED,MATCHED_OK,553,Sunderland
-166473,Thomas Meunier,Sunderland,1,MATCHED,MATCHED_OK,541,Sunderland
-388605,Honest Ahanor,Crystal Palace,1,MATCHED,MATCHED_OK,633,Crystal Palace

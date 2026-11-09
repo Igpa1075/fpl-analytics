@@ -5,7 +5,7 @@
     {
       "entry": 1517924,
       "team_name": "Meatball",
-      "total": 665,
+      "total": 713,
       "rank": 1,
       "captain_id": 411,
       "starting_ids": [
@@ -42,7 +42,7 @@
     {
       "entry": 295337,
       "team_name": "⫷ GΛMBLΞR ⫸",
-      "total": 626,
+      "total": 670,
       "rank": 2,
       "captain_id": 154,
       "starting_ids": [
@@ -77,47 +77,10 @@
       ]
     },
     {
-      "entry": 2639391,
-      "team_name": "S.W.A.T. LA",
-      "total": 606,
-      "rank": 3,
-      "captain_id": 411,
-      "starting_ids": [
-        572,
-        8,
-        115,
-        391,
-        480,
-        40,
-        124,
-        68,
-        411,
-        166,
-        138
-      ],
-      "all_ids": [
-        572,
-        8,
-        115,
-        391,
-        480,
-        40,
-        124,
-        68,
-        411,
-        166,
-        138,
-        226,
-        399,
-        305,
-        586
-      ]
-    },
-    {
       "entry": 715977,
       "team_name": "Maestroni",
-      "total": 599,
-      "rank": 4,
+      "total": 650,
+      "rank": 3,
       "captain_id": 411,
       "starting_ids": [
         1,
@@ -151,10 +114,47 @@
       ]
     },
     {
+      "entry": 2639391,
+      "team_name": "S.W.A.T. LA",
+      "total": 638,
+      "rank": 4,
+      "captain_id": 411,
+      "starting_ids": [
+        572,
+        8,
+        115,
+        391,
+        480,
+        40,
+        124,
+        68,
+        411,
+        166,
+        138
+      ],
+      "all_ids": [
+        572,
+        8,
+        115,
+        391,
+        480,
+        40,
+        124,
+        68,
+        411,
+        166,
+        138,
+        226,
+        399,
+        305,
+        586
+      ]
+    },
+    {
       "entry": 1936456,
       "team_name": "Team_D",
-      "total": 598,
-      "rank": 5,
+      "total": 638,
+      "rank": 4,
       "captain_id": 411,
       "starting_ids": [
         572,
@@ -190,7 +190,7 @@
     {
       "entry": 1653100,
       "team_name": "Yerazzurri",
-      "total": 594,
+      "total": 627,
       "rank": 6,
       "captain_id": 411,
       "starting_ids": [
@@ -227,7 +227,7 @@
     {
       "entry": 1347510,
       "team_name": "WΞΞKΞND WΛRRIOR",
-      "total": 585,
+      "total": 611,
       "rank": 7,
       "captain_id": 40,
       "starting_ids": [
@@ -262,47 +262,10 @@
       ]
     },
     {
-      "entry": 7057301,
-      "team_name": "Team Ansar",
-      "total": 569,
-      "rank": 8,
-      "captain_id": 411,
-      "starting_ids": [
-        351,
-        502,
-        4,
-        356,
-        31,
-        40,
-        15,
-        400,
-        124,
-        411,
-        138
-      ],
-      "all_ids": [
-        351,
-        502,
-        4,
-        356,
-        31,
-        40,
-        15,
-        400,
-        124,
-        411,
-        138,
-        199,
-        259,
-        212,
-        165
-      ]
-    },
-    {
       "entry": 3777468,
       "team_name": "Atashka team",
-      "total": 564,
-      "rank": 9,
+      "total": 610,
+      "rank": 8,
       "captain_id": 411,
       "starting_ids": [
         572,
@@ -338,8 +301,8 @@
     {
       "entry": 2498334,
       "team_name": "Kananir",
-      "total": 561,
-      "rank": 10,
+      "total": 608,
+      "rank": 9,
       "captain_id": 40,
       "starting_ids": [
         572,
@@ -373,9 +336,46 @@
       ]
     },
     {
+      "entry": 7057301,
+      "team_name": "Team Ansar",
+      "total": 589,
+      "rank": 10,
+      "captain_id": 411,
+      "starting_ids": [
+        351,
+        502,
+        4,
+        356,
+        31,
+        40,
+        15,
+        400,
+        124,
+        411,
+        138
+      ],
+      "all_ids": [
+        351,
+        502,
+        4,
+        356,
+        31,
+        40,
+        15,
+        400,
+        124,
+        411,
+        138,
+        199,
+        259,
+        212,
+        165
+      ]
+    },
+    {
       "entry": 478722,
       "team_name": "FC Barcelona SD",
-      "total": 552,
+      "total": 584,
       "rank": 11,
       "captain_id": 411,
       "starting_ids": [
@@ -412,7 +412,7 @@
     {
       "entry": 2568108,
       "team_name": "NotLastTeam",
-      "total": 508,
+      "total": 534,
       "rank": 12,
       "captain_id": 411,
       "starting_ids": [
@@ -449,7 +449,7 @@
     {
       "entry": 5150250,
       "team_name": "Chubais",
-      "total": 491,
+      "total": 528,
       "rank": 13,
       "captain_id": 411,
       "starting_ids": [

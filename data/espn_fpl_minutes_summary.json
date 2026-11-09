@@ -1,10 +1,10 @@
 {
-  "total_espn_rows": 990,
-  "rows_checked": 990,
-  "unique_fpl_ids_requested": 311,
+  "total_espn_rows": 1100,
+  "rows_checked": 1100,
+  "unique_fpl_ids_requested": 314,
   "status_counts": {
-    "FIXTURE_NOT_VERIFIED": 107,
-    "NO_ID_CANDIDATE": 37,
+    "FIXTURE_NOT_VERIFIED": 213,
+    "NO_ID_CANDIDATE": 41,
     "MINUTES_CONFIRMED": 846
   },
   "api_errors": {},
