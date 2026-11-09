@@ -1,0 +1,225 @@
+{
+  "status": "experimental_baseline_not_full_backtest",
+  "entry_id": 5150250,
+  "initial_squad_source": "manager's actual published GW1 picks",
+  "decision_policy": "GW1 observed lineup; GW2-10 rolling previous-three-GW points; no transfers",
+  "gross_total_without_autosubs": 377,
+  "gws": [
+    {
+      "gw": 1,
+      "starters": [
+        496,
+        356,
+        387,
+        200,
+        84,
+        397,
+        480,
+        427,
+        428,
+        315,
+        379
+      ],
+      "captain": 379,
+      "gross_points_without_autosubs": 32,
+      "auto_substitutions_modelled": false,
+      "transfers": 0,
+      "chip": null
+    },
+    {
+      "gw": 2,
+      "starters": [
+        496,
+        84,
+        200,
+        356,
+        315,
+        397,
+        465,
+        379,
+        387,
+        427,
+        428
+      ],
+      "captain": 84,
+      "gross_points_without_autosubs": 48,
+      "auto_substitutions_modelled": false,
+      "transfers": 0,
+      "chip": null
+    },
+    {
+      "gw": 3,
+      "starters": [
+        496,
+        84,
+        200,
+        387,
+        480,
+        427,
+        379,
+        428,
+        397,
+        315,
+        465
+      ],
+      "captain": 480,
+      "gross_points_without_autosubs": 47,
+      "auto_substitutions_modelled": false,
+      "transfers": 0,
+      "chip": null
+    },
+    {
+      "gw": 4,
+      "starters": [
+        496,
+        84,
+        200,
+        356,
+        427,
+        480,
+        379,
+        428,
+        397,
+        315,
+        387
+      ],
+      "captain": 379,
+      "gross_points_without_autosubs": 37,
+      "auto_substitutions_modelled": false,
+      "transfers": 0,
+      "chip": null
+    },
+    {
+      "gw": 5,
+      "starters": [
+        496,
+        356,
+        84,
+        200,
+        480,
+        427,
+        379,
+        397,
+        428,
+        315,
+        387
+      ],
+      "captain": 480,
+      "gross_points_without_autosubs": 54,
+      "auto_substitutions_modelled": false,
+      "transfers": 0,
+      "chip": null
+    },
+    {
+      "gw": 6,
+      "starters": [
+        496,
+        356,
+        200,
+        387,
+        397,
+        428,
+        379,
+        480,
+        427,
+        315,
+        84
+      ],
+      "captain": 397,
+      "gross_points_without_autosubs": 36,
+      "auto_substitutions_modelled": false,
+      "transfers": 0,
+      "chip": null
+    },
+    {
+      "gw": 7,
+      "starters": [
+        496,
+        356,
+        387,
+        200,
+        397,
+        428,
+        379,
+        427,
+        480,
+        147,
+        465
+      ],
+      "captain": 397,
+      "gross_points_without_autosubs": 36,
+      "auto_substitutions_modelled": false,
+      "transfers": 0,
+      "chip": null
+    },
+    {
+      "gw": 8,
+      "starters": [
+        28,
+        356,
+        200,
+        387,
+        397,
+        428,
+        379,
+        427,
+        480,
+        315,
+        147
+      ],
+      "captain": 397,
+      "gross_points_without_autosubs": 28,
+      "auto_substitutions_modelled": false,
+      "transfers": 0,
+      "chip": null
+    },
+    {
+      "gw": 9,
+      "starters": [
+        496,
+        356,
+        200,
+        387,
+        427,
+        428,
+        379,
+        465,
+        315,
+        397,
+        480
+      ],
+      "captain": 379,
+      "gross_points_without_autosubs": 21,
+      "auto_substitutions_modelled": false,
+      "transfers": 0,
+      "chip": null
+    },
+    {
+      "gw": 10,
+      "starters": [
+        496,
+        356,
+        200,
+        387,
+        427,
+        315,
+        379,
+        465,
+        428,
+        480,
+        147
+      ],
+      "captain": 379,
+      "gross_points_without_autosubs": 38,
+      "auto_substitutions_modelled": false,
+      "transfers": 0,
+      "chip": null
+    }
+  ],
+  "limitations": [
+    "Initial squad and GW1 lineup were selected by real manager, not by the model.",
+    "No bench autosub, vice-captain substitution, or chips; totals are not exact FPL scoring.",
+    "No player transfers, deadline prices, historical injury status, or fixture projections.",
+    "Recent form features are strictly prior-GW; cannot be interpreted as optimized expected points."
+  ]
+}

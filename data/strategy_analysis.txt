@@ -1,13 +1,13 @@
-ASG rival-aware shortlist | completed GW9 | 12 rivals
+ASG rival-aware shortlist | completed GW10 | 12 rivals
 CAUTION: rival squads and your own squad are from the last COMPLETED GW.
 Ownership is based on these rivals, not worldwide FPL ownership.
 Scores are ranking HEURISTICS, not projected points or probabilities.
 No automatic transfer advice: current squad, sale prices, free transfers,
 and future fixtures must be checked before a decision.\n
 Rival captain choices in the completed GW:
-  Haaland: 9/12
-  Rogers: 2/12
-  Palmer: 1/12
+  Haaland: 10/12
+  Isak: 1/12
+  Gabriel: 1/12
 \nYour owned players: rival ownership and heuristic
   Ouattara               DEF rivals  0/12 | score  3.10
   O'Shea                 DEF rivals  0/12 | score  2.15
@@ -18,16 +18,16 @@ Rival captain choices in the completed GW:
   Vuskovic               DEF rivals  1/12 | score  7.32
   Leno                   GKP rivals  2/12 | score  4.49
   Mbeumo                 MID rivals  3/12 | score  4.34
-  N.Jackson              FWD rivals  6/12 | score  7.82
   Verbruggen             GKP rivals  6/12 | score  6.03
+  N.Jackson              FWD rivals  7/12 | score  7.82
   Calafiori              DEF rivals  7/12 | score  5.12
-  Tavernier              MID rivals  8/12 | score  6.25
-  De Cuyper              DEF rivals  9/12 | score  6.20
+  Tavernier              MID rivals  9/12 | score  6.25
+  De Cuyper              DEF rivals 10/12 | score  6.20
   Haaland                FWD rivals 11/12 | score  6.48
 \nPotential DIFFERENTIALS (not purchase recommendations):
 Only players with >=180 season minutes and non-unavailable status.
   DEF:
-    Konsa               ARS £4.8m | rivals  6/12 | score 8.84
+    Konsa               ARS £4.8m | rivals  7/12 | score 8.84
     Gabriel             ARS £8.1m | rivals  3/12 | score 8.68
     Muharemović         LEE £5.1m | rivals  1/12 | score 6.38
     Van Hecke           TOT £5.1m | rivals  3/12 | score 6.29
@@ -45,13 +45,13 @@ Only players with >=180 season minutes and non-unavailable status.
     Groß                BHA £6.3m | rivals 12/12 | score 5.18
     Ødegaard            ARS £6.7m | rivals  1/12 | score 5.00
   FWD:
-    Evanilson           BOU £6.5m | rivals  2/12 | score 7.98
-    Barry               EVE £5.7m | rivals  1/12 | score 6.47
-    Isak                LIV £9.3m | rivals  3/12 | score 6.02
+    Evanilson           BOU £6.5m | rivals  4/12 | score 7.98
+    Barry               EVE £5.7m | rivals  2/12 | score 6.47
+    Isak                LIV £9.3m | rivals  4/12 | score 6.02
     McBurnie            HUL £5.5m | rivals  0/12 | score 4.58
-    Kostoulas           BHA £5.8m | rivals  5/12 | score 4.57
+    Kostoulas           BHA £5.8m | rivals  4/12 | score 4.57
     Delap               NFO £5.3m | rivals  0/12 | score 3.88
-    Calvert-Lewin       LEE £6.0m | rivals  2/12 | score 3.83
+    Calvert-Lewin       LEE £6.0m | rivals  1/12 | score 3.83
     Havertz             ARS £7.4m | rivals  1/12 | score 3.50
   GKP:
     Raya                ARS £6.2m | rivals  3/12 | score 6.52

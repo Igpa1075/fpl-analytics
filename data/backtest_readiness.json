@@ -25,10 +25,11 @@
   ],
   "own_total_after_gw10": 528,
   "league_id": 492197,
-  "league_snapshot_last_finished_gw": 9,
+  "league_snapshot_last_finished_gw": 10,
   "league_snapshot_members": 13,
   "league_archived_gws": [
-    9
+    9,
+    10
   ],
   "elite_cohort_coverage": {
     "1": 100,

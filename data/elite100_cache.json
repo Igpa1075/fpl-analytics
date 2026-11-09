@@ -206,6 +206,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        4,
+        115,
+        31,
+        154,
+        68,
+        40,
+        124,
+        411,
+        249,
+        166,
+        58,
+        304,
+        449,
+        290
+      ],
+      "captain": 4,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "54837": {
@@ -412,6 +435,29 @@
         334
       ],
       "captain": 40,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        566,
+        334,
+        31,
+        8,
+        40,
+        154,
+        68,
+        249,
+        166,
+        411,
+        629,
+        124,
+        112,
+        480
+      ],
+      "captain": 8,
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
@@ -624,6 +670,29 @@
       "chip": null,
       "transfers": 1,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        385,
+        112,
+        115,
+        4,
+        400,
+        156,
+        53,
+        40,
+        249,
+        166,
+        411,
+        597,
+        512,
+        31,
+        499
+      ],
+      "captain": 249,
+      "chip": "bboost",
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "5809": {
@@ -827,6 +896,29 @@
         497,
         368,
         112,
+        290
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        4,
+        31,
+        334,
+        115,
+        124,
+        154,
+        40,
+        249,
+        166,
+        411,
+        497,
+        112,
+        94,
         290
       ],
       "captain": 411,
@@ -1042,6 +1134,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        229,
+        8,
+        334,
+        53,
+        68,
+        40,
+        154,
+        249,
+        166,
+        411,
+        301,
+        566,
+        112,
+        268
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "819758": {
@@ -1248,6 +1363,29 @@
         334
       ],
       "captain": 154,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        31,
+        4,
+        566,
+        115,
+        154,
+        68,
+        236,
+        411,
+        249,
+        166,
+        623,
+        40,
+        124,
+        334
+      ],
+      "captain": 4,
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
@@ -1460,6 +1598,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        4,
+        115,
+        31,
+        154,
+        40,
+        124,
+        368,
+        411,
+        249,
+        569,
+        111,
+        650,
+        112,
+        94
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "250692": {
@@ -1666,6 +1827,29 @@
         334
       ],
       "captain": 411,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        8,
+        31,
+        334,
+        115,
+        40,
+        154,
+        124,
+        411,
+        379,
+        249,
+        111,
+        112,
+        94,
+        453
+      ],
+      "captain": 379,
       "chip": null,
       "transfers": 1,
       "transfer_cost": 0
@@ -1878,6 +2062,29 @@
       "chip": null,
       "transfers": 1,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        4,
+        31,
+        504,
+        334,
+        53,
+        236,
+        40,
+        166,
+        411,
+        379,
+        667,
+        566,
+        286,
+        289
+      ],
+      "captain": 379,
+      "chip": null,
+      "transfers": 2,
+      "transfer_cost": 0
     }
   },
   "742971": {
@@ -2087,6 +2294,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        8,
+        31,
+        334,
+        115,
+        124,
+        40,
+        68,
+        154,
+        411,
+        249,
+        57,
+        166,
+        449,
+        486
+      ],
+      "captain": 8,
+      "chip": "bboost",
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "5741202": {
@@ -2293,6 +2523,29 @@
         31
       ],
       "captain": 154,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        31,
+        4,
+        334,
+        68,
+        154,
+        236,
+        40,
+        249,
+        411,
+        166,
+        623,
+        124,
+        504,
+        112
+      ],
+      "captain": 411,
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
@@ -2714,6 +2967,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        115,
+        31,
+        8,
+        427,
+        154,
+        40,
+        68,
+        411,
+        166,
+        249,
+        109,
+        112,
+        124,
+        304
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "4272537": {
@@ -2918,6 +3194,29 @@
         368,
         334,
         31
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        4,
+        115,
+        31,
+        124,
+        154,
+        40,
+        68,
+        411,
+        249,
+        166,
+        496,
+        53,
+        504,
+        334
       ],
       "captain": 411,
       "chip": null,
@@ -3132,6 +3431,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        8,
+        115,
+        31,
+        40,
+        124,
+        68,
+        236,
+        154,
+        249,
+        411,
+        497,
+        334,
+        112,
+        166
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "6530": {
@@ -3340,6 +3662,29 @@
       "captain": 411,
       "chip": null,
       "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        115,
+        8,
+        4,
+        334,
+        40,
+        154,
+        124,
+        68,
+        411,
+        249,
+        251,
+        166,
+        112,
+        183
+      ],
+      "captain": 8,
+      "chip": null,
+      "transfers": 2,
       "transfer_cost": 0
     }
   },
@@ -3550,6 +3895,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        112,
+        115,
+        4,
+        229,
+        334,
+        68,
+        67,
+        40,
+        124,
+        411,
+        58,
+        165,
+        346,
+        94
+      ],
+      "captain": 4,
+      "chip": null,
+      "transfers": 2,
+      "transfer_cost": 0
     }
   },
   "5359755": {
@@ -3758,6 +4126,29 @@
       "captain": 411,
       "chip": null,
       "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        362,
+        566,
+        4,
+        236,
+        154,
+        124,
+        400,
+        249,
+        166,
+        411,
+        496,
+        53,
+        504,
+        173
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 2,
       "transfer_cost": 0
     }
   },
@@ -3968,6 +4359,29 @@
       "chip": null,
       "transfers": 2,
       "transfer_cost": 4
+    },
+    "10": {
+      "players": [
+        1,
+        115,
+        31,
+        8,
+        124,
+        67,
+        40,
+        154,
+        166,
+        411,
+        79,
+        496,
+        53,
+        112,
+        334
+      ],
+      "captain": 79,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "1636347": {
@@ -4177,6 +4591,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        31,
+        115,
+        4,
+        124,
+        154,
+        68,
+        236,
+        411,
+        166,
+        249,
+        623,
+        453,
+        499,
+        112
+      ],
+      "captain": 4,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "3871956": {
@@ -4383,6 +4820,29 @@
         175
       ],
       "captain": 165,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        4,
+        8,
+        112,
+        236,
+        480,
+        40,
+        124,
+        411,
+        166,
+        249,
+        110,
+        127,
+        259,
+        175
+      ],
+      "captain": 411,
       "chip": null,
       "transfers": 1,
       "transfer_cost": 0
@@ -4595,6 +5055,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        8,
+        334,
+        31,
+        115,
+        154,
+        124,
+        40,
+        480,
+        411,
+        346,
+        302,
+        449,
+        290,
+        165
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "154290": {
@@ -4801,6 +5284,29 @@
         31
       ],
       "captain": 154,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        31,
+        8,
+        115,
+        154,
+        68,
+        40,
+        124,
+        166,
+        249,
+        411,
+        109,
+        53,
+        112,
+        449
+      ],
+      "captain": 411,
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
@@ -5013,6 +5519,29 @@
       "chip": null,
       "transfers": 2,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        109,
+        8,
+        4,
+        115,
+        31,
+        40,
+        68,
+        154,
+        411,
+        166,
+        249,
+        58,
+        124,
+        469,
+        73
+      ],
+      "captain": 4,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "54864": {
@@ -5221,6 +5750,29 @@
       "captain": 165,
       "chip": null,
       "transfers": 1,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        109,
+        4,
+        566,
+        334,
+        504,
+        183,
+        124,
+        68,
+        40,
+        106,
+        411,
+        385,
+        94,
+        173,
+        165
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
       "transfer_cost": 0
     }
   },
@@ -5431,6 +5983,29 @@
       "chip": null,
       "transfers": 1,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        31,
+        115,
+        233,
+        68,
+        426,
+        40,
+        124,
+        249,
+        166,
+        411,
+        497,
+        453,
+        60,
+        176
+      ],
+      "captain": 249,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "307262": {
@@ -5635,6 +6210,29 @@
         368,
         31,
         334
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        115,
+        8,
+        31,
+        68,
+        40,
+        154,
+        124,
+        249,
+        411,
+        79,
+        302,
+        112,
+        334,
+        94
       ],
       "captain": 411,
       "chip": null,
@@ -5848,6 +6446,29 @@
       "captain": 411,
       "chip": null,
       "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        4,
+        115,
+        356,
+        40,
+        15,
+        68,
+        124,
+        346,
+        249,
+        411,
+        109,
+        94,
+        259,
+        473
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 2,
       "transfer_cost": 0
     }
   },
@@ -6476,6 +7097,29 @@
       "chip": null,
       "transfers": 1,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        8,
+        4,
+        229,
+        115,
+        78,
+        40,
+        237,
+        124,
+        166,
+        411,
+        385,
+        183,
+        346,
+        148
+      ],
+      "captain": 4,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "28824": {
@@ -6682,6 +7326,29 @@
         367
       ],
       "captain": 40,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        8,
+        31,
+        334,
+        115,
+        124,
+        154,
+        40,
+        166,
+        411,
+        346,
+        302,
+        449,
+        53,
+        480
+      ],
+      "captain": 411,
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
@@ -6893,6 +7560,29 @@
       "captain": 12,
       "chip": null,
       "transfers": 2,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        385,
+        31,
+        115,
+        8,
+        40,
+        68,
+        53,
+        236,
+        411,
+        249,
+        379,
+        109,
+        334,
+        480,
+        112
+      ],
+      "captain": 379,
+      "chip": null,
+      "transfers": 1,
       "transfer_cost": 0
     }
   },
@@ -7312,6 +8002,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        4,
+        31,
+        115,
+        124,
+        40,
+        154,
+        236,
+        249,
+        166,
+        411,
+        111,
+        400,
+        112,
+        277
+      ],
+      "captain": 4,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "15823": {
@@ -7521,6 +8234,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        8,
+        566,
+        31,
+        154,
+        40,
+        68,
+        124,
+        411,
+        379,
+        249,
+        109,
+        504,
+        334,
+        53
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "4800950": {
@@ -7729,6 +8465,29 @@
       "captain": 411,
       "chip": null,
       "transfers": 1,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        334,
+        31,
+        8,
+        40,
+        154,
+        68,
+        124,
+        411,
+        166,
+        249,
+        497,
+        504,
+        566,
+        53
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
       "transfer_cost": 0
     }
   },
@@ -8146,6 +8905,29 @@
       ],
       "captain": 165,
       "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        4,
+        31,
+        504,
+        60,
+        40,
+        68,
+        236,
+        411,
+        166,
+        249,
+        496,
+        124,
+        112,
+        53
+      ],
+      "captain": 249,
+      "chip": "bboost",
       "transfers": 1,
       "transfer_cost": 0
     }
@@ -8566,6 +9348,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        385,
+        334,
+        4,
+        8,
+        115,
+        68,
+        557,
+        124,
+        53,
+        79,
+        411,
+        109,
+        330,
+        427,
+        165
+      ],
+      "captain": 8,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "3953077": {
@@ -8981,6 +9786,29 @@
         304
       ],
       "captain": 426,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        31,
+        8,
+        504,
+        40,
+        426,
+        124,
+        453,
+        346,
+        411,
+        249,
+        109,
+        94,
+        304,
+        277
+      ],
+      "captain": 411,
       "chip": null,
       "transfers": 1,
       "transfer_cost": 0
@@ -9611,6 +10439,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        109,
+        8,
+        31,
+        4,
+        115,
+        124,
+        154,
+        40,
+        249,
+        166,
+        411,
+        251,
+        112,
+        399,
+        398
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "31612": {
@@ -9819,6 +10670,29 @@
       "captain": 165,
       "chip": null,
       "transfers": 2,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        8,
+        31,
+        115,
+        53,
+        124,
+        154,
+        40,
+        249,
+        166,
+        411,
+        251,
+        650,
+        334,
+        335
+      ],
+      "captain": 8,
+      "chip": null,
+      "transfers": 0,
       "transfer_cost": 0
     }
   },
@@ -11074,6 +11948,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        109,
+        115,
+        31,
+        334,
+        8,
+        427,
+        40,
+        124,
+        154,
+        411,
+        249,
+        496,
+        68,
+        166,
+        112
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "3900993": {
@@ -11489,6 +12386,29 @@
         173
       ],
       "captain": 154,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        109,
+        8,
+        115,
+        31,
+        40,
+        154,
+        124,
+        15,
+        166,
+        411,
+        249,
+        58,
+        68,
+        449,
+        173
+      ],
+      "captain": 411,
       "chip": null,
       "transfers": 1,
       "transfer_cost": 0
@@ -11910,6 +12830,29 @@
       "chip": null,
       "transfers": 5,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        109,
+        4,
+        31,
+        334,
+        115,
+        8,
+        154,
+        40,
+        68,
+        166,
+        411,
+        301,
+        346,
+        124,
+        94
+      ],
+      "captain": 4,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "4513188": {
@@ -12119,6 +13062,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        109,
+        31,
+        8,
+        4,
+        334,
+        236,
+        68,
+        480,
+        249,
+        166,
+        379,
+        467,
+        40,
+        154,
+        201
+      ],
+      "captain": 8,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "158536": {
@@ -12325,6 +13291,29 @@
         31
       ],
       "captain": 12,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        109,
+        31,
+        60,
+        115,
+        8,
+        124,
+        40,
+        154,
+        411,
+        166,
+        249,
+        385,
+        53,
+        334,
+        480
+      ],
+      "captain": 411,
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
@@ -12746,6 +13735,29 @@
       "chip": null,
       "transfers": 1,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        109,
+        115,
+        31,
+        8,
+        154,
+        40,
+        68,
+        124,
+        411,
+        249,
+        166,
+        497,
+        453,
+        112,
+        586
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "345441": {
@@ -12952,6 +13964,29 @@
         173
       ],
       "captain": 12,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        504,
+        4,
+        31,
+        566,
+        154,
+        40,
+        68,
+        124,
+        249,
+        411,
+        497,
+        166,
+        112,
+        94
+      ],
+      "captain": 4,
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
@@ -13163,6 +14198,29 @@
       "captain": 426,
       "chip": null,
       "transfers": 1,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        385,
+        4,
+        115,
+        31,
+        15,
+        154,
+        427,
+        124,
+        411,
+        249,
+        79,
+        109,
+        566,
+        112,
+        542
+      ],
+      "captain": 15,
+      "chip": "bboost",
+      "transfers": 0,
       "transfer_cost": 0
     }
   },
@@ -13791,6 +14849,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        4,
+        115,
+        31,
+        504,
+        68,
+        124,
+        154,
+        40,
+        249,
+        411,
+        497,
+        166,
+        277,
+        290
+      ],
+      "captain": 4,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "4413228": {
@@ -14208,6 +15289,29 @@
       "captain": 154,
       "chip": null,
       "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        8,
+        31,
+        504,
+        334,
+        154,
+        40,
+        68,
+        411,
+        249,
+        379,
+        302,
+        124,
+        53,
+        586
+      ],
+      "captain": 379,
+      "chip": null,
+      "transfers": 2,
       "transfer_cost": 0
     }
   },
@@ -14836,6 +15940,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        566,
+        115,
+        8,
+        31,
+        154,
+        124,
+        68,
+        411,
+        249,
+        166,
+        109,
+        391,
+        40,
+        53
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "8273687": {
@@ -15251,6 +16378,29 @@
         112
       ],
       "captain": 427,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        31,
+        8,
+        334,
+        566,
+        40,
+        236,
+        427,
+        79,
+        379,
+        411,
+        496,
+        112,
+        53,
+        94
+      ],
+      "captain": 379,
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
@@ -16299,6 +17449,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        8,
+        31,
+        115,
+        154,
+        40,
+        68,
+        124,
+        411,
+        166,
+        249,
+        301,
+        53,
+        112,
+        334
+      ],
+      "captain": 249,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "2206786": {
@@ -16503,6 +17676,29 @@
         233,
         368,
         334
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        31,
+        334,
+        115,
+        124,
+        154,
+        68,
+        40,
+        249,
+        166,
+        411,
+        497,
+        112,
+        480,
+        173
       ],
       "captain": 411,
       "chip": null,
@@ -17135,6 +18331,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        112,
+        233,
+        8,
+        115,
+        31,
+        154,
+        40,
+        542,
+        411,
+        166,
+        58,
+        480,
+        453,
+        346
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "6853057": {
@@ -17343,6 +18562,29 @@
       "captain": 165,
       "chip": null,
       "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        8,
+        31,
+        504,
+        154,
+        40,
+        124,
+        68,
+        411,
+        249,
+        379,
+        109,
+        53,
+        334,
+        259
+      ],
+      "captain": 379,
+      "chip": null,
+      "transfers": 2,
       "transfer_cost": 0
     }
   },
@@ -17762,6 +19004,29 @@
       "chip": null,
       "transfers": 1,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        115,
+        4,
+        112,
+        229,
+        40,
+        15,
+        124,
+        68,
+        411,
+        166,
+        109,
+        236,
+        330,
+        249
+      ],
+      "captain": 411,
+      "chip": "bboost",
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "7701": {
@@ -17970,6 +19235,29 @@
       "captain": 411,
       "chip": null,
       "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        4,
+        31,
+        504,
+        334,
+        154,
+        40,
+        124,
+        411,
+        249,
+        166,
+        111,
+        112,
+        261,
+        183
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 1,
       "transfer_cost": 0
     }
   },
@@ -18807,6 +20095,29 @@
       "chip": null,
       "transfers": 1,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        391,
+        4,
+        566,
+        334,
+        40,
+        124,
+        68,
+        166,
+        79,
+        411,
+        414,
+        112,
+        53,
+        512
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "5589811": {
@@ -19643,6 +20954,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        31,
+        115,
+        8,
+        124,
+        154,
+        68,
+        40,
+        249,
+        166,
+        411,
+        623,
+        334,
+        53,
+        449
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "5163171": {
@@ -20061,6 +21395,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        109,
+        115,
+        31,
+        8,
+        154,
+        124,
+        68,
+        40,
+        249,
+        166,
+        411,
+        497,
+        566,
+        330,
+        399
+      ],
+      "captain": 8,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "2371270": {
@@ -20269,6 +21626,29 @@
       "captain": 411,
       "chip": null,
       "transfers": 1,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        115,
+        31,
+        8,
+        154,
+        40,
+        124,
+        68,
+        166,
+        249,
+        411,
+        497,
+        504,
+        449,
+        51
+      ],
+      "captain": 249,
+      "chip": null,
+      "transfers": 0,
       "transfer_cost": 0
     }
   },
@@ -20688,6 +22068,29 @@
       "chip": null,
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        31,
+        566,
+        8,
+        115,
+        40,
+        68,
+        124,
+        411,
+        379,
+        166,
+        623,
+        112,
+        53,
+        453
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "7414896": {
@@ -20891,6 +22294,29 @@
         497,
         277,
         379,
+        290
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        31,
+        115,
+        8,
+        391,
+        400,
+        40,
+        124,
+        79,
+        411,
+        379,
+        497,
+        87,
+        480,
         290
       ],
       "captain": 411,
@@ -21315,6 +22741,29 @@
       "chip": null,
       "transfers": 1,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        597,
+        8,
+        566,
+        31,
+        154,
+        68,
+        15,
+        236,
+        249,
+        166,
+        411,
+        350,
+        449,
+        124,
+        115
+      ],
+      "captain": 68,
+      "chip": "bboost",
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "71002": {
@@ -21385,6 +22834,29 @@
       "captain": 411,
       "chip": null,
       "transfers": 1,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        4,
+        229,
+        31,
+        504,
+        154,
+        124,
+        68,
+        411,
+        249,
+        166,
+        57,
+        334,
+        542,
+        127
+      ],
+      "captain": 411,
+      "chip": "bboost",
+      "transfers": 3,
       "transfer_cost": 0
     }
   },
@@ -21457,6 +22929,29 @@
       "chip": null,
       "transfers": 2,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        8,
+        115,
+        31,
+        504,
+        124,
+        40,
+        154,
+        79,
+        166,
+        411,
+        497,
+        68,
+        449,
+        453
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "3338716": {
@@ -21527,6 +23022,29 @@
       "captain": 411,
       "chip": null,
       "transfers": 2,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        8,
+        31,
+        115,
+        504,
+        366,
+        40,
+        124,
+        379,
+        166,
+        411,
+        497,
+        112,
+        453,
+        268
+      ],
+      "captain": 379,
+      "chip": null,
+      "transfers": 1,
       "transfer_cost": 0
     }
   },
@@ -21599,6 +23117,29 @@
       "chip": null,
       "transfers": 3,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        57,
+        115,
+        449,
+        112,
+        154,
+        290,
+        124,
+        53,
+        411,
+        166,
+        79,
+        1,
+        8,
+        31,
+        40
+      ],
+      "captain": 411,
+      "chip": "bboost",
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "3785270": {
@@ -21669,6 +23210,29 @@
       "captain": 411,
       "chip": null,
       "transfers": 2,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        115,
+        8,
+        112,
+        542,
+        236,
+        68,
+        40,
+        124,
+        166,
+        411,
+        496,
+        60,
+        504,
+        249
+      ],
+      "captain": 411,
+      "chip": "bboost",
+      "transfers": 1,
       "transfer_cost": 0
     }
   },
@@ -21741,6 +23305,29 @@
       "chip": null,
       "transfers": 1,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        334,
+        566,
+        8,
+        115,
+        31,
+        53,
+        40,
+        68,
+        166,
+        411,
+        109,
+        79,
+        124,
+        154
+      ],
+      "captain": 411,
+      "chip": "bboost",
+      "transfers": 2,
+      "transfer_cost": 4
     }
   },
   "1208211": {
@@ -21809,6 +23396,29 @@
         8
       ],
       "captain": 411,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        4,
+        334,
+        504,
+        8,
+        68,
+        40,
+        124,
+        411,
+        379,
+        79,
+        111,
+        112,
+        94,
+        286
+      ],
+      "captain": 379,
       "chip": null,
       "transfers": 1,
       "transfer_cost": 0
@@ -21883,6 +23493,29 @@
       "chip": "freehit",
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        57,
+        8,
+        31,
+        115,
+        391,
+        40,
+        124,
+        68,
+        79,
+        379,
+        411,
+        109,
+        15,
+        268,
+        449
+      ],
+      "captain": 379,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "8045204": {
@@ -21953,6 +23586,29 @@
       "captain": 411,
       "chip": null,
       "transfers": 4,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        112,
+        31,
+        4,
+        124,
+        40,
+        68,
+        53,
+        154,
+        411,
+        166,
+        497,
+        115,
+        504,
+        249
+      ],
+      "captain": 166,
+      "chip": "bboost",
+      "transfers": 1,
       "transfer_cost": 0
     }
   },
@@ -22025,6 +23681,29 @@
       "chip": null,
       "transfers": 1,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        385,
+        115,
+        31,
+        229,
+        15,
+        40,
+        154,
+        236,
+        166,
+        411,
+        79,
+        109,
+        124,
+        566,
+        8
+      ],
+      "captain": 411,
+      "chip": "bboost",
+      "transfers": 2,
+      "transfer_cost": 0
     }
   },
   "2720953": {
@@ -22096,6 +23775,29 @@
       "chip": null,
       "transfers": 2,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        8,
+        31,
+        115,
+        124,
+        427,
+        40,
+        154,
+        411,
+        379,
+        166,
+        497,
+        127,
+        87,
+        586
+      ],
+      "captain": 379,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "1583013": {
@@ -22164,6 +23866,29 @@
         8
       ],
       "captain": 40,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        109,
+        566,
+        8,
+        115,
+        334,
+        15,
+        154,
+        40,
+        166,
+        379,
+        411,
+        497,
+        127,
+        31,
+        94
+      ],
+      "captain": 379,
       "chip": null,
       "transfers": 1,
       "transfer_cost": 0
@@ -22238,6 +23963,29 @@
       "chip": "bboost",
       "transfers": 2,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        31,
+        4,
+        115,
+        112,
+        124,
+        154,
+        40,
+        411,
+        79,
+        166,
+        109,
+        453,
+        87,
+        183
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "243851": {
@@ -22308,6 +24056,29 @@
       "captain": 166,
       "chip": null,
       "transfers": 2,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        109,
+        4,
+        31,
+        115,
+        13,
+        40,
+        124,
+        154,
+        68,
+        166,
+        411,
+        497,
+        233,
+        346,
+        586
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
       "transfer_cost": 0
     }
   },
@@ -22380,6 +24151,29 @@
       "chip": null,
       "transfers": 2,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        115,
+        4,
+        31,
+        504,
+        40,
+        124,
+        154,
+        53,
+        411,
+        166,
+        497,
+        334,
+        542,
+        346
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "99157": {
@@ -22449,6 +24243,29 @@
       ],
       "captain": 411,
       "chip": "wildcard",
+      "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        504,
+        112,
+        8,
+        60,
+        40,
+        68,
+        124,
+        411,
+        79,
+        166,
+        496,
+        53,
+        334,
+        94
+      ],
+      "captain": 411,
+      "chip": null,
       "transfers": 0,
       "transfer_cost": 0
     }
@@ -22522,6 +24339,29 @@
       "chip": "freehit",
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        109,
+        8,
+        31,
+        4,
+        115,
+        154,
+        68,
+        124,
+        411,
+        79,
+        166,
+        384,
+        334,
+        542,
+        290
+      ],
+      "captain": 4,
+      "chip": null,
+      "transfers": 2,
+      "transfer_cost": 0
     }
   },
   "4153423": {
@@ -22593,6 +24433,29 @@
       "chip": null,
       "transfers": 1,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        109,
+        31,
+        115,
+        8,
+        427,
+        154,
+        40,
+        124,
+        166,
+        249,
+        411,
+        301,
+        453,
+        449,
+        173
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "1120807": {
@@ -22662,6 +24525,29 @@
       ],
       "captain": 411,
       "chip": "wildcard",
+      "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        4,
+        566,
+        504,
+        124,
+        40,
+        68,
+        627,
+        166,
+        249,
+        411,
+        302,
+        334,
+        53,
+        112
+      ],
+      "captain": 411,
+      "chip": "bboost",
       "transfers": 0,
       "transfer_cost": 0
     }
@@ -22735,6 +24621,29 @@
       "chip": "wildcard",
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        112,
+        4,
+        566,
+        154,
+        68,
+        124,
+        236,
+        411,
+        166,
+        249,
+        496,
+        183,
+        504,
+        334
+      ],
+      "captain": 411,
+      "chip": "bboost",
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "5715720": {
@@ -22804,6 +24713,29 @@
       ],
       "captain": 411,
       "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        4,
+        31,
+        115,
+        236,
+        40,
+        53,
+        67,
+        79,
+        166,
+        411,
+        495,
+        124,
+        112,
+        259
+      ],
+      "captain": 411,
+      "chip": "bboost",
       "transfers": 1,
       "transfer_cost": 0
     }
@@ -22877,6 +24809,29 @@
       "chip": null,
       "transfers": 1,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        229,
+        31,
+        8,
+        236,
+        68,
+        154,
+        124,
+        166,
+        249,
+        411,
+        301,
+        504,
+        334,
+        53
+      ],
+      "captain": 411,
+      "chip": "bboost",
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "1483758": {
@@ -22947,6 +24902,29 @@
       "captain": 411,
       "chip": null,
       "transfers": 2,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        115,
+        566,
+        334,
+        8,
+        68,
+        426,
+        236,
+        166,
+        249,
+        411,
+        57,
+        124,
+        112,
+        268
+      ],
+      "captain": 426,
+      "chip": null,
+      "transfers": 0,
       "transfer_cost": 0
     }
   },
@@ -23019,6 +24997,29 @@
       "chip": "freehit",
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        109,
+        449,
+        31,
+        8,
+        504,
+        40,
+        368,
+        400,
+        627,
+        379,
+        411,
+        496,
+        165,
+        127,
+        304
+      ],
+      "captain": 379,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "447911": {
@@ -23089,6 +25090,29 @@
       "captain": 411,
       "chip": null,
       "transfers": 2,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        109,
+        112,
+        4,
+        31,
+        115,
+        124,
+        154,
+        40,
+        367,
+        411,
+        166,
+        497,
+        346,
+        259,
+        480
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 1,
       "transfer_cost": 0
     }
   },
@@ -23161,6 +25185,29 @@
       "chip": "wildcard",
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        4,
+        566,
+        112,
+        8,
+        40,
+        68,
+        124,
+        411,
+        79,
+        166,
+        385,
+        183,
+        115,
+        127
+      ],
+      "captain": 79,
+      "chip": "bboost",
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "616092": {
@@ -23232,6 +25279,29 @@
       "chip": null,
       "transfers": 3,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        385,
+        31,
+        115,
+        334,
+        67,
+        53,
+        40,
+        154,
+        379,
+        166,
+        411,
+        629,
+        112,
+        124,
+        504
+      ],
+      "captain": 379,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "7245717": {
@@ -23298,6 +25368,29 @@
         115,
         290,
         165
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        109,
+        115,
+        8,
+        31,
+        68,
+        40,
+        154,
+        124,
+        379,
+        411,
+        166,
+        497,
+        391,
+        449,
+        290
       ],
       "captain": 411,
       "chip": null,
@@ -23374,6 +25467,29 @@
       "chip": "freehit",
       "transfers": 0,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        8,
+        31,
+        362,
+        504,
+        566,
+        124,
+        426,
+        79,
+        166,
+        411,
+        496,
+        268,
+        453,
+        94
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 3,
+      "transfer_cost": 0
     }
   },
   "366005": {
@@ -23444,6 +25560,29 @@
       "captain": 411,
       "chip": null,
       "transfers": 3,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        4,
+        504,
+        334,
+        112,
+        40,
+        68,
+        53,
+        411,
+        379,
+        166,
+        302,
+        78,
+        87,
+        290
+      ],
+      "captain": 4,
+      "chip": null,
+      "transfers": 0,
       "transfer_cost": 0
     }
   },
@@ -23516,6 +25655,29 @@
       "chip": null,
       "transfers": 4,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        109,
+        8,
+        115,
+        334,
+        40,
+        154,
+        68,
+        124,
+        411,
+        166,
+        79,
+        496,
+        400,
+        87,
+        259
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "4041739": {
@@ -23587,6 +25749,29 @@
       "chip": null,
       "transfers": 2,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        115,
+        8,
+        391,
+        449,
+        68,
+        453,
+        40,
+        79,
+        166,
+        411,
+        109,
+        124,
+        427,
+        502
+      ],
+      "captain": 79,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "774358": {
@@ -23656,6 +25841,29 @@
       ],
       "captain": 411,
       "chip": "wildcard",
+      "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        385,
+        4,
+        566,
+        31,
+        504,
+        154,
+        124,
+        67,
+        411,
+        379,
+        166,
+        496,
+        112,
+        53,
+        183
+      ],
+      "captain": 4,
+      "chip": null,
       "transfers": 0,
       "transfer_cost": 0
     }
@@ -23729,6 +25937,29 @@
       "chip": null,
       "transfers": 2,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        109,
+        4,
+        8,
+        334,
+        115,
+        40,
+        124,
+        68,
+        411,
+        166,
+        379,
+        301,
+        94,
+        399,
+        277
+      ],
+      "captain": 379,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "7022585": {
@@ -23799,6 +26030,29 @@
       "captain": 411,
       "chip": "freehit",
       "transfers": 0,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        4,
+        112,
+        115,
+        15,
+        40,
+        427,
+        124,
+        68,
+        411,
+        249,
+        57,
+        346,
+        504,
+        332
+      ],
+      "captain": 411,
+      "chip": "bboost",
+      "transfers": 3,
       "transfer_cost": 0
     }
   },
@@ -23871,6 +26125,29 @@
       "chip": null,
       "transfers": 1,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        385,
+        4,
+        229,
+        504,
+        112,
+        154,
+        124,
+        68,
+        411,
+        249,
+        79,
+        109,
+        542,
+        453,
+        173
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
+      "transfer_cost": 0
     }
   },
   "21778": {
@@ -23941,6 +26218,29 @@
       "captain": 411,
       "chip": null,
       "transfers": 2,
+      "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        8,
+        504,
+        31,
+        427,
+        154,
+        40,
+        124,
+        249,
+        411,
+        166,
+        623,
+        53,
+        334,
+        112
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 0,
       "transfer_cost": 0
     }
   }
