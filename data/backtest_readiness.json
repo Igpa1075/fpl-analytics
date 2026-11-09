@@ -43,7 +43,7 @@
   },
   "current_bootstrap_present": true,
   "fixtures_present": true,
-  "historical_player_records": 40,
+  "historical_player_records": 200,
   "historical_player_collection_total": 672,
   "historical_predeadline_player_prices_present": false,
   "historical_predeadline_availability_snapshots_present": false,

@@ -1,0 +1,85 @@
+{
+  "processed_player_ids": 200,
+  "bootstrap_player_ids": 672,
+  "coverage_pct": 29.76,
+  "gws": {
+    "1": {
+      "players_with_fixture": 200,
+      "player_fixture_rows": 200,
+      "players_with_minutes": 103,
+      "points_sum_raw": 338,
+      "missing_fixture_value_rows": 0
+    },
+    "2": {
+      "players_with_fixture": 200,
+      "player_fixture_rows": 200,
+      "players_with_minutes": 100,
+      "points_sum_raw": 271,
+      "missing_fixture_value_rows": 0
+    },
+    "3": {
+      "players_with_fixture": 200,
+      "player_fixture_rows": 200,
+      "players_with_minutes": 101,
+      "points_sum_raw": 262,
+      "missing_fixture_value_rows": 0
+    },
+    "4": {
+      "players_with_fixture": 200,
+      "player_fixture_rows": 200,
+      "players_with_minutes": 99,
+      "points_sum_raw": 307,
+      "missing_fixture_value_rows": 0
+    },
+    "5": {
+      "players_with_fixture": 200,
+      "player_fixture_rows": 200,
+      "players_with_minutes": 95,
+      "points_sum_raw": 344,
+      "missing_fixture_value_rows": 0
+    },
+    "6": {
+      "players_with_fixture": 200,
+      "player_fixture_rows": 200,
+      "players_with_minutes": 99,
+      "points_sum_raw": 328,
+      "missing_fixture_value_rows": 0
+    },
+    "7": {
+      "players_with_fixture": 200,
+      "player_fixture_rows": 200,
+      "players_with_minutes": 103,
+      "points_sum_raw": 395,
+      "missing_fixture_value_rows": 0
+    },
+    "8": {
+      "players_with_fixture": 200,
+      "player_fixture_rows": 200,
+      "players_with_minutes": 99,
+      "points_sum_raw": 305,
+      "missing_fixture_value_rows": 0
+    },
+    "9": {
+      "players_with_fixture": 200,
+      "player_fixture_rows": 200,
+      "players_with_minutes": 96,
+      "points_sum_raw": 410,
+      "missing_fixture_value_rows": 0
+    },
+    "10": {
+      "players_with_fixture": 200,
+      "player_fixture_rows": 200,
+      "players_with_minutes": 97,
+      "points_sum_raw": 292,
+      "missing_fixture_value_rows": 0
+    }
+  },
+  "duplicate_fixture_keys": [],
+  "duplicate_fixture_count": 0,
+  "safe_to_run_full_backtest": false,
+  "limitations": [
+    "Fixture points are raw per-player scores, not fantasy squad scores.",
+    "Fixture values are not validated pre-deadline transfer prices.",
+    "A complete player fixture dataset alone does not prevent hindsight leakage."
+  ]
+}
