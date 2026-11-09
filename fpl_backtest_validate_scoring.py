@@ -48,7 +48,7 @@ def main():
         hit = int(history.get("event_transfers_cost") or 0)
         official_points = history.get("points")
         # Some FPL chips alter how scoring is represented. Explicitly surface mismatches.
-        computed = raw - hit if not missing else None
+        computed = raw if not missing else None
         rows.append({
             "gw": gw,
             "selected_player_count": len(selected_ids),
@@ -69,6 +69,7 @@ def main():
         "notes": [
             "Official picks are the manager's real historic choices; not a hindsight-free simulated strategy.",
             "Official picks multipliers should include published captaincy and autosub effects.",
+            "FPL entry_history.points is the gameweek score before transfer-hit deductions; transfer cost is reported separately.",
             "An incomplete player-history collection prevents scoring some gameweeks.",
             "Scores may differ for special chips or incomplete live gameweeks; mismatches are reported.",
         ],
