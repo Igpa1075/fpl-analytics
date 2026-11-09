@@ -79,8 +79,9 @@ def main():
             bench = [p for p in published_bench if positions[p] == 1] + [p for p in published_bench if positions[p] != 1]
         else:
             starters = choose(squad, positions, prior)
-            ordered = sorted(starters, key=lambda pid: (-prior[pid], pid))
-            captain, vice = ordered[:2]
+            # FPL captaincy is only available to outfield players.
+            eligible = sorted((p for p in starters if positions[p] != 1), key=lambda pid: (-prior[pid], pid))
+            captain, vice = eligible[:2]
             rest = [p for p in squad if p not in starters]
             bench = sorted([p for p in rest if positions[p] == 1]) + sorted(
                 [p for p in rest if positions[p] != 1], key=lambda pid: (-prior[pid], pid))
