@@ -1,0 +1,115 @@
+{
+  "status": "not_budget_validated",
+  "transfer_count": 9,
+  "with_fixture_price_pair": 9,
+  "with_verified_deadline_price_pair": 0,
+  "budget_legal_transfers_confirmed": 0,
+  "rows": [
+    {
+      "gw": 2,
+      "out": 147,
+      "in": 115,
+      "fixture_value_out_tenths": 45,
+      "fixture_value_in_tenths": 46,
+      "fixture_price_difference_tenths": 1,
+      "has_both_fixture_values": true,
+      "deadline_price_verified": false,
+      "transfer_budget_legal": null
+    },
+    {
+      "gw": 3,
+      "out": 55,
+      "in": 165,
+      "fixture_value_out_tenths": 78,
+      "fixture_value_in_tenths": 77,
+      "fixture_price_difference_tenths": -1,
+      "has_both_fixture_values": true,
+      "deadline_price_verified": false,
+      "transfer_budget_legal": null
+    },
+    {
+      "gw": 4,
+      "out": 387,
+      "in": 279,
+      "fixture_value_out_tenths": 64,
+      "fixture_value_in_tenths": 42,
+      "fixture_price_difference_tenths": -22,
+      "has_both_fixture_values": true,
+      "deadline_price_verified": false,
+      "transfer_budget_legal": null
+    },
+    {
+      "gw": 5,
+      "out": 465,
+      "in": 411,
+      "fixture_value_out_tenths": 59,
+      "fixture_value_in_tenths": 156,
+      "fixture_price_difference_tenths": 97,
+      "has_both_fixture_values": true,
+      "deadline_price_verified": false,
+      "transfer_budget_legal": null
+    },
+    {
+      "gw": 6,
+      "out": 84,
+      "in": 330,
+      "fixture_value_out_tenths": 54,
+      "fixture_value_in_tenths": 46,
+      "fixture_price_difference_tenths": -8,
+      "has_both_fixture_values": true,
+      "deadline_price_verified": false,
+      "transfer_budget_legal": null
+    },
+    {
+      "gw": 7,
+      "out": 315,
+      "in": 124,
+      "fixture_value_out_tenths": 54,
+      "fixture_value_in_tenths": 61,
+      "fixture_price_difference_tenths": 7,
+      "has_both_fixture_values": true,
+      "deadline_price_verified": false,
+      "transfer_budget_legal": null
+    },
+    {
+      "gw": 8,
+      "out": 480,
+      "in": 53,
+      "fixture_value_out_tenths": 79,
+      "fixture_value_in_tenths": 60,
+      "fixture_price_difference_tenths": -19,
+      "has_both_fixture_values": true,
+      "deadline_price_verified": false,
+      "transfer_budget_legal": null
+    },
+    {
+      "gw": 9,
+      "out": 279,
+      "in": 4,
+      "fixture_value_out_tenths": 42,
+      "fixture_value_in_tenths": 80,
+      "fixture_price_difference_tenths": 38,
+      "has_both_fixture_values": true,
+      "deadline_price_verified": false,
+      "transfer_budget_legal": null
+    },
+    {
+      "gw": 10,
+      "out": 330,
+      "in": 31,
+      "fixture_value_out_tenths": 48,
+      "fixture_value_in_tenths": 48,
+      "fixture_price_difference_tenths": 0,
+      "has_both_fixture_values": true,
+      "deadline_price_verified": false,
+      "transfer_budget_legal": null
+    }
+  ],
+  "required_to_validate": [
+    "Pre-deadline buy prices for incoming players in each GW",
+    "Actual purchase prices and FPL half-profit selling prices for outgoing players",
+    "Remaining bank balance before every transfer",
+    "Historical club and player eligibility as of each deadline"
+  ],
+  "warning": "Fixture values are diagnostic only. Never use them to assert affordability."
+}
