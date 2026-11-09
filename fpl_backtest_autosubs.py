@@ -23,8 +23,8 @@ def resolve(lineup, positions, minutes, points, captain, vice):
         raise ValueError("Invalid initial formation")
     if positions[bench[0]] != 1 or any(positions[p] == 1 for p in bench[1:]):
         raise ValueError("Bench must be goalkeeper followed by three outfield players")
-    if captain not in xi or vice not in xi or captain == vice:
-        raise ValueError("Captain and vice must be distinct starters")
+    if captain not in xi or vice not in lineup or captain == vice:
+        raise ValueError("Captain must start; vice must be a distinct squad player")
     swaps = []
     # GK replacement, if GK did not play.
     absent_gk = next((p for p in xi if positions[p] == 1 and minutes.get(p, 0) == 0), None)
@@ -46,7 +46,7 @@ def resolve(lineup, positions, minutes, points, captain, vice):
                 break
     base = sum(int(points.get(p, 0)) for p in xi)
     active_captain = captain if minutes.get(captain, 0) > 0 else (
-        vice if minutes.get(vice, 0) > 0 else None)
+        vice if vice in xi and minutes.get(vice, 0) > 0 else None)
     return {"points": base + (int(points.get(active_captain, 0)) if active_captain else 0),
             "base_points": base, "captain_scoring": active_captain,
             "autosubs": [{"out": a, "in": b} for a, b in swaps], "final_xi": xi}
