@@ -16,14 +16,14 @@
       {
         "active_phases": [
           {
-            "entry_percentile_rank": 70,
+            "entry_percentile_rank": 65,
             "last_rank": 842153,
             "league_id": 1,
             "phase": 1,
-            "rank": 862981,
-            "rank_count": 1282150,
-            "rank_sort": 863182,
-            "total": 491
+            "rank": 805007,
+            "rank_count": 1282162,
+            "rank_sort": 805276,
+            "total": 528
           },
           {
             "entry_percentile_rank": 70,
@@ -45,8 +45,8 @@
         "entry_can_invite": false,
         "entry_can_leave": false,
         "entry_last_rank": 842153,
-        "entry_percentile_rank": 70,
-        "entry_rank": 805007,
+        "entry_percentile_rank": 65,
+        "entry_rank": 805008,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 1,
@@ -54,7 +54,7 @@
         "max_entries": null,
         "name": "Arsenal",
         "rank": null,
-        "rank_count": 1282150,
+        "rank_count": 1282162,
         "scoring": "c",
         "short_name": "team-1",
         "start_event": 1
@@ -66,10 +66,10 @@
             "last_rank": 6010,
             "league_id": 130,
             "phase": 1,
-            "rank": 6069,
-            "rank_count": 9379,
-            "rank_sort": 6071,
-            "total": 491
+            "rank": 5785,
+            "rank_count": 9378,
+            "rank_sort": 5787,
+            "total": 528
           },
           {
             "entry_percentile_rank": 60,
@@ -100,7 +100,7 @@
         "max_entries": null,
         "name": "Kazakhstan",
         "rank": null,
-        "rank_count": 9379,
+        "rank_count": 9378,
         "scoring": "c",
         "short_name": "region-110",
         "start_event": 1
@@ -108,14 +108,14 @@
       {
         "active_phases": [
           {
-            "entry_percentile_rank": 80,
+            "entry_percentile_rank": 75,
             "last_rank": 6700807,
             "league_id": 276,
             "phase": 1,
-            "rank": 6740850,
-            "rank_count": 8887995,
-            "rank_sort": 6743096,
-            "total": 491
+            "rank": 6383070,
+            "rank_count": 8887779,
+            "rank_sort": 6385728,
+            "total": 528
           },
           {
             "entry_percentile_rank": 60,
@@ -137,8 +137,8 @@
         "entry_can_invite": false,
         "entry_can_leave": false,
         "entry_last_rank": 6700807,
-        "entry_percentile_rank": 80,
-        "entry_rank": 6383070,
+        "entry_percentile_rank": 75,
+        "entry_rank": 6383068,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 276,
@@ -146,7 +146,7 @@
         "max_entries": null,
         "name": "Gameweek 1",
         "rank": null,
-        "rank_count": 8887995,
+        "rank_count": 8887779,
         "scoring": "c",
         "short_name": "event-1",
         "start_event": 1
@@ -184,7 +184,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 6902909,
         "entry_percentile_rank": 60,
-        "entry_rank": 6556974,
+        "entry_rank": 6556972,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 314,
@@ -250,10 +250,10 @@
             "last_rank": 6010,
             "league_id": 1541165,
             "phase": 1,
-            "rank": 6069,
-            "rank_count": 9379,
-            "rank_sort": 6071,
-            "total": 491
+            "rank": 5785,
+            "rank_count": 9378,
+            "rank_sort": 5787,
+            "total": 528
           },
           {
             "entry_percentile_rank": 60,
@@ -284,7 +284,7 @@
         "max_entries": null,
         "name": "Setanta Sports Kazakhstan",
         "rank": null,
-        "rank_count": 9379,
+        "rank_count": 9378,
         "scoring": "c",
         "short_name": "brd-setanta_kaz",
         "start_event": 1
@@ -322,7 +322,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 7402685,
         "entry_percentile_rank": 70,
-        "entry_rank": 6613290,
+        "entry_rank": 6613284,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 2430021,
@@ -397,6 +397,6 @@
   "club_badge_src": null,
   "summary_overall_points": 528,
   "summary_event_points": 59,
-  "summary_event_rank": 4136838,
-  "summary_overall_rank": 6556974
+  "summary_event_rank": 4136834,
+  "summary_overall_rank": 6556972
 }
