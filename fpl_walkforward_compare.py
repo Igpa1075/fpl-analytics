@@ -34,6 +34,7 @@ def main():
                          "delta": 0, "managers": 0} for gw in GWS}
     chips = {}
     excluded = []
+    excluded = []
     for mid in map(str, cohort):
         if mid not in replay["managers"] or mid not in picks:
             raise ValueError(f"Missing manager {mid}")
@@ -101,9 +102,12 @@ def main():
                     "ties": 100 - wins - losses},
         "by_gw": by_week, "chips_observed": chips,
         "excluded_manager_weeks": excluded,
+        "excluded_manager_weeks": excluded,
         "limitations": [
             "Comparison is not official FPL points: excludes autosubs, chips, transfer hits.",
             "Manager starting XI reconstructed from first 11 stored pick IDs; verify original API ordering.",
+            "Captain not in first 11: exclude both manager-week scores from paired comparison.",
+            "Means are per 100 managers across available weeks, not nine-week complete totals when exclusions exist.",
             "Captain-outside-XI manager-weeks excluded from BOTH sides; vice-captain not cached.",
             "GW1 squads are copied from elite managers, not independently drafted by the model.",
             "Replay uses approximate historical prices, current team metadata, and neutral fixture difficulty.",
