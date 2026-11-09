@@ -1,82 +1,82 @@
 {
-  "processed_player_ids": 520,
+  "processed_player_ids": 672,
   "bootstrap_player_ids": 672,
-  "coverage_pct": 77.38,
+  "coverage_pct": 100.0,
   "gws": {
     "1": {
-      "players_with_fixture": 520,
-      "player_fixture_rows": 520,
-      "players_with_minutes": 260,
-      "points_sum_raw": 824,
+      "players_with_fixture": 610,
+      "player_fixture_rows": 610,
+      "players_with_minutes": 310,
+      "points_sum_raw": 948,
       "missing_fixture_value_rows": 0
     },
     "2": {
-      "players_with_fixture": 520,
-      "player_fixture_rows": 520,
-      "players_with_minutes": 255,
-      "points_sum_raw": 726,
+      "players_with_fixture": 626,
+      "player_fixture_rows": 626,
+      "players_with_minutes": 312,
+      "points_sum_raw": 891,
       "missing_fixture_value_rows": 0
     },
     "3": {
-      "players_with_fixture": 520,
-      "player_fixture_rows": 520,
-      "players_with_minutes": 245,
-      "points_sum_raw": 759,
+      "players_with_fixture": 654,
+      "player_fixture_rows": 654,
+      "players_with_minutes": 307,
+      "points_sum_raw": 912,
       "missing_fixture_value_rows": 0
     },
     "4": {
-      "players_with_fixture": 520,
-      "player_fixture_rows": 520,
-      "players_with_minutes": 242,
-      "points_sum_raw": 787,
+      "players_with_fixture": 659,
+      "player_fixture_rows": 659,
+      "players_with_minutes": 307,
+      "points_sum_raw": 921,
       "missing_fixture_value_rows": 0
     },
     "5": {
-      "players_with_fixture": 520,
-      "player_fixture_rows": 520,
-      "players_with_minutes": 240,
-      "points_sum_raw": 806,
+      "players_with_fixture": 667,
+      "player_fixture_rows": 667,
+      "players_with_minutes": 302,
+      "points_sum_raw": 966,
       "missing_fixture_value_rows": 0
     },
     "6": {
-      "players_with_fixture": 520,
-      "player_fixture_rows": 520,
-      "players_with_minutes": 251,
-      "points_sum_raw": 749,
+      "players_with_fixture": 667,
+      "player_fixture_rows": 667,
+      "players_with_minutes": 315,
+      "points_sum_raw": 899,
       "missing_fixture_value_rows": 0
     },
     "7": {
-      "players_with_fixture": 520,
-      "player_fixture_rows": 520,
-      "players_with_minutes": 246,
-      "points_sum_raw": 761,
+      "players_with_fixture": 668,
+      "player_fixture_rows": 668,
+      "players_with_minutes": 305,
+      "points_sum_raw": 886,
       "missing_fixture_value_rows": 0
     },
     "8": {
-      "players_with_fixture": 520,
-      "player_fixture_rows": 520,
-      "players_with_minutes": 244,
-      "points_sum_raw": 743,
+      "players_with_fixture": 669,
+      "player_fixture_rows": 669,
+      "players_with_minutes": 303,
+      "points_sum_raw": 928,
       "missing_fixture_value_rows": 0
     },
     "9": {
-      "players_with_fixture": 520,
-      "player_fixture_rows": 520,
-      "players_with_minutes": 246,
-      "points_sum_raw": 739,
+      "players_with_fixture": 670,
+      "player_fixture_rows": 670,
+      "players_with_minutes": 310,
+      "points_sum_raw": 878,
       "missing_fixture_value_rows": 0
     },
     "10": {
-      "players_with_fixture": 520,
-      "player_fixture_rows": 520,
-      "players_with_minutes": 246,
-      "points_sum_raw": 724,
+      "players_with_fixture": 672,
+      "player_fixture_rows": 672,
+      "players_with_minutes": 313,
+      "points_sum_raw": 916,
       "missing_fixture_value_rows": 0
     }
   },
   "duplicate_fixture_keys": [],
   "duplicate_fixture_count": 0,
-  "safe_to_run_full_backtest": false,
+  "safe_to_run_full_backtest": true,
   "limitations": [
     "Fixture points are raw per-player scores, not fantasy squad scores.",
     "Fixture values are not validated pre-deadline transfer prices.",

@@ -35,25 +35,21 @@
     {
       "gw": 4,
       "selected_player_count": 15,
-      "missing_player_ids": [
-        "557"
-      ],
+      "missing_player_ids": [],
       "official_points": 50,
       "official_transfer_cost": 0,
-      "computed_points": null,
-      "matches_official": null,
+      "computed_points": 50,
+      "matches_official": true,
       "active_chip": null
     },
     {
       "gw": 5,
       "selected_player_count": 15,
-      "missing_player_ids": [
-        "557"
-      ],
+      "missing_player_ids": [],
       "official_points": 61,
       "official_transfer_cost": 0,
-      "computed_points": null,
-      "matches_official": null,
+      "computed_points": 61,
+      "matches_official": true,
       "active_chip": null
     },
     {
@@ -62,8 +58,8 @@
       "missing_player_ids": [],
       "official_points": 55,
       "official_transfer_cost": 4,
-      "computed_points": 51,
-      "matches_official": false,
+      "computed_points": 55,
+      "matches_official": true,
       "active_chip": null
     },
     {
@@ -79,48 +75,40 @@
     {
       "gw": 8,
       "selected_player_count": 15,
-      "missing_player_ids": [
-        "592",
-        "599"
-      ],
+      "missing_player_ids": [],
       "official_points": 40,
       "official_transfer_cost": 0,
-      "computed_points": null,
-      "matches_official": null,
+      "computed_points": 40,
+      "matches_official": true,
       "active_chip": "wildcard"
     },
     {
       "gw": 9,
       "selected_player_count": 15,
-      "missing_player_ids": [
-        "592",
-        "599"
-      ],
+      "missing_player_ids": [],
       "official_points": 48,
       "official_transfer_cost": 0,
-      "computed_points": null,
-      "matches_official": null,
+      "computed_points": 48,
+      "matches_official": true,
       "active_chip": null
     },
     {
       "gw": 10,
       "selected_player_count": 15,
-      "missing_player_ids": [
-        "592",
-        "599"
-      ],
+      "missing_player_ids": [],
       "official_points": 59,
       "official_transfer_cost": 0,
-      "computed_points": null,
-      "matches_official": null,
+      "computed_points": 59,
+      "matches_official": true,
       "active_chip": null
     }
   ],
-  "fully_scored_gws": 5,
-  "matching_gws": 4,
+  "fully_scored_gws": 10,
+  "matching_gws": 10,
   "notes": [
     "Official picks are the manager's real historic choices; not a hindsight-free simulated strategy.",
     "Official picks multipliers should include published captaincy and autosub effects.",
+    "FPL entry_history.points is the gameweek score before transfer-hit deductions; transfer cost is reported separately.",
     "An incomplete player-history collection prevents scoring some gameweeks.",
     "Scores may differ for special chips or incomplete live gameweeks; mismatches are reported."
   ]
