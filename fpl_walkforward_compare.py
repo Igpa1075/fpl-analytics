@@ -35,6 +35,7 @@ def main():
     chips = {}
     excluded = []
     excluded = []
+    excluded = []
     for mid in map(str, cohort):
         if mid not in replay["managers"] or mid not in picks:
             raise ValueError(f"Missing manager {mid}")
@@ -57,7 +58,8 @@ def main():
                 continue
             missing = [pid for pid in xi + [cap] if gw not in player_gw.get(pid, {})]
             if missing:
-                raise ValueError(f"Missing player history GW{gw}: {missing}")
+                excluded.append({"manager": mid, "gw": gw, "reason": "missing_player_history", "players": missing})
+                continue
             actual = sum(player_gw[i][gw] for i in xi) + player_gw[cap][gw]
             model = int(m["model_actual_points_no_chips"])
             chip = p.get("chip") or "none"
@@ -100,12 +102,13 @@ def main():
                     "delta_mean_per_manager_included_weeks": round((model_total - actual_total) / 100, 2),
                     "model_wins": wins, "model_losses": losses,
                     "ties": 100 - wins - losses},
-        "by_gw": by_week, "chips_observed": chips,
+        "by_gw": by_week, "chips_observed": chips, "excluded": excluded,
         "excluded_manager_weeks": excluded,
         "excluded_manager_weeks": excluded,
         "limitations": [
             "Comparison is not official FPL points: excludes autosubs, chips, transfer hits.",
             "Manager starting XI reconstructed from first 11 stored pick IDs; verify original API ordering.",
+            "Manager-weeks with captain outside the first XI or missing player history are excluded from both totals.",
             "Captain not in first 11: exclude both manager-week scores from paired comparison.",
             "Means are per 100 managers across available weeks, not nine-week complete totals when exclusions exist.",
             "Captain-outside-XI manager-weeks excluded from BOTH sides; vice-captain not cached.",
