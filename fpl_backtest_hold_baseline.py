@@ -7,6 +7,7 @@ This is NOT the final optimized-strategy backtest.
 """
 import json
 import urllib.request
+from fpl_backtest_autosubs import resolve
 from pathlib import Path
 
 D = Path(__file__).resolve().parent / "data"
@@ -59,6 +60,7 @@ def main():
     for gw in range(1, 11):
         prior = {}
         actual = {}
+        minutes = {}
         for pid in squad:
             rows = players[str(pid)]
             prior_rows = [r for r in rows if int(r["gw"]) < gw]
@@ -66,36 +68,44 @@ def main():
             # Recent points per GW, never current GW; no post-deadline inputs.
             prior[pid] = sum(int(r.get("total_points") or 0) for r in recent)
             actual[pid] = sum(int(r.get("total_points") or 0) for r in rows if int(r["gw"]) == gw)
+            minutes[pid] = sum(int(r.get("minutes") or 0) for r in rows if int(r["gw"]) == gw)
         if gw == 1:
             # GW1 historical manager choice is fixed and observed, not backtested.
             starters = [int(p["element"]) for p in initial_picks if int(p["position"]) <= 11]
             captain = next(int(p["element"]) for p in initial_picks if p.get("is_captain"))
+            vice = next(int(p["element"]) for p in initial_picks if p.get("is_vice_captain"))
+            bench = [int(p["element"]) for p in sorted(initial_picks, key=lambda x: x["position"]) if int(p["position"]) > 11]
         else:
             starters = choose(squad, positions, prior)
-            captain = max(starters, key=lambda pid: (prior[pid], -pid))
-        # An intentionally simplified gross score: no autosubs or vice captain.
-        gross = sum(actual[p] for p in starters) + actual[captain]
-        result.append({"gw": gw, "starters": starters, "captain": captain,
-                       "gross_points_without_autosubs": gross,
-                       "auto_substitutions_modelled": False,
+            ordered = sorted(starters, key=lambda pid: (-prior[pid], pid))
+            captain, vice = ordered[:2]
+            rest = [p for p in squad if p not in starters]
+            bench = sorted([p for p in rest if positions[p] == 1]) + sorted(
+                [p for p in rest if positions[p] != 1], key=lambda pid: (-prior[pid], pid))
+        scored = resolve(starters + bench, positions, minutes, actual, captain, vice)
+        result.append({"gw": gw, "starters": starters, "bench": bench,
+                       "captain": captain, "vice_captain": vice,
+                       "points_with_autosubs": scored["points"],
+                       "autosubs": scored["autosubs"],
+                       "final_xi": scored["final_xi"],
                        "transfers": 0, "chip": None})
     report = {
         "status": "experimental_baseline_not_full_backtest",
         "entry_id": entry_id,
         "initial_squad_source": "manager's actual published GW1 picks",
         "decision_policy": "GW1 observed lineup; GW2-10 rolling previous-three-GW points; no transfers",
-        "gross_total_without_autosubs": sum(r["gross_points_without_autosubs"] for r in result),
+        "total_with_autosubs": sum(r["points_with_autosubs"] for r in result),
         "gws": result,
         "limitations": [
             "Initial squad and GW1 lineup were selected by real manager, not by the model.",
-            "No bench autosub, vice-captain substitution, or chips; totals are not exact FPL scoring.",
+            "Standard bench autosubs and vice captain are modeled; chips are not modeled.",
             "No player transfers, deadline prices, historical injury status, or fixture projections.",
             "Recent form features are strictly prior-GW; cannot be interpreted as optimized expected points.",
         ],
     }
     path = D / "backtest_hold_squad_baseline.json"
     path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({"gross_total_without_autosubs": report["gross_total_without_autosubs"],
+    print(json.dumps({"total_with_autosubs": report["total_with_autosubs"],
                       "gws": len(result)}))
 
 
