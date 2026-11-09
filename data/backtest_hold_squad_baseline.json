@@ -3,7 +3,7 @@
   "entry_id": 5150250,
   "initial_squad_source": "manager's actual published GW1 picks",
   "decision_policy": "GW1 observed lineup; GW2-10 rolling previous-three-GW points; no transfers",
-  "gross_total_without_autosubs": 377,
+  "total_with_autosubs": 422,
   "gws": [
     {
       "gw": 1,
@@ -20,9 +20,29 @@
         315,
         379
       ],
+      "bench": [
+        28,
+        147,
+        55,
+        465
+      ],
       "captain": 379,
-      "gross_points_without_autosubs": 32,
-      "auto_substitutions_modelled": false,
+      "vice_captain": 28,
+      "points_with_autosubs": 32,
+      "autosubs": [],
+      "final_xi": [
+        496,
+        356,
+        387,
+        200,
+        84,
+        397,
+        480,
+        427,
+        428,
+        315,
+        379
+      ],
       "transfers": 0,
       "chip": null
     },
@@ -41,9 +61,34 @@
         427,
         428
       ],
+      "bench": [
+        28,
+        480,
+        55,
+        147
+      ],
       "captain": 84,
-      "gross_points_without_autosubs": 48,
-      "auto_substitutions_modelled": false,
+      "vice_captain": 200,
+      "points_with_autosubs": 61,
+      "autosubs": [
+        {
+          "out": 465,
+          "in": 480
+        }
+      ],
+      "final_xi": [
+        496,
+        84,
+        200,
+        356,
+        315,
+        397,
+        379,
+        387,
+        427,
+        428,
+        480
+      ],
       "transfers": 0,
       "chip": null
     },
@@ -62,9 +107,34 @@
         315,
         465
       ],
+      "bench": [
+        28,
+        356,
+        55,
+        147
+      ],
       "captain": 480,
-      "gross_points_without_autosubs": 47,
-      "auto_substitutions_modelled": false,
+      "vice_captain": 427,
+      "points_with_autosubs": 53,
+      "autosubs": [
+        {
+          "out": 387,
+          "in": 356
+        }
+      ],
+      "final_xi": [
+        496,
+        84,
+        200,
+        480,
+        427,
+        379,
+        428,
+        397,
+        315,
+        465,
+        356
+      ],
       "transfers": 0,
       "chip": null
     },
@@ -83,9 +153,34 @@
         315,
         387
       ],
+      "bench": [
+        28,
+        465,
+        55,
+        147
+      ],
       "captain": 379,
-      "gross_points_without_autosubs": 37,
-      "auto_substitutions_modelled": false,
+      "vice_captain": 427,
+      "points_with_autosubs": 38,
+      "autosubs": [
+        {
+          "out": 84,
+          "in": 147
+        }
+      ],
+      "final_xi": [
+        496,
+        200,
+        356,
+        427,
+        480,
+        379,
+        428,
+        397,
+        315,
+        387,
+        147
+      ],
       "transfers": 0,
       "chip": null
     },
@@ -104,9 +199,29 @@
         315,
         387
       ],
+      "bench": [
+        28,
+        147,
+        55,
+        465
+      ],
       "captain": 480,
-      "gross_points_without_autosubs": 54,
-      "auto_substitutions_modelled": false,
+      "vice_captain": 379,
+      "points_with_autosubs": 54,
+      "autosubs": [],
+      "final_xi": [
+        496,
+        356,
+        84,
+        200,
+        480,
+        427,
+        379,
+        397,
+        428,
+        315,
+        387
+      ],
       "transfers": 0,
       "chip": null
     },
@@ -125,9 +240,34 @@
         315,
         84
       ],
+      "bench": [
+        28,
+        147,
+        55,
+        465
+      ],
       "captain": 397,
-      "gross_points_without_autosubs": 36,
-      "auto_substitutions_modelled": false,
+      "vice_captain": 379,
+      "points_with_autosubs": 37,
+      "autosubs": [
+        {
+          "out": 379,
+          "in": 465
+        }
+      ],
+      "final_xi": [
+        496,
+        356,
+        200,
+        387,
+        397,
+        428,
+        480,
+        427,
+        315,
+        84,
+        465
+      ],
       "transfers": 0,
       "chip": null
     },
@@ -146,9 +286,34 @@
         147,
         465
       ],
+      "bench": [
+        28,
+        55,
+        84,
+        315
+      ],
       "captain": 397,
-      "gross_points_without_autosubs": 36,
-      "auto_substitutions_modelled": false,
+      "vice_captain": 428,
+      "points_with_autosubs": 40,
+      "autosubs": [
+        {
+          "out": 480,
+          "in": 315
+        }
+      ],
+      "final_xi": [
+        496,
+        356,
+        387,
+        200,
+        397,
+        428,
+        379,
+        427,
+        147,
+        465,
+        315
+      ],
       "transfers": 0,
       "chip": null
     },
@@ -167,9 +332,38 @@
         315,
         147
       ],
+      "bench": [
+        496,
+        465,
+        55,
+        84
+      ],
       "captain": 397,
-      "gross_points_without_autosubs": 28,
-      "auto_substitutions_modelled": false,
+      "vice_captain": 428,
+      "points_with_autosubs": 47,
+      "autosubs": [
+        {
+          "out": 28,
+          "in": 496
+        },
+        {
+          "out": 387,
+          "in": 465
+        }
+      ],
+      "final_xi": [
+        356,
+        200,
+        397,
+        428,
+        379,
+        427,
+        480,
+        315,
+        147,
+        496,
+        465
+      ],
       "transfers": 0,
       "chip": null
     },
@@ -188,9 +382,29 @@
         397,
         480
       ],
+      "bench": [
+        28,
+        147,
+        55,
+        84
+      ],
       "captain": 379,
-      "gross_points_without_autosubs": 21,
-      "auto_substitutions_modelled": false,
+      "vice_captain": 427,
+      "points_with_autosubs": 21,
+      "autosubs": [],
+      "final_xi": [
+        496,
+        356,
+        200,
+        387,
+        427,
+        428,
+        379,
+        465,
+        315,
+        397,
+        480
+      ],
       "transfers": 0,
       "chip": null
     },
@@ -209,16 +423,41 @@
         480,
         147
       ],
+      "bench": [
+        28,
+        397,
+        55,
+        84
+      ],
       "captain": 379,
-      "gross_points_without_autosubs": 38,
-      "auto_substitutions_modelled": false,
+      "vice_captain": 356,
+      "points_with_autosubs": 39,
+      "autosubs": [
+        {
+          "out": 200,
+          "in": 84
+        }
+      ],
+      "final_xi": [
+        496,
+        356,
+        387,
+        427,
+        315,
+        379,
+        465,
+        428,
+        480,
+        147,
+        84
+      ],
       "transfers": 0,
       "chip": null
     }
   ],
   "limitations": [
     "Initial squad and GW1 lineup were selected by real manager, not by the model.",
-    "No bench autosub, vice-captain substitution, or chips; totals are not exact FPL scoring.",
+    "Standard bench autosubs and vice captain are modeled; chips are not modeled.",
     "No player transfers, deadline prices, historical injury status, or fixture projections.",
     "Recent form features are strictly prior-GW; cannot be interpreted as optimized expected points."
   ]

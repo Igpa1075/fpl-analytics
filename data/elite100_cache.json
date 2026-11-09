@@ -11530,6 +11530,29 @@
       "chip": null,
       "transfers": 1,
       "transfer_cost": 0
+    },
+    "10": {
+      "players": [
+        1,
+        31,
+        8,
+        115,
+        566,
+        40,
+        154,
+        68,
+        411,
+        166,
+        249,
+        109,
+        427,
+        268,
+        277
+      ],
+      "captain": 411,
+      "chip": null,
+      "transfers": 1,
+      "transfer_cost": 0
     }
   },
   "993287": {
