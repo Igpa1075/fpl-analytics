@@ -64,6 +64,9 @@ jobs:
       - name: Run fixed-squad counterfactual baseline
         run: python fpl_backtest_hold_baseline.py
 
+      - name: Run exploratory prior-form transfer simulation
+        run: python fpl_backtest_exploratory_transfers.py
+
       - name: Audit historical backtest readiness
         run: python fpl_backtest_audit.py
 
