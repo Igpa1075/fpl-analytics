@@ -156,8 +156,8 @@ def main():
         gw = f.get("event")
         if gw is None or gw > END:
             continue
-        fixtures.setdefault((gw, f["team_h"]), []).append(f.get("team_h_difficulty") or 3)
-        fixtures.setdefault((gw, f["team_a"]), []).append(f.get("team_a_difficulty") or 3)
+        fixtures.setdefault((gw, f["team_h"]), []).append(3)
+        fixtures.setdefault((gw, f["team_a"]), []).append(3)
     initial = {}
     for manager in cohort:
         entry = picks.get(str(manager), {}).get("1")
@@ -173,7 +173,7 @@ def main():
                   "Initial GW1 squads are actual elite manager choices, not model-generated drafts.",
                   "Current team/position metadata can differ from historical GW1-9.",
                   "Historical GW price approximated by prior GW value; personal selling prices unavailable.",
-                  "Fixture difficulty may have been revised after matches; avoid interpreting as leakage-free proof.",
+                  "Historical fixture difficulty is intentionally neutral (3) to prevent revised difficulty leakage.",
                   "GW1-9 ESPN role and elite ownership signals excluded: no dated predeadline archives.",
                   "No autosubs, bench boost, triple captain, free hit or wildcard simulated.",
                   "Comparing to actual elite total points with chips is NOT apples-to-apples.",
