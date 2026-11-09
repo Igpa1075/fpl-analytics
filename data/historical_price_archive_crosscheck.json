@@ -1,0 +1,99 @@
+{
+  "status": "independent_fixture_price_crosscheck_not_deadline_prices",
+  "source": "vaastav/Fantasy-Premier-League",
+  "archive_csv_template": "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2026-27/gws/gw{}.csv",
+  "by_gw": [
+    {
+      "gw": 1,
+      "archive_rows": 610,
+      "players_with_prices": 610,
+      "players_compared": 610,
+      "exact_fixture_value_matches": 610
+    },
+    {
+      "gw": 2,
+      "archive_rows": 626,
+      "players_with_prices": 626,
+      "players_compared": 626,
+      "exact_fixture_value_matches": 626
+    },
+    {
+      "gw": 3,
+      "archive_rows": 654,
+      "players_with_prices": 654,
+      "players_compared": 654,
+      "exact_fixture_value_matches": 654
+    },
+    {
+      "gw": 4,
+      "archive_rows": 659,
+      "players_with_prices": 659,
+      "players_compared": 659,
+      "exact_fixture_value_matches": 659
+    },
+    {
+      "gw": 5,
+      "archive_rows": 667,
+      "players_with_prices": 667,
+      "players_compared": 667,
+      "exact_fixture_value_matches": 667
+    },
+    {
+      "gw": 6,
+      "archive_rows": 667,
+      "players_with_prices": 667,
+      "players_compared": 667,
+      "exact_fixture_value_matches": 667
+    },
+    {
+      "gw": 7,
+      "status": "archive_not_published_http_404",
+      "archive_rows": 0,
+      "players_with_prices": 0,
+      "players_compared": 0,
+      "exact_fixture_value_matches": 0
+    },
+    {
+      "gw": 8,
+      "status": "archive_not_published_http_404",
+      "archive_rows": 0,
+      "players_with_prices": 0,
+      "players_compared": 0,
+      "exact_fixture_value_matches": 0
+    },
+    {
+      "gw": 9,
+      "status": "archive_not_published_http_404",
+      "archive_rows": 0,
+      "players_with_prices": 0,
+      "players_compared": 0,
+      "exact_fixture_value_matches": 0
+    },
+    {
+      "gw": 10,
+      "status": "archive_not_published_http_404",
+      "archive_rows": 0,
+      "players_with_prices": 0,
+      "players_compared": 0,
+      "exact_fixture_value_matches": 0
+    }
+  ],
+  "missing_archive_gws": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "archive_coverage_complete": false,
+  "total_compared": 3883,
+  "total_matched": 3883,
+  "mismatch_count": 0,
+  "mismatches_first_100": [],
+  "warnings": [
+    "Agreement between fixture values does not establish the deadline price.",
+    "GW CSV snapshots may include changes after the transfer deadline.",
+    "Players without a fixture may not be represented in both sources.",
+    "No changes to the budget-constrained model were made by this audit.",
+    "HTTP 404 from the public archive is recorded as missing data, not a failed FPL calculation."
+  ]
+}
