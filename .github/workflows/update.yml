@@ -46,6 +46,12 @@ jobs:
       - name: Validate historical player coverage
         run: python fpl_historical_coverage.py
 
+      - name: Test historical feature leakage prevention
+        run: python -m unittest test_fpl_backtest_features.py
+
+      - name: Generate lagged backtest features
+        run: python fpl_backtest_features.py
+
       - name: Audit historical backtest readiness
         run: python fpl_backtest_audit.py
 
