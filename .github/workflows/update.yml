@@ -55,6 +55,9 @@ jobs:
       - name: Validate scoring against actual FPL picks
         run: python fpl_backtest_validate_scoring.py
 
+      - name: Test counterfactual starting XI rules
+        run: python -m unittest test_fpl_backtest_hold_baseline.py
+
       - name: Run fixed-squad counterfactual baseline
         run: python fpl_backtest_hold_baseline.py
 
