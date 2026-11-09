@@ -6,7 +6,7 @@
     13
   ],
   "saved_bank_m": 0.9,
-  "baseline_3gw_proxy": 177.36,
+  "baseline_3gw_proxy": 176.53,
   "positive_candidates": 49,
   "outgoing_players_with_options": 13,
   "best_candidate": {
@@ -19,7 +19,7 @@
     "position": "DEF",
     "out_market_price": 4.0,
     "in_price": 4.8,
-    "gain_3gw_proxy": 7.26,
+    "gain_3gw_proxy": 7.51,
     "budget_status": "UNVERIFIED"
   },
   "limitations": [
