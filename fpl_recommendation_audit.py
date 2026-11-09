@@ -90,6 +90,14 @@ def main():
         "Two-transfer shortlist is not exhaustive and may exclude better long-term choices.",
         "Identical projected scores across different transfer plans may reflect unchanged XI.",
     ])
+    contextual_used = "contextual_forecasts" in lineup.get("forecast_source", "")
+    check(contextual_used == ("contextual_forecasts" in transfers.get("forecast_source", "")),
+          "Lineup and transfers use different forecast methods", errors)
+    if contextual_used:
+        warnings.append("ESPN role and start-rate factors are experimental, not backtested.")
+    else:
+        warnings.append("Contextual ESPN overlay not active; using baseline only.")
+    warnings.append("Elite and random-control manager cohorts are diagnostics, not predictive inputs.")
     evaluation = DATA / "forecast_evaluation.json"
     evaluated = load(evaluation).get("completed_gws_evaluated", 0) if evaluation.exists() else 0
     report = {
@@ -102,6 +110,8 @@ def main():
         "ready_for_automatic_transfers": False,
         "checks": {
             "lineup_formation": counts,
+            "contextual_forecast_used": contextual_used,
+            "elite_and_control_cohorts_used_for_points": False,
             "starting_xi_expected_points": lineup["expected_xi_points_with_captain"],
             "transfer_scenarios": sum(len(v) for v in transfers["scenarios"].values()),
             "multiweek_scenarios": len(multi["ranked_scenarios"]),
