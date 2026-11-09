@@ -1,10 +1,10 @@
 {
   "target_gw": 11,
-  "forecast_captured_at_utc": "2026-11-09T04:34:34.719402+00:00",
-  "forecast_source": "data/forecasts/2026-11-09.json",
+  "forecast_captured_at_utc": "2026-11-09T12:19:30.558030+00:00",
+  "forecast_source": "data/contextual_forecasts/2026-11-09.json",
   "squad_source": "data/picks.json (latest publicly published GW; may be stale)",
   "squad_event": 10,
-  "expected_xi_points_with_captain": 71.995,
+  "expected_xi_points_with_captain": 72.392,
   "formation": {
     "defenders": 3,
     "midfielders": 5,
@@ -25,7 +25,17 @@
           "difficulty": 2
         }
       ],
-      "expected_points": 6.809
+      "expected_points": 6.809,
+      "baseline_expected_points": 6.809,
+      "context_factor": 1.0,
+      "context_signals": [
+        {
+          "kind": "verified_espn_starts",
+          "starts": 5,
+          "matches": 5,
+          "factor": 1.0
+        }
+      ]
     },
     {
       "player_id": 504,
@@ -41,7 +51,17 @@
           "difficulty": 2
         }
       ],
-      "expected_points": 7.833
+      "expected_points": 7.833,
+      "baseline_expected_points": 7.833,
+      "context_factor": 1.0,
+      "context_signals": [
+        {
+          "kind": "verified_espn_starts",
+          "starts": 5,
+          "matches": 5,
+          "factor": 1.0
+        }
+      ]
     },
     {
       "player_id": 115,
@@ -57,7 +77,21 @@
           "difficulty": 2
         }
       ],
-      "expected_points": 7.531
+      "expected_points": 7.832,
+      "baseline_expected_points": 7.531,
+      "context_factor": 1.04,
+      "context_signals": [
+        {
+          "kind": "verified_espn_starts",
+          "starts": 5,
+          "matches": 5,
+          "factor": 1.0
+        },
+        {
+          "kind": "advanced_defender_slot_proxy",
+          "factor": 1.04
+        }
+      ]
     },
     {
       "player_id": 8,
@@ -73,7 +107,17 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 5.106
+      "expected_points": 4.953,
+      "baseline_expected_points": 5.106,
+      "context_factor": 0.97,
+      "context_signals": [
+        {
+          "kind": "verified_espn_starts",
+          "starts": 4,
+          "matches": 5,
+          "factor": 0.97
+        }
+      ]
     },
     {
       "player_id": 68,
@@ -89,7 +133,17 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 5.341
+      "expected_points": 5.341,
+      "baseline_expected_points": 5.341,
+      "context_factor": 1.0,
+      "context_signals": [
+        {
+          "kind": "verified_espn_starts",
+          "starts": 5,
+          "matches": 5,
+          "factor": 1.0
+        }
+      ]
     },
     {
       "player_id": 236,
@@ -105,7 +159,17 @@
           "difficulty": 4
         }
       ],
-      "expected_points": 5.088
+      "expected_points": 5.088,
+      "baseline_expected_points": 5.088,
+      "context_factor": 1.0,
+      "context_signals": [
+        {
+          "kind": "verified_espn_starts",
+          "starts": 5,
+          "matches": 5,
+          "factor": 1.0
+        }
+      ]
     },
     {
       "player_id": 156,
@@ -121,7 +185,21 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 4.308
+      "expected_points": 4.437,
+      "baseline_expected_points": 4.308,
+      "context_factor": 1.03,
+      "context_signals": [
+        {
+          "kind": "verified_espn_starts",
+          "starts": 5,
+          "matches": 5,
+          "factor": 1.0
+        },
+        {
+          "kind": "forward_midfielder_slot_proxy",
+          "factor": 1.03
+        }
+      ]
     },
     {
       "player_id": 154,
@@ -137,7 +215,17 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 4.151
+      "expected_points": 4.151,
+      "baseline_expected_points": 4.151,
+      "context_factor": 1.0,
+      "context_signals": [
+        {
+          "kind": "verified_espn_starts",
+          "starts": 5,
+          "matches": 5,
+          "factor": 1.0
+        }
+      ]
     },
     {
       "player_id": 427,
@@ -153,7 +241,21 @@
           "difficulty": 4
         }
       ],
-      "expected_points": 4.01
+      "expected_points": 4.13,
+      "baseline_expected_points": 4.01,
+      "context_factor": 1.03,
+      "context_signals": [
+        {
+          "kind": "verified_espn_starts",
+          "starts": 5,
+          "matches": 5,
+          "factor": 1.0
+        },
+        {
+          "kind": "forward_midfielder_slot_proxy",
+          "factor": 1.03
+        }
+      ]
     },
     {
       "player_id": 411,
@@ -169,7 +271,17 @@
           "difficulty": 2
         }
       ],
-      "expected_points": 7.025
+      "expected_points": 7.025,
+      "baseline_expected_points": 7.025,
+      "context_factor": 1.0,
+      "context_signals": [
+        {
+          "kind": "verified_espn_starts",
+          "starts": 5,
+          "matches": 5,
+          "factor": 1.0
+        }
+      ]
     },
     {
       "player_id": 166,
@@ -185,7 +297,17 @@
           "difficulty": 2
         }
       ],
-      "expected_points": 6.96
+      "expected_points": 6.96,
+      "baseline_expected_points": 6.96,
+      "context_factor": 1.0,
+      "context_signals": [
+        {
+          "kind": "verified_espn_starts",
+          "starts": 5,
+          "matches": 5,
+          "factor": 1.0
+        }
+      ]
     }
   ],
   "captain": {
@@ -202,7 +324,17 @@
         "difficulty": 2
       }
     ],
-    "expected_points": 7.833
+    "expected_points": 7.833,
+    "baseline_expected_points": 7.833,
+    "context_factor": 1.0,
+    "context_signals": [
+      {
+        "kind": "verified_espn_starts",
+        "starts": 5,
+        "matches": 5,
+        "factor": 1.0
+      }
+    ]
   },
   "vice_captain": {
     "player_id": 115,
@@ -218,7 +350,21 @@
         "difficulty": 2
       }
     ],
-    "expected_points": 7.531
+    "expected_points": 7.832,
+    "baseline_expected_points": 7.531,
+    "context_factor": 1.04,
+    "context_signals": [
+      {
+        "kind": "verified_espn_starts",
+        "starts": 5,
+        "matches": 5,
+        "factor": 1.0
+      },
+      {
+        "kind": "advanced_defender_slot_proxy",
+        "factor": 1.04
+      }
+    ]
   },
   "bench_goalkeeper": [
     {
@@ -235,7 +381,17 @@
           "difficulty": 5
         }
       ],
-      "expected_points": 3.415
+      "expected_points": 3.415,
+      "baseline_expected_points": 3.415,
+      "context_factor": 1.0,
+      "context_signals": [
+        {
+          "kind": "verified_espn_starts",
+          "starts": 5,
+          "matches": 5,
+          "factor": 1.0
+        }
+      ]
     }
   ],
   "bench_outfield_order": [
@@ -253,7 +409,17 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 3.24
+      "expected_points": 3.24,
+      "baseline_expected_points": 3.24,
+      "context_factor": 1.0,
+      "context_signals": [
+        {
+          "kind": "verified_espn_starts",
+          "starts": 5,
+          "matches": 5,
+          "factor": 1.0
+        }
+      ]
     },
     {
       "player_id": 592,
@@ -269,7 +435,17 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 3.185
+      "expected_points": 3.185,
+      "baseline_expected_points": 3.185,
+      "context_factor": 1.0,
+      "context_signals": [
+        {
+          "kind": "verified_espn_starts",
+          "starts": 5,
+          "matches": 5,
+          "factor": 1.0
+        }
+      ]
     },
     {
       "player_id": 599,
@@ -285,7 +461,17 @@
           "difficulty": 2
         }
       ],
-      "expected_points": 2.53
+      "expected_points": 2.378,
+      "baseline_expected_points": 2.53,
+      "context_factor": 0.94,
+      "context_signals": [
+        {
+          "kind": "verified_espn_starts",
+          "starts": 3,
+          "matches": 5,
+          "factor": 0.94
+        }
+      ]
     }
   ],
   "warnings": [

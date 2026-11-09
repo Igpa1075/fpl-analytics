@@ -8,7 +8,9 @@
     "No out-of-sample evaluation yet unless completed-GW forecast evaluations exist.",
     "Five-GW projections reuse frozen form and availability; not independent future forecasts.",
     "Two-transfer shortlist is not exhaustive and may exclude better long-term choices.",
-    "Identical projected scores across different transfer plans may reflect unchanged XI."
+    "Identical projected scores across different transfer plans may reflect unchanged XI.",
+    "ESPN role and start-rate factors are experimental, not backtested.",
+    "Elite and random-control manager cohorts are diagnostics, not predictive inputs."
   ],
   "completed_gws_evaluated": 0,
   "ready_for_automatic_transfers": false,
@@ -19,7 +21,9 @@
       "3": 5,
       "4": 2
     },
-    "starting_xi_expected_points": 71.995,
+    "contextual_forecast_used": true,
+    "elite_and_control_cohorts_used_for_points": false,
+    "starting_xi_expected_points": 72.392,
     "transfer_scenarios": 21,
     "multiweek_scenarios": 21
   }
