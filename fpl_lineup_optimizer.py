@@ -24,6 +24,12 @@ def main():
         print("No forecasts available.")
         return
     _, source, forecast = max(candidates)
+    contextual = DATA / "contextual_forecasts" / source.name
+    if contextual.exists():
+        candidate = json.loads(contextual.read_text(encoding="utf-8"))
+        if (candidate.get("target_gw") == forecast["target_gw"] and
+                candidate.get("baseline_captured_at_utc") == forecast["captured_at_utc"]):
+            source, forecast = contextual, candidate
     picks_path = DATA / "picks.json"
     if not picks_path.exists():
         print("No squad picks available.")
