@@ -55,6 +55,9 @@ jobs:
       - name: Validate scoring against actual FPL picks
         run: python fpl_backtest_validate_scoring.py
 
+      - name: Test FPL autosubs and captain fallback
+        run: python -m unittest test_fpl_backtest_autosubs.py
+
       - name: Test counterfactual starting XI rules
         run: python -m unittest test_fpl_backtest_hold_baseline.py
 
