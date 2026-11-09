@@ -1,0 +1,821 @@
+{
+  "method": "independent_draft_gw1_10_preseason_prior_v1",
+  "total": 471,
+  "rank_if_added": 14,
+  "league": "ASG",
+  "league_last_finished_gw": 9,
+  "league_members": 13,
+  "initial_squad": [
+    {
+      "id": 497,
+      "name": "Dubravka",
+      "price_proxy": 40
+    },
+    {
+      "id": 59,
+      "name": "Dennis",
+      "price_proxy": 40
+    },
+    {
+      "id": 308,
+      "name": "Furlong",
+      "price_proxy": 40
+    },
+    {
+      "id": 259,
+      "name": "Diop",
+      "price_proxy": 40
+    },
+    {
+      "id": 66,
+      "name": "Soler",
+      "price_proxy": 40
+    },
+    {
+      "id": 4,
+      "name": "Gabriel",
+      "price_proxy": 80
+    },
+    {
+      "id": 174,
+      "name": "Kitching",
+      "price_proxy": 40
+    },
+    {
+      "id": 426,
+      "name": "B.Fernandes",
+      "price_proxy": 120
+    },
+    {
+      "id": 397,
+      "name": "Semenyo",
+      "price_proxy": 85
+    },
+    {
+      "id": 12,
+      "name": "Saka",
+      "price_proxy": 95
+    },
+    {
+      "id": 335,
+      "name": "Stach",
+      "price_proxy": 60
+    },
+    {
+      "id": 288,
+      "name": "Dowell",
+      "price_proxy": 45
+    },
+    {
+      "id": 411,
+      "name": "Haaland",
+      "price_proxy": 155
+    },
+    {
+      "id": 165,
+      "name": "João Pedro",
+      "price_proxy": 75
+    },
+    {
+      "id": 272,
+      "name": "Kusi-Asare",
+      "price_proxy": 45
+    }
+  ],
+  "weeks": [
+    {
+      "gw": 1,
+      "points": 48,
+      "cumulative": 48,
+      "captain": "Haaland",
+      "captain_id": 411,
+      "xi": [
+        {
+          "id": 497,
+          "name": "Dubravka",
+          "points": 0
+        },
+        {
+          "id": 4,
+          "name": "Gabriel",
+          "points": 5
+        },
+        {
+          "id": 308,
+          "name": "Furlong",
+          "points": 0
+        },
+        {
+          "id": 259,
+          "name": "Diop",
+          "points": 2
+        },
+        {
+          "id": 426,
+          "name": "B.Fernandes",
+          "points": 2
+        },
+        {
+          "id": 12,
+          "name": "Saka",
+          "points": 9
+        },
+        {
+          "id": 397,
+          "name": "Semenyo",
+          "points": 2
+        },
+        {
+          "id": 335,
+          "name": "Stach",
+          "points": 13
+        },
+        {
+          "id": 288,
+          "name": "Dowell",
+          "points": 0
+        },
+        {
+          "id": 411,
+          "name": "Haaland",
+          "points": 2
+        },
+        {
+          "id": 165,
+          "name": "João Pedro",
+          "points": 11
+        }
+      ],
+      "transfer": null,
+      "bank_tenths": 0,
+      "projected": 51.97
+    },
+    {
+      "gw": 2,
+      "points": 67,
+      "cumulative": 115,
+      "captain": "De Cuyper",
+      "captain_id": 115,
+      "xi": [
+        {
+          "id": 59,
+          "name": "Dennis",
+          "points": 0
+        },
+        {
+          "id": 115,
+          "name": "De Cuyper",
+          "points": 0
+        },
+        {
+          "id": 259,
+          "name": "Diop",
+          "points": 2
+        },
+        {
+          "id": 66,
+          "name": "Soler",
+          "points": 0
+        },
+        {
+          "id": 335,
+          "name": "Stach",
+          "points": 4
+        },
+        {
+          "id": 12,
+          "name": "Saka",
+          "points": 11
+        },
+        {
+          "id": 397,
+          "name": "Semenyo",
+          "points": 5
+        },
+        {
+          "id": 426,
+          "name": "B.Fernandes",
+          "points": 23
+        },
+        {
+          "id": 165,
+          "name": "João Pedro",
+          "points": 9
+        },
+        {
+          "id": 411,
+          "name": "Haaland",
+          "points": 13
+        },
+        {
+          "id": 272,
+          "name": "Kusi-Asare",
+          "points": 0
+        }
+      ],
+      "transfer": {
+        "out": 4,
+        "in": 115,
+        "expected_gain": 11.024,
+        "out_name": "Gabriel",
+        "in_name": "De Cuyper"
+      },
+      "bank_tenths": 35,
+      "projected": 73.06
+    },
+    {
+      "gw": 3,
+      "points": 37,
+      "cumulative": 152,
+      "captain": "B.Fernandes",
+      "captain_id": 426,
+      "xi": [
+        {
+          "id": 572,
+          "name": "Tzolakis",
+          "points": 6
+        },
+        {
+          "id": 115,
+          "name": "De Cuyper",
+          "points": 4
+        },
+        {
+          "id": 259,
+          "name": "Diop",
+          "points": 3
+        },
+        {
+          "id": 66,
+          "name": "Soler",
+          "points": 0
+        },
+        {
+          "id": 426,
+          "name": "B.Fernandes",
+          "points": 2
+        },
+        {
+          "id": 12,
+          "name": "Saka",
+          "points": 2
+        },
+        {
+          "id": 335,
+          "name": "Stach",
+          "points": 2
+        },
+        {
+          "id": 397,
+          "name": "Semenyo",
+          "points": 6
+        },
+        {
+          "id": 165,
+          "name": "João Pedro",
+          "points": 1
+        },
+        {
+          "id": 411,
+          "name": "Haaland",
+          "points": 9
+        },
+        {
+          "id": 272,
+          "name": "Kusi-Asare",
+          "points": 0
+        }
+      ],
+      "transfer": {
+        "out": 497,
+        "in": 572,
+        "expected_gain": 8.3,
+        "out_name": "Dubravka",
+        "in_name": "Tzolakis"
+      },
+      "bank_tenths": 30,
+      "projected": 86.65
+    },
+    {
+      "gw": 4,
+      "points": 54,
+      "cumulative": 206,
+      "captain": "B.Fernandes",
+      "captain_id": 426,
+      "xi": [
+        {
+          "id": 572,
+          "name": "Tzolakis",
+          "points": 2
+        },
+        {
+          "id": 115,
+          "name": "De Cuyper",
+          "points": 11
+        },
+        {
+          "id": 259,
+          "name": "Diop",
+          "points": 1
+        },
+        {
+          "id": 66,
+          "name": "Soler",
+          "points": 0
+        },
+        {
+          "id": 426,
+          "name": "B.Fernandes",
+          "points": 2
+        },
+        {
+          "id": 367,
+          "name": "Gakpo",
+          "points": 1
+        },
+        {
+          "id": 12,
+          "name": "Saka",
+          "points": 8
+        },
+        {
+          "id": 335,
+          "name": "Stach",
+          "points": 3
+        },
+        {
+          "id": 397,
+          "name": "Semenyo",
+          "points": 3
+        },
+        {
+          "id": 411,
+          "name": "Haaland",
+          "points": 9
+        },
+        {
+          "id": 165,
+          "name": "João Pedro",
+          "points": 12
+        }
+      ],
+      "transfer": {
+        "out": 288,
+        "in": 367,
+        "expected_gain": 6.992,
+        "out_name": "Dowell",
+        "in_name": "Gakpo"
+      },
+      "bank_tenths": 4,
+      "projected": 78.23
+    },
+    {
+      "gw": 5,
+      "points": 52,
+      "cumulative": 258,
+      "captain": "João Pedro",
+      "captain_id": 165,
+      "xi": [
+        {
+          "id": 572,
+          "name": "Tzolakis",
+          "points": 6
+        },
+        {
+          "id": 115,
+          "name": "De Cuyper",
+          "points": 6
+        },
+        {
+          "id": 277,
+          "name": "Egan",
+          "points": 1
+        },
+        {
+          "id": 259,
+          "name": "Diop",
+          "points": 4
+        },
+        {
+          "id": 426,
+          "name": "B.Fernandes",
+          "points": 2
+        },
+        {
+          "id": 12,
+          "name": "Saka",
+          "points": 2
+        },
+        {
+          "id": 367,
+          "name": "Gakpo",
+          "points": 3
+        },
+        {
+          "id": 335,
+          "name": "Stach",
+          "points": 5
+        },
+        {
+          "id": 397,
+          "name": "Semenyo",
+          "points": 17
+        },
+        {
+          "id": 165,
+          "name": "João Pedro",
+          "points": 0
+        },
+        {
+          "id": 411,
+          "name": "Haaland",
+          "points": 6
+        }
+      ],
+      "transfer": {
+        "out": 308,
+        "in": 277,
+        "expected_gain": 4.55,
+        "out_name": "Furlong",
+        "in_name": "Egan"
+      },
+      "bank_tenths": 3,
+      "projected": 77.12
+    },
+    {
+      "gw": 6,
+      "points": 56,
+      "cumulative": 314,
+      "captain": "Groß",
+      "captain_id": 124,
+      "xi": [
+        {
+          "id": 572,
+          "name": "Tzolakis",
+          "points": 2
+        },
+        {
+          "id": 115,
+          "name": "De Cuyper",
+          "points": 15
+        },
+        {
+          "id": 277,
+          "name": "Egan",
+          "points": 1
+        },
+        {
+          "id": 259,
+          "name": "Diop",
+          "points": 2
+        },
+        {
+          "id": 124,
+          "name": "Groß",
+          "points": 6
+        },
+        {
+          "id": 397,
+          "name": "Semenyo",
+          "points": 3
+        },
+        {
+          "id": 426,
+          "name": "B.Fernandes",
+          "points": 1
+        },
+        {
+          "id": 12,
+          "name": "Saka",
+          "points": 2
+        },
+        {
+          "id": 367,
+          "name": "Gakpo",
+          "points": 0
+        },
+        {
+          "id": 411,
+          "name": "Haaland",
+          "points": 6
+        },
+        {
+          "id": 165,
+          "name": "João Pedro",
+          "points": 12
+        }
+      ],
+      "transfer": {
+        "out": 335,
+        "in": 124,
+        "expected_gain": 5.628,
+        "out_name": "Stach",
+        "in_name": "Groß"
+      },
+      "bank_tenths": 6,
+      "projected": 77.86
+    },
+    {
+      "gw": 7,
+      "points": 46,
+      "cumulative": 360,
+      "captain": "Groß",
+      "captain_id": 124,
+      "xi": [
+        {
+          "id": 572,
+          "name": "Tzolakis",
+          "points": 3
+        },
+        {
+          "id": 115,
+          "name": "De Cuyper",
+          "points": 6
+        },
+        {
+          "id": 277,
+          "name": "Egan",
+          "points": 4
+        },
+        {
+          "id": 259,
+          "name": "Diop",
+          "points": 3
+        },
+        {
+          "id": 124,
+          "name": "Groß",
+          "points": 5
+        },
+        {
+          "id": 397,
+          "name": "Semenyo",
+          "points": 1
+        },
+        {
+          "id": 94,
+          "name": "Schade",
+          "points": 0
+        },
+        {
+          "id": 426,
+          "name": "B.Fernandes",
+          "points": 1
+        },
+        {
+          "id": 12,
+          "name": "Saka",
+          "points": 3
+        },
+        {
+          "id": 411,
+          "name": "Haaland",
+          "points": 13
+        },
+        {
+          "id": 165,
+          "name": "João Pedro",
+          "points": 2
+        }
+      ],
+      "transfer": {
+        "out": 367,
+        "in": 94,
+        "expected_gain": 3.739,
+        "out_name": "Gakpo",
+        "in_name": "Schade"
+      },
+      "bank_tenths": 15,
+      "projected": 76.77
+    },
+    {
+      "gw": 8,
+      "points": 21,
+      "cumulative": 381,
+      "captain": "Vuskovic",
+      "captain_id": 504,
+      "xi": [
+        {
+          "id": 572,
+          "name": "Tzolakis",
+          "points": 3
+        },
+        {
+          "id": 504,
+          "name": "Vuskovic",
+          "points": 1
+        },
+        {
+          "id": 115,
+          "name": "De Cuyper",
+          "points": 1
+        },
+        {
+          "id": 277,
+          "name": "Egan",
+          "points": 4
+        },
+        {
+          "id": 259,
+          "name": "Diop",
+          "points": 1
+        },
+        {
+          "id": 124,
+          "name": "Groß",
+          "points": 0
+        },
+        {
+          "id": 397,
+          "name": "Semenyo",
+          "points": 0
+        },
+        {
+          "id": 94,
+          "name": "Schade",
+          "points": 2
+        },
+        {
+          "id": 12,
+          "name": "Saka",
+          "points": 0
+        },
+        {
+          "id": 411,
+          "name": "Haaland",
+          "points": 8
+        },
+        {
+          "id": 165,
+          "name": "João Pedro",
+          "points": 0
+        }
+      ],
+      "transfer": {
+        "out": 66,
+        "in": 504,
+        "expected_gain": 7.412,
+        "out_name": "Soler",
+        "in_name": "Vuskovic"
+      },
+      "bank_tenths": 4,
+      "projected": 68.69
+    },
+    {
+      "gw": 9,
+      "points": 28,
+      "cumulative": 409,
+      "captain": "Haaland",
+      "captain_id": 411,
+      "xi": [
+        {
+          "id": 572,
+          "name": "Tzolakis",
+          "points": 1
+        },
+        {
+          "id": 115,
+          "name": "De Cuyper",
+          "points": 9
+        },
+        {
+          "id": 504,
+          "name": "Vuskovic",
+          "points": 6
+        },
+        {
+          "id": 257,
+          "name": "Bassey",
+          "points": 1
+        },
+        {
+          "id": 259,
+          "name": "Diop",
+          "points": 2
+        },
+        {
+          "id": 124,
+          "name": "Groß",
+          "points": 2
+        },
+        {
+          "id": 94,
+          "name": "Schade",
+          "points": 3
+        },
+        {
+          "id": 397,
+          "name": "Semenyo",
+          "points": 0
+        },
+        {
+          "id": 12,
+          "name": "Saka",
+          "points": 0
+        },
+        {
+          "id": 411,
+          "name": "Haaland",
+          "points": 2
+        },
+        {
+          "id": 165,
+          "name": "João Pedro",
+          "points": 0
+        }
+      ],
+      "transfer": {
+        "out": 277,
+        "in": 257,
+        "expected_gain": 3.622,
+        "out_name": "Egan",
+        "in_name": "Bassey"
+      },
+      "bank_tenths": 0,
+      "projected": 64.11
+    },
+    {
+      "gw": 10,
+      "points": 62,
+      "cumulative": 471,
+      "captain": "N.Jackson",
+      "captain_id": 166,
+      "xi": [
+        {
+          "id": 572,
+          "name": "Tzolakis",
+          "points": 6
+        },
+        {
+          "id": 504,
+          "name": "Vuskovic",
+          "points": 12
+        },
+        {
+          "id": 115,
+          "name": "De Cuyper",
+          "points": 6
+        },
+        {
+          "id": 257,
+          "name": "Bassey",
+          "points": 2
+        },
+        {
+          "id": 259,
+          "name": "Diop",
+          "points": 1
+        },
+        {
+          "id": 124,
+          "name": "Groß",
+          "points": 10
+        },
+        {
+          "id": 397,
+          "name": "Semenyo",
+          "points": 0
+        },
+        {
+          "id": 94,
+          "name": "Schade",
+          "points": 1
+        },
+        {
+          "id": 166,
+          "name": "N.Jackson",
+          "points": 11
+        },
+        {
+          "id": 411,
+          "name": "Haaland",
+          "points": 2
+        },
+        {
+          "id": 272,
+          "name": "Kusi-Asare",
+          "points": 0
+        }
+      ],
+      "transfer": {
+        "out": 165,
+        "in": 166,
+        "expected_gain": 6.311,
+        "out_name": "João Pedro",
+        "in_name": "N.Jackson"
+      },
+      "bank_tenths": 7,
+      "projected": 58.31
+    }
+  ],
+  "limitations": [
+    "GW1 prices from GW1 element-summary history; may not be opening prices.",
+    "Current player team/position metadata can differ historically.",
+    "Preseason strength from last season FPL history_past; no predeadline injury/fixture odds.",
+    "Fixture difficulty and actual chips not modeled.",
+    "No auto substitutions or vice-captain fallback.",
+    "One optional free transfer per week, not optimized across future weeks.",
+    "League standings currently contain GW10 totals although last_finished_gw says 9.",
+    "This is a simple reproducible historical baseline, NOT the existing contextual GW11 model."
+  ]
+}
