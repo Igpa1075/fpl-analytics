@@ -105,7 +105,7 @@ def main():
 
         "limitations": [
             "Comparison is not official FPL points: excludes autosubs, chips, transfer hits.",
-            "Manager starting XI reconstructed from first 11 stored pick IDs; verify original API ordering.",
+            "CRITICAL: cached players list may NOT preserve starting XI order; this comparison is exploratory and cannot establish model superiority.",
             "Manager-weeks with captain outside the first XI or missing player history are excluded from both totals.",
             "Captain not in first 11: exclude both manager-week scores from paired comparison.",
             "Means are per 100 managers across available weeks, not nine-week complete totals when exclusions exist.",
@@ -124,6 +124,7 @@ def main():
     print(json.dumps(result["summary"], indent=2))
     print("Per-GW:", json.dumps(by_week))
     print("Chips excluded:", json.dumps(chips))
+    print("Excluded count:", len(excluded))
 
 
 if __name__ == "__main__":
