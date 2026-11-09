@@ -1,8 +1,8 @@
 {
-  "complete_lineups": 80,
-  "valid_slot_lineups": 80,
+  "complete_lineups": 100,
+  "valid_slot_lineups": 100,
   "invalid_slot_lineups": 0,
-  "matched_player_records": 846,
+  "matched_player_records": 1059,
   "slots_with_mixed_fpl_categories": [
     4
   ],

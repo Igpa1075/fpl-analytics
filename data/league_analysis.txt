@@ -5,17 +5,17 @@ Note: league totals and last completed GW picks; not live future transfers.
 Rank Team                          Points Gap to leader  Gap to me
 ------------------------------------------------------------------------
    1 Meatball                         713             0        185
-   2 ⫷ GΛMBLΞR ⫸                      670            43        142
+   2 ⫷ GΛMBLΞR ⫸                      675            38        147
    3 Maestroni                        650            63        122
-   4 S.W.A.T. LA                      638            75        110
    4 Team_D                           638            75        110
+   4 S.W.A.T. LA                      638            75        110
    6 Yerazzurri                       627            86         99
    7 WΞΞKΞND WΛRRIOR                  611           102         83
    8 Atashka team                     610           103         82
    9 Kananir                          608           105         80
   10 Team Ansar                       589           124         61
   11 FC Barcelona SD                  584           129         56
-  12 NotLastTeam                      534           179          6
+  12 NotLastTeam                      536           177          8
   13 Chubais                          528           185          0
 
 My team: Chubais | rank 13 | 528 pts
@@ -25,8 +25,8 @@ Rival comparison (latest completed GW):
   Meatball: 5/15 shared players; captain Haaland
   ⫷ GΛMBLΞR ⫸: 6/15 shared players; captain Palmer
   Maestroni: 4/15 shared players; captain Haaland
-  S.W.A.T. LA: 5/15 shared players; captain Haaland
   Team_D: 6/15 shared players; captain Haaland
+  S.W.A.T. LA: 5/15 shared players; captain Haaland
   Yerazzurri: 5/15 shared players; captain Haaland
   WΞΞKΞND WΛRRIOR: 2/15 shared players; captain Rogers
   Atashka team: 5/15 shared players; captain Haaland

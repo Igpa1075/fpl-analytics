@@ -1,19 +1,19 @@
 gw,player_id,player,owned,bought,sold,captained
 7,68,Tavernier,41,13,1,0
-7,53,Manzambi,11,8,0,0
+7,53,Manzambi,12,8,0,0
 7,112,Van Hecke,21,6,0,0
 7,399,Cherki,16,6,0,0
-7,124,Groß,90,5,0,0
+7,124,Groß,91,5,0,0
 7,346,Calvert-Lewin,17,4,0,0
-7,115,De Cuyper,76,3,0,0
+7,115,De Cuyper,75,3,0,0
 7,569,Gonzalo,11,2,0,0
 7,397,Semenyo,9,2,0,0
 7,411,Haaland,100,1,0,100
 7,165,João Pedro,95,1,0,0
 7,31,Konsa,77,1,0,0
-7,109,Verbruggen,39,1,0,0
+7,109,Verbruggen,38,1,0,0
 7,173,Thomas,18,1,0,0
-7,268,King,16,1,0,0
+7,268,King,15,1,0,0
 7,12,Saka,11,1,0,0
 7,542,E.Le Fée,7,1,0,0
 7,79,Evanilson,5,1,0,0
@@ -28,10 +28,10 @@ gw,player_id,player,owned,bought,sold,captained
 7,1,Raya,66,0,1,0
 7,154,Palmer,64,0,0,0
 7,249,Barry,46,0,2,0
-7,334,Muharemović,40,0,0,0
-7,449,Hall,35,0,2,0
-7,504,Vuskovic,30,0,1,0
-7,497,Dubravka,22,0,0,0
+7,334,Muharemović,41,0,0,0
+7,449,Hall,34,0,2,0
+7,504,Vuskovic,31,0,1,0
+7,497,Dubravka,23,0,0,0
 7,4,Gabriel,21,0,0,0
 7,236,Dewsbury-Hall,21,0,1,0
 7,453,Barnes,18,0,1,0
@@ -76,7 +76,6 @@ gw,player_id,player,owned,bought,sold,captained
 7,557,Tzolis,2,0,1,0
 7,51,George Hemmings,2,0,0,0
 7,57,Petrović,2,0,0,0
-7,605,Yalcouyé,2,0,0,0
 7,362,Jacquet,2,0,0,0
 7,110,Rushworth,2,0,0,0
 7,367,Gakpo,2,0,0,0
@@ -101,6 +100,7 @@ gw,player_id,player,owned,bought,sold,captained
 7,73,Adams,1,0,0,0
 7,330,Bogle,1,0,0,0
 7,332,Justin,1,0,0,0
+7,605,Yalcouyé,1,0,0,0
 7,356,Virgil,1,0,0,0
 7,113,F.Kadıoğlu,1,0,0,0
 7,627,Barcola,1,0,0,0
@@ -125,14 +125,14 @@ gw,player_id,player,owned,bought,sold,captained
 7,254,Robinson,1,0,0,0
 7,534,Hume,0,0,1,0
 7,582,Madjo,0,0,1,0
-8,68,Tavernier,53,12,1,1
+8,68,Tavernier,52,11,1,1
 8,94,Schade,21,10,0,0
 8,480,Gibbs-White,18,9,1,0
-8,334,Muharemović,48,7,0,0
+8,334,Muharemović,49,7,0,0
 8,1,Raya,73,6,0,0
 8,40,Rogers,87,5,1,0
 8,4,Gabriel,26,5,0,2
-8,53,Manzambi,17,5,0,0
+8,53,Manzambi,18,5,0,0
 8,427,Mbeumo,17,5,1,0
 8,31,Konsa,81,3,0,0
 8,249,Barry,43,3,5,0
@@ -147,13 +147,14 @@ gw,player_id,player,owned,bought,sold,captained
 8,87,Ajer,8,2,0,0
 8,79,Evanilson,7,2,0,0
 8,183,Rudoni,4,2,0,0
-8,504,Vuskovic,30,1,1,0
-8,497,Dubravka,23,1,0,0
+8,504,Vuskovic,31,1,1,0
+8,497,Dubravka,23,1,1,0
 8,173,Thomas,19,1,0,0
 8,453,Barnes,18,1,1,0
 8,566,Silva,7,1,0,0
 8,302,Button,7,1,0,0
 8,426,B.Fernandes,7,1,0,1
+8,623,Bentley,6,1,0,0
 8,166,N.Jackson,6,1,0,0
 8,277,Egan,5,1,2,0
 8,57,Petrović,3,1,0,0
@@ -168,13 +169,13 @@ gw,player_id,player,owned,bought,sold,captained
 8,230,Branthwaite,1,1,2,0
 8,335,Stach,1,1,0,0
 8,411,Haaland,98,0,2,70
-8,124,Groß,89,0,1,0
-8,115,De Cuyper,74,0,2,0
-8,109,Verbruggen,38,0,0,0
-8,449,Hall,32,0,3,0
+8,124,Groß,90,0,1,0
+8,115,De Cuyper,73,0,2,0
+8,109,Verbruggen,37,0,0,0
+8,449,Hall,31,0,3,0
 8,112,Van Hecke,17,0,4,0
-8,268,King,13,0,2,0
 8,391,Gvardiol,13,0,2,0
+8,268,King,12,0,2,0
 8,496,Kinsky,11,0,5,0
 8,15,Ødegaard,10,0,0,0
 8,290,Slater,10,0,2,0
@@ -188,7 +189,6 @@ gw,player_id,player,owned,bought,sold,captained
 8,301,Palmer,6,0,0,0
 8,58,Forster,5,0,0,0
 8,111,Steele,5,0,0,0
-8,623,Bentley,5,0,0,0
 8,127,Gomez,5,0,0,0
 8,304,O'Shea,5,0,0,0
 8,251,Lecomte,4,0,0,0
@@ -212,7 +212,7 @@ gw,player_id,player,owned,bought,sold,captained
 8,572,Tzolakis,1,0,0,0
 8,67,Rayan,1,0,0,0
 8,73,Adams,1,0,0,0
-8,605,Yalcouyé,1,0,1,0
+8,605,Yalcouyé,1,0,0,0
 8,113,F.Kadıoğlu,1,0,0,0
 8,148,Hato,1,0,0,0
 8,176,Dasilva,1,0,0,0
@@ -257,17 +257,17 @@ gw,player_id,player,owned,bought,sold,captained
 8,418,Maguire,0,0,1,0
 8,488,I.Sangaré,0,0,1,0
 9,166,N.Jackson,90,63,0,7
-9,112,Van Hecke,61,24,0,0
+9,112,Van Hecke,62,25,0,0
 9,566,Silva,29,9,0,0
-9,53,Manzambi,41,8,0,0
+9,53,Manzambi,42,8,0,0
 9,249,Barry,51,7,0,0
 9,4,Gabriel,37,6,0,0
-9,68,Tavernier,68,5,0,0
+9,68,Tavernier,67,5,0,0
 9,79,Evanilson,17,4,0,0
 9,379,Isak,12,4,0,0
 9,60,Hill,10,3,0,0
 9,40,Rogers,88,2,1,4
-9,504,Vuskovic,27,1,1,0
+9,504,Vuskovic,28,1,1,0
 9,94,Schade,18,1,0,0
 9,400,Doku,7,1,0,0
 9,499,Pedro Porro,7,1,0,0
@@ -275,16 +275,16 @@ gw,player_id,player,owned,bought,sold,captained
 9,78,Kroupi.Jr,1,1,0,0
 9,502,Robertson,1,1,0,0
 9,411,Haaland,99,0,0,86
-9,124,Groß,80,0,0,0
+9,124,Groß,81,0,0,0
 9,31,Konsa,75,0,1,0
 9,154,Palmer,72,0,0,3
 9,1,Raya,64,0,0,0
-9,115,De Cuyper,64,0,1,0
+9,115,De Cuyper,63,0,1,0
 9,8,Calafiori,52,0,15,0
-9,334,Muharemović,46,0,0,0
-9,109,Verbruggen,30,0,0,0
+9,334,Muharemović,47,0,0,0
+9,109,Verbruggen,29,0,0,0
 9,497,Dubravka,20,0,0,0
-9,449,Hall,18,0,11,0
+9,449,Hall,17,0,11,0
 9,236,Dewsbury-Hall,17,0,0,0
 9,496,Kinsky,17,0,0,0
 9,453,Barnes,13,0,1,0
@@ -292,7 +292,7 @@ gw,player_id,player,owned,bought,sold,captained
 9,480,Gibbs-White,11,0,3,0
 9,346,Calvert-Lewin,10,0,2,0
 9,106,Thiago,10,0,0,0
-9,277,Egan,9,0,0,0
+9,277,Egan,8,0,1,0
 9,427,Mbeumo,8,0,1,0
 9,229,Tarkowski,8,0,0,0
 9,512,Kudus,7,0,0,0
@@ -304,6 +304,7 @@ gw,player_id,player,owned,bought,sold,captained
 9,183,Rudoni,7,0,0,0
 9,542,E.Le Fée,6,0,0,0
 9,302,Button,6,0,0,0
+9,623,Bentley,6,0,0,0
 9,391,Gvardiol,6,0,2,0
 9,173,Thomas,6,0,9,0
 9,259,Diop,5,0,0,0
@@ -312,12 +313,11 @@ gw,player_id,player,owned,bought,sold,captained
 9,304,O'Shea,5,0,0,0
 9,58,Forster,5,0,0,0
 9,111,Steele,5,0,0,0
-9,623,Bentley,5,0,0,0
 9,165,João Pedro,5,0,70,0
-9,268,King,4,0,3,0
 9,572,Tzolakis,4,0,0,0
 9,586,Mendy,4,0,1,0
 9,426,B.Fernandes,4,0,0,0
+9,268,King,3,0,3,0
 9,279,Ajayi,3,0,0,0
 9,569,Gonzalo,3,0,4,0
 9,57,Petrović,3,0,0,0

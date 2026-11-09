@@ -3,9 +3,8 @@
   "rows_checked": 1100,
   "unique_fpl_ids_requested": 314,
   "status_counts": {
-    "FIXTURE_NOT_VERIFIED": 213,
-    "NO_ID_CANDIDATE": 41,
-    "MINUTES_CONFIRMED": 846
+    "MINUTES_CONFIRMED": 1059,
+    "NO_ID_CANDIDATE": 41
   },
   "api_errors": {},
   "note": "FPL minutes corroborate participation, not starting XI. Candidate identities remain unconfirmed. Unverified fixtures must be reviewed separately."

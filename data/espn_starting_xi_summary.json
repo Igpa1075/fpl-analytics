@@ -1,8 +1,8 @@
 {
   "total_espn_starter_rows": 1100,
   "decision_counts": {
-    "REVIEW": 254,
-    "PARTICIPATION_CONFIRMED": 846
+    "PARTICIPATION_CONFIRMED": 1059,
+    "REVIEW": 41
   },
   "note": "FPL minutes confirm participation only. ESPN starter designation is not independently verified by this audit."
 }
