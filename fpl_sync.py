@@ -1,6 +1,6 @@
 
 import json
-import urllib.request
+import urllib.request\nimport urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -36,29 +36,50 @@ def main():
     save("entry.json", entry)
     save("history.json", history)
 
-    events = bootstrap.get("events", [])
-    finished = [e for e in events if e.get("finished")]
+    # A published GW squad is available after its deadline, even while the
+    # bootstrap event's "finished" flag is still false (bonus corrections etc.).
+    # Never use that flag alone to select the latest public picks.
+    now = datetime.now(timezone.utc)
+    eligible = sorted(
+        (e for e in bootstrap.get("events", [])
+         if datetime.fromisoformat(e["deadline_time"].replace("Z", "+00:00")) <= now),
+        key=lambda e: int(e["id"]), reverse=True,
+    )
+    finished = [int(e["id"]) for e in bootstrap.get("events", []) if e.get("finished")]
+    picks_path = OUT / "picks.json"
+    old_gw = 0
+    if picks_path.exists():
+        try:
+            old = json.loads(picks_path.read_text(encoding="utf-8"))
+            old_gw = int(old.get("entry_history", {}).get("event") or 0)
+        except (ValueError, TypeError, KeyError):
+            old_gw = 0
 
-    if finished:
-        gw = max(e["id"] for e in finished)
-        picks = fetch(f"/entry/{ENTRY_ID}/event/{gw}/picks/")
-        picks_path = OUT / "picks.json"
-        old_gw = 0
-        if picks_path.exists():
-            try:
-                old = json.loads(picks_path.read_text(encoding="utf-8"))
-                old_gw = int(old.get("entry_history", {}).get("event") or 0)
-            except (ValueError, TypeError, KeyError):
-                old_gw = 0
-        if gw >= old_gw:
-            save("picks.json", picks)
-        else:
-            print(f"Preserving newer public picks GW{old_gw}; sync finished GW{gw}")
+    selected_gw = old_gw
+    for event in eligible:
+        gw = int(event["id"])
+        if gw <= old_gw:
+            break
+        try:
+            candidate = fetch(f"/entry/{ENTRY_ID}/event/{gw}/picks/")
+        except urllib.error.HTTPError as exc:
+            if exc.code in (403, 404):
+                continue  # FPL has not published this GW's picks yet.
+            raise
+        if (len(candidate.get("picks", [])) != 15 or
+                int(candidate.get("entry_history", {}).get("event") or 0) != gw):
+            continue
+        save("picks.json", candidate)
+        selected_gw = gw
+        print(f"Updated public squad to GW{gw}")
+        break
 
     save("sync_status.json", {
         "entry_id": ENTRY_ID,
-        "updated_at": datetime.now(timezone.utc).isoformat(),
-        "last_finished_gw": gw if finished else None
+        "updated_at": now.isoformat(),
+        "last_finished_gw": max(finished) if finished else None,
+        "latest_public_picks_gw": selected_gw or None,
+        "latest_history_gw": max((int(h["event"]) for h in history.get("current", [])), default=None),
     })
 
     print("FPL data updated successfully!")
