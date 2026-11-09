@@ -41,7 +41,7 @@ jobs:
         run: python fpl_league_history.py
   
       - name: Collect historical player match records
-        run: python fpl_historical_players.py --limit 40
+        run: python fpl_historical_players.py --limit 160
 
       - name: Audit historical backtest readiness
         run: python fpl_backtest_audit.py
