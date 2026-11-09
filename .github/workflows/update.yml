@@ -22,7 +22,10 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Test published-picks synchronization\n        run: python -m unittest test_fpl_sync.py\n\n      - name: Download FPL data
+      - name: Test published-picks synchronization
+        run: python -m unittest test_fpl_sync.py
+
+      - name: Download FPL data
         run: python fpl_sync.py
 
       - name: Generate FPL analysis
