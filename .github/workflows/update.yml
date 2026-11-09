@@ -70,6 +70,9 @@ jobs:
       - name: Audit transfer price evidence
         run: python fpl_backtest_transfer_price_audit.py
 
+      - name: Diagnose transfer budget with fixture-price proxies
+        run: python fpl_backtest_budget_proxy.py
+
       - name: Audit historical backtest readiness
         run: python fpl_backtest_audit.py
 
