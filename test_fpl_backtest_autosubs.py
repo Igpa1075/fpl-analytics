@@ -33,7 +33,8 @@ class AutoSubTests(unittest.TestCase):
         self.assertIn(13, r["final_xi"])
         self.assertNotIn(14, r["final_xi"])
         self.assertNotIn(15, r["final_xi"])
-        self.assertEqual(len(r["final_xi"]), 9)
+        self.assertEqual(len(r["final_xi"]), 11)
+        self.assertEqual(sum(self.minutes[p] > 0 for p in r["final_xi"]), 9)
 
     def test_zero_minutes_bench_not_subbed(self):
         self.minutes[4] = 0
