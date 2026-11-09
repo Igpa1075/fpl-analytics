@@ -73,6 +73,9 @@ jobs:
       - name: Diagnose transfer budget with fixture-price proxies
         run: python fpl_backtest_budget_proxy.py
 
+      - name: Run budget-constrained proxy transfer backtest
+        run: python fpl_backtest_budget_constrained_proxy.py
+
       - name: Audit historical backtest readiness
         run: python fpl_backtest_audit.py
 
