@@ -1,76 +1,76 @@
 {
-  "processed_player_ids": 200,
+  "processed_player_ids": 360,
   "bootstrap_player_ids": 672,
-  "coverage_pct": 29.76,
+  "coverage_pct": 53.57,
   "gws": {
     "1": {
-      "players_with_fixture": 200,
-      "player_fixture_rows": 200,
-      "players_with_minutes": 103,
-      "points_sum_raw": 338,
+      "players_with_fixture": 360,
+      "player_fixture_rows": 360,
+      "players_with_minutes": 182,
+      "points_sum_raw": 622,
       "missing_fixture_value_rows": 0
     },
     "2": {
-      "players_with_fixture": 200,
-      "player_fixture_rows": 200,
-      "players_with_minutes": 100,
-      "points_sum_raw": 271,
+      "players_with_fixture": 360,
+      "player_fixture_rows": 360,
+      "players_with_minutes": 176,
+      "points_sum_raw": 450,
       "missing_fixture_value_rows": 0
     },
     "3": {
-      "players_with_fixture": 200,
-      "player_fixture_rows": 200,
-      "players_with_minutes": 101,
-      "points_sum_raw": 262,
+      "players_with_fixture": 360,
+      "player_fixture_rows": 360,
+      "players_with_minutes": 171,
+      "points_sum_raw": 468,
       "missing_fixture_value_rows": 0
     },
     "4": {
-      "players_with_fixture": 200,
-      "player_fixture_rows": 200,
-      "players_with_minutes": 99,
-      "points_sum_raw": 307,
+      "players_with_fixture": 360,
+      "player_fixture_rows": 360,
+      "players_with_minutes": 171,
+      "points_sum_raw": 578,
       "missing_fixture_value_rows": 0
     },
     "5": {
-      "players_with_fixture": 200,
-      "player_fixture_rows": 200,
-      "players_with_minutes": 95,
-      "points_sum_raw": 344,
+      "players_with_fixture": 360,
+      "player_fixture_rows": 360,
+      "players_with_minutes": 168,
+      "points_sum_raw": 572,
       "missing_fixture_value_rows": 0
     },
     "6": {
-      "players_with_fixture": 200,
-      "player_fixture_rows": 200,
-      "players_with_minutes": 99,
-      "points_sum_raw": 328,
+      "players_with_fixture": 360,
+      "player_fixture_rows": 360,
+      "players_with_minutes": 177,
+      "points_sum_raw": 530,
       "missing_fixture_value_rows": 0
     },
     "7": {
-      "players_with_fixture": 200,
-      "player_fixture_rows": 200,
-      "players_with_minutes": 103,
-      "points_sum_raw": 395,
+      "players_with_fixture": 360,
+      "player_fixture_rows": 360,
+      "players_with_minutes": 175,
+      "points_sum_raw": 554,
       "missing_fixture_value_rows": 0
     },
     "8": {
-      "players_with_fixture": 200,
-      "player_fixture_rows": 200,
-      "players_with_minutes": 99,
-      "points_sum_raw": 305,
+      "players_with_fixture": 360,
+      "player_fixture_rows": 360,
+      "players_with_minutes": 171,
+      "points_sum_raw": 535,
       "missing_fixture_value_rows": 0
     },
     "9": {
-      "players_with_fixture": 200,
-      "player_fixture_rows": 200,
-      "players_with_minutes": 96,
-      "points_sum_raw": 410,
+      "players_with_fixture": 360,
+      "player_fixture_rows": 360,
+      "players_with_minutes": 171,
+      "points_sum_raw": 594,
       "missing_fixture_value_rows": 0
     },
     "10": {
-      "players_with_fixture": 200,
-      "player_fixture_rows": 200,
-      "players_with_minutes": 97,
-      "points_sum_raw": 292,
+      "players_with_fixture": 360,
+      "player_fixture_rows": 360,
+      "players_with_minutes": 170,
+      "points_sum_raw": 502,
       "missing_fixture_value_rows": 0
     }
   },
