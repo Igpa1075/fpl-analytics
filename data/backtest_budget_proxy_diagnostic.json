@@ -1,0 +1,105 @@
+{
+  "status": "diagnostic_fixture_price_proxy_not_historical_deadline",
+  "observed_gw1_bank_tenths": 5,
+  "missing_gw1_fixture_prices": [],
+  "first_proxy_unaffordable_gw": 5,
+  "rows": [
+    {
+      "gw": 2,
+      "out": 147,
+      "in": 115,
+      "fixture_price_out": 45,
+      "fixture_price_in": 46,
+      "estimated_sale": 45,
+      "estimated_bank_before": 5,
+      "affordable_under_fixture_proxy": true
+    },
+    {
+      "gw": 3,
+      "out": 55,
+      "in": 165,
+      "fixture_price_out": 78,
+      "fixture_price_in": 77,
+      "estimated_sale": 78,
+      "estimated_bank_before": 4,
+      "affordable_under_fixture_proxy": true
+    },
+    {
+      "gw": 4,
+      "out": 387,
+      "in": 279,
+      "fixture_price_out": 64,
+      "fixture_price_in": 42,
+      "estimated_sale": 64,
+      "estimated_bank_before": 5,
+      "affordable_under_fixture_proxy": true
+    },
+    {
+      "gw": 5,
+      "out": 465,
+      "in": 411,
+      "fixture_price_out": 59,
+      "fixture_price_in": 156,
+      "estimated_sale": 59,
+      "estimated_bank_before": 27,
+      "affordable_under_fixture_proxy": false
+    },
+    {
+      "gw": 6,
+      "out": 84,
+      "in": 330,
+      "fixture_price_out": 54,
+      "fixture_price_in": 46,
+      "estimated_sale": 54,
+      "estimated_bank_before": null,
+      "affordable_under_fixture_proxy": null
+    },
+    {
+      "gw": 7,
+      "out": 315,
+      "in": 124,
+      "fixture_price_out": 54,
+      "fixture_price_in": 61,
+      "estimated_sale": 54,
+      "estimated_bank_before": null,
+      "affordable_under_fixture_proxy": null
+    },
+    {
+      "gw": 8,
+      "out": 480,
+      "in": 53,
+      "fixture_price_out": 79,
+      "fixture_price_in": 60,
+      "estimated_sale": 79,
+      "estimated_bank_before": null,
+      "affordable_under_fixture_proxy": null
+    },
+    {
+      "gw": 9,
+      "out": 279,
+      "in": 4,
+      "fixture_price_out": 42,
+      "fixture_price_in": 80,
+      "estimated_sale": 42,
+      "estimated_bank_before": null,
+      "affordable_under_fixture_proxy": null
+    },
+    {
+      "gw": 10,
+      "out": 330,
+      "in": 31,
+      "fixture_price_out": 48,
+      "fixture_price_in": 48,
+      "estimated_sale": null,
+      "estimated_bank_before": null,
+      "affordable_under_fixture_proxy": null
+    }
+  ],
+  "warnings": [
+    "GW1 fixture prices are not necessarily initial purchase prices.",
+    "GW1 published bank may not reflect the exact initial pre-deadline bank.",
+    "Fixture-time prices are not deadline prices.",
+    "Once an unaffordable proxy transfer occurs, downstream budget estimates are unknown.",
+    "This cannot certify any transfer as legal; it is only a diagnostic stress test."
+  ]
+}
