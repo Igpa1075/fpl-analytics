@@ -46,6 +46,9 @@ jobs:
       - name: Evaluate defender clean sheet and minutes head-to-head
         run: python fpl_gw11_defender_head_to_head.py
 
+      - name: Compare GW11 captain xG and opponents
+        run: python fpl_gw11_captain_xg_comparison.py
+
       - name: Generate FPL analysis
         run: python fpl_analysis.py > data/analysis.txt
   
