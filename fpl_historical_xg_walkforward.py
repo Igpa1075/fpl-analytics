@@ -99,11 +99,29 @@ def main():
   if len(eligible)>=3:
    m=max(eligible,key=lambda r:r["predicted"])
    b=max(eligible,key=lambda r:r["baseline"])
-   captain.append({"gw":gw,"eligible":len(eligible),"model_captain":m["name"],
+   haaland=next((r for r in eligible if r["id"]==411),None)
+   captain.append({"gw":gw,"eligible":len(eligible),"haaland_available":haaland is not None,
+                   "haaland_actual":haaland["actual"] if haaland is not None else None,
+                   "model_captain":m["name"],
                    "model_actual":m["actual"],"baseline_captain":b["name"],
                    "baseline_actual":b["actual"]})
   coverage.append({"gw":gw,"players":len(gw_rows),"captain_candidates":len(eligible)})
+ # GW2-7 is an exploratory development window; GW8-10 is a frozen audit window.
+ # No parameters are fitted on either window here: this is a temporal split diagnostic.
+ holdout=[r for r in records if r["gw"]>=8]
+ development=[r for r in records if r["gw"]<=7]
+ holdout_captains=[r for r in captain if r["gw"]>=8 and r["haaland_available"]]
  result={"status":"historical_xg_xa_walk_forward_partial_calibration",
+         "temporal_split":{"development_gws":[2,3,4,5,6,7],"holdout_gws":[8,9,10],
+           "development":{"model":metrics(development,"predicted"),"baseline":metrics(development,"baseline")},
+           "holdout":{"model":metrics(holdout,"predicted"),"baseline":metrics(holdout,"baseline")},
+           "holdout_by_position":{str(pos):{"model":metrics([r for r in holdout if r["position"]==pos],"predicted"),
+              "baseline":metrics([r for r in holdout if r["position"]==pos],"baseline")} for pos in (1,2,3,4)},
+           "holdout_captains":{"rounds":len(holdout_captains),
+              "model_actual":sum(r["model_actual"] for r in holdout_captains),
+              "baseline_actual":sum(r["baseline_actual"] for r in holdout_captains),
+              "always_haaland_actual":sum(r["haaland_actual"] for r in holdout_captains),
+              "by_gw":holdout_captains}},
          "created_at_utc":datetime.now(timezone.utc).isoformat(),
          "coverage":coverage,"model":metrics(records,"predicted"),
          "baseline":metrics(records,"baseline"),
@@ -123,7 +141,8 @@ def main():
            "No robust BPS simulation; bonus is shrunk historical bonus rate.",
            "Defensive contribution points included only if archived as explicit field.",
            "Captain candidates are a fixed current-ID list, not actual past squad.",
-           "No train/validation split for choosing model hyperparameters.",
+           "GW8-10 is a chronological holdout audit; model parameters were not optimized on GW2-7, so this is not a trained-and-tuned holdout validation.",
+           "Captain holdout only includes weeks with Haaland eligible in the fixed candidate list; not an actual historical squad.",
            "No forecast intervals validated."
          ]}
  (D/"gw11_historical_xg_backtest.json").write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n")
