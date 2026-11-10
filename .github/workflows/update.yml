@@ -28,6 +28,15 @@ jobs:
       - name: Download FPL data
         run: python fpl_sync.py
 
+      - name: Collect historical player match records
+        run: python fpl_historical_players.py --limit 160
+
+      - name: Enrich historical fixtures with xG xA and bonus
+        run: python fpl_enrich_historical_events.py --limit 140
+
+      - name: Walk-forward backtest historical xG xA
+        run: python fpl_historical_xg_walkforward.py
+
       - name: Freeze predeadline captain predictions (when eligible)
         run: python fpl_captain_forward_snapshot.py
 
@@ -67,15 +76,6 @@ jobs:
       - name: Save mini-league history
         run: python fpl_league_history.py
   
-      - name: Collect historical player match records
-        run: python fpl_historical_players.py --limit 160
-
-      - name: Enrich historical fixtures with xG xA and bonus
-        run: python fpl_enrich_historical_events.py --limit 140
-
-      - name: Walk-forward backtest historical xG xA
-        run: python fpl_historical_xg_walkforward.py
-
       - name: Validate historical player coverage
         run: python fpl_historical_coverage.py
 
