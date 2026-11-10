@@ -1,0 +1,212 @@
+{
+  "status": "historical_xg_xa_walk_forward_partial_calibration",
+  "created_at_utc": "2026-11-10T10:29:50.006372+00:00",
+  "coverage": [
+    {
+      "gw": 2,
+      "players": 34,
+      "captain_candidates": 4
+    },
+    {
+      "gw": 3,
+      "players": 58,
+      "captain_candidates": 7
+    },
+    {
+      "gw": 4,
+      "players": 67,
+      "captain_candidates": 10
+    },
+    {
+      "gw": 5,
+      "players": 70,
+      "captain_candidates": 10
+    },
+    {
+      "gw": 6,
+      "players": 76,
+      "captain_candidates": 11
+    },
+    {
+      "gw": 7,
+      "players": 80,
+      "captain_candidates": 11
+    },
+    {
+      "gw": 8,
+      "players": 84,
+      "captain_candidates": 11
+    },
+    {
+      "gw": 9,
+      "players": 88,
+      "captain_candidates": 11
+    },
+    {
+      "gw": 10,
+      "players": 88,
+      "captain_candidates": 11
+    }
+  ],
+  "model": {
+    "n": 645,
+    "mae": 2.538,
+    "rmse": 3.572,
+    "bias": -0.934
+  },
+  "baseline": {
+    "n": 645,
+    "mae": 2.548,
+    "rmse": 3.66,
+    "bias": -1.125
+  },
+  "by_position": {
+    "1": {
+      "model": {
+        "n": 62,
+        "mae": 2.21,
+        "rmse": 3.175,
+        "bias": -1.018
+      },
+      "baseline": {
+        "n": 62,
+        "mae": 2.08,
+        "rmse": 3.088,
+        "bias": -1.037
+      }
+    },
+    "2": {
+      "model": {
+        "n": 231,
+        "mae": 2.667,
+        "rmse": 3.578,
+        "bias": -1.026
+      },
+      "baseline": {
+        "n": 231,
+        "mae": 2.671,
+        "rmse": 3.652,
+        "bias": -1.233
+      }
+    },
+    "3": {
+      "model": {
+        "n": 300,
+        "mae": 2.432,
+        "rmse": 3.567,
+        "bias": -0.73
+      },
+      "baseline": {
+        "n": 300,
+        "mae": 2.453,
+        "rmse": 3.668,
+        "bias": -0.905
+      }
+    },
+    "4": {
+      "model": {
+        "n": 52,
+        "mae": 2.969,
+        "rmse": 3.993,
+        "bias": -1.604
+      },
+      "baseline": {
+        "n": 52,
+        "mae": 3.108,
+        "rmse": 4.238,
+        "bias": -2.022
+      }
+    }
+  },
+  "captain_comparison": {
+    "rounds": 9,
+    "model_actual": 51.0,
+    "baseline_actual": 40.0,
+    "by_gw": [
+      {
+        "gw": 2,
+        "eligible": 4,
+        "model_captain": "Tavernier",
+        "model_actual": 1.0,
+        "baseline_captain": "Dewsbury-Hall",
+        "baseline_actual": 2.0
+      },
+      {
+        "gw": 3,
+        "eligible": 7,
+        "model_captain": "De Cuyper",
+        "model_actual": 4.0,
+        "baseline_captain": "Calafiori",
+        "baseline_actual": 2.0
+      },
+      {
+        "gw": 4,
+        "eligible": 10,
+        "model_captain": "Haaland",
+        "model_actual": 9.0,
+        "baseline_captain": "Haaland",
+        "baseline_actual": 9.0
+      },
+      {
+        "gw": 5,
+        "eligible": 10,
+        "model_captain": "Haaland",
+        "model_actual": 6.0,
+        "baseline_captain": "Haaland",
+        "baseline_actual": 6.0
+      },
+      {
+        "gw": 6,
+        "eligible": 11,
+        "model_captain": "Haaland",
+        "model_actual": 6.0,
+        "baseline_captain": "Haaland",
+        "baseline_actual": 6.0
+      },
+      {
+        "gw": 7,
+        "eligible": 11,
+        "model_captain": "Haaland",
+        "model_actual": 13.0,
+        "baseline_captain": "De Cuyper",
+        "baseline_actual": 6.0
+      },
+      {
+        "gw": 8,
+        "eligible": 11,
+        "model_captain": "Haaland",
+        "model_actual": 8.0,
+        "baseline_captain": "De Cuyper",
+        "baseline_actual": 1.0
+      },
+      {
+        "gw": 9,
+        "eligible": 11,
+        "model_captain": "Haaland",
+        "model_actual": 2.0,
+        "baseline_captain": "Haaland",
+        "baseline_actual": 2.0
+      },
+      {
+        "gw": 10,
+        "eligible": 11,
+        "model_captain": "Haaland",
+        "model_actual": 2.0,
+        "baseline_captain": "De Cuyper",
+        "baseline_actual": 6.0
+      }
+    ]
+  },
+  "limitations": [
+    "Uses historical xG/xA prior to each GW; no future player outcomes in features.",
+    "Uses archived per-match opponent ID to avoid current-team transfer mismatch.",
+    "This is a partial model, NOT identical to GW11 full-component implementation.",
+    "Historical xG/xA archive enrichment may be incomplete; coverage per GW is explicit.",
+    "No historical deadline availability or confirmed lineups.",
+    "No robust BPS simulation; bonus is shrunk historical bonus rate.",
+    "Defensive contribution points included only if archived as explicit field.",
+    "Captain candidates are a fixed current-ID list, not actual past squad.",
+    "No train/validation split for choosing model hyperparameters.",
+    "No forecast intervals validated."
+  ]
+}
