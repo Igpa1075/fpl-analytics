@@ -34,6 +34,9 @@ jobs:
       - name: Freeze joint GW11 transfer lineup captain scenarios
         run: python fpl_joint_gw11_scenarios.py
 
+      - name: Freeze fixture-aware joint GW11-13 scenarios
+        run: python fpl_joint_gw11_fixture_aware.py
+
       - name: Generate FPL analysis
         run: python fpl_analysis.py > data/analysis.txt
   
