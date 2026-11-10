@@ -1,0 +1,787 @@
+{
+  "status": "frozen_fixture_aware_exploratory_not_legal_transfer_verified",
+  "created_at_utc": "2026-11-10T04:56:54.088664+00:00",
+  "deadline_utc": "2026-11-21T11:00:00+00:00",
+  "source_squad_gw": 10,
+  "gws": [
+    11,
+    12,
+    13
+  ],
+  "baseline": {
+    "three_gw_proxy": 202.42,
+    "gws": [
+      {
+        "gw": 11,
+        "starting_xi": [
+          109,
+          504,
+          115,
+          8,
+          68,
+          236,
+          166,
+          411,
+          592,
+          154,
+          156
+        ],
+        "captain": 166,
+        "vice_captain": 504,
+        "proxy_points": 66.431
+      },
+      {
+        "gw": 12,
+        "starting_xi": [
+          109,
+          504,
+          115,
+          8,
+          68,
+          236,
+          166,
+          592,
+          411,
+          154,
+          156
+        ],
+        "captain": 166,
+        "vice_captain": 504,
+        "proxy_points": 71.535
+      },
+      {
+        "gw": 13,
+        "starting_xi": [
+          109,
+          504,
+          115,
+          592,
+          236,
+          68,
+          166,
+          154,
+          8,
+          411,
+          156
+        ],
+        "captain": 166,
+        "vice_captain": 504,
+        "proxy_points": 64.454
+      }
+    ]
+  },
+  "candidate_count": 303,
+  "top_transfer_scenarios": [
+    {
+      "out": 304,
+      "in": 31,
+      "sale_price_proxy_tenths": 40,
+      "buy_price_tenths": 48,
+      "bank_after_proxy_tenths": 1,
+      "gain_three_gw_proxy": 24.052,
+      "lineup": {
+        "three_gw_proxy": 226.472,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              68,
+              236,
+              166,
+              8,
+              411,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 75.628
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              68,
+              236,
+              166,
+              8,
+              592,
+              411,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 80.177
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              236,
+              68,
+              166,
+              154,
+              592,
+              8,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 70.667
+          }
+        ]
+      }
+    },
+    {
+      "out": 592,
+      "in": 31,
+      "sale_price_proxy_tenths": 40,
+      "buy_price_tenths": 48,
+      "bank_after_proxy_tenths": 1,
+      "gain_three_gw_proxy": 20.588,
+      "lineup": {
+        "three_gw_proxy": 223.008,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              68,
+              236,
+              166,
+              8,
+              411,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 74.663
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              68,
+              236,
+              166,
+              8,
+              411,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 78.472
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              236,
+              68,
+              166,
+              154,
+              8,
+              411,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 69.873
+          }
+        ]
+      }
+    },
+    {
+      "out": 8,
+      "in": 31,
+      "sale_price_proxy_tenths": 59,
+      "buy_price_tenths": 48,
+      "bank_after_proxy_tenths": 20,
+      "gain_three_gw_proxy": 19.428,
+      "lineup": {
+        "three_gw_proxy": 221.848,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              68,
+              236,
+              166,
+              411,
+              592,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 73.357
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              68,
+              236,
+              166,
+              592,
+              411,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 78.279
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              236,
+              68,
+              166,
+              154,
+              592,
+              411,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 70.212
+          }
+        ]
+      }
+    },
+    {
+      "out": 599,
+      "in": 249,
+      "sale_price_proxy_tenths": 50,
+      "buy_price_tenths": 57,
+      "bank_after_proxy_tenths": 2,
+      "gain_three_gw_proxy": 18.466,
+      "lineup": {
+        "three_gw_proxy": 220.886,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              8,
+              68,
+              236,
+              166,
+              249,
+              411,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 249,
+            "proxy_points": 72.308
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              8,
+              68,
+              236,
+              166,
+              249,
+              592,
+              411,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 249,
+            "proxy_points": 77.457
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              592,
+              236,
+              68,
+              166,
+              249,
+              154,
+              8,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 249,
+            "proxy_points": 71.121
+          }
+        ]
+      }
+    },
+    {
+      "out": 8,
+      "in": 112,
+      "sale_price_proxy_tenths": 59,
+      "buy_price_tenths": 51,
+      "bank_after_proxy_tenths": 17,
+      "gain_three_gw_proxy": 17.151,
+      "lineup": {
+        "three_gw_proxy": 219.571,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              112,
+              504,
+              115,
+              68,
+              236,
+              166,
+              411,
+              592,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 112,
+            "proxy_points": 73.345
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              112,
+              504,
+              115,
+              68,
+              236,
+              166,
+              592,
+              411,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 112,
+            "proxy_points": 76.791
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              112,
+              504,
+              115,
+              236,
+              68,
+              166,
+              154,
+              592,
+              411,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 112,
+            "proxy_points": 69.435
+          }
+        ]
+      }
+    },
+    {
+      "out": 156,
+      "in": 366,
+      "sale_price_proxy_tenths": 66,
+      "buy_price_tenths": 72,
+      "bank_after_proxy_tenths": 3,
+      "gain_three_gw_proxy": 15.556,
+      "lineup": {
+        "three_gw_proxy": 217.976,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              8,
+              366,
+              68,
+              166,
+              236,
+              411,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 366,
+            "proxy_points": 73.213
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              8,
+              366,
+              68,
+              166,
+              236,
+              592,
+              411,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 504,
+            "proxy_points": 75.169
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              592,
+              366,
+              236,
+              166,
+              68,
+              154,
+              8,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 366,
+            "proxy_points": 69.594
+          }
+        ]
+      }
+    },
+    {
+      "out": 427,
+      "in": 366,
+      "sale_price_proxy_tenths": 79,
+      "buy_price_tenths": 72,
+      "bank_after_proxy_tenths": 16,
+      "gain_three_gw_proxy": 15.556,
+      "lineup": {
+        "three_gw_proxy": 217.976,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              8,
+              366,
+              68,
+              166,
+              236,
+              411,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 366,
+            "proxy_points": 73.213
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              8,
+              366,
+              68,
+              166,
+              236,
+              592,
+              411,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 504,
+            "proxy_points": 75.169
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              592,
+              366,
+              236,
+              166,
+              68,
+              154,
+              8,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 366,
+            "proxy_points": 69.594
+          }
+        ]
+      }
+    },
+    {
+      "out": 411,
+      "in": 249,
+      "sale_price_proxy_tenths": 158,
+      "buy_price_tenths": 57,
+      "bank_after_proxy_tenths": 110,
+      "gain_three_gw_proxy": 15.523,
+      "lineup": {
+        "three_gw_proxy": 217.943,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              8,
+              68,
+              236,
+              166,
+              249,
+              592,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 249,
+            "proxy_points": 70.324
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              8,
+              68,
+              236,
+              166,
+              249,
+              592,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 249,
+            "proxy_points": 76.763
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              592,
+              236,
+              68,
+              166,
+              249,
+              154,
+              8,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 249,
+            "proxy_points": 70.856
+          }
+        ]
+      }
+    },
+    {
+      "out": 115,
+      "in": 31,
+      "sale_price_proxy_tenths": 55,
+      "buy_price_tenths": 48,
+      "bank_after_proxy_tenths": 16,
+      "gain_three_gw_proxy": 15.365,
+      "lineup": {
+        "three_gw_proxy": 217.785,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              8,
+              68,
+              236,
+              166,
+              411,
+              592,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 72.93
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              8,
+              68,
+              236,
+              166,
+              592,
+              411,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 76.34
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              592,
+              236,
+              68,
+              166,
+              154,
+              8,
+              411,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 68.515
+          }
+        ]
+      }
+    },
+    {
+      "out": 599,
+      "in": 295,
+      "sale_price_proxy_tenths": 50,
+      "buy_price_tenths": 55,
+      "bank_after_proxy_tenths": 4,
+      "gain_three_gw_proxy": 14.869,
+      "lineup": {
+        "three_gw_proxy": 217.289,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              8,
+              68,
+              236,
+              166,
+              295,
+              411,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 295,
+            "proxy_points": 70.275
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              8,
+              68,
+              236,
+              166,
+              295,
+              592,
+              411,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 295,
+            "proxy_points": 78.148
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              592,
+              236,
+              68,
+              166,
+              295,
+              154,
+              8,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 295,
+            "proxy_points": 68.866
+          }
+        ]
+      }
+    }
+  ],
+  "method": "GW8-10 points and minutes; GW11-13 fixture schedule; opponent goals conceded in finished GW1-10; mild home adjustment",
+  "limitations": [
+    "Current selling-price proxy may overstate real sale proceeds; do not execute without FPL confirmation.",
+    "Expected points are heuristic and not calibrated to FPL points.",
+    "Minutes factor uses historical minutes only, not news, injuries or projected lineups.",
+    "Opponent factor uses historical goals conceded, not expected goals or team news.",
+    "Current team memberships and fixtures are current API snapshots, not deadline-archived.",
+    "Free transfer balance, chips, hits, and future price changes are not modeled.",
+    "Each GW lineup and captain are jointly reoptimized after a hypothetical transfer.",
+    "GW11 captain-policy forward snapshot remains unchanged."
+  ]
+}
