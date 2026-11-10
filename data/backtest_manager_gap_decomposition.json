@@ -1,0 +1,224 @@
+{
+  "status": "verified_arithmetic_not_causal_explanation",
+  "manager_gross": 532,
+  "manager_hits": 4,
+  "manager_net": 528,
+  "model_total": 510,
+  "model_minus_manager_net": -18,
+  "model_better_gws": [
+    4,
+    5,
+    6,
+    8,
+    10
+  ],
+  "manager_better_gws": [
+    2,
+    3,
+    7,
+    9
+  ],
+  "manager_wildcard_gws": [
+    8
+  ],
+  "rows": [
+    {
+      "gw": 1,
+      "manager_gross": 32,
+      "manager_hit_cost": 0,
+      "manager_net": 32,
+      "model_points": 32,
+      "model_minus_manager_net": 0,
+      "model_transfer": null,
+      "manager_chip": null,
+      "model_captain_id": 379,
+      "model_autosubs": 0
+    },
+    {
+      "gw": 2,
+      "manager_gross": 71,
+      "manager_hit_cost": 0,
+      "manager_net": 71,
+      "model_points": 45,
+      "model_minus_manager_net": -26,
+      "model_transfer": {
+        "out": 147,
+        "in": 115,
+        "form_gain": 17,
+        "proxy_sale_tenths": 45,
+        "proxy_buy_tenths": 46,
+        "bank_before_tenths": 5,
+        "bank_after_tenths": 4
+      },
+      "manager_chip": null,
+      "model_captain_id": 115,
+      "model_autosubs": 1
+    },
+    {
+      "gw": 3,
+      "manager_gross": 64,
+      "manager_hit_cost": 0,
+      "manager_net": 64,
+      "model_points": 50,
+      "model_minus_manager_net": -14,
+      "model_transfer": {
+        "out": 55,
+        "in": 165,
+        "form_gain": 20,
+        "proxy_sale_tenths": 78,
+        "proxy_buy_tenths": 77,
+        "bank_before_tenths": 4,
+        "bank_after_tenths": 5
+      },
+      "manager_chip": null,
+      "model_captain_id": 165,
+      "model_autosubs": 0
+    },
+    {
+      "gw": 4,
+      "manager_gross": 50,
+      "manager_hit_cost": 0,
+      "manager_net": 50,
+      "model_points": 58,
+      "model_minus_manager_net": 8,
+      "model_transfer": {
+        "out": 387,
+        "in": 279,
+        "form_gain": 21,
+        "proxy_sale_tenths": 64,
+        "proxy_buy_tenths": 42,
+        "bank_before_tenths": 5,
+        "bank_after_tenths": 27
+      },
+      "manager_chip": null,
+      "model_captain_id": 279,
+      "model_autosubs": 1
+    },
+    {
+      "gw": 5,
+      "manager_gross": 61,
+      "manager_hit_cost": 0,
+      "manager_net": 61,
+      "model_points": 65,
+      "model_minus_manager_net": 4,
+      "model_transfer": {
+        "out": 84,
+        "in": 330,
+        "form_gain": 27,
+        "proxy_sale_tenths": 54,
+        "proxy_buy_tenths": 46,
+        "bank_before_tenths": 27,
+        "bank_after_tenths": 35
+      },
+      "manager_chip": null,
+      "model_captain_id": 330,
+      "model_autosubs": 1
+    },
+    {
+      "gw": 6,
+      "manager_gross": 55,
+      "manager_hit_cost": 4,
+      "manager_net": 51,
+      "model_points": 62,
+      "model_minus_manager_net": 11,
+      "model_transfer": {
+        "out": 315,
+        "in": 124,
+        "form_gain": 30,
+        "proxy_sale_tenths": 54,
+        "proxy_buy_tenths": 59,
+        "bank_before_tenths": 35,
+        "bank_after_tenths": 30
+      },
+      "manager_chip": null,
+      "model_captain_id": 330,
+      "model_autosubs": 1
+    },
+    {
+      "gw": 7,
+      "manager_gross": 52,
+      "manager_hit_cost": 0,
+      "manager_net": 52,
+      "model_points": 45,
+      "model_minus_manager_net": -7,
+      "model_transfer": {
+        "out": 279,
+        "in": 229,
+        "form_gain": 22,
+        "proxy_sale_tenths": 42,
+        "proxy_buy_tenths": 62,
+        "bank_before_tenths": 30,
+        "bank_after_tenths": 10
+      },
+      "manager_chip": null,
+      "model_captain_id": 124,
+      "model_autosubs": 1
+    },
+    {
+      "gw": 8,
+      "manager_gross": 40,
+      "manager_hit_cost": 0,
+      "manager_net": 40,
+      "model_points": 43,
+      "model_minus_manager_net": 3,
+      "model_transfer": {
+        "out": 480,
+        "in": 53,
+        "form_gain": 25,
+        "proxy_sale_tenths": 79,
+        "proxy_buy_tenths": 60,
+        "bank_before_tenths": 10,
+        "bank_after_tenths": 29
+      },
+      "manager_chip": "wildcard",
+      "model_captain_id": 53,
+      "model_autosubs": 3
+    },
+    {
+      "gw": 9,
+      "manager_gross": 48,
+      "manager_hit_cost": 0,
+      "manager_net": 48,
+      "model_points": 45,
+      "model_minus_manager_net": -3,
+      "model_transfer": {
+        "out": 229,
+        "in": 4,
+        "form_gain": 22,
+        "proxy_sale_tenths": 62,
+        "proxy_buy_tenths": 80,
+        "bank_before_tenths": 29,
+        "bank_after_tenths": 11
+      },
+      "manager_chip": null,
+      "model_captain_id": 4,
+      "model_autosubs": 2
+    },
+    {
+      "gw": 10,
+      "manager_gross": 59,
+      "manager_hit_cost": 0,
+      "manager_net": 59,
+      "model_points": 65,
+      "model_minus_manager_net": 6,
+      "model_transfer": {
+        "out": 330,
+        "in": 31,
+        "form_gain": 25,
+        "proxy_sale_tenths": 47,
+        "proxy_buy_tenths": 48,
+        "bank_before_tenths": 11,
+        "bank_after_tenths": 10
+      },
+      "manager_chip": null,
+      "model_captain_id": 31,
+      "model_autosubs": 1
+    }
+  ],
+  "limitations": [
+    "GW-level score differences cannot be causally assigned to individual transfers or captaincy.",
+    "Manager used wildcard in GW8; model does not implement chips.",
+    "Model uses unverified fixture-time prices, not historical deadline prices.",
+    "GW1 squad and XI were inherited from manager."
+  ]
+}
