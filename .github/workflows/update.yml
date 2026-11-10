@@ -37,6 +37,9 @@ jobs:
       - name: Walk-forward backtest historical xG xA
         run: python fpl_historical_xg_walkforward.py
 
+      - name: Audit pre-GW expected-points component calibration
+        run: python fpl_component_calibration_audit.py
+
       - name: Freeze predeadline captain predictions (when eligible)
         run: python fpl_captain_forward_snapshot.py
 
