@@ -1,0 +1,52 @@
+{
+  "status": "public_data_audit_not_authenticated_trade_verification",
+  "updated_at_utc": "2026-11-10T05:07:00.413793+00:00",
+  "source_published_squad_gw": 10,
+  "bank_tenths": 9,
+  "players": {
+    "304": {
+      "id": 304,
+      "name": "O'Shea",
+      "full_name": "Dara O'Shea",
+      "club": "Ipswich Town",
+      "position_id": 2,
+      "market_price_tenths": 40,
+      "status": "a",
+      "news": "",
+      "chance_next_round": null,
+      "minutes_season": 900,
+      "points_per_game": "2.8",
+      "expected_goals": "0.30",
+      "expected_assists": "0.33"
+    },
+    "31": {
+      "id": 31,
+      "name": "Konsa",
+      "full_name": "Ezri Konsa Ngoyo",
+      "club": "Arsenal",
+      "position_id": 2,
+      "market_price_tenths": 48,
+      "status": "a",
+      "news": "",
+      "chance_next_round": 100,
+      "minutes_season": 731,
+      "points_per_game": "6.3",
+      "expected_goals": "0.64",
+      "expected_assists": "0.04"
+    }
+  },
+  "club_limit_ok": true,
+  "minimum_actual_sale_price_tenths_required": 39,
+  "current_market_sale_proxy_tenths": 40,
+  "affordable_if_market_sale_proxy_used": true,
+  "actual_sale_price_verified": false,
+  "free_transfers_verified": false,
+  "executable_verified": false,
+  "notes": [
+    "Player names, status and news are from fresh bootstrap data.",
+    "Selling price is individual to the manager and not present in public picks.",
+    "Check authenticated FPL My Team for exact selling price and free transfers.",
+    "Current market price is not a substitute for actual selling price.",
+    "No transfer should be recommended as executable until verified."
+  ]
+}
