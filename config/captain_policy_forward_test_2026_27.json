@@ -1,0 +1,21 @@
+{
+  "experiment": "prospective_captain_policy_validation_2026_27",
+  "frozen_before_evaluation": "2026-11-10",
+  "training_gameweeks": [1,2,3,4,5,6,7,8,9,10],
+  "evaluation_gameweeks": [11,12,13,14,15],
+  "primary_metric": "sum_of_actual_captain_bonus_on_precommitted_same_starting_xi",
+  "baseline_policy": "form_3",
+  "challenger_policy": "season_form",
+  "additional_policies": ["minutes_weighted", "reliability"],
+  "policy_implementation": "fpl_backtest_captain_policy_experiment.py::rank",
+  "decision_inputs": "Only player matches from strictly earlier completed gameweeks",
+  "constraints": [
+    "Use identical starting XI and squad for every captain policy in a gameweek",
+    "Record captain and vice captain before the gameweek deadline",
+    "Do not revise decisions or policy definitions after kickoff",
+    "Evaluate GW11-15 only once official results are available",
+    "Treat GW1-10 performance as in-sample exploration, not validation",
+    "Do not represent fixture-time prices as verified historical deadline prices"
+  ],
+  "status": "preregistered_not_yet_evaluated"
+}
