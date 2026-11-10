@@ -1,0 +1,402 @@
+{
+  "status": "retrospective_captain_policy_comparison_not_out_of_sample",
+  "fixed_squad_xi_and_transfers": true,
+  "baseline_total": 510,
+  "policies": [
+    {
+      "policy": "form_3",
+      "total": 510,
+      "captain_bonus": 30,
+      "gws": [
+        {
+          "gw": 1,
+          "captain": 379,
+          "vice": 28,
+          "scoring_captain": 379,
+          "base": 30,
+          "captain_bonus": 2,
+          "points": 32
+        },
+        {
+          "gw": 2,
+          "captain": 115,
+          "vice": 84,
+          "scoring_captain": 115,
+          "base": 45,
+          "captain_bonus": 0,
+          "points": 45
+        },
+        {
+          "gw": 3,
+          "captain": 165,
+          "vice": 115,
+          "scoring_captain": 165,
+          "base": 49,
+          "captain_bonus": 1,
+          "points": 50
+        },
+        {
+          "gw": 4,
+          "captain": 279,
+          "vice": 379,
+          "scoring_captain": 279,
+          "base": 57,
+          "captain_bonus": 1,
+          "points": 58
+        },
+        {
+          "gw": 5,
+          "captain": 330,
+          "vice": 480,
+          "scoring_captain": 330,
+          "base": 60,
+          "captain_bonus": 5,
+          "points": 65
+        },
+        {
+          "gw": 6,
+          "captain": 330,
+          "vice": 124,
+          "scoring_captain": 330,
+          "base": 61,
+          "captain_bonus": 1,
+          "points": 62
+        },
+        {
+          "gw": 7,
+          "captain": 124,
+          "vice": 115,
+          "scoring_captain": 124,
+          "base": 40,
+          "captain_bonus": 5,
+          "points": 45
+        },
+        {
+          "gw": 8,
+          "captain": 53,
+          "vice": 115,
+          "scoring_captain": 53,
+          "base": 42,
+          "captain_bonus": 1,
+          "points": 43
+        },
+        {
+          "gw": 9,
+          "captain": 4,
+          "vice": 115,
+          "scoring_captain": 4,
+          "base": 39,
+          "captain_bonus": 6,
+          "points": 45
+        },
+        {
+          "gw": 10,
+          "captain": 31,
+          "vice": 4,
+          "scoring_captain": 31,
+          "base": 57,
+          "captain_bonus": 8,
+          "points": 65
+        }
+      ]
+    },
+    {
+      "policy": "minutes_weighted",
+      "total": 510,
+      "captain_bonus": 30,
+      "gws": [
+        {
+          "gw": 1,
+          "captain": 379,
+          "vice": 28,
+          "scoring_captain": 379,
+          "base": 30,
+          "captain_bonus": 2,
+          "points": 32
+        },
+        {
+          "gw": 2,
+          "captain": 115,
+          "vice": 84,
+          "scoring_captain": 115,
+          "base": 45,
+          "captain_bonus": 0,
+          "points": 45
+        },
+        {
+          "gw": 3,
+          "captain": 165,
+          "vice": 115,
+          "scoring_captain": 165,
+          "base": 49,
+          "captain_bonus": 1,
+          "points": 50
+        },
+        {
+          "gw": 4,
+          "captain": 279,
+          "vice": 379,
+          "scoring_captain": 279,
+          "base": 57,
+          "captain_bonus": 1,
+          "points": 58
+        },
+        {
+          "gw": 5,
+          "captain": 330,
+          "vice": 480,
+          "scoring_captain": 330,
+          "base": 60,
+          "captain_bonus": 5,
+          "points": 65
+        },
+        {
+          "gw": 6,
+          "captain": 330,
+          "vice": 124,
+          "scoring_captain": 330,
+          "base": 61,
+          "captain_bonus": 1,
+          "points": 62
+        },
+        {
+          "gw": 7,
+          "captain": 124,
+          "vice": 115,
+          "scoring_captain": 124,
+          "base": 40,
+          "captain_bonus": 5,
+          "points": 45
+        },
+        {
+          "gw": 8,
+          "captain": 53,
+          "vice": 115,
+          "scoring_captain": 53,
+          "base": 42,
+          "captain_bonus": 1,
+          "points": 43
+        },
+        {
+          "gw": 9,
+          "captain": 4,
+          "vice": 115,
+          "scoring_captain": 4,
+          "base": 39,
+          "captain_bonus": 6,
+          "points": 45
+        },
+        {
+          "gw": 10,
+          "captain": 31,
+          "vice": 4,
+          "scoring_captain": 31,
+          "base": 57,
+          "captain_bonus": 8,
+          "points": 65
+        }
+      ]
+    },
+    {
+      "policy": "reliability",
+      "total": 510,
+      "captain_bonus": 30,
+      "gws": [
+        {
+          "gw": 1,
+          "captain": 379,
+          "vice": 28,
+          "scoring_captain": 379,
+          "base": 30,
+          "captain_bonus": 2,
+          "points": 32
+        },
+        {
+          "gw": 2,
+          "captain": 115,
+          "vice": 84,
+          "scoring_captain": 115,
+          "base": 45,
+          "captain_bonus": 0,
+          "points": 45
+        },
+        {
+          "gw": 3,
+          "captain": 165,
+          "vice": 115,
+          "scoring_captain": 165,
+          "base": 49,
+          "captain_bonus": 1,
+          "points": 50
+        },
+        {
+          "gw": 4,
+          "captain": 279,
+          "vice": 379,
+          "scoring_captain": 279,
+          "base": 57,
+          "captain_bonus": 1,
+          "points": 58
+        },
+        {
+          "gw": 5,
+          "captain": 330,
+          "vice": 480,
+          "scoring_captain": 330,
+          "base": 60,
+          "captain_bonus": 5,
+          "points": 65
+        },
+        {
+          "gw": 6,
+          "captain": 330,
+          "vice": 124,
+          "scoring_captain": 330,
+          "base": 61,
+          "captain_bonus": 1,
+          "points": 62
+        },
+        {
+          "gw": 7,
+          "captain": 124,
+          "vice": 115,
+          "scoring_captain": 124,
+          "base": 40,
+          "captain_bonus": 5,
+          "points": 45
+        },
+        {
+          "gw": 8,
+          "captain": 53,
+          "vice": 115,
+          "scoring_captain": 53,
+          "base": 42,
+          "captain_bonus": 1,
+          "points": 43
+        },
+        {
+          "gw": 9,
+          "captain": 4,
+          "vice": 115,
+          "scoring_captain": 4,
+          "base": 39,
+          "captain_bonus": 6,
+          "points": 45
+        },
+        {
+          "gw": 10,
+          "captain": 31,
+          "vice": 4,
+          "scoring_captain": 31,
+          "base": 57,
+          "captain_bonus": 8,
+          "points": 65
+        }
+      ]
+    },
+    {
+      "policy": "season_form",
+      "total": 517,
+      "captain_bonus": 37,
+      "gws": [
+        {
+          "gw": 1,
+          "captain": 379,
+          "vice": 28,
+          "scoring_captain": 379,
+          "base": 30,
+          "captain_bonus": 2,
+          "points": 32
+        },
+        {
+          "gw": 2,
+          "captain": 115,
+          "vice": 84,
+          "scoring_captain": 115,
+          "base": 45,
+          "captain_bonus": 0,
+          "points": 45
+        },
+        {
+          "gw": 3,
+          "captain": 165,
+          "vice": 115,
+          "scoring_captain": 165,
+          "base": 49,
+          "captain_bonus": 1,
+          "points": 50
+        },
+        {
+          "gw": 4,
+          "captain": 279,
+          "vice": 379,
+          "scoring_captain": 279,
+          "base": 57,
+          "captain_bonus": 1,
+          "points": 58
+        },
+        {
+          "gw": 5,
+          "captain": 330,
+          "vice": 165,
+          "scoring_captain": 330,
+          "base": 60,
+          "captain_bonus": 5,
+          "points": 65
+        },
+        {
+          "gw": 6,
+          "captain": 124,
+          "vice": 330,
+          "scoring_captain": 124,
+          "base": 61,
+          "captain_bonus": 6,
+          "points": 67
+        },
+        {
+          "gw": 7,
+          "captain": 115,
+          "vice": 124,
+          "scoring_captain": 115,
+          "base": 40,
+          "captain_bonus": 6,
+          "points": 46
+        },
+        {
+          "gw": 8,
+          "captain": 115,
+          "vice": 124,
+          "scoring_captain": 115,
+          "base": 42,
+          "captain_bonus": 1,
+          "points": 43
+        },
+        {
+          "gw": 9,
+          "captain": 115,
+          "vice": 124,
+          "scoring_captain": 115,
+          "base": 39,
+          "captain_bonus": 9,
+          "points": 48
+        },
+        {
+          "gw": 10,
+          "captain": 115,
+          "vice": 124,
+          "scoring_captain": 115,
+          "base": 57,
+          "captain_bonus": 6,
+          "points": 63
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Same historical GW1 squad, transfer path and starting XI for all policies.",
+    "No opponent strength or upcoming fixture features: historical fixture snapshot unavailable.",
+    "GW1 captain is the manager's observed selection, not a model forecast.",
+    "Comparing policy totals on GW1-10 is in-sample; selecting the winner is hindsight overfitting.",
+    "Underlying transfer budget uses unverified fixture-time price proxies."
+  ]
+}
