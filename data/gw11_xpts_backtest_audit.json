@@ -1,0 +1,161 @@
+{
+  "status": "strictly_lagged_historical_proxy_backtest_NOT_full_xg_model",
+  "created_at_utc": "2026-11-10T10:00:33.829608+00:00",
+  "target_gws": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "model": {
+    "n": 5890,
+    "mae": 1.496,
+    "rmse": 2.218,
+    "bias": 0.28
+  },
+  "simple_prior_form_baseline": {
+    "n": 5890,
+    "mae": 1.495,
+    "rmse": 2.22,
+    "bias": 0.27
+  },
+  "captain_comparison": {
+    "rounds": 9,
+    "model_actual_captain_points": 63,
+    "baseline_actual_captain_points": 49,
+    "by_gw": [
+      {
+        "gw": 2,
+        "eligible": 4,
+        "model_captain": "Dewsbury-Hall",
+        "model_actual": 2,
+        "baseline_captain": "Dewsbury-Hall",
+        "baseline_actual": 2
+      },
+      {
+        "gw": 3,
+        "eligible": 7,
+        "model_captain": "Calafiori",
+        "model_actual": 2,
+        "baseline_captain": "Calafiori",
+        "baseline_actual": 2
+      },
+      {
+        "gw": 4,
+        "eligible": 10,
+        "model_captain": "Haaland",
+        "model_actual": 9,
+        "baseline_captain": "Haaland",
+        "baseline_actual": 9
+      },
+      {
+        "gw": 5,
+        "eligible": 10,
+        "model_captain": "Haaland",
+        "model_actual": 6,
+        "baseline_captain": "De Cuyper",
+        "baseline_actual": 6
+      },
+      {
+        "gw": 6,
+        "eligible": 11,
+        "model_captain": "De Cuyper",
+        "model_actual": 15,
+        "baseline_captain": "De Cuyper",
+        "baseline_actual": 15
+      },
+      {
+        "gw": 7,
+        "eligible": 11,
+        "model_captain": "De Cuyper",
+        "model_actual": 6,
+        "baseline_captain": "De Cuyper",
+        "baseline_actual": 6
+      },
+      {
+        "gw": 8,
+        "eligible": 11,
+        "model_captain": "Haaland",
+        "model_actual": 8,
+        "baseline_captain": "De Cuyper",
+        "baseline_actual": 1
+      },
+      {
+        "gw": 9,
+        "eligible": 11,
+        "model_captain": "De Cuyper",
+        "model_actual": 9,
+        "baseline_captain": "Haaland",
+        "baseline_actual": 2
+      },
+      {
+        "gw": 10,
+        "eligible": 11,
+        "model_captain": "De Cuyper",
+        "model_actual": 6,
+        "baseline_captain": "De Cuyper",
+        "baseline_actual": 6
+      }
+    ]
+  },
+  "coverage": [
+    {
+      "gw": 2,
+      "scored_players": 610,
+      "eligible_captains": 4
+    },
+    {
+      "gw": 3,
+      "scored_players": 626,
+      "eligible_captains": 7
+    },
+    {
+      "gw": 4,
+      "scored_players": 654,
+      "eligible_captains": 10
+    },
+    {
+      "gw": 5,
+      "scored_players": 659,
+      "eligible_captains": 10
+    },
+    {
+      "gw": 6,
+      "scored_players": 667,
+      "eligible_captains": 11
+    },
+    {
+      "gw": 7,
+      "scored_players": 667,
+      "eligible_captains": 11
+    },
+    {
+      "gw": 8,
+      "scored_players": 668,
+      "eligible_captains": 11
+    },
+    {
+      "gw": 9,
+      "scored_players": 669,
+      "eligible_captains": 11
+    },
+    {
+      "gw": 10,
+      "scored_players": 670,
+      "eligible_captains": 11
+    }
+  ],
+  "limitations": [
+    "This is a lagged historical-form proxy, NOT a validation of the GW11 xG/xA full-component model.",
+    "Historical player data only contains minutes and total points; archived xG/xA, bonus and defensive actions are missing.",
+    "Current player-to-team mappings are used to locate past fixtures and may be incorrect for transferred players; opponent factor therefore unreliable for such players.",
+    "Captain comparison uses fixed candidate IDs, not the historical user squad; not a realistic manager backtest.",
+    "The historical proxy was not tuned or selected on a holdout; report exploratory results only.",
+    "No archived injury or starting XI information; all current-season GW2-10 player records covered by collection are evaluated."
+  ]
+}
