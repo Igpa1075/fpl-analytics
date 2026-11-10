@@ -15,219 +15,268 @@
   ],
   "gameweeks": {
     "2": {
-      "eligible_managers": 76,
-      "chips": {
-        "wildcard": {
-          "status": "insufficient_treated",
-          "treated": 3,
-          "eligible_controls": 71
-        },
-        "freehit": {
-          "status": "insufficient_treated",
-          "treated": 0,
-          "eligible_controls": 71
-        },
-        "bboost": {
-          "status": "insufficient_treated",
-          "treated": 1,
-          "eligible_controls": 71
-        },
-        "3xc": {
-          "status": "insufficient_treated",
-          "treated": 1,
-          "eligible_controls": 71
-        }
-      }
-    },
-    "3": {
-      "eligible_managers": 95,
-      "chips": {
-        "wildcard": {
-          "status": "exploratory_only",
-          "treated": 6,
-          "eligible_controls": 76,
-          "matched_treated": 6,
-          "mean_treated_gain": 127.17,
-          "mean_matched_control_gain": 109.33,
-          "mean_difference_points": 17.83,
-          "median_difference_points": 18.0,
-          "mean_absolute_baseline_gap": 1.17,
-          "matching": "same GW, prior-GW points within 25; distance also includes prior team value and bank when available; with replacement"
-        },
-        "freehit": {
-          "status": "insufficient_treated",
-          "treated": 0,
-          "eligible_controls": 76
-        },
-        "bboost": {
-          "status": "insufficient_treated",
-          "treated": 0,
-          "eligible_controls": 76
-        },
-        "3xc": {
-          "status": "exploratory_only",
-          "treated": 13,
-          "eligible_controls": 76,
-          "matched_treated": 12,
-          "mean_treated_gain": 127.08,
-          "mean_matched_control_gain": 117.83,
-          "mean_difference_points": 9.25,
-          "median_difference_points": 6.5,
-          "mean_absolute_baseline_gap": 1.5,
-          "matching": "same GW, prior-GW points within 25; distance also includes prior team value and bank when available; with replacement"
-        }
-      }
-    },
-    "4": {
-      "eligible_managers": 101,
+      "eligible_managers": 138,
       "chips": {
         "wildcard": {
           "status": "exploratory_only",
           "treated": 7,
-          "eligible_controls": 85,
+          "eligible_controls": 126,
           "matched_treated": 7,
-          "mean_treated_gain": 120.86,
-          "mean_matched_control_gain": 120.71,
-          "mean_difference_points": 0.14,
-          "median_difference_points": 13,
+          "mean_treated_gain": 125.86,
+          "mean_matched_control_gain": 131.86,
+          "mean_difference_points": -6,
+          "median_difference_points": -5,
           "mean_absolute_baseline_gap": 1,
           "matching": "same GW, prior-GW points within 25; distance also includes prior team value and bank when available; with replacement"
         },
         "freehit": {
           "status": "insufficient_treated",
-          "treated": 4,
-          "eligible_controls": 85
+          "treated": 1,
+          "eligible_controls": 126
+        },
+        "bboost": {
+          "status": "insufficient_treated",
+          "treated": 2,
+          "eligible_controls": 126
+        },
+        "3xc": {
+          "status": "insufficient_treated",
+          "treated": 2,
+          "eligible_controls": 126
+        }
+      }
+    },
+    "3": {
+      "eligible_managers": 170,
+      "chips": {
+        "wildcard": {
+          "status": "exploratory_only",
+          "treated": 13,
+          "eligible_controls": 133,
+          "matched_treated": 13,
+          "mean_treated_gain": 122.46,
+          "mean_matched_control_gain": 101,
+          "mean_difference_points": 21.46,
+          "median_difference_points": 11,
+          "mean_absolute_baseline_gap": 2.08,
+          "matching": "same GW, prior-GW points within 25; distance also includes prior team value and bank when available; with replacement"
+        },
+        "freehit": {
+          "status": "insufficient_treated",
+          "treated": 0,
+          "eligible_controls": 133
+        },
+        "bboost": {
+          "status": "insufficient_treated",
+          "treated": 2,
+          "eligible_controls": 133
+        },
+        "3xc": {
+          "status": "exploratory_only",
+          "treated": 22,
+          "eligible_controls": 133,
+          "matched_treated": 21,
+          "mean_treated_gain": 130.19,
+          "mean_matched_control_gain": 123.19,
+          "mean_difference_points": 7,
+          "median_difference_points": 2,
+          "mean_absolute_baseline_gap": 1.43,
+          "matching": "same GW, prior-GW points within 25; distance also includes prior team value and bank when available; with replacement"
+        }
+      }
+    },
+    "4": {
+      "eligible_managers": 179,
+      "chips": {
+        "wildcard": {
+          "status": "exploratory_only",
+          "treated": 11,
+          "eligible_controls": 153,
+          "matched_treated": 11,
+          "mean_treated_gain": 116.09,
+          "mean_matched_control_gain": 114.91,
+          "mean_difference_points": 1.18,
+          "median_difference_points": 5,
+          "mean_absolute_baseline_gap": 0.36,
+          "matching": "same GW, prior-GW points within 25; distance also includes prior team value and bank when available; with replacement"
+        },
+        "freehit": {
+          "status": "exploratory_only",
+          "treated": 5,
+          "eligible_controls": 153,
+          "matched_treated": 5,
+          "mean_treated_gain": 128,
+          "mean_matched_control_gain": 120,
+          "mean_difference_points": 8,
+          "median_difference_points": 12,
+          "mean_absolute_baseline_gap": 0,
+          "matching": "same GW, prior-GW points within 25; distance also includes prior team value and bank when available; with replacement"
         },
         "bboost": {
           "status": "insufficient_treated",
           "treated": 0,
-          "eligible_controls": 85
+          "eligible_controls": 153
         },
         "3xc": {
           "status": "exploratory_only",
-          "treated": 5,
-          "eligible_controls": 85,
-          "matched_treated": 5,
-          "mean_treated_gain": 129.8,
-          "mean_matched_control_gain": 96,
-          "mean_difference_points": 33.8,
-          "median_difference_points": 26,
-          "mean_absolute_baseline_gap": 4.4,
+          "treated": 10,
+          "eligible_controls": 153,
+          "matched_treated": 10,
+          "mean_treated_gain": 111,
+          "mean_matched_control_gain": 108.6,
+          "mean_difference_points": 2.4,
+          "median_difference_points": 4.0,
+          "mean_absolute_baseline_gap": 2,
           "matching": "same GW, prior-GW points within 25; distance also includes prior team value and bank when available; with replacement"
         }
       }
     },
     "5": {
-      "eligible_managers": 104,
+      "eligible_managers": 186,
       "chips": {
         "wildcard": {
           "status": "exploratory_only",
-          "treated": 7,
-          "eligible_controls": 92,
-          "matched_treated": 7,
-          "mean_treated_gain": 118.14,
-          "mean_matched_control_gain": 112,
-          "mean_difference_points": 6.14,
-          "median_difference_points": 12,
-          "mean_absolute_baseline_gap": 0.86,
+          "treated": 11,
+          "eligible_controls": 162,
+          "matched_treated": 11,
+          "mean_treated_gain": 113.64,
+          "mean_matched_control_gain": 118.45,
+          "mean_difference_points": -4.82,
+          "median_difference_points": 1,
+          "mean_absolute_baseline_gap": 1.36,
           "matching": "same GW, prior-GW points within 25; distance also includes prior team value and bank when available; with replacement"
         },
         "freehit": {
-          "status": "insufficient_treated",
-          "treated": 1,
-          "eligible_controls": 92
+          "status": "exploratory_only",
+          "treated": 5,
+          "eligible_controls": 162,
+          "matched_treated": 5,
+          "mean_treated_gain": 126.8,
+          "mean_matched_control_gain": 105.2,
+          "mean_difference_points": 21.6,
+          "median_difference_points": 21,
+          "mean_absolute_baseline_gap": 0,
+          "matching": "same GW, prior-GW points within 25; distance also includes prior team value and bank when available; with replacement"
         },
         "bboost": {
           "status": "insufficient_treated",
           "treated": 0,
-          "eligible_controls": 92
+          "eligible_controls": 162
         },
         "3xc": {
-          "status": "insufficient_treated",
-          "treated": 4,
-          "eligible_controls": 92
+          "status": "exploratory_only",
+          "treated": 8,
+          "eligible_controls": 162,
+          "matched_treated": 8,
+          "mean_treated_gain": 106.75,
+          "mean_matched_control_gain": 103.62,
+          "mean_difference_points": 3.12,
+          "median_difference_points": 5.0,
+          "mean_absolute_baseline_gap": 1.5,
+          "matching": "same GW, prior-GW points within 25; distance also includes prior team value and bank when available; with replacement"
         }
       }
     },
     "6": {
-      "eligible_managers": 109,
+      "eligible_managers": 186,
+      "chips": {
+        "wildcard": {
+          "status": "exploratory_only",
+          "treated": 14,
+          "eligible_controls": 167,
+          "matched_treated": 14,
+          "mean_treated_gain": 127.57,
+          "mean_matched_control_gain": 113.43,
+          "mean_difference_points": 14.14,
+          "median_difference_points": 9.5,
+          "mean_absolute_baseline_gap": 1.93,
+          "matching": "same GW, prior-GW points within 25; distance also includes prior team value and bank when available; with replacement"
+        },
+        "freehit": {
+          "status": "insufficient_treated",
+          "treated": 1,
+          "eligible_controls": 167
+        },
+        "bboost": {
+          "status": "insufficient_treated",
+          "treated": 2,
+          "eligible_controls": 167
+        },
+        "3xc": {
+          "status": "insufficient_treated",
+          "treated": 2,
+          "eligible_controls": 167
+        }
+      }
+    },
+    "7": {
+      "eligible_managers": 209,
+      "chips": {
+        "wildcard": {
+          "status": "insufficient_treated",
+          "treated": 4,
+          "eligible_controls": 188
+        },
+        "freehit": {
+          "status": "insufficient_treated",
+          "treated": 2,
+          "eligible_controls": 188
+        },
+        "bboost": {
+          "status": "exploratory_only",
+          "treated": 6,
+          "eligible_controls": 188,
+          "matched_treated": 6,
+          "mean_treated_gain": 104,
+          "mean_matched_control_gain": 93.33,
+          "mean_difference_points": 10.67,
+          "median_difference_points": 6.0,
+          "mean_absolute_baseline_gap": 0.67,
+          "matching": "same GW, prior-GW points within 25; distance also includes prior team value and bank when available; with replacement"
+        },
+        "3xc": {
+          "status": "exploratory_only",
+          "treated": 9,
+          "eligible_controls": 188,
+          "matched_treated": 9,
+          "mean_treated_gain": 122.56,
+          "mean_matched_control_gain": 96.44,
+          "mean_difference_points": 26.11,
+          "median_difference_points": 26,
+          "mean_absolute_baseline_gap": 1.22,
+          "matching": "same GW, prior-GW points within 25; distance also includes prior team value and bank when available; with replacement"
+        }
+      }
+    },
+    "8": {
+      "eligible_managers": 207,
       "chips": {
         "wildcard": {
           "status": "exploratory_only",
           "treated": 8,
-          "eligible_controls": 99,
-          "matched_treated": 7,
-          "mean_treated_gain": 133.14,
-          "mean_matched_control_gain": 136.86,
-          "mean_difference_points": -3.71,
-          "median_difference_points": -11,
-          "mean_absolute_baseline_gap": 5.57,
+          "eligible_controls": 198,
+          "matched_treated": 8,
+          "mean_treated_gain": 107.62,
+          "mean_matched_control_gain": 90.5,
+          "mean_difference_points": 17.12,
+          "median_difference_points": 21.5,
+          "mean_absolute_baseline_gap": 0.75,
           "matching": "same GW, prior-GW points within 25; distance also includes prior team value and bank when available; with replacement"
         },
         "freehit": {
           "status": "insufficient_treated",
           "treated": 0,
-          "eligible_controls": 99
-        },
-        "bboost": {
-          "status": "insufficient_treated",
-          "treated": 1,
-          "eligible_controls": 99
-        },
-        "3xc": {
-          "status": "insufficient_treated",
-          "treated": 1,
-          "eligible_controls": 99
-        }
-      }
-    },
-    "7": {
-      "eligible_managers": 117,
-      "chips": {
-        "wildcard": {
-          "status": "insufficient_treated",
-          "treated": 1,
-          "eligible_controls": 111
-        },
-        "freehit": {
-          "status": "insufficient_treated",
-          "treated": 0,
-          "eligible_controls": 111
-        },
-        "bboost": {
-          "status": "insufficient_treated",
-          "treated": 3,
-          "eligible_controls": 111
-        },
-        "3xc": {
-          "status": "insufficient_treated",
-          "treated": 2,
-          "eligible_controls": 111
-        }
-      }
-    },
-    "8": {
-      "eligible_managers": 117,
-      "chips": {
-        "wildcard": {
-          "status": "insufficient_treated",
-          "treated": 4,
-          "eligible_controls": 113
-        },
-        "freehit": {
-          "status": "insufficient_treated",
-          "treated": 0,
-          "eligible_controls": 113
+          "eligible_controls": 198
         },
         "bboost": {
           "status": "insufficient_treated",
           "treated": 0,
-          "eligible_controls": 113
+          "eligible_controls": 198
         },
         "3xc": {
           "status": "insufficient_treated",
-          "treated": 0,
-          "eligible_controls": 113
+          "treated": 1,
+          "eligible_controls": 198
         }
       }
     }
