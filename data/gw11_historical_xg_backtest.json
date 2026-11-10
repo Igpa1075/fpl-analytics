@@ -16,87 +16,87 @@
     ],
     "development": {
       "model": {
-        "n": 1344,
-        "mae": 2.237,
-        "rmse": 3.195,
-        "bias": -0.477
+        "n": 1498,
+        "mae": 2.195,
+        "rmse": 3.124,
+        "bias": -0.433
       },
       "baseline": {
-        "n": 1344,
-        "mae": 2.212,
-        "rmse": 3.282,
-        "bias": -0.769
+        "n": 1498,
+        "mae": 2.166,
+        "rmse": 3.208,
+        "bias": -0.715
       }
     },
     "holdout": {
       "model": {
-        "n": 912,
-        "mae": 1.992,
-        "rmse": 2.792,
-        "bias": -0.201
+        "n": 1058,
+        "mae": 1.941,
+        "rmse": 2.723,
+        "bias": -0.161
       },
       "baseline": {
-        "n": 912,
-        "mae": 1.909,
-        "rmse": 2.82,
-        "bias": -0.455
+        "n": 1058,
+        "mae": 1.855,
+        "rmse": 2.75,
+        "bias": -0.408
       }
     },
     "holdout_by_position": {
       "1": {
         "model": {
-          "n": 60,
-          "mae": 2.143,
-          "rmse": 2.926,
-          "bias": -0.742
+          "n": 74,
+          "mae": 2.11,
+          "rmse": 2.859,
+          "bias": -0.666
         },
         "baseline": {
-          "n": 60,
-          "mae": 1.976,
-          "rmse": 2.801,
-          "bias": -0.846
+          "n": 74,
+          "mae": 1.974,
+          "rmse": 2.766,
+          "bias": -0.785
         }
       },
       "2": {
         "model": {
-          "n": 337,
-          "mae": 2.193,
-          "rmse": 2.926,
-          "bias": -0.162
+          "n": 394,
+          "mae": 2.139,
+          "rmse": 2.871,
+          "bias": -0.134
         },
         "baseline": {
-          "n": 337,
-          "mae": 2.037,
-          "rmse": 2.89,
-          "bias": -0.5
+          "n": 394,
+          "mae": 1.982,
+          "rmse": 2.838,
+          "bias": -0.454
         }
       },
       "3": {
         "model": {
-          "n": 422,
-          "mae": 1.745,
-          "rmse": 2.509,
-          "bias": -0.105
+          "n": 485,
+          "mae": 1.708,
+          "rmse": 2.452,
+          "bias": -0.086
         },
         "baseline": {
-          "n": 422,
-          "mae": 1.721,
-          "rmse": 2.578,
-          "bias": -0.309
+          "n": 485,
+          "mae": 1.683,
+          "rmse": 2.523,
+          "bias": -0.284
         }
       },
       "4": {
         "model": {
-          "n": 93,
-          "mae": 2.285,
-          "rmse": 3.363,
-          "bias": -0.424
+          "n": 105,
+          "mae": 2.162,
+          "rmse": 3.197,
+          "bias": -0.249
         },
         "baseline": {
-          "n": 93,
-          "mae": 2.256,
-          "rmse": 3.539,
-          "bias": -0.698
+          "n": 105,
+          "mae": 2.089,
+          "rmse": 3.348,
+          "bias": -0.542
         }
       }
     },
@@ -139,121 +139,121 @@
       ]
     }
   },
-  "created_at_utc": "2026-11-10T11:33:56.925454+00:00",
+  "created_at_utc": "2026-11-10T11:42:00.988839+00:00",
   "coverage": [
     {
       "gw": 2,
-      "players": 126,
+      "players": 132,
       "captain_candidates": 4
     },
     {
       "gw": 3,
-      "players": 209,
+      "players": 225,
       "captain_candidates": 7
     },
     {
       "gw": 4,
-      "players": 232,
+      "players": 254,
       "captain_candidates": 10
     },
     {
       "gw": 5,
-      "players": 246,
+      "players": 276,
       "captain_candidates": 10
     },
     {
       "gw": 6,
-      "players": 258,
+      "players": 296,
       "captain_candidates": 11
     },
     {
       "gw": 7,
-      "players": 273,
+      "players": 315,
       "captain_candidates": 11
     },
     {
       "gw": 8,
-      "players": 294,
+      "players": 339,
       "captain_candidates": 11
     },
     {
       "gw": 9,
-      "players": 306,
+      "players": 356,
       "captain_candidates": 11
     },
     {
       "gw": 10,
-      "players": 312,
+      "players": 363,
       "captain_candidates": 11
     }
   ],
   "model": {
-    "n": 2256,
-    "mae": 2.138,
-    "rmse": 3.039,
-    "bias": -0.366
+    "n": 2556,
+    "mae": 2.09,
+    "rmse": 2.964,
+    "bias": -0.32
   },
   "baseline": {
-    "n": 2256,
-    "mae": 2.089,
-    "rmse": 3.104,
-    "bias": -0.642
+    "n": 2556,
+    "mae": 2.037,
+    "rmse": 3.027,
+    "bias": -0.588
   },
   "by_position": {
     "1": {
       "model": {
-        "n": 172,
-        "mae": 2.05,
-        "rmse": 2.918,
-        "bias": -0.802
+        "n": 209,
+        "mae": 2.051,
+        "rmse": 2.908,
+        "bias": -0.745
       },
       "baseline": {
-        "n": 172,
-        "mae": 1.999,
-        "rmse": 2.9,
-        "bias": -0.901
+        "n": 209,
+        "mae": 2.003,
+        "rmse": 2.907,
+        "bias": -0.862
       }
     },
     "2": {
       "model": {
-        "n": 885,
-        "mae": 2.266,
-        "rmse": 3.035,
-        "bias": -0.258
+        "n": 1004,
+        "mae": 2.222,
+        "rmse": 2.981,
+        "bias": -0.234
       },
       "baseline": {
-        "n": 885,
-        "mae": 2.171,
-        "rmse": 3.07,
-        "bias": -0.593
+        "n": 1004,
+        "mae": 2.132,
+        "rmse": 3.017,
+        "bias": -0.548
       }
     },
     "3": {
       "model": {
-        "n": 980,
-        "mae": 1.942,
-        "rmse": 2.918,
-        "bias": -0.311
+        "n": 1103,
+        "mae": 1.903,
+        "rmse": 2.836,
+        "bias": -0.268
       },
       "baseline": {
-        "n": 980,
-        "mae": 1.93,
-        "rmse": 2.996,
-        "bias": -0.537
+        "n": 1103,
+        "mae": 1.885,
+        "rmse": 2.912,
+        "bias": -0.489
       }
     },
     "4": {
       "model": {
-        "n": 219,
-        "mae": 2.564,
-        "rmse": 3.618,
-        "bias": -0.704
+        "n": 240,
+        "mae": 2.434,
+        "rmse": 3.475,
+        "bias": -0.553
       },
       "baseline": {
-        "n": 219,
-        "mae": 2.541,
-        "rmse": 3.792,
-        "bias": -1.108
+        "n": 240,
+        "mae": 2.372,
+        "rmse": 3.63,
+        "bias": -0.967
       }
     }
   },

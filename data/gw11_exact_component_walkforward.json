@@ -1,0 +1,1012 @@
+{
+  "status": "exact_gw11_component_formulas_walkforward_without_historical_status",
+  "created_at_utc": "2026-11-10T11:42:01.551172+00:00",
+  "development_gws": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "holdout_gws": [
+    8,
+    9,
+    10
+  ],
+  "by_period_position_subset": {
+    "development": {
+      "1": {
+        "all": {
+          "appearance": {
+            "n": 425,
+            "forecast": 0.836,
+            "actual": 0.567,
+            "bias": 0.269,
+            "mae": 0.464
+          },
+          "minutes": {
+            "n": 425,
+            "forecast": 29.022,
+            "actual": 25.409,
+            "bias": 3.612,
+            "mae": 13.263
+          },
+          "play_probability": {
+            "n": 425,
+            "forecast": 0.418,
+            "actual": 0.285,
+            "bias": 0.134,
+            "mae": 0.233
+          },
+          "60min_probability": {
+            "n": 425,
+            "forecast": 0.418,
+            "actual": 0.282,
+            "bias": 0.135,
+            "mae": 0.231
+          },
+          "bonus": {
+            "n": 425,
+            "forecast": 0.026,
+            "actual": 0.073,
+            "bias": -0.047,
+            "mae": 0.091
+          },
+          "defensive": {
+            "n": 0
+          }
+        },
+        "regular": {
+          "appearance": {
+            "n": 78,
+            "forecast": 1.772,
+            "actual": 1.846,
+            "bias": -0.074,
+            "mae": 0.307
+          },
+          "minutes": {
+            "n": 78,
+            "forecast": 78.344,
+            "actual": 82.872,
+            "bias": -4.528,
+            "mae": 13.752
+          },
+          "play_probability": {
+            "n": 78,
+            "forecast": 0.886,
+            "actual": 0.923,
+            "bias": -0.037,
+            "mae": 0.154
+          },
+          "60min_probability": {
+            "n": 78,
+            "forecast": 0.886,
+            "actual": 0.923,
+            "bias": -0.037,
+            "mae": 0.154
+          },
+          "bonus": {
+            "n": 78,
+            "forecast": 0.121,
+            "actual": 0.308,
+            "bias": -0.187,
+            "mae": 0.394
+          },
+          "defensive": {
+            "n": 0
+          }
+        },
+        "irregular": {
+          "appearance": {
+            "n": 347,
+            "forecast": 0.626,
+            "actual": 0.28,
+            "bias": 0.346,
+            "mae": 0.499
+          },
+          "minutes": {
+            "n": 347,
+            "forecast": 17.935,
+            "actual": 12.493,
+            "bias": 5.442,
+            "mae": 13.154
+          },
+          "play_probability": {
+            "n": 347,
+            "forecast": 0.313,
+            "actual": 0.141,
+            "bias": 0.172,
+            "mae": 0.251
+          },
+          "60min_probability": {
+            "n": 347,
+            "forecast": 0.312,
+            "actual": 0.138,
+            "bias": 0.174,
+            "mae": 0.249
+          },
+          "bonus": {
+            "n": 347,
+            "forecast": 0.005,
+            "actual": 0.02,
+            "bias": -0.015,
+            "mae": 0.023
+          },
+          "defensive": {
+            "n": 0
+          }
+        }
+      },
+      "2": {
+        "all": {
+          "appearance": {
+            "n": 1272,
+            "forecast": 1.059,
+            "actual": 0.874,
+            "bias": 0.185,
+            "mae": 0.556
+          },
+          "minutes": {
+            "n": 1272,
+            "forecast": 39.429,
+            "actual": 35.616,
+            "bias": 3.813,
+            "mae": 20.946
+          },
+          "play_probability": {
+            "n": 1272,
+            "forecast": 0.57,
+            "actual": 0.496,
+            "bias": 0.074,
+            "mae": 0.307
+          },
+          "60min_probability": {
+            "n": 1272,
+            "forecast": 0.489,
+            "actual": 0.378,
+            "bias": 0.111,
+            "mae": 0.301
+          },
+          "bonus": {
+            "n": 1272,
+            "forecast": 0.033,
+            "actual": 0.082,
+            "bias": -0.049,
+            "mae": 0.108
+          },
+          "defensive": {
+            "n": 0
+          }
+        },
+        "regular": {
+          "appearance": {
+            "n": 297,
+            "forecast": 1.711,
+            "actual": 1.667,
+            "bias": 0.045,
+            "mae": 0.473
+          },
+          "minutes": {
+            "n": 297,
+            "forecast": 73.018,
+            "actual": 72.609,
+            "bias": 0.409,
+            "mae": 22.683
+          },
+          "play_probability": {
+            "n": 297,
+            "forecast": 0.87,
+            "actual": 0.865,
+            "bias": 0.005,
+            "mae": 0.219
+          },
+          "60min_probability": {
+            "n": 297,
+            "forecast": 0.841,
+            "actual": 0.801,
+            "bias": 0.04,
+            "mae": 0.274
+          },
+          "bonus": {
+            "n": 297,
+            "forecast": 0.114,
+            "actual": 0.182,
+            "bias": -0.068,
+            "mae": 0.268
+          },
+          "defensive": {
+            "n": 0
+          }
+        },
+        "irregular": {
+          "appearance": {
+            "n": 975,
+            "forecast": 0.86,
+            "actual": 0.633,
+            "bias": 0.227,
+            "mae": 0.582
+          },
+          "minutes": {
+            "n": 975,
+            "forecast": 29.197,
+            "actual": 24.348,
+            "bias": 4.85,
+            "mae": 20.417
+          },
+          "play_probability": {
+            "n": 975,
+            "forecast": 0.479,
+            "actual": 0.384,
+            "bias": 0.095,
+            "mae": 0.334
+          },
+          "60min_probability": {
+            "n": 975,
+            "forecast": 0.382,
+            "actual": 0.249,
+            "bias": 0.132,
+            "mae": 0.309
+          },
+          "bonus": {
+            "n": 975,
+            "forecast": 0.009,
+            "actual": 0.051,
+            "bias": -0.043,
+            "mae": 0.059
+          },
+          "defensive": {
+            "n": 0
+          }
+        }
+      },
+      "3": {
+        "all": {
+          "appearance": {
+            "n": 1726,
+            "forecast": 1.002,
+            "actual": 0.801,
+            "bias": 0.2,
+            "mae": 0.533
+          },
+          "minutes": {
+            "n": 1726,
+            "forecast": 36.153,
+            "actual": 29.065,
+            "bias": 7.088,
+            "mae": 19.073
+          },
+          "play_probability": {
+            "n": 1726,
+            "forecast": 0.57,
+            "actual": 0.501,
+            "bias": 0.069,
+            "mae": 0.304
+          },
+          "60min_probability": {
+            "n": 1726,
+            "forecast": 0.432,
+            "actual": 0.301,
+            "bias": 0.131,
+            "mae": 0.304
+          },
+          "bonus": {
+            "n": 1726,
+            "forecast": 0.041,
+            "actual": 0.099,
+            "bias": -0.059,
+            "mae": 0.128
+          },
+          "defensive": {
+            "n": 0
+          }
+        },
+        "regular": {
+          "appearance": {
+            "n": 315,
+            "forecast": 1.726,
+            "actual": 1.632,
+            "bias": 0.095,
+            "mae": 0.452
+          },
+          "minutes": {
+            "n": 315,
+            "forecast": 72.632,
+            "actual": 66.467,
+            "bias": 6.165,
+            "mae": 20.387
+          },
+          "play_probability": {
+            "n": 315,
+            "forecast": 0.896,
+            "actual": 0.895,
+            "bias": 0.0,
+            "mae": 0.178
+          },
+          "60min_probability": {
+            "n": 315,
+            "forecast": 0.831,
+            "actual": 0.737,
+            "bias": 0.094,
+            "mae": 0.31
+          },
+          "bonus": {
+            "n": 315,
+            "forecast": 0.166,
+            "actual": 0.235,
+            "bias": -0.069,
+            "mae": 0.355
+          },
+          "defensive": {
+            "n": 0
+          }
+        },
+        "irregular": {
+          "appearance": {
+            "n": 1411,
+            "forecast": 0.84,
+            "actual": 0.616,
+            "bias": 0.224,
+            "mae": 0.551
+          },
+          "minutes": {
+            "n": 1411,
+            "forecast": 28.01,
+            "actual": 20.715,
+            "bias": 7.295,
+            "mae": 18.78
+          },
+          "play_probability": {
+            "n": 1411,
+            "forecast": 0.497,
+            "actual": 0.412,
+            "bias": 0.084,
+            "mae": 0.332
+          },
+          "60min_probability": {
+            "n": 1411,
+            "forecast": 0.343,
+            "actual": 0.203,
+            "bias": 0.14,
+            "mae": 0.302
+          },
+          "bonus": {
+            "n": 1411,
+            "forecast": 0.012,
+            "actual": 0.069,
+            "bias": -0.056,
+            "mae": 0.077
+          },
+          "defensive": {
+            "n": 0
+          }
+        }
+      },
+      "4": {
+        "all": {
+          "appearance": {
+            "n": 460,
+            "forecast": 0.931,
+            "actual": 0.711,
+            "bias": 0.22,
+            "mae": 0.495
+          },
+          "minutes": {
+            "n": 460,
+            "forecast": 32.54,
+            "actual": 24.635,
+            "bias": 7.905,
+            "mae": 17.342
+          },
+          "play_probability": {
+            "n": 460,
+            "forecast": 0.537,
+            "actual": 0.463,
+            "bias": 0.074,
+            "mae": 0.309
+          },
+          "60min_probability": {
+            "n": 460,
+            "forecast": 0.394,
+            "actual": 0.248,
+            "bias": 0.147,
+            "mae": 0.278
+          },
+          "bonus": {
+            "n": 460,
+            "forecast": 0.054,
+            "actual": 0.165,
+            "bias": -0.111,
+            "mae": 0.19
+          },
+          "defensive": {
+            "n": 0
+          }
+        },
+        "regular": {
+          "appearance": {
+            "n": 64,
+            "forecast": 1.744,
+            "actual": 1.844,
+            "bias": -0.1,
+            "mae": 0.36
+          },
+          "minutes": {
+            "n": 64,
+            "forecast": 73.853,
+            "actual": 77.688,
+            "bias": -3.835,
+            "mae": 16.474
+          },
+          "play_probability": {
+            "n": 64,
+            "forecast": 0.893,
+            "actual": 0.938,
+            "bias": -0.045,
+            "mae": 0.156
+          },
+          "60min_probability": {
+            "n": 64,
+            "forecast": 0.851,
+            "actual": 0.906,
+            "bias": -0.055,
+            "mae": 0.214
+          },
+          "bonus": {
+            "n": 64,
+            "forecast": 0.295,
+            "actual": 0.625,
+            "bias": -0.33,
+            "mae": 0.748
+          },
+          "defensive": {
+            "n": 0
+          }
+        },
+        "irregular": {
+          "appearance": {
+            "n": 396,
+            "forecast": 0.8,
+            "actual": 0.528,
+            "bias": 0.272,
+            "mae": 0.517
+          },
+          "minutes": {
+            "n": 396,
+            "forecast": 25.863,
+            "actual": 16.061,
+            "bias": 9.802,
+            "mae": 17.482
+          },
+          "play_probability": {
+            "n": 396,
+            "forecast": 0.479,
+            "actual": 0.386,
+            "bias": 0.093,
+            "mae": 0.334
+          },
+          "60min_probability": {
+            "n": 396,
+            "forecast": 0.32,
+            "actual": 0.141,
+            "bias": 0.179,
+            "mae": 0.288
+          },
+          "bonus": {
+            "n": 396,
+            "forecast": 0.015,
+            "actual": 0.091,
+            "bias": -0.076,
+            "mae": 0.1
+          },
+          "defensive": {
+            "n": 0
+          }
+        }
+      }
+    },
+    "holdout": {
+      "1": {
+        "all": {
+          "appearance": {
+            "n": 221,
+            "forecast": 0.717,
+            "actual": 0.543,
+            "bias": 0.174,
+            "mae": 0.322
+          },
+          "minutes": {
+            "n": 221,
+            "forecast": 25.096,
+            "actual": 24.434,
+            "bias": 0.662,
+            "mae": 8.311
+          },
+          "play_probability": {
+            "n": 221,
+            "forecast": 0.367,
+            "actual": 0.271,
+            "bias": 0.095,
+            "mae": 0.168
+          },
+          "60min_probability": {
+            "n": 221,
+            "forecast": 0.35,
+            "actual": 0.271,
+            "bias": 0.078,
+            "mae": 0.154
+          },
+          "bonus": {
+            "n": 221,
+            "forecast": 0.046,
+            "actual": 0.095,
+            "bias": -0.049,
+            "mae": 0.124
+          },
+          "defensive": {
+            "n": 0
+          }
+        },
+        "regular": {
+          "appearance": {
+            "n": 60,
+            "forecast": 1.794,
+            "actual": 1.833,
+            "bias": -0.04,
+            "mae": 0.284
+          },
+          "minutes": {
+            "n": 60,
+            "forecast": 79.543,
+            "actual": 82.5,
+            "bias": -2.957,
+            "mae": 12.613
+          },
+          "play_probability": {
+            "n": 60,
+            "forecast": 0.897,
+            "actual": 0.917,
+            "bias": -0.02,
+            "mae": 0.142
+          },
+          "60min_probability": {
+            "n": 60,
+            "forecast": 0.897,
+            "actual": 0.917,
+            "bias": -0.02,
+            "mae": 0.142
+          },
+          "bonus": {
+            "n": 60,
+            "forecast": 0.17,
+            "actual": 0.35,
+            "bias": -0.18,
+            "mae": 0.456
+          },
+          "defensive": {
+            "n": 0
+          }
+        },
+        "irregular": {
+          "appearance": {
+            "n": 161,
+            "forecast": 0.315,
+            "actual": 0.062,
+            "bias": 0.253,
+            "mae": 0.336
+          },
+          "minutes": {
+            "n": 161,
+            "forecast": 4.806,
+            "actual": 2.795,
+            "bias": 2.011,
+            "mae": 6.708
+          },
+          "play_probability": {
+            "n": 161,
+            "forecast": 0.169,
+            "actual": 0.031,
+            "bias": 0.138,
+            "mae": 0.177
+          },
+          "60min_probability": {
+            "n": 161,
+            "forecast": 0.146,
+            "actual": 0.031,
+            "bias": 0.115,
+            "mae": 0.159
+          },
+          "bonus": {
+            "n": 161,
+            "forecast": 0.0,
+            "actual": 0.0,
+            "bias": 0.0,
+            "mae": 0.0
+          },
+          "defensive": {
+            "n": 0
+          }
+        }
+      },
+      "2": {
+        "all": {
+          "appearance": {
+            "n": 652,
+            "forecast": 0.953,
+            "actual": 0.827,
+            "bias": 0.127,
+            "mae": 0.512
+          },
+          "minutes": {
+            "n": 652,
+            "forecast": 33.998,
+            "actual": 34.077,
+            "bias": -0.079,
+            "mae": 19.269
+          },
+          "play_probability": {
+            "n": 652,
+            "forecast": 0.526,
+            "actual": 0.466,
+            "bias": 0.06,
+            "mae": 0.281
+          },
+          "60min_probability": {
+            "n": 652,
+            "forecast": 0.427,
+            "actual": 0.36,
+            "bias": 0.067,
+            "mae": 0.271
+          },
+          "bonus": {
+            "n": 652,
+            "forecast": 0.053,
+            "actual": 0.08,
+            "bias": -0.026,
+            "mae": 0.119
+          },
+          "defensive": {
+            "n": 0
+          }
+        },
+        "regular": {
+          "appearance": {
+            "n": 233,
+            "forecast": 1.7,
+            "actual": 1.601,
+            "bias": 0.099,
+            "mae": 0.499
+          },
+          "minutes": {
+            "n": 233,
+            "forecast": 72.344,
+            "actual": 69.073,
+            "bias": 3.271,
+            "mae": 23.355
+          },
+          "play_probability": {
+            "n": 233,
+            "forecast": 0.878,
+            "actual": 0.841,
+            "bias": 0.037,
+            "mae": 0.216
+          },
+          "60min_probability": {
+            "n": 233,
+            "forecast": 0.822,
+            "actual": 0.76,
+            "bias": 0.062,
+            "mae": 0.3
+          },
+          "bonus": {
+            "n": 233,
+            "forecast": 0.135,
+            "actual": 0.193,
+            "bias": -0.058,
+            "mae": 0.289
+          },
+          "defensive": {
+            "n": 0
+          }
+        },
+        "irregular": {
+          "appearance": {
+            "n": 419,
+            "forecast": 0.538,
+            "actual": 0.396,
+            "bias": 0.142,
+            "mae": 0.519
+          },
+          "minutes": {
+            "n": 419,
+            "forecast": 12.674,
+            "actual": 14.616,
+            "bias": -1.942,
+            "mae": 16.996
+          },
+          "play_probability": {
+            "n": 419,
+            "forecast": 0.33,
+            "actual": 0.258,
+            "bias": 0.073,
+            "mae": 0.317
+          },
+          "60min_probability": {
+            "n": 419,
+            "forecast": 0.208,
+            "actual": 0.138,
+            "bias": 0.069,
+            "mae": 0.255
+          },
+          "bonus": {
+            "n": 419,
+            "forecast": 0.008,
+            "actual": 0.017,
+            "bias": -0.009,
+            "mae": 0.024
+          },
+          "defensive": {
+            "n": 0
+          }
+        }
+      },
+      "3": {
+        "all": {
+          "appearance": {
+            "n": 897,
+            "forecast": 0.904,
+            "actual": 0.808,
+            "bias": 0.096,
+            "mae": 0.488
+          },
+          "minutes": {
+            "n": 897,
+            "forecast": 31.055,
+            "actual": 29.159,
+            "bias": 1.896,
+            "mae": 17.664
+          },
+          "play_probability": {
+            "n": 897,
+            "forecast": 0.538,
+            "actual": 0.505,
+            "bias": 0.032,
+            "mae": 0.284
+          },
+          "60min_probability": {
+            "n": 897,
+            "forecast": 0.367,
+            "actual": 0.303,
+            "bias": 0.063,
+            "mae": 0.273
+          },
+          "bonus": {
+            "n": 897,
+            "forecast": 0.066,
+            "actual": 0.077,
+            "bias": -0.011,
+            "mae": 0.128
+          },
+          "defensive": {
+            "n": 0
+          }
+        },
+        "regular": {
+          "appearance": {
+            "n": 252,
+            "forecast": 1.664,
+            "actual": 1.56,
+            "bias": 0.104,
+            "mae": 0.506
+          },
+          "minutes": {
+            "n": 252,
+            "forecast": 69.313,
+            "actual": 63.615,
+            "bias": 5.698,
+            "mae": 22.663
+          },
+          "play_probability": {
+            "n": 252,
+            "forecast": 0.88,
+            "actual": 0.849,
+            "bias": 0.031,
+            "mae": 0.212
+          },
+          "60min_probability": {
+            "n": 252,
+            "forecast": 0.784,
+            "actual": 0.71,
+            "bias": 0.074,
+            "mae": 0.328
+          },
+          "bonus": {
+            "n": 252,
+            "forecast": 0.173,
+            "actual": 0.175,
+            "bias": -0.002,
+            "mae": 0.302
+          },
+          "defensive": {
+            "n": 0
+          }
+        },
+        "irregular": {
+          "appearance": {
+            "n": 645,
+            "forecast": 0.607,
+            "actual": 0.515,
+            "bias": 0.092,
+            "mae": 0.481
+          },
+          "minutes": {
+            "n": 645,
+            "forecast": 16.108,
+            "actual": 15.698,
+            "bias": 0.41,
+            "mae": 15.711
+          },
+          "play_probability": {
+            "n": 645,
+            "forecast": 0.404,
+            "actual": 0.371,
+            "bias": 0.033,
+            "mae": 0.312
+          },
+          "60min_probability": {
+            "n": 645,
+            "forecast": 0.203,
+            "actual": 0.144,
+            "bias": 0.059,
+            "mae": 0.251
+          },
+          "bonus": {
+            "n": 645,
+            "forecast": 0.025,
+            "actual": 0.039,
+            "bias": -0.014,
+            "mae": 0.06
+          },
+          "defensive": {
+            "n": 0
+          }
+        }
+      },
+      "4": {
+        "all": {
+          "appearance": {
+            "n": 237,
+            "forecast": 0.83,
+            "actual": 0.688,
+            "bias": 0.142,
+            "mae": 0.392
+          },
+          "minutes": {
+            "n": 237,
+            "forecast": 27.649,
+            "actual": 22.017,
+            "bias": 5.632,
+            "mae": 13.203
+          },
+          "play_probability": {
+            "n": 237,
+            "forecast": 0.507,
+            "actual": 0.46,
+            "bias": 0.048,
+            "mae": 0.245
+          },
+          "60min_probability": {
+            "n": 237,
+            "forecast": 0.322,
+            "actual": 0.228,
+            "bias": 0.094,
+            "mae": 0.217
+          },
+          "bonus": {
+            "n": 237,
+            "forecast": 0.107,
+            "actual": 0.207,
+            "bias": -0.1,
+            "mae": 0.256
+          },
+          "defensive": {
+            "n": 0
+          }
+        },
+        "regular": {
+          "appearance": {
+            "n": 59,
+            "forecast": 1.713,
+            "actual": 1.695,
+            "bias": 0.018,
+            "mae": 0.437
+          },
+          "minutes": {
+            "n": 59,
+            "forecast": 71.4,
+            "actual": 66.271,
+            "bias": 5.129,
+            "mae": 19.481
+          },
+          "play_probability": {
+            "n": 59,
+            "forecast": 0.896,
+            "actual": 0.932,
+            "bias": -0.036,
+            "mae": 0.146
+          },
+          "60min_probability": {
+            "n": 59,
+            "forecast": 0.817,
+            "actual": 0.763,
+            "bias": 0.054,
+            "mae": 0.312
+          },
+          "bonus": {
+            "n": 59,
+            "forecast": 0.368,
+            "actual": 0.695,
+            "bias": -0.327,
+            "mae": 0.834
+          },
+          "defensive": {
+            "n": 0
+          }
+        },
+        "irregular": {
+          "appearance": {
+            "n": 178,
+            "forecast": 0.537,
+            "actual": 0.354,
+            "bias": 0.183,
+            "mae": 0.377
+          },
+          "minutes": {
+            "n": 178,
+            "forecast": 13.147,
+            "actual": 7.348,
+            "bias": 5.799,
+            "mae": 11.122
+          },
+          "play_probability": {
+            "n": 178,
+            "forecast": 0.379,
+            "actual": 0.303,
+            "bias": 0.075,
+            "mae": 0.277
+          },
+          "60min_probability": {
+            "n": 178,
+            "forecast": 0.158,
+            "actual": 0.051,
+            "bias": 0.108,
+            "mae": 0.186
+          },
+          "bonus": {
+            "n": 178,
+            "forecast": 0.02,
+            "actual": 0.045,
+            "bias": -0.025,
+            "mae": 0.065
+          },
+          "defensive": {
+            "n": 0
+          }
+        }
+      }
+    }
+  },
+  "coverage_notes": {
+    "defensive_outcome_missing": 11780,
+    "clean_sheet_outcomes_present": 10386
+  },
+  "limitations": [
+    "Uses exactly the current GW11 historical play/full/minutes/bonus/defensive formula, with all feature rows strictly before each GW.",
+    "Historical pre-deadline injury statuses unavailable, so current status adjustment deliberately omitted.",
+    "Regular means >=3 of prior 5 recorded matches with 60+ minutes; prior history may include unplayed rows.",
+    "Not a full GW11 xPts backtest: opponent-adjusted goals, assists, CS, cards and saves are excluded.",
+    "Defensive outcome evaluated only if an explicit points field exists; no guessed actual points.",
+    "Historical GW team transfers and double gameweeks require additional handling; multiple target rows excluded.",
+    "No coefficients are tuned; holdout is diagnostic only."
+  ]
+}
