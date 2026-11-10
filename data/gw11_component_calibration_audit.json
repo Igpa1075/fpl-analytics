@@ -1,0 +1,379 @@
+{
+  "status": "pre_gw_component_calibration_audit_no_retraining",
+  "created_at_utc": "2026-11-10T11:33:57.164153+00:00",
+  "coverage": {
+    "clean_sheet_outcomes": 4428,
+    "total": 5040
+  },
+  "development_gws": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "holdout_gws": [
+    8,
+    9,
+    10
+  ],
+  "by_period_position": {
+    "development": {
+      "1": {
+        "appearance": {
+          "n": 360,
+          "predicted_mean": 0.821,
+          "actual_mean": 0.55,
+          "bias": 0.271,
+          "mae": 0.455
+        },
+        "minutes": {
+          "n": 360,
+          "predicted_mean": 28.346,
+          "actual_mean": 24.706,
+          "bias": 3.641,
+          "mae": 12.728
+        },
+        "play_probability": {
+          "n": 360,
+          "predicted_mean": 0.411,
+          "actual_mean": 0.275,
+          "bias": 0.136,
+          "mae": 0.228
+        },
+        "60min_probability": {
+          "n": 360,
+          "predicted_mean": 0.41,
+          "actual_mean": 0.275,
+          "bias": 0.135,
+          "mae": 0.227
+        },
+        "bonus": {
+          "n": 360,
+          "predicted_mean": 0.017,
+          "actual_mean": 0.064,
+          "bias": -0.047,
+          "mae": 0.076
+        },
+        "clean_sheet_eligibility": {
+          "n": 360,
+          "predicted_mean": 0.095,
+          "actual_mean": 0.075,
+          "bias": 0.02,
+          "mae": 0.133
+        }
+      },
+      "2": {
+        "appearance": {
+          "n": 1110,
+          "predicted_mean": 1.075,
+          "actual_mean": 0.883,
+          "bias": 0.192,
+          "mae": 0.548
+        },
+        "minutes": {
+          "n": 1110,
+          "predicted_mean": 40.212,
+          "actual_mean": 36.128,
+          "bias": 4.084,
+          "mae": 20.463
+        },
+        "play_probability": {
+          "n": 1110,
+          "predicted_mean": 0.57,
+          "actual_mean": 0.493,
+          "bias": 0.078,
+          "mae": 0.301
+        },
+        "60min_probability": {
+          "n": 1110,
+          "predicted_mean": 0.504,
+          "actual_mean": 0.39,
+          "bias": 0.114,
+          "mae": 0.291
+        },
+        "bonus": {
+          "n": 1110,
+          "predicted_mean": 0.036,
+          "actual_mean": 0.088,
+          "bias": -0.053,
+          "mae": 0.116
+        },
+        "clean_sheet_eligibility": {
+          "n": 1110,
+          "predicted_mean": 0.124,
+          "actual_mean": 0.108,
+          "bias": 0.016,
+          "mae": 0.183
+        }
+      },
+      "3": {
+        "appearance": {
+          "n": 1482,
+          "predicted_mean": 1.016,
+          "actual_mean": 0.827,
+          "bias": 0.189,
+          "mae": 0.527
+        },
+        "minutes": {
+          "n": 1482,
+          "predicted_mean": 36.974,
+          "actual_mean": 30.37,
+          "bias": 6.604,
+          "mae": 18.916
+        },
+        "play_probability": {
+          "n": 1482,
+          "predicted_mean": 0.573,
+          "actual_mean": 0.509,
+          "bias": 0.065,
+          "mae": 0.298
+        },
+        "60min_probability": {
+          "n": 1482,
+          "predicted_mean": 0.442,
+          "actual_mean": 0.318,
+          "bias": 0.124,
+          "mae": 0.299
+        },
+        "bonus": {
+          "n": 1482,
+          "predicted_mean": 0.045,
+          "actual_mean": 0.113,
+          "bias": -0.068,
+          "mae": 0.144
+        },
+        "clean_sheet_eligibility": {
+          "n": 1482,
+          "predicted_mean": 0.109,
+          "actual_mean": 0.105,
+          "bias": 0.005,
+          "mae": 0.171
+        }
+      },
+      "4": {
+        "appearance": {
+          "n": 408,
+          "predicted_mean": 0.938,
+          "actual_mean": 0.716,
+          "bias": 0.223,
+          "mae": 0.498
+        },
+        "minutes": {
+          "n": 408,
+          "predicted_mean": 32.869,
+          "actual_mean": 25.061,
+          "bias": 7.808,
+          "mae": 17.36
+        },
+        "play_probability": {
+          "n": 408,
+          "predicted_mean": 0.537,
+          "actual_mean": 0.458,
+          "bias": 0.079,
+          "mae": 0.304
+        },
+        "60min_probability": {
+          "n": 408,
+          "predicted_mean": 0.401,
+          "actual_mean": 0.257,
+          "bias": 0.144,
+          "mae": 0.278
+        },
+        "bonus": {
+          "n": 408,
+          "predicted_mean": 0.061,
+          "actual_mean": 0.179,
+          "bias": -0.118,
+          "mae": 0.207
+        },
+        "clean_sheet_eligibility": {
+          "n": 0
+        }
+      }
+    },
+    "holdout": {
+      "1": {
+        "appearance": {
+          "n": 180,
+          "predicted_mean": 0.715,
+          "actual_mean": 0.533,
+          "bias": 0.181,
+          "mae": 0.301
+        },
+        "minutes": {
+          "n": 180,
+          "predicted_mean": 25.342,
+          "actual_mean": 24.0,
+          "bias": 1.342,
+          "mae": 7.514
+        },
+        "play_probability": {
+          "n": 180,
+          "predicted_mean": 0.366,
+          "actual_mean": 0.267,
+          "bias": 0.099,
+          "mae": 0.159
+        },
+        "60min_probability": {
+          "n": 180,
+          "predicted_mean": 0.349,
+          "actual_mean": 0.267,
+          "bias": 0.083,
+          "mae": 0.142
+        },
+        "bonus": {
+          "n": 180,
+          "predicted_mean": 0.041,
+          "actual_mean": 0.106,
+          "bias": -0.064,
+          "mae": 0.13
+        },
+        "clean_sheet_eligibility": {
+          "n": 180,
+          "predicted_mean": 0.082,
+          "actual_mean": 0.094,
+          "bias": -0.012,
+          "mae": 0.115
+        }
+      },
+      "2": {
+        "appearance": {
+          "n": 555,
+          "predicted_mean": 0.972,
+          "actual_mean": 0.87,
+          "bias": 0.102,
+          "mae": 0.498
+        },
+        "minutes": {
+          "n": 555,
+          "predicted_mean": 34.87,
+          "actual_mean": 36.005,
+          "bias": -1.135,
+          "mae": 18.669
+        },
+        "play_probability": {
+          "n": 555,
+          "predicted_mean": 0.53,
+          "actual_mean": 0.486,
+          "bias": 0.043,
+          "mae": 0.269
+        },
+        "60min_probability": {
+          "n": 555,
+          "predicted_mean": 0.442,
+          "actual_mean": 0.384,
+          "bias": 0.059,
+          "mae": 0.267
+        },
+        "bonus": {
+          "n": 555,
+          "predicted_mean": 0.058,
+          "actual_mean": 0.083,
+          "bias": -0.025,
+          "mae": 0.125
+        },
+        "clean_sheet_eligibility": {
+          "n": 555,
+          "predicted_mean": 0.102,
+          "actual_mean": 0.133,
+          "bias": -0.031,
+          "mae": 0.174
+        }
+      },
+      "3": {
+        "appearance": {
+          "n": 741,
+          "predicted_mean": 0.935,
+          "actual_mean": 0.843,
+          "bias": 0.092,
+          "mae": 0.487
+        },
+        "minutes": {
+          "n": 741,
+          "predicted_mean": 32.586,
+          "actual_mean": 30.767,
+          "bias": 1.819,
+          "mae": 18.072
+        },
+        "play_probability": {
+          "n": 741,
+          "predicted_mean": 0.55,
+          "actual_mean": 0.518,
+          "bias": 0.032,
+          "mae": 0.278
+        },
+        "60min_probability": {
+          "n": 741,
+          "predicted_mean": 0.385,
+          "actual_mean": 0.325,
+          "bias": 0.06,
+          "mae": 0.277
+        },
+        "bonus": {
+          "n": 741,
+          "predicted_mean": 0.076,
+          "actual_mean": 0.084,
+          "bias": -0.007,
+          "mae": 0.142
+        },
+        "clean_sheet_eligibility": {
+          "n": 741,
+          "predicted_mean": 0.09,
+          "actual_mean": 0.127,
+          "bias": -0.037,
+          "mae": 0.166
+        }
+      },
+      "4": {
+        "appearance": {
+          "n": 204,
+          "predicted_mean": 0.841,
+          "actual_mean": 0.716,
+          "bias": 0.125,
+          "mae": 0.386
+        },
+        "minutes": {
+          "n": 204,
+          "predicted_mean": 28.217,
+          "actual_mean": 23.51,
+          "bias": 4.707,
+          "mae": 12.981
+        },
+        "play_probability": {
+          "n": 204,
+          "predicted_mean": 0.508,
+          "actual_mean": 0.471,
+          "bias": 0.037,
+          "mae": 0.229
+        },
+        "60min_probability": {
+          "n": 204,
+          "predicted_mean": 0.333,
+          "actual_mean": 0.245,
+          "bias": 0.088,
+          "mae": 0.221
+        },
+        "bonus": {
+          "n": 204,
+          "predicted_mean": 0.12,
+          "actual_mean": 0.24,
+          "bias": -0.12,
+          "mae": 0.294
+        },
+        "clean_sheet_eligibility": {
+          "n": 0
+        }
+      }
+    }
+  },
+  "notes": [
+    "All predictions use only prior match history, not current-GW outcomes.",
+    "Clean-sheet audit uses historical club-independent player CS frequency, NOT the fixture-aware GW11 CS formula; it diagnoses historical base rates only.",
+    "Only single-fixture GWs included; double-GW handling needs separate fixture-level evaluation.",
+    "Bonus predictions use the same historical bonus shrinkage as GW11 model.",
+    "Holdout results are diagnostics only; no parameters are changed or optimized based on them.",
+    "Missing enriched fields exclude records; coverage is explicitly reported."
+  ]
+}

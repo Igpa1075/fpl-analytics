@@ -1,6 +1,6 @@
 {
   "status": "full_components_structural_xpts_uncalibrated",
-  "created_at_utc": "2026-11-10T11:04:11.645998+00:00",
+  "created_at_utc": "2026-11-10T11:33:58.251636+00:00",
   "gw": 11,
   "ranking": [
     {
@@ -345,32 +345,32 @@
       "last3_points": 5.0,
       "season_xg": 4.63,
       "season_xa": 1.29,
-      "xg_per90": 0.467,
-      "xa_per90": 0.13,
+      "xg_per90": 0.422,
+      "xa_per90": 0.121,
       "play_probability": 0.944,
       "sixty_min_probability": 0.944,
       "expected_minutes": 83.9,
       "opp_goals_conceded_last5": 6,
       "opp_goals_conceded_10": 10,
       "clean_sheet_probability": 0.147,
-      "expected_goals": 0.38,
-      "expected_assists": 0.106,
+      "expected_goals": 0.343,
+      "expected_assists": 0.098,
       "components": {
         "appearance": 1.889,
-        "goals": 1.899,
-        "assists": 0.317,
+        "goals": 1.716,
+        "assists": 0.295,
         "clean_sheet": 0.139,
         "conceded_penalty": 0,
-        "bonus": 0.0,
+        "bonus": 0.31,
         "defensive_contributions": 0.0,
         "saves": 0,
-        "yellow_cards": -0.0,
+        "yellow_cards": -0.189,
         "red_cards": -0.0,
         "own_goals": -0.0,
         "penalties_missed": -0.0,
         "penalties_saved": 0.0
       },
-      "expected_points": 4.244
+      "expected_points": 4.16
     },
     {
       "id": 236,
