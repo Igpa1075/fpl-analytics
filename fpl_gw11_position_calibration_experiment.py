@@ -51,6 +51,7 @@ def main():
  for pos in (1,2,3,4):
   params[str(pos)]={}
   for regular in (False,True):
+   params[str(pos)][str(regular)]={}
    group=[r for r in development if r["position"]==pos and r["regular"]==regular]
    # Shrink fitted ratios toward 1 to limit small-sample instability.
    for component in ("minutes","bonus"):
