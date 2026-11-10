@@ -1,0 +1,2876 @@
+{
+  "status": "exploratory_two_free_transfers_not_sale_price_verified",
+  "created_at_utc": "2026-11-10T05:26:11.255881+00:00",
+  "deadline_utc": "2026-11-21T11:00:00+00:00",
+  "screenshot_confirmed_free_transfers": 2,
+  "screenshot_confirmed_bank_tenths": 9,
+  "screenshot_confirmed_provisional_transfer": {
+    "out": {
+      "id": 304,
+      "name": "O'Shea",
+      "club_id": 12,
+      "market_price_tenths": 40
+    },
+    "in": {
+      "id": 31,
+      "name": "Konsa",
+      "club_id": 1,
+      "market_price_tenths": 48
+    },
+    "bank_after_tenths": 1,
+    "not_submitted": true
+  },
+  "baseline": {
+    "three_gw_proxy": 202.42,
+    "gws": [
+      {
+        "gw": 11,
+        "starting_xi": [
+          109,
+          504,
+          115,
+          8,
+          68,
+          236,
+          166,
+          411,
+          592,
+          154,
+          156
+        ],
+        "captain": 166,
+        "vice_captain": 504,
+        "proxy_points": 66.431
+      },
+      {
+        "gw": 12,
+        "starting_xi": [
+          109,
+          504,
+          115,
+          8,
+          68,
+          236,
+          166,
+          592,
+          411,
+          154,
+          156
+        ],
+        "captain": 166,
+        "vice_captain": 504,
+        "proxy_points": 71.535
+      },
+      {
+        "gw": 13,
+        "starting_xi": [
+          109,
+          504,
+          115,
+          592,
+          236,
+          68,
+          166,
+          154,
+          8,
+          411,
+          156
+        ],
+        "captain": 166,
+        "vice_captain": 504,
+        "proxy_points": 64.454
+      }
+    ]
+  },
+  "best_one_transfer": [
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 304,
+            "name": "O'Shea",
+            "club_id": 12,
+            "market_price_tenths": 40
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 1,
+      "gain_three_gw_proxy": 24.052,
+      "lineup": {
+        "three_gw_proxy": 226.472,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              68,
+              236,
+              166,
+              8,
+              411,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 75.628
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              68,
+              236,
+              166,
+              8,
+              592,
+              411,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 80.177
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              236,
+              68,
+              166,
+              154,
+              592,
+              8,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 70.667
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": true
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 592,
+            "name": "Ouattara",
+            "club_id": 12,
+            "market_price_tenths": 40
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 1,
+      "gain_three_gw_proxy": 20.588,
+      "lineup": {
+        "three_gw_proxy": 223.008,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              68,
+              236,
+              166,
+              8,
+              411,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 74.663
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              68,
+              236,
+              166,
+              8,
+              411,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 78.472
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              236,
+              68,
+              166,
+              154,
+              8,
+              411,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 69.873
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": false
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 8,
+            "name": "Calafiori",
+            "club_id": 1,
+            "market_price_tenths": 59
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 20,
+      "gain_three_gw_proxy": 19.428,
+      "lineup": {
+        "three_gw_proxy": 221.848,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              68,
+              236,
+              166,
+              411,
+              592,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 73.357
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              68,
+              236,
+              166,
+              592,
+              411,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 78.279
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              236,
+              68,
+              166,
+              154,
+              592,
+              411,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 70.212
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": false
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 599,
+            "name": "Cherif",
+            "club_id": 7,
+            "market_price_tenths": 50
+          },
+          "in": {
+            "id": 249,
+            "name": "Barry",
+            "club_id": 9,
+            "market_price_tenths": 57
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 2,
+      "gain_three_gw_proxy": 18.466,
+      "lineup": {
+        "three_gw_proxy": 220.886,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              8,
+              68,
+              236,
+              166,
+              249,
+              411,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 249,
+            "proxy_points": 72.308
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              8,
+              68,
+              236,
+              166,
+              249,
+              592,
+              411,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 249,
+            "proxy_points": 77.457
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              592,
+              236,
+              68,
+              166,
+              249,
+              154,
+              8,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 249,
+            "proxy_points": 71.121
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": false
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 8,
+            "name": "Calafiori",
+            "club_id": 1,
+            "market_price_tenths": 59
+          },
+          "in": {
+            "id": 112,
+            "name": "Van Hecke",
+            "club_id": 19,
+            "market_price_tenths": 51
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 17,
+      "gain_three_gw_proxy": 17.151,
+      "lineup": {
+        "three_gw_proxy": 219.571,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              112,
+              504,
+              115,
+              68,
+              236,
+              166,
+              411,
+              592,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 112,
+            "proxy_points": 73.345
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              112,
+              504,
+              115,
+              68,
+              236,
+              166,
+              592,
+              411,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 112,
+            "proxy_points": 76.791
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              112,
+              504,
+              115,
+              236,
+              68,
+              166,
+              154,
+              592,
+              411,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 112,
+            "proxy_points": 69.435
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": false
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 427,
+            "name": "Mbeumo",
+            "club_id": 16,
+            "market_price_tenths": 79
+          },
+          "in": {
+            "id": 366,
+            "name": "Wirtz",
+            "club_id": 14,
+            "market_price_tenths": 72
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 16,
+      "gain_three_gw_proxy": 15.556,
+      "lineup": {
+        "three_gw_proxy": 217.976,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              8,
+              366,
+              68,
+              166,
+              236,
+              411,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 366,
+            "proxy_points": 73.213
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              8,
+              366,
+              68,
+              166,
+              236,
+              592,
+              411,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 504,
+            "proxy_points": 75.169
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              592,
+              366,
+              236,
+              166,
+              68,
+              154,
+              8,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 366,
+            "proxy_points": 69.594
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": false
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 156,
+            "name": "Neto",
+            "club_id": 6,
+            "market_price_tenths": 66
+          },
+          "in": {
+            "id": 366,
+            "name": "Wirtz",
+            "club_id": 14,
+            "market_price_tenths": 72
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 3,
+      "gain_three_gw_proxy": 15.556,
+      "lineup": {
+        "three_gw_proxy": 217.976,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              8,
+              366,
+              68,
+              166,
+              236,
+              411,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 366,
+            "proxy_points": 73.213
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              8,
+              366,
+              68,
+              166,
+              236,
+              592,
+              411,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 504,
+            "proxy_points": 75.169
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              592,
+              366,
+              236,
+              166,
+              68,
+              154,
+              8,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 366,
+            "proxy_points": 69.594
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": false
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 411,
+            "name": "Haaland",
+            "club_id": 15,
+            "market_price_tenths": 158
+          },
+          "in": {
+            "id": 249,
+            "name": "Barry",
+            "club_id": 9,
+            "market_price_tenths": 57
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 110,
+      "gain_three_gw_proxy": 15.523,
+      "lineup": {
+        "three_gw_proxy": 217.943,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              8,
+              68,
+              236,
+              166,
+              249,
+              592,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 249,
+            "proxy_points": 70.324
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              8,
+              68,
+              236,
+              166,
+              249,
+              592,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 249,
+            "proxy_points": 76.763
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              592,
+              236,
+              68,
+              166,
+              249,
+              154,
+              8,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 249,
+            "proxy_points": 70.856
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": false
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 115,
+            "name": "De Cuyper",
+            "club_id": 5,
+            "market_price_tenths": 55
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 16,
+      "gain_three_gw_proxy": 15.365,
+      "lineup": {
+        "three_gw_proxy": 217.785,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              8,
+              68,
+              236,
+              166,
+              411,
+              592,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 72.93
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              8,
+              68,
+              236,
+              166,
+              592,
+              411,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 76.34
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              592,
+              236,
+              68,
+              166,
+              154,
+              8,
+              411,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 68.515
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": false
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 599,
+            "name": "Cherif",
+            "club_id": 7,
+            "market_price_tenths": 50
+          },
+          "in": {
+            "id": 295,
+            "name": "McBurnie",
+            "club_id": 11,
+            "market_price_tenths": 55
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 4,
+      "gain_three_gw_proxy": 14.869,
+      "lineup": {
+        "three_gw_proxy": 217.289,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              8,
+              68,
+              236,
+              166,
+              295,
+              411,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 295,
+            "proxy_points": 70.275
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              8,
+              68,
+              236,
+              166,
+              295,
+              592,
+              411,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 295,
+            "proxy_points": 78.148
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              504,
+              115,
+              592,
+              236,
+              68,
+              166,
+              295,
+              154,
+              8,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 295,
+            "proxy_points": 68.866
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": false
+    }
+  ],
+  "best_two_transfers_shortlisted": [
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 8,
+            "name": "Calafiori",
+            "club_id": 1,
+            "market_price_tenths": 59
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        },
+        {
+          "out": {
+            "id": 304,
+            "name": "O'Shea",
+            "club_id": 12,
+            "market_price_tenths": 40
+          },
+          "in": {
+            "id": 112,
+            "name": "Van Hecke",
+            "club_id": 19,
+            "market_price_tenths": 51
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 9,
+      "gain_three_gw_proxy": 41.204,
+      "lineup": {
+        "three_gw_proxy": 243.624,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              112,
+              504,
+              68,
+              236,
+              166,
+              115,
+              411,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 82.543
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              112,
+              504,
+              68,
+              236,
+              166,
+              115,
+              592,
+              411,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 85.433
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              112,
+              504,
+              236,
+              68,
+              166,
+              115,
+              154,
+              592,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 75.648
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": false
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 8,
+            "name": "Calafiori",
+            "club_id": 1,
+            "market_price_tenths": 59
+          },
+          "in": {
+            "id": 112,
+            "name": "Van Hecke",
+            "club_id": 19,
+            "market_price_tenths": 51
+          }
+        },
+        {
+          "out": {
+            "id": 304,
+            "name": "O'Shea",
+            "club_id": 12,
+            "market_price_tenths": 40
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 9,
+      "gain_three_gw_proxy": 41.204,
+      "lineup": {
+        "three_gw_proxy": 243.624,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              112,
+              504,
+              68,
+              236,
+              166,
+              115,
+              411,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 82.543
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              112,
+              504,
+              68,
+              236,
+              166,
+              115,
+              592,
+              411,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 85.433
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              112,
+              504,
+              236,
+              68,
+              166,
+              115,
+              154,
+              592,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 75.648
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": false
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 411,
+            "name": "Haaland",
+            "club_id": 15,
+            "market_price_tenths": 158
+          },
+          "in": {
+            "id": 249,
+            "name": "Barry",
+            "club_id": 9,
+            "market_price_tenths": 57
+          }
+        },
+        {
+          "out": {
+            "id": 304,
+            "name": "O'Shea",
+            "club_id": 12,
+            "market_price_tenths": 40
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 102,
+      "gain_three_gw_proxy": 39.575,
+      "lineup": {
+        "three_gw_proxy": 241.995,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              68,
+              236,
+              166,
+              249,
+              8,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 79.521
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              68,
+              236,
+              166,
+              249,
+              8,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 85.406
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              236,
+              68,
+              166,
+              249,
+              154,
+              592,
+              8
+            ],
+            "captain": 166,
+            "vice_captain": 249,
+            "proxy_points": 77.068
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": false
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 411,
+            "name": "Haaland",
+            "club_id": 15,
+            "market_price_tenths": 158
+          },
+          "in": {
+            "id": 249,
+            "name": "Barry",
+            "club_id": 9,
+            "market_price_tenths": 57
+          }
+        },
+        {
+          "out": {
+            "id": 304,
+            "name": "O'Shea",
+            "club_id": 12,
+            "market_price_tenths": 40
+          },
+          "in": {
+            "id": 4,
+            "name": "Gabriel",
+            "club_id": 1,
+            "market_price_tenths": 81
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 69,
+      "gain_three_gw_proxy": 38.599,
+      "lineup": {
+        "three_gw_proxy": 241.019,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              4,
+              504,
+              115,
+              68,
+              236,
+              166,
+              249,
+              8,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 4,
+            "proxy_points": 79.173
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              4,
+              504,
+              115,
+              68,
+              236,
+              166,
+              249,
+              8,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 4,
+            "proxy_points": 85.067
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              4,
+              504,
+              115,
+              236,
+              68,
+              166,
+              249,
+              154,
+              592,
+              8
+            ],
+            "captain": 166,
+            "vice_captain": 249,
+            "proxy_points": 76.779
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": false
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 427,
+            "name": "Mbeumo",
+            "club_id": 16,
+            "market_price_tenths": 79
+          },
+          "in": {
+            "id": 366,
+            "name": "Wirtz",
+            "club_id": 14,
+            "market_price_tenths": 72
+          }
+        },
+        {
+          "out": {
+            "id": 304,
+            "name": "O'Shea",
+            "club_id": 12,
+            "market_price_tenths": 40
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 8,
+      "gain_three_gw_proxy": 38.169,
+      "lineup": {
+        "three_gw_proxy": 240.589,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              366,
+              68,
+              166,
+              236,
+              8,
+              411,
+              592
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 81.861
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              366,
+              68,
+              166,
+              236,
+              8,
+              592,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 83.187
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              366,
+              236,
+              166,
+              68,
+              154,
+              592,
+              8
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 75.541
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": false
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 8,
+            "name": "Calafiori",
+            "club_id": 1,
+            "market_price_tenths": 59
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        },
+        {
+          "out": {
+            "id": 599,
+            "name": "Cherif",
+            "club_id": 7,
+            "market_price_tenths": 50
+          },
+          "in": {
+            "id": 249,
+            "name": "Barry",
+            "club_id": 9,
+            "market_price_tenths": 57
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 13,
+      "gain_three_gw_proxy": 37.894,
+      "lineup": {
+        "three_gw_proxy": 240.314,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              68,
+              236,
+              166,
+              249,
+              411,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 79.234
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              68,
+              236,
+              166,
+              249,
+              592,
+              411,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 84.201
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              236,
+              68,
+              166,
+              249,
+              154,
+              592,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 249,
+            "proxy_points": 76.879
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": false
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 8,
+            "name": "Calafiori",
+            "club_id": 1,
+            "market_price_tenths": 59
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        },
+        {
+          "out": {
+            "id": 592,
+            "name": "Ouattara",
+            "club_id": 12,
+            "market_price_tenths": 40
+          },
+          "in": {
+            "id": 112,
+            "name": "Van Hecke",
+            "club_id": 19,
+            "market_price_tenths": 51
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 9,
+      "gain_three_gw_proxy": 37.74,
+      "lineup": {
+        "three_gw_proxy": 240.16,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              112,
+              504,
+              68,
+              236,
+              166,
+              115,
+              411,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 81.578
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              112,
+              504,
+              68,
+              236,
+              166,
+              115,
+              411,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 83.728
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              112,
+              504,
+              236,
+              68,
+              166,
+              115,
+              154,
+              411,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 74.854
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": false
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 8,
+            "name": "Calafiori",
+            "club_id": 1,
+            "market_price_tenths": 59
+          },
+          "in": {
+            "id": 112,
+            "name": "Van Hecke",
+            "club_id": 19,
+            "market_price_tenths": 51
+          }
+        },
+        {
+          "out": {
+            "id": 592,
+            "name": "Ouattara",
+            "club_id": 12,
+            "market_price_tenths": 40
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 9,
+      "gain_three_gw_proxy": 37.74,
+      "lineup": {
+        "three_gw_proxy": 240.16,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              112,
+              504,
+              68,
+              236,
+              166,
+              115,
+              411,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 81.578
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              112,
+              504,
+              68,
+              236,
+              166,
+              115,
+              411,
+              154,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 83.728
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              112,
+              504,
+              236,
+              68,
+              166,
+              115,
+              154,
+              411,
+              156
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 74.854
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": false
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 154,
+            "name": "Palmer",
+            "club_id": 6,
+            "market_price_tenths": 98
+          },
+          "in": {
+            "id": 366,
+            "name": "Wirtz",
+            "club_id": 14,
+            "market_price_tenths": 72
+          }
+        },
+        {
+          "out": {
+            "id": 304,
+            "name": "O'Shea",
+            "club_id": 12,
+            "market_price_tenths": 40
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 27,
+      "gain_three_gw_proxy": 37.568,
+      "lineup": {
+        "three_gw_proxy": 239.988,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              366,
+              68,
+              166,
+              236,
+              8,
+              411,
+              592
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 81.861
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              366,
+              68,
+              166,
+              236,
+              8,
+              592,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 83.187
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              366,
+              236,
+              166,
+              68,
+              592,
+              8,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 74.94
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": false
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 411,
+            "name": "Haaland",
+            "club_id": 15,
+            "market_price_tenths": 158
+          },
+          "in": {
+            "id": 249,
+            "name": "Barry",
+            "club_id": 9,
+            "market_price_tenths": 57
+          }
+        },
+        {
+          "out": {
+            "id": 304,
+            "name": "O'Shea",
+            "club_id": 12,
+            "market_price_tenths": 40
+          },
+          "in": {
+            "id": 112,
+            "name": "Van Hecke",
+            "club_id": 19,
+            "market_price_tenths": 51
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 99,
+      "gain_three_gw_proxy": 37.298,
+      "lineup": {
+        "three_gw_proxy": 239.718,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              112,
+              504,
+              115,
+              68,
+              236,
+              166,
+              249,
+              8,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 112,
+            "proxy_points": 79.509
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              112,
+              504,
+              115,
+              68,
+              236,
+              166,
+              249,
+              8,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 112,
+            "proxy_points": 83.918
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              112,
+              504,
+              115,
+              236,
+              68,
+              166,
+              249,
+              154,
+              592,
+              8
+            ],
+            "captain": 166,
+            "vice_captain": 249,
+            "proxy_points": 76.291
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": false
+    }
+  ],
+  "best_second_transfer_after_confirmed_first": [
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 304,
+            "name": "O'Shea",
+            "club_id": 12,
+            "market_price_tenths": 40
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        },
+        {
+          "out": {
+            "id": 8,
+            "name": "Calafiori",
+            "club_id": 1,
+            "market_price_tenths": 59
+          },
+          "in": {
+            "id": 112,
+            "name": "Van Hecke",
+            "club_id": 19,
+            "market_price_tenths": 51
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 9,
+      "gain_three_gw_proxy": 41.204,
+      "lineup": {
+        "three_gw_proxy": 243.624,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              112,
+              504,
+              68,
+              236,
+              166,
+              115,
+              411,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 82.543
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              112,
+              504,
+              68,
+              236,
+              166,
+              115,
+              592,
+              411,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 85.433
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              112,
+              504,
+              236,
+              68,
+              166,
+              115,
+              154,
+              592,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 75.648
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": true
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 304,
+            "name": "O'Shea",
+            "club_id": 12,
+            "market_price_tenths": 40
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        },
+        {
+          "out": {
+            "id": 411,
+            "name": "Haaland",
+            "club_id": 15,
+            "market_price_tenths": 158
+          },
+          "in": {
+            "id": 249,
+            "name": "Barry",
+            "club_id": 9,
+            "market_price_tenths": 57
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 102,
+      "gain_three_gw_proxy": 39.575,
+      "lineup": {
+        "three_gw_proxy": 241.995,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              68,
+              236,
+              166,
+              249,
+              8,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 79.521
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              68,
+              236,
+              166,
+              249,
+              8,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 85.406
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              236,
+              68,
+              166,
+              249,
+              154,
+              592,
+              8
+            ],
+            "captain": 166,
+            "vice_captain": 249,
+            "proxy_points": 77.068
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": true
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 304,
+            "name": "O'Shea",
+            "club_id": 12,
+            "market_price_tenths": 40
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        },
+        {
+          "out": {
+            "id": 427,
+            "name": "Mbeumo",
+            "club_id": 16,
+            "market_price_tenths": 79
+          },
+          "in": {
+            "id": 366,
+            "name": "Wirtz",
+            "club_id": 14,
+            "market_price_tenths": 72
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 8,
+      "gain_three_gw_proxy": 38.169,
+      "lineup": {
+        "three_gw_proxy": 240.589,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              366,
+              68,
+              166,
+              236,
+              8,
+              411,
+              592
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 81.861
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              366,
+              68,
+              166,
+              236,
+              8,
+              592,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 83.187
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              366,
+              236,
+              166,
+              68,
+              154,
+              592,
+              8
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 75.541
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": true
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 304,
+            "name": "O'Shea",
+            "club_id": 12,
+            "market_price_tenths": 40
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        },
+        {
+          "out": {
+            "id": 154,
+            "name": "Palmer",
+            "club_id": 6,
+            "market_price_tenths": 98
+          },
+          "in": {
+            "id": 366,
+            "name": "Wirtz",
+            "club_id": 14,
+            "market_price_tenths": 72
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 27,
+      "gain_three_gw_proxy": 37.568,
+      "lineup": {
+        "three_gw_proxy": 239.988,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              366,
+              68,
+              166,
+              236,
+              8,
+              411,
+              592
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 81.861
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              366,
+              68,
+              166,
+              236,
+              8,
+              592,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 83.187
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              366,
+              236,
+              166,
+              68,
+              592,
+              8,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 74.94
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": true
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 304,
+            "name": "O'Shea",
+            "club_id": 12,
+            "market_price_tenths": 40
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        },
+        {
+          "out": {
+            "id": 115,
+            "name": "De Cuyper",
+            "club_id": 5,
+            "market_price_tenths": 55
+          },
+          "in": {
+            "id": 112,
+            "name": "Van Hecke",
+            "club_id": 19,
+            "market_price_tenths": 51
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 5,
+      "gain_three_gw_proxy": 37.139,
+      "lineup": {
+        "three_gw_proxy": 239.559,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              112,
+              504,
+              68,
+              236,
+              166,
+              8,
+              411,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 82.115
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              112,
+              504,
+              68,
+              236,
+              166,
+              8,
+              592,
+              411,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 83.494
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              112,
+              504,
+              236,
+              68,
+              166,
+              154,
+              592,
+              8,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 73.95
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": true
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 304,
+            "name": "O'Shea",
+            "club_id": 12,
+            "market_price_tenths": 40
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        },
+        {
+          "out": {
+            "id": 427,
+            "name": "Mbeumo",
+            "club_id": 16,
+            "market_price_tenths": 79
+          },
+          "in": {
+            "id": 542,
+            "name": "E.Le Fée",
+            "club_id": 20,
+            "market_price_tenths": 57
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 23,
+      "gain_three_gw_proxy": 36.357,
+      "lineup": {
+        "three_gw_proxy": 238.777,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              542,
+              68,
+              166,
+              236,
+              8,
+              411,
+              592
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 81.058
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              542,
+              68,
+              166,
+              236,
+              8,
+              592,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 84.252
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              542,
+              236,
+              166,
+              68,
+              154,
+              592,
+              8
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 73.467
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": true
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 304,
+            "name": "O'Shea",
+            "club_id": 12,
+            "market_price_tenths": 40
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        },
+        {
+          "out": {
+            "id": 156,
+            "name": "Neto",
+            "club_id": 6,
+            "market_price_tenths": 66
+          },
+          "in": {
+            "id": 542,
+            "name": "E.Le Fée",
+            "club_id": 20,
+            "market_price_tenths": 57
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 10,
+      "gain_three_gw_proxy": 36.357,
+      "lineup": {
+        "three_gw_proxy": 238.777,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              542,
+              68,
+              166,
+              236,
+              8,
+              411,
+              592
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 81.058
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              542,
+              68,
+              166,
+              236,
+              8,
+              592,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 84.252
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              542,
+              236,
+              166,
+              68,
+              154,
+              592,
+              8
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 73.467
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": true
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 304,
+            "name": "O'Shea",
+            "club_id": 12,
+            "market_price_tenths": 40
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        },
+        {
+          "out": {
+            "id": 411,
+            "name": "Haaland",
+            "club_id": 15,
+            "market_price_tenths": 158
+          },
+          "in": {
+            "id": 295,
+            "name": "McBurnie",
+            "club_id": 11,
+            "market_price_tenths": 55
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 104,
+      "gain_three_gw_proxy": 35.978,
+      "lineup": {
+        "three_gw_proxy": 238.398,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              68,
+              236,
+              166,
+              295,
+              8,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 77.488
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              68,
+              236,
+              166,
+              295,
+              8,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 86.097
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              236,
+              68,
+              166,
+              295,
+              154,
+              592,
+              8
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 74.813
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": true
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 304,
+            "name": "O'Shea",
+            "club_id": 12,
+            "market_price_tenths": 40
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        },
+        {
+          "out": {
+            "id": 8,
+            "name": "Calafiori",
+            "club_id": 1,
+            "market_price_tenths": 59
+          },
+          "in": {
+            "id": 334,
+            "name": "Muharemović",
+            "club_id": 13,
+            "market_price_tenths": 51
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 9,
+      "gain_three_gw_proxy": 35.924,
+      "lineup": {
+        "three_gw_proxy": 238.344,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              334,
+              504,
+              68,
+              236,
+              166,
+              115,
+              411,
+              592,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 79.079
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              334,
+              504,
+              68,
+              236,
+              166,
+              115,
+              592,
+              411,
+              154
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 85.213
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              334,
+              504,
+              236,
+              68,
+              166,
+              115,
+              154,
+              592,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 74.052
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": true
+    },
+    {
+      "transfers": [
+        {
+          "out": {
+            "id": 304,
+            "name": "O'Shea",
+            "club_id": 12,
+            "market_price_tenths": 40
+          },
+          "in": {
+            "id": 31,
+            "name": "Konsa",
+            "club_id": 1,
+            "market_price_tenths": 48
+          }
+        },
+        {
+          "out": {
+            "id": 154,
+            "name": "Palmer",
+            "club_id": 6,
+            "market_price_tenths": 98
+          },
+          "in": {
+            "id": 542,
+            "name": "E.Le Fée",
+            "club_id": 20,
+            "market_price_tenths": 57
+          }
+        }
+      ],
+      "bank_after_market_proxy_tenths": 42,
+      "gain_three_gw_proxy": 35.756,
+      "lineup": {
+        "three_gw_proxy": 238.176,
+        "gws": [
+          {
+            "gw": 11,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              542,
+              68,
+              166,
+              236,
+              8,
+              411,
+              592
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 81.058
+          },
+          {
+            "gw": 12,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              542,
+              68,
+              166,
+              236,
+              8,
+              592,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 84.252
+          },
+          {
+            "gw": 13,
+            "starting_xi": [
+              109,
+              31,
+              504,
+              115,
+              542,
+              236,
+              166,
+              68,
+              592,
+              8,
+              411
+            ],
+            "captain": 166,
+            "vice_captain": 31,
+            "proxy_points": 72.866
+          }
+        ]
+      },
+      "screenshot_verified_first_transfer": true
+    }
+  ],
+  "counts": {
+    "single_candidates": 2631,
+    "two_transfer_shortlisted_candidates": 12358,
+    "second_after_fixed_candidates": 2251
+  },
+  "limitations": [
+    "Two-transfer combinations are HEURISTIC shortlisted (top 12 incoming forecasts per outgoing), not globally exhaustive.",
+    "All sale prices except screenshot-confirmed O'Shea->Konsa are market proxies; combinations are not verified executable.",
+    "Second transfer after confirmed first uses current market price as sale proxy.",
+    "Screenshot confirms two free transfers at the time, not the number at eventual deadline.",
+    "Saving one free transfer has future value not included in three-GW proxy.",
+    "Forecasts are uncalibrated heuristics from GW8-10 minutes and points, opponent goals conceded, home/away.",
+    "Player injuries and future minutes are not predicted; no authenticated team changes are read.",
+    "No transactions have been submitted to FPL."
+  ]
+}
