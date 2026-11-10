@@ -40,6 +40,9 @@ jobs:
       - name: Audit pre-GW expected-points component calibration
         run: python fpl_component_calibration_audit.py
 
+      - name: Audit exact GW11 minutes and bonus formulas walk-forward
+        run: python fpl_gw11_exact_component_walkforward.py
+
       - name: Freeze predeadline captain predictions (when eligible)
         run: python fpl_captain_forward_snapshot.py
 
