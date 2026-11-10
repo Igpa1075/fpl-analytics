@@ -37,6 +37,9 @@ jobs:
       - name: Freeze fixture-aware joint GW11-13 scenarios
         run: python fpl_joint_gw11_fixture_aware.py
 
+      - name: Audit GW11 top transfer player identity and feasibility
+        run: python fpl_gw11_transfer_audit.py
+
       - name: Generate FPL analysis
         run: python fpl_analysis.py > data/analysis.txt
   
