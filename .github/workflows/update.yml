@@ -52,6 +52,9 @@ jobs:
       - name: Forecast complete GW11 FPL points by component
         run: python fpl_gw11_full_expected_points.py
 
+      - name: Backtest lagged expected-points proxy GW2-10
+        run: python fpl_gw11_xpts_backtest_audit.py
+
       - name: Generate FPL analysis
         run: python fpl_analysis.py > data/analysis.txt
   
