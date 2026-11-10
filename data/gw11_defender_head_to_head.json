@@ -1,0 +1,177 @@
+{
+  "status": "defender_comparison_exploratory_uncalibrated",
+  "created_at_utc": "2026-11-10T06:44:40.758917+00:00",
+  "comparison": "Calafiori 8 versus Van Hecke 112",
+  "players": {
+    "8": {
+      "name": "Calafiori",
+      "team": "Arsenal",
+      "market_price_tenths": 59,
+      "status": "a",
+      "news": "",
+      "chance_next_round": 100,
+      "historical_60min_appearances": 9,
+      "historical_matches": 10,
+      "season_minutes": 767,
+      "recent_five_gw_points": 28,
+      "three_gw_proxy": 12.35,
+      "fixtures": [
+        {
+          "gw": 11,
+          "opponent": "Newcastle",
+          "home": false,
+          "difficulty": 3,
+          "estimated_clean_sheet_probability": 0.459,
+          "proxy_points": 4.26
+        },
+        {
+          "gw": 12,
+          "opponent": "Man City",
+          "home": true,
+          "difficulty": 4,
+          "estimated_clean_sheet_probability": 0.386,
+          "proxy_points": 4.014
+        },
+        {
+          "gw": 13,
+          "opponent": "Brentford",
+          "home": false,
+          "difficulty": 4,
+          "estimated_clean_sheet_probability": 0.404,
+          "proxy_points": 4.075
+        }
+      ]
+    },
+    "112": {
+      "name": "Van Hecke",
+      "team": "Spurs",
+      "market_price_tenths": 51,
+      "status": "a",
+      "news": "",
+      "chance_next_round": 100,
+      "historical_60min_appearances": 10,
+      "historical_matches": 10,
+      "season_minutes": 900,
+      "recent_five_gw_points": 33,
+      "three_gw_proxy": 12.862,
+      "fixtures": [
+        {
+          "gw": 11,
+          "opponent": "Ipswich Town",
+          "home": true,
+          "difficulty": 2,
+          "estimated_clean_sheet_probability": 0.314,
+          "proxy_points": 4.044
+        },
+        {
+          "gw": 12,
+          "opponent": "Sunderland",
+          "home": false,
+          "difficulty": 3,
+          "estimated_clean_sheet_probability": 0.409,
+          "proxy_points": 4.394
+        },
+        {
+          "gw": 13,
+          "opponent": "Fulham",
+          "home": true,
+          "difficulty": 2,
+          "estimated_clean_sheet_probability": 0.417,
+          "proxy_points": 4.424
+        }
+      ]
+    },
+    "31": {
+      "name": "Konsa",
+      "team": "Arsenal",
+      "market_price_tenths": 48,
+      "status": "a",
+      "news": "",
+      "chance_next_round": 100,
+      "historical_60min_appearances": 8,
+      "historical_matches": 10,
+      "season_minutes": 731,
+      "recent_five_gw_points": 45,
+      "three_gw_proxy": 11.569,
+      "fixtures": [
+        {
+          "gw": 11,
+          "opponent": "Newcastle",
+          "home": false,
+          "difficulty": 3,
+          "estimated_clean_sheet_probability": 0.459,
+          "proxy_points": 3.987
+        },
+        {
+          "gw": 12,
+          "opponent": "Man City",
+          "home": true,
+          "difficulty": 4,
+          "estimated_clean_sheet_probability": 0.386,
+          "proxy_points": 3.764
+        },
+        {
+          "gw": 13,
+          "opponent": "Brentford",
+          "home": false,
+          "difficulty": 4,
+          "estimated_clean_sheet_probability": 0.404,
+          "proxy_points": 3.819
+        }
+      ]
+    },
+    "304": {
+      "name": "O'Shea",
+      "team": "Ipswich Town",
+      "market_price_tenths": 40,
+      "status": "a",
+      "news": "",
+      "chance_next_round": null,
+      "historical_60min_appearances": 10,
+      "historical_matches": 10,
+      "season_minutes": 900,
+      "recent_five_gw_points": 18,
+      "three_gw_proxy": 10.406,
+      "fixtures": [
+        {
+          "gw": 11,
+          "opponent": "Spurs",
+          "home": false,
+          "difficulty": 3,
+          "estimated_clean_sheet_probability": 0.204,
+          "proxy_points": 3.496
+        },
+        {
+          "gw": 12,
+          "opponent": "Aston Villa",
+          "home": true,
+          "difficulty": 3,
+          "estimated_clean_sheet_probability": 0.182,
+          "proxy_points": 3.414
+        },
+        {
+          "gw": 13,
+          "opponent": "Coventry City",
+          "home": false,
+          "difficulty": 2,
+          "estimated_clean_sheet_probability": 0.204,
+          "proxy_points": 3.496
+        }
+      ]
+    }
+  },
+  "van_hecke_minus_calafiori_three_gw_proxy": 0.512,
+  "screenshot_confirmed_pair_feasible": true,
+  "screenshot_confirmed_bank_after_both_tenths": 8,
+  "screenshot_confirmed_no_points_hit": true,
+  "second_free_transfer_opportunity_cost": "not estimable from available data; recommend second transfer only with a meaningful, robust forecast advantage",
+  "recommendation_rule": "Prefer keeping second FT unless defender advantage is material and robust across methods and player availability confirmed near deadline.",
+  "limitations": [
+    "Poisson clean-sheet probabilities are crude proxies, not validated or calibrated.",
+    "Player starts are inferred from historical 60+ minutes, not actual team news.",
+    "Defensive attacking/bonus residual is a shrunk recent-points proxy.",
+    "Defender clean sheet model does not incorporate lineup, xG, injuries, or bookmaker odds.",
+    "No authenticated live team or future price data.",
+    "GW11 deadline 21 Nov; check status near deadline before submitting."
+  ]
+}
