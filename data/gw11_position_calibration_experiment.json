@@ -1,0 +1,387 @@
+{
+  "status": "development_fitted_holdout_evaluation_experimental_not_production",
+  "created_at_utc": "2026-11-10T12:17:25.427617+00:00",
+  "fit_gws": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "untouched_holdout_gws": [
+    8,
+    9,
+    10
+  ],
+  "parameters": {
+    "1": {
+      "False": {
+        "minutes": 0.8,
+        "bonus": 1.8,
+        "n": 347
+      },
+      "True": {
+        "minutes": 1.02532,
+        "bonus": 1.67529,
+        "n": 78
+      }
+    },
+    "2": {
+      "False": {
+        "minutes": 0.84935,
+        "bonus": 1.8,
+        "n": 975
+      },
+      "True": {
+        "minutes": 0.99581,
+        "bonus": 1.44914,
+        "n": 297
+      }
+    },
+    "3": {
+      "False": {
+        "minutes": 0.8,
+        "bonus": 1.8,
+        "n": 1411
+      },
+      "True": {
+        "minutes": 0.93557,
+        "bonus": 1.31317,
+        "n": 315
+      }
+    },
+    "4": {
+      "False": {
+        "minutes": 0.8,
+        "bonus": 1.8,
+        "n": 396
+      },
+      "True": {
+        "minutes": 1.02026,
+        "bonus": 1.43539,
+        "n": 64
+      }
+    }
+  },
+  "holdout": {
+    "minutes": {
+      "all": {
+        "n": 2007,
+        "baseline": {
+          "mae": 16.6288,
+          "rmse": 25.2619,
+          "bias": 1.5596
+        },
+        "candidate": {
+          "mae": 16.206,
+          "rmse": 25.3715,
+          "bias": -0.6778
+        },
+        "delta_mae": -0.4228
+      },
+      "by_position": {
+        "1": {
+          "all": {
+            "n": 221,
+            "baseline": {
+              "mae": 8.3115,
+              "rmse": 16.4584,
+              "bias": 0.662
+            },
+            "candidate": {
+              "mae": 7.2609,
+              "rmse": 16.4555,
+              "bias": 0.5086
+            },
+            "delta_mae": -1.0506
+          },
+          "regular": {
+            "n": 60,
+            "baseline": {
+              "mae": 12.613,
+              "rmse": 21.0318,
+              "bias": -2.9565
+            },
+            "candidate": {
+              "mae": 10.8435,
+              "rmse": 20.8183,
+              "bias": -0.9425
+            },
+            "delta_mae": -1.7695
+          }
+        },
+        "2": {
+          "all": {
+            "n": 652,
+            "baseline": {
+              "mae": 19.2687,
+              "rmse": 28.6163,
+              "bias": -0.079
+            },
+            "candidate": {
+              "mae": 18.9574,
+              "rmse": 28.8888,
+              "bias": -1.4143
+            },
+            "delta_mae": -0.3113
+          },
+          "regular": {
+            "n": 233,
+            "baseline": {
+              "mae": 23.3549,
+              "rmse": 31.6497,
+              "bias": 3.2713
+            },
+            "candidate": {
+              "mae": 23.4885,
+              "rmse": 31.62,
+              "bias": 2.9682
+            },
+            "delta_mae": 0.1336
+          }
+        },
+        "3": {
+          "all": {
+            "n": 897,
+            "baseline": {
+              "mae": 17.6644,
+              "rmse": 25.652,
+              "bias": 1.8958
+            },
+            "candidate": {
+              "mae": 17.5326,
+              "rmse": 25.7859,
+              "bias": -1.6754
+            },
+            "delta_mae": -0.1318
+          },
+          "regular": {
+            "n": 252,
+            "baseline": {
+              "mae": 22.6633,
+              "rmse": 30.5794,
+              "bias": 5.6983
+            },
+            "candidate": {
+              "mae": 24.0925,
+              "rmse": 30.1395,
+              "bias": 1.2324
+            },
+            "delta_mae": 1.4292
+          }
+        },
+        "4": {
+          "all": {
+            "n": 237,
+            "baseline": {
+              "mae": 13.203,
+              "rmse": 20.2057,
+              "bias": 5.6321
+            },
+            "candidate": {
+              "mae": 11.9567,
+              "rmse": 19.6511,
+              "bias": 4.0173
+            },
+            "delta_mae": -1.2463
+          },
+          "regular": {
+            "n": 59,
+            "baseline": {
+              "mae": 19.4805,
+              "rmse": 27.5453,
+              "bias": 5.1287
+            },
+            "candidate": {
+              "mae": 19.2495,
+              "rmse": 27.8829,
+              "bias": 6.5753
+            },
+            "delta_mae": -0.231
+          }
+        }
+      }
+    },
+    "bonus": {
+      "all": {
+        "n": 2007,
+        "baseline": {
+          "mae": 0.1398,
+          "rmse": 0.4541,
+          "bias": -0.0305
+        },
+        "candidate": {
+          "mae": 0.1618,
+          "rmse": 0.4671,
+          "bias": 0.0006
+        },
+        "delta_mae": 0.022
+      },
+      "by_position": {
+        "1": {
+          "all": {
+            "n": 221,
+            "baseline": {
+              "mae": 0.1237,
+              "rmse": 0.4346,
+              "bias": -0.0489
+            },
+            "candidate": {
+              "mae": 0.1431,
+              "rmse": 0.4379,
+              "bias": -0.0178
+            },
+            "delta_mae": 0.0194
+          },
+          "regular": {
+            "n": 60,
+            "baseline": {
+              "mae": 0.4558,
+              "rmse": 0.834,
+              "bias": -0.1801
+            },
+            "candidate": {
+              "mae": 0.5272,
+              "rmse": 0.8404,
+              "bias": -0.0654
+            },
+            "delta_mae": 0.0714
+          }
+        },
+        "2": {
+          "all": {
+            "n": 652,
+            "baseline": {
+              "mae": 0.1188,
+              "rmse": 0.4001,
+              "bias": -0.0263
+            },
+            "candidate": {
+              "mae": 0.1379,
+              "rmse": 0.4113,
+              "bias": -0.0005
+            },
+            "delta_mae": 0.0191
+          },
+          "regular": {
+            "n": 233,
+            "baseline": {
+              "mae": 0.2894,
+              "rmse": 0.6266,
+              "bias": -0.0581
+            },
+            "candidate": {
+              "mae": 0.3326,
+              "rmse": 0.644,
+              "bias": 0.0025
+            },
+            "delta_mae": 0.0432
+          }
+        },
+        "3": {
+          "all": {
+            "n": 897,
+            "baseline": {
+              "mae": 0.1281,
+              "rmse": 0.4091,
+              "bias": -0.0106
+            },
+            "candidate": {
+              "mae": 0.1516,
+              "rmse": 0.4292,
+              "bias": 0.0189
+            },
+            "delta_mae": 0.0235
+          },
+          "regular": {
+            "n": 252,
+            "baseline": {
+              "mae": 0.3023,
+              "rmse": 0.5975,
+              "bias": -0.0019
+            },
+            "candidate": {
+              "mae": 0.3423,
+              "rmse": 0.6202,
+              "bias": 0.0522
+            },
+            "delta_mae": 0.04
+          }
+        },
+        "4": {
+          "all": {
+            "n": 237,
+            "baseline": {
+              "mae": 0.2564,
+              "rmse": 0.7046,
+              "bias": -0.1002
+            },
+            "candidate": {
+              "mae": 0.2835,
+              "rmse": 0.7116,
+              "bias": -0.0484
+            },
+            "delta_mae": 0.0271
+          },
+          "regular": {
+            "n": 59,
+            "baseline": {
+              "mae": 0.8344,
+              "rmse": 1.2665,
+              "bias": -0.3272
+            },
+            "candidate": {
+              "mae": 0.8951,
+              "rmse": 1.2667,
+              "bias": -0.167
+            },
+            "delta_mae": 0.0607
+          }
+        }
+      }
+    }
+  },
+  "development": {
+    "minutes": {
+      "n": 3883,
+      "baseline": {
+        "mae": 18.8459,
+        "rmse": 25.3402,
+        "bias": 5.7317
+      },
+      "candidate": {
+        "mae": 18.544,
+        "rmse": 24.9683,
+        "bias": 1.405
+      },
+      "delta_mae": -0.3019
+    },
+    "bonus": {
+      "n": 3883,
+      "baseline": {
+        "mae": 0.1245,
+        "rmse": 0.4713,
+        "bias": -0.0603
+      },
+      "candidate": {
+        "mae": 0.1374,
+        "rmse": 0.4766,
+        "bias": -0.0414
+      },
+      "delta_mae": 0.0129
+    }
+  },
+  "coverage": {
+    "development": 3883,
+    "holdout": 2007
+  },
+  "limitations": [
+    "Calibrates only minutes and bonus component means, not total xPts or the probability of >=60 minutes.",
+    "Parameters estimated exclusively on GW2-7 and evaluated on GW8-10; no holdout fitting.",
+    "Regular defined by >=3 prior five recorded 60+ minute games; historical deadline statuses unavailable.",
+    "Bonuses and minutes evaluated on identical historical player-gameweek rows.",
+    "A gain in component accuracy does not establish a gain in total FPL points or captain choice.",
+    "Production GW11 forecast remains unchanged pending full-model validation."
+  ]
+}
