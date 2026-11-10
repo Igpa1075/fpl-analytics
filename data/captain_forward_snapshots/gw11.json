@@ -1,0 +1,56 @@
+{
+  "status": "frozen_predeadline_prediction",
+  "created_at_utc": "2026-11-10T04:42:30.694471+00:00",
+  "deadline_utc": "2026-11-21T11:00:00+00:00",
+  "gw": 11,
+  "source_published_squad_gw": 10,
+  "squad": [
+    250,
+    115,
+    504,
+    8,
+    427,
+    156,
+    154,
+    236,
+    68,
+    411,
+    166,
+    109,
+    592,
+    304,
+    599
+  ],
+  "starting_xi": [
+    109,
+    504,
+    115,
+    8,
+    68,
+    236,
+    166,
+    411,
+    592,
+    154,
+    156
+  ],
+  "policies": {
+    "form_3": {
+      "captain": 166,
+      "vice_captain": 504
+    },
+    "season_form": {
+      "captain": 115,
+      "vice_captain": 411
+    },
+    "minutes_weighted": {
+      "captain": 166,
+      "vice_captain": 504
+    },
+    "reliability": {
+      "captain": 166,
+      "vice_captain": 504
+    }
+  },
+  "note": "Fixed published squad, no proposed transfers, no expected-points calibration."
+}
