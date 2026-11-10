@@ -49,6 +49,9 @@ jobs:
       - name: Compare GW11 captain xG and opponents
         run: python fpl_gw11_captain_xg_comparison.py
 
+      - name: Forecast complete GW11 FPL points by component
+        run: python fpl_gw11_full_expected_points.py
+
       - name: Generate FPL analysis
         run: python fpl_analysis.py > data/analysis.txt
   
