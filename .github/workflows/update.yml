@@ -76,6 +76,9 @@ jobs:
       - name: Run budget-constrained proxy transfer backtest
         run: python fpl_backtest_budget_constrained_proxy.py
 
+      - name: Diagnose XI and captain scoring separately
+        run: python fpl_backtest_captain_xi_diagnostic.py
+
       - name: Decompose manager versus model scoring gap
         run: python fpl_backtest_manager_gap.py
 
