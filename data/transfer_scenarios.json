@@ -1,15 +1,15 @@
 {
   "target_gw": 11,
-  "forecast_source": "data/contextual_forecasts/2026-11-09.json",
+  "forecast_source": "data/contextual_forecasts/2026-11-10.json",
   "squad_source": "data/picks.json, latest publicly published GW",
   "squad_event": 10,
   "bank_tenths_million_proxy": 9,
-  "baseline_expected_xi_with_captain": 72.392,
+  "baseline_expected_xi_with_captain": 70.044,
   "scenarios": {
     "0": [
       {
         "transfers": [],
-        "projected_xi_with_captain": 72.392,
+        "projected_xi_with_captain": 70.044,
         "gross_gain_vs_hold": 0.0,
         "remaining_bank_proxy": 9,
         "hit_cost": 0,
@@ -26,11 +26,11 @@
             "in_name": "Konsa"
           }
         ],
-        "projected_xi_with_captain": 74.961,
-        "gross_gain_vs_hold": 2.569,
+        "projected_xi_with_captain": 73.665,
+        "gross_gain_vs_hold": 3.621,
         "remaining_bank_proxy": 1,
         "hit_cost": 0,
-        "net_gain_vs_hold": 2.569
+        "net_gain_vs_hold": 3.621
       },
       {
         "transfers": [
@@ -41,11 +41,11 @@
             "in_name": "Konsa"
           }
         ],
-        "projected_xi_with_captain": 74.961,
-        "gross_gain_vs_hold": 2.569,
+        "projected_xi_with_captain": 73.665,
+        "gross_gain_vs_hold": 3.621,
         "remaining_bank_proxy": 1,
         "hit_cost": 0,
-        "net_gain_vs_hold": 2.569
+        "net_gain_vs_hold": 3.621
       },
       {
         "transfers": [
@@ -56,11 +56,11 @@
             "in_name": "Konsa"
           }
         ],
-        "projected_xi_with_captain": 74.138,
-        "gross_gain_vs_hold": 1.746,
+        "projected_xi_with_captain": 72.69,
+        "gross_gain_vs_hold": 2.646,
         "remaining_bank_proxy": 20,
         "hit_cost": 0,
-        "net_gain_vs_hold": 1.746
+        "net_gain_vs_hold": 2.646
       },
       {
         "transfers": [
@@ -71,11 +71,11 @@
             "in_name": "Van Hecke"
           }
         ],
-        "projected_xi_with_captain": 74.13,
-        "gross_gain_vs_hold": 1.738,
+        "projected_xi_with_captain": 72.68,
+        "gross_gain_vs_hold": 2.636,
         "remaining_bank_proxy": 17,
         "hit_cost": 0,
-        "net_gain_vs_hold": 1.738
+        "net_gain_vs_hold": 2.636
       },
       {
         "transfers": [
@@ -86,41 +86,11 @@
             "in_name": "Barry"
           }
         ],
-        "projected_xi_with_captain": 73.864,
-        "gross_gain_vs_hold": 1.472,
+        "projected_xi_with_captain": 72.032,
+        "gross_gain_vs_hold": 1.988,
         "remaining_bank_proxy": 2,
         "hit_cost": 0,
-        "net_gain_vs_hold": 1.472
-      },
-      {
-        "transfers": [
-          {
-            "out": 427,
-            "out_name": "Mbeumo",
-            "in": 13,
-            "in_name": "Rice"
-          }
-        ],
-        "projected_xi_with_captain": 73.504,
-        "gross_gain_vs_hold": 1.112,
-        "remaining_bank_proxy": 13,
-        "hit_cost": 0,
-        "net_gain_vs_hold": 1.112
-      },
-      {
-        "transfers": [
-          {
-            "out": 154,
-            "out_name": "Palmer",
-            "in": 13,
-            "in_name": "Rice"
-          }
-        ],
-        "projected_xi_with_captain": 73.483,
-        "gross_gain_vs_hold": 1.091,
-        "remaining_bank_proxy": 32,
-        "hit_cost": 0,
-        "net_gain_vs_hold": 1.091
+        "net_gain_vs_hold": 1.988
       },
       {
         "transfers": [
@@ -131,11 +101,11 @@
             "in_name": "E.Le Fée"
           }
         ],
-        "projected_xi_with_captain": 73.283,
-        "gross_gain_vs_hold": 0.891,
+        "projected_xi_with_captain": 71.925,
+        "gross_gain_vs_hold": 1.881,
         "remaining_bank_proxy": 31,
         "hit_cost": 0,
-        "net_gain_vs_hold": 0.891
+        "net_gain_vs_hold": 1.881
       },
       {
         "transfers": [
@@ -146,26 +116,56 @@
             "in_name": "E.Le Fée"
           }
         ],
-        "projected_xi_with_captain": 73.262,
-        "gross_gain_vs_hold": 0.87,
+        "projected_xi_with_captain": 71.924,
+        "gross_gain_vs_hold": 1.88,
         "remaining_bank_proxy": 50,
         "hit_cost": 0,
-        "net_gain_vs_hold": 0.87
+        "net_gain_vs_hold": 1.88
       },
       {
         "transfers": [
           {
             "out": 427,
             "out_name": "Mbeumo",
-            "in": 45,
-            "in_name": "McGinn"
+            "in": 13,
+            "in_name": "Rice"
           }
         ],
-        "projected_xi_with_captain": 73.07,
-        "gross_gain_vs_hold": 0.678,
-        "remaining_bank_proxy": 34,
+        "projected_xi_with_captain": 71.572,
+        "gross_gain_vs_hold": 1.528,
+        "remaining_bank_proxy": 13,
         "hit_cost": 0,
-        "net_gain_vs_hold": 0.678
+        "net_gain_vs_hold": 1.528
+      },
+      {
+        "transfers": [
+          {
+            "out": 154,
+            "out_name": "Palmer",
+            "in": 13,
+            "in_name": "Rice"
+          }
+        ],
+        "projected_xi_with_captain": 71.571,
+        "gross_gain_vs_hold": 1.527,
+        "remaining_bank_proxy": 32,
+        "hit_cost": 0,
+        "net_gain_vs_hold": 1.527
+      },
+      {
+        "transfers": [
+          {
+            "out": 8,
+            "out_name": "Calafiori",
+            "in": 334,
+            "in_name": "Muharemović"
+          }
+        ],
+        "projected_xi_with_captain": 71.214,
+        "gross_gain_vs_hold": 1.17,
+        "remaining_bank_proxy": 17,
+        "hit_cost": 0,
+        "net_gain_vs_hold": 1.17
       }
     ],
     "2": [
@@ -184,11 +184,11 @@
             "in_name": "Konsa"
           }
         ],
-        "projected_xi_with_captain": 76.699,
-        "gross_gain_vs_hold": 4.307,
+        "projected_xi_with_captain": 76.301,
+        "gross_gain_vs_hold": 6.257,
         "remaining_bank_proxy": 8,
         "hit_cost": 0,
-        "net_gain_vs_hold": 4.307
+        "net_gain_vs_hold": 6.257
       },
       {
         "transfers": [
@@ -205,95 +205,11 @@
             "in_name": "Konsa"
           }
         ],
-        "projected_xi_with_captain": 76.699,
-        "gross_gain_vs_hold": 4.307,
+        "projected_xi_with_captain": 76.301,
+        "gross_gain_vs_hold": 6.257,
         "remaining_bank_proxy": 8,
         "hit_cost": 0,
-        "net_gain_vs_hold": 4.307
-      },
-      {
-        "transfers": [
-          {
-            "out": 154,
-            "out_name": "Palmer",
-            "in": 13,
-            "in_name": "Rice"
-          },
-          {
-            "out": 304,
-            "out_name": "O'Shea",
-            "in": 31,
-            "in_name": "Konsa"
-          }
-        ],
-        "projected_xi_with_captain": 76.052,
-        "gross_gain_vs_hold": 3.66,
-        "remaining_bank_proxy": 24,
-        "hit_cost": 0,
-        "net_gain_vs_hold": 3.66
-      },
-      {
-        "transfers": [
-          {
-            "out": 154,
-            "out_name": "Palmer",
-            "in": 13,
-            "in_name": "Rice"
-          },
-          {
-            "out": 592,
-            "out_name": "Ouattara",
-            "in": 31,
-            "in_name": "Konsa"
-          }
-        ],
-        "projected_xi_with_captain": 76.052,
-        "gross_gain_vs_hold": 3.66,
-        "remaining_bank_proxy": 24,
-        "hit_cost": 0,
-        "net_gain_vs_hold": 3.66
-      },
-      {
-        "transfers": [
-          {
-            "out": 427,
-            "out_name": "Mbeumo",
-            "in": 13,
-            "in_name": "Rice"
-          },
-          {
-            "out": 304,
-            "out_name": "O'Shea",
-            "in": 31,
-            "in_name": "Konsa"
-          }
-        ],
-        "projected_xi_with_captain": 76.052,
-        "gross_gain_vs_hold": 3.66,
-        "remaining_bank_proxy": 5,
-        "hit_cost": 0,
-        "net_gain_vs_hold": 3.66
-      },
-      {
-        "transfers": [
-          {
-            "out": 427,
-            "out_name": "Mbeumo",
-            "in": 13,
-            "in_name": "Rice"
-          },
-          {
-            "out": 592,
-            "out_name": "Ouattara",
-            "in": 31,
-            "in_name": "Konsa"
-          }
-        ],
-        "projected_xi_with_captain": 76.052,
-        "gross_gain_vs_hold": 3.66,
-        "remaining_bank_proxy": 5,
-        "hit_cost": 0,
-        "net_gain_vs_hold": 3.66
+        "net_gain_vs_hold": 6.257
       },
       {
         "transfers": [
@@ -310,11 +226,11 @@
             "in_name": "Konsa"
           }
         ],
-        "projected_xi_with_captain": 75.831,
-        "gross_gain_vs_hold": 3.439,
+        "projected_xi_with_captain": 75.545,
+        "gross_gain_vs_hold": 5.501,
         "remaining_bank_proxy": 42,
         "hit_cost": 0,
-        "net_gain_vs_hold": 3.439
+        "net_gain_vs_hold": 5.501
       },
       {
         "transfers": [
@@ -331,11 +247,11 @@
             "in_name": "Konsa"
           }
         ],
-        "projected_xi_with_captain": 75.831,
-        "gross_gain_vs_hold": 3.439,
+        "projected_xi_with_captain": 75.545,
+        "gross_gain_vs_hold": 5.501,
         "remaining_bank_proxy": 42,
         "hit_cost": 0,
-        "net_gain_vs_hold": 3.439
+        "net_gain_vs_hold": 5.501
       },
       {
         "transfers": [
@@ -352,11 +268,11 @@
             "in_name": "Konsa"
           }
         ],
-        "projected_xi_with_captain": 75.831,
-        "gross_gain_vs_hold": 3.439,
+        "projected_xi_with_captain": 75.545,
+        "gross_gain_vs_hold": 5.501,
         "remaining_bank_proxy": 23,
         "hit_cost": 0,
-        "net_gain_vs_hold": 3.439
+        "net_gain_vs_hold": 5.501
       },
       {
         "transfers": [
@@ -373,11 +289,95 @@
             "in_name": "Konsa"
           }
         ],
-        "projected_xi_with_captain": 75.831,
-        "gross_gain_vs_hold": 3.439,
+        "projected_xi_with_captain": 75.545,
+        "gross_gain_vs_hold": 5.501,
         "remaining_bank_proxy": 23,
         "hit_cost": 0,
-        "net_gain_vs_hold": 3.439
+        "net_gain_vs_hold": 5.501
+      },
+      {
+        "transfers": [
+          {
+            "out": 154,
+            "out_name": "Palmer",
+            "in": 13,
+            "in_name": "Rice"
+          },
+          {
+            "out": 304,
+            "out_name": "O'Shea",
+            "in": 31,
+            "in_name": "Konsa"
+          }
+        ],
+        "projected_xi_with_captain": 75.192,
+        "gross_gain_vs_hold": 5.148,
+        "remaining_bank_proxy": 24,
+        "hit_cost": 0,
+        "net_gain_vs_hold": 5.148
+      },
+      {
+        "transfers": [
+          {
+            "out": 154,
+            "out_name": "Palmer",
+            "in": 13,
+            "in_name": "Rice"
+          },
+          {
+            "out": 592,
+            "out_name": "Ouattara",
+            "in": 31,
+            "in_name": "Konsa"
+          }
+        ],
+        "projected_xi_with_captain": 75.192,
+        "gross_gain_vs_hold": 5.148,
+        "remaining_bank_proxy": 24,
+        "hit_cost": 0,
+        "net_gain_vs_hold": 5.148
+      },
+      {
+        "transfers": [
+          {
+            "out": 427,
+            "out_name": "Mbeumo",
+            "in": 13,
+            "in_name": "Rice"
+          },
+          {
+            "out": 304,
+            "out_name": "O'Shea",
+            "in": 31,
+            "in_name": "Konsa"
+          }
+        ],
+        "projected_xi_with_captain": 75.192,
+        "gross_gain_vs_hold": 5.148,
+        "remaining_bank_proxy": 5,
+        "hit_cost": 0,
+        "net_gain_vs_hold": 5.148
+      },
+      {
+        "transfers": [
+          {
+            "out": 427,
+            "out_name": "Mbeumo",
+            "in": 13,
+            "in_name": "Rice"
+          },
+          {
+            "out": 592,
+            "out_name": "Ouattara",
+            "in": 31,
+            "in_name": "Konsa"
+          }
+        ],
+        "projected_xi_with_captain": 75.192,
+        "gross_gain_vs_hold": 5.148,
+        "remaining_bank_proxy": 5,
+        "hit_cost": 0,
+        "net_gain_vs_hold": 5.148
       }
     ]
   },

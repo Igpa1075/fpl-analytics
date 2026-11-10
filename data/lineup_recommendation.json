@@ -1,10 +1,10 @@
 {
   "target_gw": 11,
-  "forecast_captured_at_utc": "2026-11-09T12:19:30.558030+00:00",
-  "forecast_source": "data/contextual_forecasts/2026-11-09.json",
+  "forecast_captured_at_utc": "2026-11-10T04:17:59.747963+00:00",
+  "forecast_source": "data/contextual_forecasts/2026-11-10.json",
   "squad_source": "data/picks.json (latest publicly published GW; may be stale)",
   "squad_event": 10,
-  "expected_xi_points_with_captain": 72.392,
+  "expected_xi_points_with_captain": 70.044,
   "formation": {
     "defenders": 3,
     "midfielders": 5,
@@ -25,8 +25,8 @@
           "difficulty": 2
         }
       ],
-      "expected_points": 6.809,
-      "baseline_expected_points": 6.809,
+      "expected_points": 6.453,
+      "baseline_expected_points": 6.453,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -51,8 +51,8 @@
           "difficulty": 2
         }
       ],
-      "expected_points": 7.833,
-      "baseline_expected_points": 7.833,
+      "expected_points": 7.775,
+      "baseline_expected_points": 7.775,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -77,8 +77,8 @@
           "difficulty": 2
         }
       ],
-      "expected_points": 7.832,
-      "baseline_expected_points": 7.531,
+      "expected_points": 6.76,
+      "baseline_expected_points": 6.5,
       "context_factor": 1.04,
       "context_signals": [
         {
@@ -107,8 +107,8 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 4.953,
-      "baseline_expected_points": 5.106,
+      "expected_points": 4.589,
+      "baseline_expected_points": 4.731,
       "context_factor": 0.97,
       "context_signals": [
         {
@@ -133,8 +133,8 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 5.341,
-      "baseline_expected_points": 5.341,
+      "expected_points": 5.906,
+      "baseline_expected_points": 5.906,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -185,8 +185,8 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 4.437,
-      "baseline_expected_points": 4.308,
+      "expected_points": 4.484,
+      "baseline_expected_points": 4.353,
       "context_factor": 1.03,
       "context_signals": [
         {
@@ -215,8 +215,8 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 4.151,
-      "baseline_expected_points": 4.151,
+      "expected_points": 3.615,
+      "baseline_expected_points": 3.615,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -241,8 +241,8 @@
           "difficulty": 4
         }
       ],
-      "expected_points": 4.13,
-      "baseline_expected_points": 4.01,
+      "expected_points": 3.614,
+      "baseline_expected_points": 3.509,
       "context_factor": 1.03,
       "context_signals": [
         {
@@ -324,8 +324,8 @@
         "difficulty": 2
       }
     ],
-    "expected_points": 7.833,
-    "baseline_expected_points": 7.833,
+    "expected_points": 7.775,
+    "baseline_expected_points": 7.775,
     "context_factor": 1.0,
     "context_signals": [
       {
@@ -337,32 +337,28 @@
     ]
   },
   "vice_captain": {
-    "player_id": 115,
-    "name": "De Cuyper",
-    "team_id": 5,
-    "position_id": 2,
-    "price_tenths_million": 55,
+    "player_id": 411,
+    "name": "Haaland",
+    "team_id": 15,
+    "position_id": 4,
+    "price_tenths_million": 158,
     "availability": 1.0,
     "fixtures": [
       {
-        "opponent": 11,
-        "home": false,
+        "opponent": 10,
+        "home": true,
         "difficulty": 2
       }
     ],
-    "expected_points": 7.832,
-    "baseline_expected_points": 7.531,
-    "context_factor": 1.04,
+    "expected_points": 7.025,
+    "baseline_expected_points": 7.025,
+    "context_factor": 1.0,
     "context_signals": [
       {
         "kind": "verified_espn_starts",
         "starts": 5,
         "matches": 5,
         "factor": 1.0
-      },
-      {
-        "kind": "advanced_defender_slot_proxy",
-        "factor": 1.04
       }
     ]
   },
@@ -381,8 +377,8 @@
           "difficulty": 5
         }
       ],
-      "expected_points": 3.415,
-      "baseline_expected_points": 3.415,
+      "expected_points": 3.692,
+      "baseline_expected_points": 3.692,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -395,32 +391,6 @@
     }
   ],
   "bench_outfield_order": [
-    {
-      "player_id": 304,
-      "name": "O'Shea",
-      "team_id": 12,
-      "position_id": 2,
-      "price_tenths_million": 40,
-      "availability": 1.0,
-      "fixtures": [
-        {
-          "opponent": 19,
-          "home": false,
-          "difficulty": 3
-        }
-      ],
-      "expected_points": 3.24,
-      "baseline_expected_points": 3.24,
-      "context_factor": 1.0,
-      "context_signals": [
-        {
-          "kind": "verified_espn_starts",
-          "starts": 5,
-          "matches": 5,
-          "factor": 1.0
-        }
-      ]
-    },
     {
       "player_id": 592,
       "name": "Ouattara",
@@ -435,8 +405,8 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 3.185,
-      "baseline_expected_points": 3.185,
+      "expected_points": 2.688,
+      "baseline_expected_points": 2.688,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -470,6 +440,32 @@
           "starts": 3,
           "matches": 5,
           "factor": 0.94
+        }
+      ]
+    },
+    {
+      "player_id": 304,
+      "name": "O'Shea",
+      "team_id": 12,
+      "position_id": 2,
+      "price_tenths_million": 40,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 19,
+          "home": false,
+          "difficulty": 3
+        }
+      ],
+      "expected_points": 2.25,
+      "baseline_expected_points": 2.25,
+      "context_factor": 1.0,
+      "context_signals": [
+        {
+          "kind": "verified_espn_starts",
+          "starts": 5,
+          "matches": 5,
+          "factor": 1.0
         }
       ]
     }

@@ -1,10 +1,10 @@
 {
   "target_gw": 11,
   "last_gw": 15,
-  "captured_at_utc": "2026-11-09T04:34:34.719402+00:00",
-  "forecast_source": "data/contextual_forecasts/2026-11-09.json",
-  "snapshot_source": "data/snapshots/2026-11-09.json",
-  "hold_five_gw_expected_points": 349.45,
+  "captured_at_utc": "2026-11-10T04:17:59.134980+00:00",
+  "forecast_source": "data/contextual_forecasts/2026-11-10.json",
+  "snapshot_source": "data/snapshots/2026-11-10.json",
+  "hold_five_gw_expected_points": 337.904,
   "verified_private_inputs_used": true,
   "user_confirmed_bank_and_free_transfers": true,
   "ranked_scenarios": [
@@ -28,30 +28,30 @@
       "weekly": [
         {
           "gw": 11,
-          "expected_xi_with_captain": 76.699
+          "expected_xi_with_captain": 76.301
         },
         {
           "gw": 12,
-          "expected_xi_with_captain": 72.555
+          "expected_xi_with_captain": 72.167
         },
         {
           "gw": 13,
-          "expected_xi_with_captain": 71.364
+          "expected_xi_with_captain": 71.669
         },
         {
           "gw": 14,
-          "expected_xi_with_captain": 76.322
+          "expected_xi_with_captain": 75.816
         },
         {
           "gw": 15,
-          "expected_xi_with_captain": 72.546
+          "expected_xi_with_captain": 72.131
         }
       ],
-      "five_gw_gross_points": 369.486,
-      "gross_gain_vs_hold": 20.036,
+      "five_gw_gross_points": 368.084,
+      "gross_gain_vs_hold": 30.18,
       "hit_cost": 0,
-      "net_gain_vs_hold": 20.036,
-      "net_gain_if_all_transfers_cost_4": 12.036
+      "net_gain_vs_hold": 30.18,
+      "net_gain_if_all_transfers_cost_4": 22.18
     },
     {
       "transfer_count": 2,
@@ -73,120 +73,30 @@
       "weekly": [
         {
           "gw": 11,
-          "expected_xi_with_captain": 76.699
+          "expected_xi_with_captain": 76.301
         },
         {
           "gw": 12,
-          "expected_xi_with_captain": 72.555
+          "expected_xi_with_captain": 72.167
         },
         {
           "gw": 13,
-          "expected_xi_with_captain": 71.364
+          "expected_xi_with_captain": 71.669
         },
         {
           "gw": 14,
-          "expected_xi_with_captain": 76.322
+          "expected_xi_with_captain": 75.816
         },
         {
           "gw": 15,
-          "expected_xi_with_captain": 72.546
+          "expected_xi_with_captain": 72.131
         }
       ],
-      "five_gw_gross_points": 369.486,
-      "gross_gain_vs_hold": 20.036,
+      "five_gw_gross_points": 368.084,
+      "gross_gain_vs_hold": 30.18,
       "hit_cost": 0,
-      "net_gain_vs_hold": 20.036,
-      "net_gain_if_all_transfers_cost_4": 12.036
-    },
-    {
-      "transfer_count": 2,
-      "transfers": [
-        {
-          "out": 154,
-          "out_name": "Palmer",
-          "in": 13,
-          "in_name": "Rice"
-        },
-        {
-          "out": 304,
-          "out_name": "O'Shea",
-          "in": 31,
-          "in_name": "Konsa"
-        }
-      ],
-      "remaining_bank_proxy": 24,
-      "weekly": [
-        {
-          "gw": 11,
-          "expected_xi_with_captain": 76.052
-        },
-        {
-          "gw": 12,
-          "expected_xi_with_captain": 71.249
-        },
-        {
-          "gw": 13,
-          "expected_xi_with_captain": 69.545
-        },
-        {
-          "gw": 14,
-          "expected_xi_with_captain": 76.735
-        },
-        {
-          "gw": 15,
-          "expected_xi_with_captain": 72.323
-        }
-      ],
-      "five_gw_gross_points": 365.904,
-      "gross_gain_vs_hold": 16.454,
-      "hit_cost": 0,
-      "net_gain_vs_hold": 16.454,
-      "net_gain_if_all_transfers_cost_4": 8.454
-    },
-    {
-      "transfer_count": 2,
-      "transfers": [
-        {
-          "out": 154,
-          "out_name": "Palmer",
-          "in": 13,
-          "in_name": "Rice"
-        },
-        {
-          "out": 592,
-          "out_name": "Ouattara",
-          "in": 31,
-          "in_name": "Konsa"
-        }
-      ],
-      "remaining_bank_proxy": 24,
-      "weekly": [
-        {
-          "gw": 11,
-          "expected_xi_with_captain": 76.052
-        },
-        {
-          "gw": 12,
-          "expected_xi_with_captain": 71.249
-        },
-        {
-          "gw": 13,
-          "expected_xi_with_captain": 69.545
-        },
-        {
-          "gw": 14,
-          "expected_xi_with_captain": 76.735
-        },
-        {
-          "gw": 15,
-          "expected_xi_with_captain": 72.323
-        }
-      ],
-      "five_gw_gross_points": 365.904,
-      "gross_gain_vs_hold": 16.454,
-      "hit_cost": 0,
-      "net_gain_vs_hold": 16.454,
-      "net_gain_if_all_transfers_cost_4": 8.454
+      "net_gain_vs_hold": 30.18,
+      "net_gain_if_all_transfers_cost_4": 22.18
     },
     {
       "transfer_count": 2,
@@ -208,30 +118,30 @@
       "weekly": [
         {
           "gw": 11,
-          "expected_xi_with_captain": 75.831
+          "expected_xi_with_captain": 75.545
         },
         {
           "gw": 12,
-          "expected_xi_with_captain": 71.448
+          "expected_xi_with_captain": 71.266
         },
         {
           "gw": 13,
-          "expected_xi_with_captain": 69.341
+          "expected_xi_with_captain": 69.224
         },
         {
           "gw": 14,
-          "expected_xi_with_captain": 76.514
+          "expected_xi_with_captain": 75.62
         },
         {
           "gw": 15,
-          "expected_xi_with_captain": 72.102
+          "expected_xi_with_captain": 71.223
         }
       ],
-      "five_gw_gross_points": 365.236,
-      "gross_gain_vs_hold": 15.786,
+      "five_gw_gross_points": 362.878,
+      "gross_gain_vs_hold": 24.974,
       "hit_cost": 0,
-      "net_gain_vs_hold": 15.786,
-      "net_gain_if_all_transfers_cost_4": 7.786
+      "net_gain_vs_hold": 24.974,
+      "net_gain_if_all_transfers_cost_4": 16.974
     },
     {
       "transfer_count": 2,
@@ -253,120 +163,30 @@
       "weekly": [
         {
           "gw": 11,
-          "expected_xi_with_captain": 75.831
+          "expected_xi_with_captain": 75.545
         },
         {
           "gw": 12,
-          "expected_xi_with_captain": 71.448
+          "expected_xi_with_captain": 71.266
         },
         {
           "gw": 13,
-          "expected_xi_with_captain": 69.341
+          "expected_xi_with_captain": 69.224
         },
         {
           "gw": 14,
-          "expected_xi_with_captain": 76.514
+          "expected_xi_with_captain": 75.62
         },
         {
           "gw": 15,
-          "expected_xi_with_captain": 72.102
+          "expected_xi_with_captain": 71.223
         }
       ],
-      "five_gw_gross_points": 365.236,
-      "gross_gain_vs_hold": 15.786,
+      "five_gw_gross_points": 362.878,
+      "gross_gain_vs_hold": 24.974,
       "hit_cost": 0,
-      "net_gain_vs_hold": 15.786,
-      "net_gain_if_all_transfers_cost_4": 7.786
-    },
-    {
-      "transfer_count": 2,
-      "transfers": [
-        {
-          "out": 427,
-          "out_name": "Mbeumo",
-          "in": 13,
-          "in_name": "Rice"
-        },
-        {
-          "out": 304,
-          "out_name": "O'Shea",
-          "in": 31,
-          "in_name": "Konsa"
-        }
-      ],
-      "remaining_bank_proxy": 5,
-      "weekly": [
-        {
-          "gw": 11,
-          "expected_xi_with_captain": 76.052
-        },
-        {
-          "gw": 12,
-          "expected_xi_with_captain": 71.249
-        },
-        {
-          "gw": 13,
-          "expected_xi_with_captain": 69.545
-        },
-        {
-          "gw": 14,
-          "expected_xi_with_captain": 75.969
-        },
-        {
-          "gw": 15,
-          "expected_xi_with_captain": 71.202
-        }
-      ],
-      "five_gw_gross_points": 364.017,
-      "gross_gain_vs_hold": 14.567,
-      "hit_cost": 0,
-      "net_gain_vs_hold": 14.567,
-      "net_gain_if_all_transfers_cost_4": 6.567
-    },
-    {
-      "transfer_count": 2,
-      "transfers": [
-        {
-          "out": 427,
-          "out_name": "Mbeumo",
-          "in": 13,
-          "in_name": "Rice"
-        },
-        {
-          "out": 592,
-          "out_name": "Ouattara",
-          "in": 31,
-          "in_name": "Konsa"
-        }
-      ],
-      "remaining_bank_proxy": 5,
-      "weekly": [
-        {
-          "gw": 11,
-          "expected_xi_with_captain": 76.052
-        },
-        {
-          "gw": 12,
-          "expected_xi_with_captain": 71.249
-        },
-        {
-          "gw": 13,
-          "expected_xi_with_captain": 69.545
-        },
-        {
-          "gw": 14,
-          "expected_xi_with_captain": 75.969
-        },
-        {
-          "gw": 15,
-          "expected_xi_with_captain": 71.202
-        }
-      ],
-      "five_gw_gross_points": 364.017,
-      "gross_gain_vs_hold": 14.567,
-      "hit_cost": 0,
-      "net_gain_vs_hold": 14.567,
-      "net_gain_if_all_transfers_cost_4": 6.567
+      "net_gain_vs_hold": 24.974,
+      "net_gain_if_all_transfers_cost_4": 16.974
     },
     {
       "transfer_count": 2,
@@ -388,30 +208,30 @@
       "weekly": [
         {
           "gw": 11,
-          "expected_xi_with_captain": 75.831
+          "expected_xi_with_captain": 75.545
         },
         {
           "gw": 12,
-          "expected_xi_with_captain": 71.448
+          "expected_xi_with_captain": 71.266
         },
         {
           "gw": 13,
-          "expected_xi_with_captain": 69.341
+          "expected_xi_with_captain": 69.224
         },
         {
           "gw": 14,
-          "expected_xi_with_captain": 75.748
+          "expected_xi_with_captain": 75.503
         },
         {
           "gw": 15,
-          "expected_xi_with_captain": 70.981
+          "expected_xi_with_captain": 70.747
         }
       ],
-      "five_gw_gross_points": 363.349,
-      "gross_gain_vs_hold": 13.899,
+      "five_gw_gross_points": 362.285,
+      "gross_gain_vs_hold": 24.381,
       "hit_cost": 0,
-      "net_gain_vs_hold": 13.899,
-      "net_gain_if_all_transfers_cost_4": 5.899
+      "net_gain_vs_hold": 24.381,
+      "net_gain_if_all_transfers_cost_4": 16.381
     },
     {
       "transfer_count": 2,
@@ -433,30 +253,210 @@
       "weekly": [
         {
           "gw": 11,
-          "expected_xi_with_captain": 75.831
+          "expected_xi_with_captain": 75.545
         },
         {
           "gw": 12,
-          "expected_xi_with_captain": 71.448
+          "expected_xi_with_captain": 71.266
         },
         {
           "gw": 13,
-          "expected_xi_with_captain": 69.341
+          "expected_xi_with_captain": 69.224
         },
         {
           "gw": 14,
-          "expected_xi_with_captain": 75.748
+          "expected_xi_with_captain": 75.503
         },
         {
           "gw": 15,
-          "expected_xi_with_captain": 70.981
+          "expected_xi_with_captain": 70.747
         }
       ],
-      "five_gw_gross_points": 363.349,
-      "gross_gain_vs_hold": 13.899,
+      "five_gw_gross_points": 362.285,
+      "gross_gain_vs_hold": 24.381,
       "hit_cost": 0,
-      "net_gain_vs_hold": 13.899,
-      "net_gain_if_all_transfers_cost_4": 5.899
+      "net_gain_vs_hold": 24.381,
+      "net_gain_if_all_transfers_cost_4": 16.381
+    },
+    {
+      "transfer_count": 2,
+      "transfers": [
+        {
+          "out": 154,
+          "out_name": "Palmer",
+          "in": 13,
+          "in_name": "Rice"
+        },
+        {
+          "out": 304,
+          "out_name": "O'Shea",
+          "in": 31,
+          "in_name": "Konsa"
+        }
+      ],
+      "remaining_bank_proxy": 24,
+      "weekly": [
+        {
+          "gw": 11,
+          "expected_xi_with_captain": 75.192
+        },
+        {
+          "gw": 12,
+          "expected_xi_with_captain": 70.502
+        },
+        {
+          "gw": 13,
+          "expected_xi_with_captain": 68.899
+        },
+        {
+          "gw": 14,
+          "expected_xi_with_captain": 75.267
+        },
+        {
+          "gw": 15,
+          "expected_xi_with_captain": 70.87
+        }
+      ],
+      "five_gw_gross_points": 360.73,
+      "gross_gain_vs_hold": 22.826,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 22.826,
+      "net_gain_if_all_transfers_cost_4": 14.826
+    },
+    {
+      "transfer_count": 2,
+      "transfers": [
+        {
+          "out": 154,
+          "out_name": "Palmer",
+          "in": 13,
+          "in_name": "Rice"
+        },
+        {
+          "out": 592,
+          "out_name": "Ouattara",
+          "in": 31,
+          "in_name": "Konsa"
+        }
+      ],
+      "remaining_bank_proxy": 24,
+      "weekly": [
+        {
+          "gw": 11,
+          "expected_xi_with_captain": 75.192
+        },
+        {
+          "gw": 12,
+          "expected_xi_with_captain": 70.502
+        },
+        {
+          "gw": 13,
+          "expected_xi_with_captain": 68.899
+        },
+        {
+          "gw": 14,
+          "expected_xi_with_captain": 75.267
+        },
+        {
+          "gw": 15,
+          "expected_xi_with_captain": 70.87
+        }
+      ],
+      "five_gw_gross_points": 360.73,
+      "gross_gain_vs_hold": 22.826,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 22.826,
+      "net_gain_if_all_transfers_cost_4": 14.826
+    },
+    {
+      "transfer_count": 2,
+      "transfers": [
+        {
+          "out": 427,
+          "out_name": "Mbeumo",
+          "in": 13,
+          "in_name": "Rice"
+        },
+        {
+          "out": 304,
+          "out_name": "O'Shea",
+          "in": 31,
+          "in_name": "Konsa"
+        }
+      ],
+      "remaining_bank_proxy": 5,
+      "weekly": [
+        {
+          "gw": 11,
+          "expected_xi_with_captain": 75.192
+        },
+        {
+          "gw": 12,
+          "expected_xi_with_captain": 70.502
+        },
+        {
+          "gw": 13,
+          "expected_xi_with_captain": 68.899
+        },
+        {
+          "gw": 14,
+          "expected_xi_with_captain": 75.15
+        },
+        {
+          "gw": 15,
+          "expected_xi_with_captain": 70.394
+        }
+      ],
+      "five_gw_gross_points": 360.137,
+      "gross_gain_vs_hold": 22.233,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 22.233,
+      "net_gain_if_all_transfers_cost_4": 14.233
+    },
+    {
+      "transfer_count": 2,
+      "transfers": [
+        {
+          "out": 427,
+          "out_name": "Mbeumo",
+          "in": 13,
+          "in_name": "Rice"
+        },
+        {
+          "out": 592,
+          "out_name": "Ouattara",
+          "in": 31,
+          "in_name": "Konsa"
+        }
+      ],
+      "remaining_bank_proxy": 5,
+      "weekly": [
+        {
+          "gw": 11,
+          "expected_xi_with_captain": 75.192
+        },
+        {
+          "gw": 12,
+          "expected_xi_with_captain": 70.502
+        },
+        {
+          "gw": 13,
+          "expected_xi_with_captain": 68.899
+        },
+        {
+          "gw": 14,
+          "expected_xi_with_captain": 75.15
+        },
+        {
+          "gw": 15,
+          "expected_xi_with_captain": 70.394
+        }
+      ],
+      "five_gw_gross_points": 360.137,
+      "gross_gain_vs_hold": 22.233,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 22.233,
+      "net_gain_if_all_transfers_cost_4": 14.233
     },
     {
       "transfer_count": 1,
@@ -472,30 +472,30 @@
       "weekly": [
         {
           "gw": 11,
-          "expected_xi_with_captain": 74.961
+          "expected_xi_with_captain": 73.665
         },
         {
           "gw": 12,
-          "expected_xi_with_captain": 70.916
+          "expected_xi_with_captain": 69.7
         },
         {
           "gw": 13,
-          "expected_xi_with_captain": 69.211
+          "expected_xi_with_captain": 68.097
         },
         {
           "gw": 14,
-          "expected_xi_with_captain": 75.575
+          "expected_xi_with_captain": 74.251
         },
         {
           "gw": 15,
-          "expected_xi_with_captain": 70.808
+          "expected_xi_with_captain": 69.495
         }
       ],
-      "five_gw_gross_points": 361.471,
-      "gross_gain_vs_hold": 12.021,
+      "five_gw_gross_points": 355.208,
+      "gross_gain_vs_hold": 17.304,
       "hit_cost": 0,
-      "net_gain_vs_hold": 12.021,
-      "net_gain_if_all_transfers_cost_4": 8.021
+      "net_gain_vs_hold": 17.304,
+      "net_gain_if_all_transfers_cost_4": 13.304
     },
     {
       "transfer_count": 1,
@@ -511,108 +511,30 @@
       "weekly": [
         {
           "gw": 11,
-          "expected_xi_with_captain": 74.961
+          "expected_xi_with_captain": 73.665
         },
         {
           "gw": 12,
-          "expected_xi_with_captain": 70.916
+          "expected_xi_with_captain": 69.7
         },
         {
           "gw": 13,
-          "expected_xi_with_captain": 69.211
+          "expected_xi_with_captain": 68.097
         },
         {
           "gw": 14,
-          "expected_xi_with_captain": 75.575
+          "expected_xi_with_captain": 74.251
         },
         {
           "gw": 15,
-          "expected_xi_with_captain": 70.808
+          "expected_xi_with_captain": 69.495
         }
       ],
-      "five_gw_gross_points": 361.471,
-      "gross_gain_vs_hold": 12.021,
+      "five_gw_gross_points": 355.208,
+      "gross_gain_vs_hold": 17.304,
       "hit_cost": 0,
-      "net_gain_vs_hold": 12.021,
-      "net_gain_if_all_transfers_cost_4": 8.021
-    },
-    {
-      "transfer_count": 1,
-      "transfers": [
-        {
-          "out": 599,
-          "out_name": "Cherif",
-          "in": 249,
-          "in_name": "Barry"
-        }
-      ],
-      "remaining_bank_proxy": 2,
-      "weekly": [
-        {
-          "gw": 11,
-          "expected_xi_with_captain": 73.864
-        },
-        {
-          "gw": 12,
-          "expected_xi_with_captain": 70.355
-        },
-        {
-          "gw": 13,
-          "expected_xi_with_captain": 69.137
-        },
-        {
-          "gw": 14,
-          "expected_xi_with_captain": 75.452
-        },
-        {
-          "gw": 15,
-          "expected_xi_with_captain": 69.711
-        }
-      ],
-      "five_gw_gross_points": 358.519,
-      "gross_gain_vs_hold": 9.069,
-      "hit_cost": 0,
-      "net_gain_vs_hold": 9.069,
-      "net_gain_if_all_transfers_cost_4": 5.069
-    },
-    {
-      "transfer_count": 1,
-      "transfers": [
-        {
-          "out": 8,
-          "out_name": "Calafiori",
-          "in": 31,
-          "in_name": "Konsa"
-        }
-      ],
-      "remaining_bank_proxy": 20,
-      "weekly": [
-        {
-          "gw": 11,
-          "expected_xi_with_captain": 74.138
-        },
-        {
-          "gw": 12,
-          "expected_xi_with_captain": 70.842
-        },
-        {
-          "gw": 13,
-          "expected_xi_with_captain": 69.138
-        },
-        {
-          "gw": 14,
-          "expected_xi_with_captain": 74.441
-        },
-        {
-          "gw": 15,
-          "expected_xi_with_captain": 69.342
-        }
-      ],
-      "five_gw_gross_points": 357.901,
-      "gross_gain_vs_hold": 8.451,
-      "hit_cost": 0,
-      "net_gain_vs_hold": 8.451,
-      "net_gain_if_all_transfers_cost_4": 4.451
+      "net_gain_vs_hold": 17.304,
+      "net_gain_if_all_transfers_cost_4": 13.304
     },
     {
       "transfer_count": 1,
@@ -628,69 +550,108 @@
       "weekly": [
         {
           "gw": 11,
-          "expected_xi_with_captain": 74.13
+          "expected_xi_with_captain": 72.68
         },
         {
           "gw": 12,
-          "expected_xi_with_captain": 70.875
+          "expected_xi_with_captain": 69.415
         },
         {
           "gw": 13,
-          "expected_xi_with_captain": 69.684
+          "expected_xi_with_captain": 68.917
         },
         {
           "gw": 14,
-          "expected_xi_with_captain": 73.441
+          "expected_xi_with_captain": 71.907
         },
         {
           "gw": 15,
-          "expected_xi_with_captain": 69.334
+          "expected_xi_with_captain": 67.922
         }
       ],
-      "five_gw_gross_points": 357.464,
-      "gross_gain_vs_hold": 8.014,
+      "five_gw_gross_points": 350.841,
+      "gross_gain_vs_hold": 12.937,
       "hit_cost": 0,
-      "net_gain_vs_hold": 8.014,
-      "net_gain_if_all_transfers_cost_4": 4.014
+      "net_gain_vs_hold": 12.937,
+      "net_gain_if_all_transfers_cost_4": 8.937
     },
     {
       "transfer_count": 1,
       "transfers": [
         {
-          "out": 154,
-          "out_name": "Palmer",
-          "in": 13,
-          "in_name": "Rice"
+          "out": 8,
+          "out_name": "Calafiori",
+          "in": 31,
+          "in_name": "Konsa"
         }
       ],
-      "remaining_bank_proxy": 32,
+      "remaining_bank_proxy": 20,
       "weekly": [
         {
           "gw": 11,
-          "expected_xi_with_captain": 73.483
+          "expected_xi_with_captain": 72.69
         },
         {
           "gw": 12,
-          "expected_xi_with_captain": 69.575
+          "expected_xi_with_captain": 69.382
         },
         {
           "gw": 13,
-          "expected_xi_with_captain": 67.871
+          "expected_xi_with_captain": 67.779
         },
         {
           "gw": 14,
-          "expected_xi_with_captain": 74.118
+          "expected_xi_with_captain": 72.987
         },
         {
           "gw": 15,
-          "expected_xi_with_captain": 69.351
+          "expected_xi_with_captain": 67.942
         }
       ],
-      "five_gw_gross_points": 354.398,
-      "gross_gain_vs_hold": 4.948,
+      "five_gw_gross_points": 350.78,
+      "gross_gain_vs_hold": 12.876,
       "hit_cost": 0,
-      "net_gain_vs_hold": 4.948,
-      "net_gain_if_all_transfers_cost_4": 0.948
+      "net_gain_vs_hold": 12.876,
+      "net_gain_if_all_transfers_cost_4": 8.876
+    },
+    {
+      "transfer_count": 1,
+      "transfers": [
+        {
+          "out": 599,
+          "out_name": "Cherif",
+          "in": 249,
+          "in_name": "Barry"
+        }
+      ],
+      "remaining_bank_proxy": 2,
+      "weekly": [
+        {
+          "gw": 11,
+          "expected_xi_with_captain": 72.032
+        },
+        {
+          "gw": 12,
+          "expected_xi_with_captain": 68.645
+        },
+        {
+          "gw": 13,
+          "expected_xi_with_captain": 67.497
+        },
+        {
+          "gw": 14,
+          "expected_xi_with_captain": 73.592
+        },
+        {
+          "gw": 15,
+          "expected_xi_with_captain": 67.826
+        }
+      ],
+      "five_gw_gross_points": 349.592,
+      "gross_gain_vs_hold": 11.688,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 11.688,
+      "net_gain_if_all_transfers_cost_4": 7.688
     },
     {
       "transfer_count": 1,
@@ -706,69 +667,108 @@
       "weekly": [
         {
           "gw": 11,
-          "expected_xi_with_captain": 73.262
+          "expected_xi_with_captain": 71.924
         },
         {
           "gw": 12,
-          "expected_xi_with_captain": 69.774
+          "expected_xi_with_captain": 68.538
         },
         {
           "gw": 13,
-          "expected_xi_with_captain": 67.668
+          "expected_xi_with_captain": 66.463
         },
         {
           "gw": 14,
-          "expected_xi_with_captain": 73.897
+          "expected_xi_with_captain": 72.511
         },
         {
           "gw": 15,
-          "expected_xi_with_captain": 69.13
+          "expected_xi_with_captain": 67.719
         }
       ],
-      "five_gw_gross_points": 353.731,
-      "gross_gain_vs_hold": 4.281,
+      "five_gw_gross_points": 347.155,
+      "gross_gain_vs_hold": 9.251,
       "hit_cost": 0,
-      "net_gain_vs_hold": 4.281,
-      "net_gain_if_all_transfers_cost_4": 0.281
+      "net_gain_vs_hold": 9.251,
+      "net_gain_if_all_transfers_cost_4": 5.251
     },
     {
       "transfer_count": 1,
       "transfers": [
         {
-          "out": 427,
-          "out_name": "Mbeumo",
+          "out": 8,
+          "out_name": "Calafiori",
+          "in": 334,
+          "in_name": "Muharemović"
+        }
+      ],
+      "remaining_bank_proxy": 17,
+      "weekly": [
+        {
+          "gw": 11,
+          "expected_xi_with_captain": 71.214
+        },
+        {
+          "gw": 12,
+          "expected_xi_with_captain": 69.486
+        },
+        {
+          "gw": 13,
+          "expected_xi_with_captain": 66.348
+        },
+        {
+          "gw": 14,
+          "expected_xi_with_captain": 72.513
+        },
+        {
+          "gw": 15,
+          "expected_xi_with_captain": 66.43
+        }
+      ],
+      "five_gw_gross_points": 345.991,
+      "gross_gain_vs_hold": 8.087,
+      "hit_cost": 0,
+      "net_gain_vs_hold": 8.087,
+      "net_gain_if_all_transfers_cost_4": 4.087
+    },
+    {
+      "transfer_count": 1,
+      "transfers": [
+        {
+          "out": 154,
+          "out_name": "Palmer",
           "in": 13,
           "in_name": "Rice"
         }
       ],
-      "remaining_bank_proxy": 13,
+      "remaining_bank_proxy": 32,
       "weekly": [
         {
           "gw": 11,
-          "expected_xi_with_captain": 73.504
+          "expected_xi_with_captain": 71.571
         },
         {
           "gw": 12,
-          "expected_xi_with_captain": 69.569
+          "expected_xi_with_captain": 67.774
         },
         {
           "gw": 13,
-          "expected_xi_with_captain": 67.865
+          "expected_xi_with_captain": 66.138
         },
         {
           "gw": 14,
-          "expected_xi_with_captain": 73.088
+          "expected_xi_with_captain": 72.158
         },
         {
           "gw": 15,
-          "expected_xi_with_captain": 67.99
+          "expected_xi_with_captain": 67.366
         }
       ],
-      "five_gw_gross_points": 352.016,
-      "gross_gain_vs_hold": 2.566,
+      "five_gw_gross_points": 345.007,
+      "gross_gain_vs_hold": 7.103,
       "hit_cost": 0,
-      "net_gain_vs_hold": 2.566,
-      "net_gain_if_all_transfers_cost_4": -1.434
+      "net_gain_vs_hold": 7.103,
+      "net_gain_if_all_transfers_cost_4": 3.103
     },
     {
       "transfer_count": 1,
@@ -784,30 +784,30 @@
       "weekly": [
         {
           "gw": 11,
-          "expected_xi_with_captain": 73.283
+          "expected_xi_with_captain": 71.925
         },
         {
           "gw": 12,
-          "expected_xi_with_captain": 69.768
+          "expected_xi_with_captain": 68.514
         },
         {
           "gw": 13,
-          "expected_xi_with_captain": 67.662
+          "expected_xi_with_captain": 66.439
         },
         {
           "gw": 14,
-          "expected_xi_with_captain": 72.867
+          "expected_xi_with_captain": 71.594
         },
         {
           "gw": 15,
-          "expected_xi_with_captain": 67.769
+          "expected_xi_with_captain": 66.513
         }
       ],
-      "five_gw_gross_points": 351.349,
-      "gross_gain_vs_hold": 1.899,
+      "five_gw_gross_points": 344.985,
+      "gross_gain_vs_hold": 7.081,
       "hit_cost": 0,
-      "net_gain_vs_hold": 1.899,
-      "net_gain_if_all_transfers_cost_4": -2.101
+      "net_gain_vs_hold": 7.081,
+      "net_gain_if_all_transfers_cost_4": 3.081
     },
     {
       "transfer_count": 1,
@@ -815,38 +815,38 @@
         {
           "out": 427,
           "out_name": "Mbeumo",
-          "in": 45,
-          "in_name": "McGinn"
+          "in": 13,
+          "in_name": "Rice"
         }
       ],
-      "remaining_bank_proxy": 34,
+      "remaining_bank_proxy": 13,
       "weekly": [
         {
           "gw": 11,
-          "expected_xi_with_captain": 73.07
+          "expected_xi_with_captain": 71.572
         },
         {
           "gw": 12,
-          "expected_xi_with_captain": 69.555
+          "expected_xi_with_captain": 67.75
         },
         {
           "gw": 13,
-          "expected_xi_with_captain": 67.494
+          "expected_xi_with_captain": 66.114
         },
         {
           "gw": 14,
-          "expected_xi_with_captain": 72.654
+          "expected_xi_with_captain": 71.241
         },
         {
           "gw": 15,
-          "expected_xi_with_captain": 67.556
+          "expected_xi_with_captain": 66.16
         }
       ],
-      "five_gw_gross_points": 350.329,
-      "gross_gain_vs_hold": 0.879,
+      "five_gw_gross_points": 342.837,
+      "gross_gain_vs_hold": 4.933,
       "hit_cost": 0,
-      "net_gain_vs_hold": 0.879,
-      "net_gain_if_all_transfers_cost_4": -3.121
+      "net_gain_vs_hold": 4.933,
+      "net_gain_if_all_transfers_cost_4": 0.933
     },
     {
       "transfer_count": 0,
@@ -855,26 +855,26 @@
       "weekly": [
         {
           "gw": 11,
-          "expected_xi_with_captain": 72.392
+          "expected_xi_with_captain": 70.044
         },
         {
           "gw": 12,
-          "expected_xi_with_captain": 69.236
+          "expected_xi_with_captain": 66.947
         },
         {
           "gw": 13,
-          "expected_xi_with_captain": 67.531
+          "expected_xi_with_captain": 65.312
         },
         {
           "gw": 14,
-          "expected_xi_with_captain": 72.695
+          "expected_xi_with_captain": 70.341
         },
         {
           "gw": 15,
-          "expected_xi_with_captain": 67.596
+          "expected_xi_with_captain": 65.26
         }
       ],
-      "five_gw_gross_points": 349.45,
+      "five_gw_gross_points": 337.904,
       "gross_gain_vs_hold": 0.0,
       "hit_cost": 0,
       "net_gain_vs_hold": 0.0,
