@@ -1,0 +1,309 @@
+{
+  "status": "frozen_exploratory_joint_scenarios_not_trade_verified",
+  "created_at_utc": "2026-11-10T04:49:17.459658+00:00",
+  "deadline_utc": "2026-11-21T11:00:00+00:00",
+  "gw": 11,
+  "source_squad_gw": 10,
+  "bank_tenths": 9,
+  "no_transfer": {
+    "xi": [
+      109,
+      504,
+      115,
+      8,
+      68,
+      236,
+      166,
+      411,
+      592,
+      154,
+      156
+    ],
+    "captain": 115,
+    "vice": 411,
+    "one_gw_proxy": 61.667,
+    "three_gw_static_proxy": 185.0
+  },
+  "top_transfer_scenarios": [
+    {
+      "out": 304,
+      "in": 31,
+      "proxy_sale_tenths": 40,
+      "current_buy_tenths": 48,
+      "bank_after_proxy_tenths": 1,
+      "delta_three_gw_static_proxy": 25.0,
+      "lineup": {
+        "xi": [
+          109,
+          31,
+          504,
+          115,
+          68,
+          236,
+          166,
+          8,
+          411,
+          592,
+          154
+        ],
+        "captain": 115,
+        "vice": 411,
+        "one_gw_proxy": 70.0,
+        "three_gw_static_proxy": 210.0
+      }
+    },
+    {
+      "out": 592,
+      "in": 31,
+      "proxy_sale_tenths": 40,
+      "current_buy_tenths": 48,
+      "bank_after_proxy_tenths": 1,
+      "delta_three_gw_static_proxy": 22.0,
+      "lineup": {
+        "xi": [
+          109,
+          31,
+          504,
+          115,
+          68,
+          236,
+          166,
+          8,
+          411,
+          154,
+          156
+        ],
+        "captain": 115,
+        "vice": 411,
+        "one_gw_proxy": 69.0,
+        "three_gw_static_proxy": 207.0
+      }
+    },
+    {
+      "out": 599,
+      "in": 249,
+      "proxy_sale_tenths": 50,
+      "current_buy_tenths": 57,
+      "bank_after_proxy_tenths": 2,
+      "delta_three_gw_static_proxy": 20.0,
+      "lineup": {
+        "xi": [
+          109,
+          504,
+          115,
+          8,
+          68,
+          236,
+          166,
+          249,
+          411,
+          592,
+          154
+        ],
+        "captain": 115,
+        "vice": 411,
+        "one_gw_proxy": 68.333,
+        "three_gw_static_proxy": 205.0
+      }
+    },
+    {
+      "out": 8,
+      "in": 31,
+      "proxy_sale_tenths": 59,
+      "current_buy_tenths": 48,
+      "bank_after_proxy_tenths": 20,
+      "delta_three_gw_static_proxy": 19.0,
+      "lineup": {
+        "xi": [
+          109,
+          31,
+          504,
+          115,
+          68,
+          236,
+          166,
+          411,
+          592,
+          154,
+          156
+        ],
+        "captain": 115,
+        "vice": 411,
+        "one_gw_proxy": 68.0,
+        "three_gw_static_proxy": 204.0
+      }
+    },
+    {
+      "out": 411,
+      "in": 249,
+      "proxy_sale_tenths": 158,
+      "current_buy_tenths": 57,
+      "bank_after_proxy_tenths": 110,
+      "delta_three_gw_static_proxy": 15.0,
+      "lineup": {
+        "xi": [
+          109,
+          504,
+          115,
+          8,
+          68,
+          236,
+          166,
+          249,
+          592,
+          154,
+          156
+        ],
+        "captain": 115,
+        "vice": 504,
+        "one_gw_proxy": 66.667,
+        "three_gw_static_proxy": 200.0
+      }
+    },
+    {
+      "out": 599,
+      "in": 295,
+      "proxy_sale_tenths": 50,
+      "current_buy_tenths": 55,
+      "bank_after_proxy_tenths": 4,
+      "delta_three_gw_static_proxy": 15.0,
+      "lineup": {
+        "xi": [
+          109,
+          504,
+          115,
+          8,
+          68,
+          236,
+          166,
+          295,
+          411,
+          592,
+          154
+        ],
+        "captain": 115,
+        "vice": 411,
+        "one_gw_proxy": 66.667,
+        "three_gw_static_proxy": 200.0
+      }
+    },
+    {
+      "out": 156,
+      "in": 542,
+      "proxy_sale_tenths": 66,
+      "current_buy_tenths": 57,
+      "bank_after_proxy_tenths": 18,
+      "delta_three_gw_static_proxy": 15.0,
+      "lineup": {
+        "xi": [
+          109,
+          504,
+          115,
+          8,
+          542,
+          68,
+          166,
+          236,
+          411,
+          592,
+          154
+        ],
+        "captain": 115,
+        "vice": 411,
+        "one_gw_proxy": 66.667,
+        "three_gw_static_proxy": 200.0
+      }
+    },
+    {
+      "out": 427,
+      "in": 542,
+      "proxy_sale_tenths": 79,
+      "current_buy_tenths": 57,
+      "bank_after_proxy_tenths": 31,
+      "delta_three_gw_static_proxy": 15.0,
+      "lineup": {
+        "xi": [
+          109,
+          504,
+          115,
+          8,
+          542,
+          68,
+          166,
+          236,
+          411,
+          592,
+          154
+        ],
+        "captain": 115,
+        "vice": 411,
+        "one_gw_proxy": 66.667,
+        "three_gw_static_proxy": 200.0
+      }
+    },
+    {
+      "out": 156,
+      "in": 366,
+      "proxy_sale_tenths": 66,
+      "current_buy_tenths": 72,
+      "bank_after_proxy_tenths": 3,
+      "delta_three_gw_static_proxy": 14.0,
+      "lineup": {
+        "xi": [
+          109,
+          504,
+          115,
+          8,
+          366,
+          68,
+          166,
+          236,
+          411,
+          592,
+          154
+        ],
+        "captain": 115,
+        "vice": 411,
+        "one_gw_proxy": 66.333,
+        "three_gw_static_proxy": 199.0
+      }
+    },
+    {
+      "out": 427,
+      "in": 366,
+      "proxy_sale_tenths": 79,
+      "current_buy_tenths": 72,
+      "bank_after_proxy_tenths": 16,
+      "delta_three_gw_static_proxy": 14.0,
+      "lineup": {
+        "xi": [
+          109,
+          504,
+          115,
+          8,
+          366,
+          68,
+          166,
+          236,
+          411,
+          592,
+          154
+        ],
+        "captain": 115,
+        "vice": 411,
+        "one_gw_proxy": 66.333,
+        "three_gw_static_proxy": 199.0
+      }
+    }
+  ],
+  "candidate_count": 268,
+  "limitations": [
+    "Public GW10 picks do not expose purchase or selling prices.",
+    "Uses current market price as outgoing selling-price proxy; can overstate actual sale proceeds.",
+    "No transfer is certified affordable or executable; verify actual selling price in FPL.",
+    "Uses current player team assignments, not verified pre-deadline historical assignments.",
+    "3-GW horizon repeats the same 3-GW form proxy; not fixture-adjusted expected points.",
+    "One hypothetical transfer only; no free-transfer balance, chip, injury or minutes model.",
+    "GW11 existing captain-policy snapshot is not changed."
+  ]
+}
