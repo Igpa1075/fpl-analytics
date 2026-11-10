@@ -56,19 +56,26 @@ def main():
             "manager_vice_id": manager_vice,
             "manager_chip": chip,
             "model_total": int(m["points"]),
+            "model_base": int(m["base_points"]),
+            "model_captain_bonus": int(m["captain_bonus"]),
+            "model_minus_manager_base": int(m["base_points"]) - official_base,
+            "model_minus_manager_captain_bonus": int(m["captain_bonus"]) - official_captain_bonus,
             "model_captain_id": int(m["captain"]),
             "model_transfer": m.get("transfer"),
             "model_minus_manager_net": int(m["points"]) - (manager_gross - hit)
         })
     report = {
-        "status": "manager_captain_decomposition_model_base_not_yet_recorded",
+        "status": "base_captain_and_hit_decomposition",
         "rows": rows,
         "manager_base_total": sum(r["manager_base"] for r in rows),
         "manager_captain_bonus_total": sum(r["manager_captain_bonus"] for r in rows),
         "manager_net_total": sum(r["manager_net"] for r in rows),
         "model_total": sum(r["model_total"] for r in rows),
+        "model_base_total": sum(r["model_base"] for r in rows),
+        "model_captain_bonus_total": sum(r["model_captain_bonus"] for r in rows),
+        "model_minus_manager_base": sum(r["model_minus_manager_base"] for r in rows),
+        "model_minus_manager_captain_bonus": sum(r["model_minus_manager_captain_bonus"] for r in rows),
         "warnings": [
-            "Model base/captain split needs recording final XI in simulator output.",
             "Comparisons include the effects of different squads, XI and transfers.",
             "GW8 wildcard is not replicated by model."
         ]
