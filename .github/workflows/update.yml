@@ -76,6 +76,9 @@ jobs:
       - name: Run budget-constrained proxy transfer backtest
         run: python fpl_backtest_budget_constrained_proxy.py
 
+      - name: Decompose manager versus model scoring gap
+        run: python fpl_backtest_manager_gap.py
+
       - name: Audit sensitivity to missing deadline prices
         run: python fpl_backtest_deadline_price_sensitivity.py
 
