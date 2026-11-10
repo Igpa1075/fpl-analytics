@@ -31,6 +31,9 @@ jobs:
       - name: Freeze predeadline captain predictions (when eligible)
         run: python fpl_captain_forward_snapshot.py
 
+      - name: Freeze joint GW11 transfer lineup captain scenarios
+        run: python fpl_joint_gw11_scenarios.py
+
       - name: Generate FPL analysis
         run: python fpl_analysis.py > data/analysis.txt
   
