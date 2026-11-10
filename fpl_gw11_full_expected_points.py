@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 from fpl_backtest_hold_baseline import D
 
 GW=11
-IDS=[166,411,154,68,236,156,592,115,504,8,31,109,154]
+IDS=[250,115,504,8,427,156,154,236,68,411,166,109,592,31,599]
 def number(v):
  try:return float(v or 0)
  except (ValueError,TypeError):return 0.
@@ -86,7 +86,7 @@ def main():
   # and defensive contributions to avoid overreacting to last few games.
   bonus_per90=sum(number(r.get("bonus")) for r in history)*90/max(450,minutes)
   bonus=clamp(.65*bonus_per90,0,1.5)*play_prob
-  def_per90=sum(number(r.get("defensive_contribution_points")) for r in history)*90/max(450,minutes)
+  def_per90=sum((number(r.get("defensive_contribution_points")) if "defensive_contribution_points" in r else (2 if number(r.get("defensive_contribution"))>= (10 if pos==2 else 12) else 0)) for r in history)*90/max(450,minutes)
   defensive=clamp(def_per90,0,2)*play_prob
   saves_per90=sum(number(r.get("saves")) for r in history)*90/max(450,minutes)
   saves=(saves_per90/3)*play_prob if pos==1 else 0
@@ -116,12 +116,12 @@ def main():
  results.sort(key=lambda x:-x["expected_points"])
  out={"status":"full_components_structural_xpts_uncalibrated","created_at_utc":datetime.now(timezone.utc).isoformat(),
       "gw":GW,"ranking":results,
-      "model_version":"0.1","limitations":[
+      "model_version":"0.2","limitations":[
       "Expected points model is structural and not empirically calibrated or out-of-sample validated.",
       "Team goals for/against are proxies, NOT xGA or xG team chances.",
       "Minutes and 60+ probabilities are smoothed historical proxies, not confirmed starts.",
       "Bonus is historical bonus/90 shrunk, not an actual BPS forecast.",
-      "Defensive contribution points depend on historical field availability; missing fields treated as zero.",
+      "Defensive contributions inferred from official per-match counts using positional thresholds; absent fields treated as zero.",
       "Goal and assist means use FPL xG/xA; uncertainty intervals not yet validated.",
       "Current squad membership and clubs must be checked against user screenshot; public picks can lag transfers.",
       "No historical H2H xG claims are used.",
