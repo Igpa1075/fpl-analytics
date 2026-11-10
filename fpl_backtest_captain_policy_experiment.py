@@ -20,7 +20,7 @@ def rank(pid, players, gw, policy):
     starts = sum(m >= 60 for m in mins)
     appearances = sum(m > 0 for m in mins)
     if policy == "form_3":
-        return (form, starts, appearances)
+        return (form,)
     if policy == "minutes_weighted":
         return (form * (1 + starts) / 4, starts, form)
     if policy == "reliability":
