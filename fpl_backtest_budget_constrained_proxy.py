@@ -93,7 +93,9 @@ def main():
             bench = sorted((p for p in rest if positions[p] == 1)) + sorted(
                 (p for p in rest if positions[p] != 1), key=lambda p: (-prior[p], p))
         scored = resolve(starters + bench, positions, minutes, actual, captain, vice)
-        results.append({"gw": gw, "points": scored["points"], "transfer": transfer,
+        results.append({"gw": gw, "points": scored["points"], "base_points": scored["base_points"],
+                        "captain_bonus": scored["points"] - scored["base_points"],
+                        "final_xi": scored["final_xi"], "transfer": transfer,
                         "bank_after_tenths": bank, "captain": captain, "vice": vice,
                         "autosubs": scored["autosubs"]})
     report = {
