@@ -43,6 +43,9 @@ jobs:
       - name: Evaluate two GW11 free transfers
         run: python fpl_gw11_two_free_transfers.py
 
+      - name: Evaluate defender clean sheet and minutes head-to-head
+        run: python fpl_gw11_defender_head_to_head.py
+
       - name: Generate FPL analysis
         run: python fpl_analysis.py > data/analysis.txt
   
