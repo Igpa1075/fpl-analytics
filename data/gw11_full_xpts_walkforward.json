@@ -1,0 +1,306 @@
+{
+  "status": "historical_full_component_reconstruction_not_exact_deadline_snapshot",
+  "created_at_utc": "2026-11-11T07:23:03.152028+00:00",
+  "development_gws": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "holdout_gws": [
+    8,
+    9,
+    10
+  ],
+  "development": {
+    "model": {
+      "n": 1498,
+      "mae": 2.243,
+      "rmse": 3.138,
+      "bias": -0.268
+    },
+    "baseline": {
+      "n": 1498,
+      "mae": 2.178,
+      "rmse": 3.184,
+      "bias": -0.602
+    },
+    "by_position": {
+      "1": {
+        "model": {
+          "n": 135,
+          "mae": 2.145,
+          "rmse": 2.939,
+          "bias": -0.451
+        },
+        "baseline": {
+          "n": 135,
+          "mae": 2.012,
+          "rmse": 2.947,
+          "bias": -0.795
+        }
+      },
+      "2": {
+        "model": {
+          "n": 610,
+          "mae": 2.277,
+          "rmse": 3.045,
+          "bias": -0.204
+        },
+        "baseline": {
+          "n": 610,
+          "mae": 2.236,
+          "rmse": 3.106,
+          "bias": -0.509
+        }
+      },
+      "3": {
+        "model": {
+          "n": 618,
+          "mae": 2.136,
+          "rmse": 3.149,
+          "bias": -0.229
+        },
+        "baseline": {
+          "n": 618,
+          "mae": 2.064,
+          "rmse": 3.165,
+          "bias": -0.526
+        }
+      },
+      "4": {
+        "model": {
+          "n": 135,
+          "mae": 2.681,
+          "rmse": 3.653,
+          "bias": -0.549
+        },
+        "baseline": {
+          "n": 135,
+          "mae": 2.61,
+          "rmse": 3.792,
+          "bias": -1.179
+        }
+      }
+    }
+  },
+  "holdout": {
+    "model": {
+      "n": 1058,
+      "mae": 1.989,
+      "rmse": 2.723,
+      "bias": 0.017
+    },
+    "baseline": {
+      "n": 1058,
+      "mae": 1.87,
+      "rmse": 2.742,
+      "bias": -0.343
+    },
+    "by_position": {
+      "1": {
+        "model": {
+          "n": 74,
+          "mae": 2.173,
+          "rmse": 2.79,
+          "bias": -0.128
+        },
+        "baseline": {
+          "n": 74,
+          "mae": 1.973,
+          "rmse": 2.73,
+          "bias": -0.697
+        }
+      },
+      "2": {
+        "model": {
+          "n": 394,
+          "mae": 2.126,
+          "rmse": 2.813,
+          "bias": 0.002
+        },
+        "baseline": {
+          "n": 394,
+          "mae": 1.986,
+          "rmse": 2.828,
+          "bias": -0.396
+        }
+      },
+      "3": {
+        "model": {
+          "n": 485,
+          "mae": 1.795,
+          "rmse": 2.509,
+          "bias": 0.078
+        },
+        "baseline": {
+          "n": 485,
+          "mae": 1.707,
+          "rmse": 2.522,
+          "bias": -0.218
+        }
+      },
+      "4": {
+        "model": {
+          "n": 105,
+          "mae": 2.247,
+          "rmse": 3.233,
+          "bias": -0.101
+        },
+        "baseline": {
+          "n": 105,
+          "mae": 2.118,
+          "rmse": 3.334,
+          "bias": -0.465
+        }
+      }
+    }
+  },
+  "overall": {
+    "model": {
+      "n": 2556,
+      "mae": 2.138,
+      "rmse": 2.973,
+      "bias": -0.15
+    },
+    "baseline": {
+      "n": 2556,
+      "mae": 2.051,
+      "rmse": 3.009,
+      "bias": -0.495
+    },
+    "by_position": {
+      "1": {
+        "model": {
+          "n": 209,
+          "mae": 2.155,
+          "rmse": 2.887,
+          "bias": -0.337
+        },
+        "baseline": {
+          "n": 209,
+          "mae": 1.998,
+          "rmse": 2.872,
+          "bias": -0.76
+        }
+      },
+      "2": {
+        "model": {
+          "n": 1004,
+          "mae": 2.218,
+          "rmse": 2.956,
+          "bias": -0.124
+        },
+        "baseline": {
+          "n": 1004,
+          "mae": 2.138,
+          "rmse": 3.0,
+          "bias": -0.465
+        }
+      },
+      "3": {
+        "model": {
+          "n": 1103,
+          "mae": 1.986,
+          "rmse": 2.885,
+          "bias": -0.094
+        },
+        "baseline": {
+          "n": 1103,
+          "mae": 1.907,
+          "rmse": 2.9,
+          "bias": -0.391
+        }
+      },
+      "4": {
+        "model": {
+          "n": 240,
+          "mae": 2.491,
+          "rmse": 3.475,
+          "bias": -0.353
+        },
+        "baseline": {
+          "n": 240,
+          "mae": 2.395,
+          "rmse": 3.599,
+          "bias": -0.866
+        }
+      }
+    }
+  },
+  "captain_holdout": {
+    "rounds": 3,
+    "model_actual": 12.0,
+    "baseline_actual": 9.0,
+    "always_haaland_actual": 12.0,
+    "by_gw": [
+      {
+        "gw": 8,
+        "candidate_count": 13,
+        "model": {
+          "id": 411,
+          "name": "Haaland",
+          "actual": 8.0
+        },
+        "baseline": {
+          "id": 115,
+          "name": "De Cuyper",
+          "actual": 1.0
+        },
+        "always_haaland": 8.0
+      },
+      {
+        "gw": 9,
+        "candidate_count": 13,
+        "model": {
+          "id": 411,
+          "name": "Haaland",
+          "actual": 2.0
+        },
+        "baseline": {
+          "id": 411,
+          "name": "Haaland",
+          "actual": 2.0
+        },
+        "always_haaland": 2.0
+      },
+      {
+        "gw": 10,
+        "candidate_count": 13,
+        "model": {
+          "id": 411,
+          "name": "Haaland",
+          "actual": 2.0
+        },
+        "baseline": {
+          "id": 115,
+          "name": "De Cuyper",
+          "actual": 6.0
+        },
+        "always_haaland": 2.0
+      }
+    ]
+  },
+  "coverage_by_gw": {
+    "2": 132,
+    "3": 225,
+    "4": 254,
+    "5": 276,
+    "6": 296,
+    "7": 315,
+    "8": 339,
+    "9": 356,
+    "10": 363
+  },
+  "limitations": [
+    "Reconstructs the GW11 component formulas with strictly lagged xG/xA, team results, minutes and bonus.",
+    "Historical deadline injury statuses and actual user historical squads unavailable.",
+    "Captain comparison uses fixed current squad IDs, NOT actual historical eligibility or transfers.",
+    "Historical FPL bootstrap positions assumed stable; club derived from historical fixture, not current club.",
+    "Only one archived player row per GW is supported; double GW and ambiguous fixtures excluded.",
+    "Baseline is lagged points with shrinkage; neither model is trained on the holdout.",
+    "Not a live GW11 lineup/transfer optimization and not proof of higher season points."
+  ]
+}
