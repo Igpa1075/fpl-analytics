@@ -14,7 +14,7 @@ Rival captain choices in the completed GW:
   Cherif                 FWD rivals  0/12 | score  3.26
   Neto                   MID rivals  0/12 | score  5.01
   Palmer                 MID rivals  1/12 | score  3.47
-  Dewsbury-Hall          MID rivals  1/12 | score  5.65
+  Dewsbury-Hall          MID rivals  1/12 | score  4.48
   Vuskovic               DEF rivals  1/12 | score  7.32
   Leno                   GKP rivals  2/12 | score  4.49
   Mbeumo                 MID rivals  3/12 | score  3.69
@@ -34,23 +34,23 @@ Only players with >=180 season minutes and non-unavailable status.
     Hill                BOU £5.6m | rivals  0/12 | score 6.02
     Silva               BOU £5.1m | rivals  1/12 | score 5.82
     Castagne            FUL £4.5m | rivals  0/12 | score 5.62
-    Truffert            BOU £5.4m | rivals  0/12 | score 5.05
+    Araujo              LIV £5.5m | rivals  0/12 | score 5.12
   MID:
     Ayari               BHA £5.5m | rivals  0/12 | score 6.33
+    Wirtz               LIV £7.2m | rivals  0/12 | score 5.83
     E.Le Fée            SUN £5.7m | rivals  0/12 | score 5.83
     Rice                ARS £7.5m | rivals  0/12 | score 5.52
     Manzambi            AVL £6.2m | rivals  2/12 | score 5.38
     Gomez               BHA £5.0m | rivals  0/12 | score 5.36
-    Wirtz               LIV £7.2m | rivals  0/12 | score 5.25
     Groß                BHA £6.3m | rivals 12/12 | score 5.18
     Ødegaard            ARS £6.7m | rivals  1/12 | score 5.00
   FWD:
     Evanilson           BOU £6.5m | rivals  4/12 | score 7.98
-    Barry               EVE £5.7m | rivals  2/12 | score 6.47
-    Isak                LIV £9.3m | rivals  4/12 | score 6.02
-    McBurnie            HUL £5.5m | rivals  0/12 | score 4.58
+    Isak                LIV £9.3m | rivals  4/12 | score 6.93
+    Barry               EVE £5.7m | rivals  2/12 | score 6.61
+    McBurnie            HUL £5.5m | rivals  0/12 | score 5.23
     Kostoulas           BHA £5.8m | rivals  4/12 | score 4.57
-    Delap               NFO £5.3m | rivals  0/12 | score 3.88
+    Delap               NFO £5.3m | rivals  0/12 | score 4.28
     Calvert-Lewin       LEE £6.0m | rivals  1/12 | score 3.83
     Havertz             ARS £7.4m | rivals  1/12 | score 3.50
   GKP:
@@ -59,8 +59,8 @@ Only players with >=180 season minutes and non-unavailable status.
     Roefs               SUN £4.9m | rivals  0/12 | score 4.54
     Kinsky              TOT £4.4m | rivals  0/12 | score 4.52
     Petrović            BOU £4.5m | rivals  0/12 | score 4.43
-    Tzolakis            HUL £4.7m | rivals  5/12 | score 3.67
-    A.Becker            LIV £5.5m | rivals  0/12 | score 3.42
-    Kelleher            BRE £5.0m | rivals  0/12 | score 3.31
+    Tzolakis            HUL £4.7m | rivals  5/12 | score 3.80
+    A.Becker            LIV £5.5m | rivals  0/12 | score 3.75
+    Pickford            EVE £5.5m | rivals  2/12 | score 3.45
 \nNEXT: model transfers with current selling prices, free transfers,
 future fixtures, minutes risk, and uncertainty before estimating rank gains.

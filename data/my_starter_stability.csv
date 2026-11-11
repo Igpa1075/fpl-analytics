@@ -1,6 +1,6 @@
 fpl_id,player,team,position,matches_available,starts,start_rate_pct,reliability,minutes_season,now_cost
 115,De Cuyper,BHA,2,5,5,100.0,VERY_STABLE,822,55
-236,Dewsbury-Hall,EVE,3,5,5,100.0,VERY_STABLE,895,66
+236,Dewsbury-Hall,EVE,3,5,5,100.0,VERY_STABLE,895,67
 411,Haaland,MCI,4,5,5,100.0,VERY_STABLE,889,158
 250,Leno,FUL,1,5,5,100.0,VERY_STABLE,900,45
 427,Mbeumo,MUN,3,5,5,100.0,VERY_STABLE,892,79
@@ -10,7 +10,7 @@ fpl_id,player,team,position,matches_available,starts,start_rate_pct,reliability,
 592,Ouattara,IPS,2,5,5,100.0,VERY_STABLE,581,40
 154,Palmer,CHE,3,5,5,100.0,VERY_STABLE,878,98
 68,Tavernier,BOU,3,5,5,100.0,VERY_STABLE,840,67
-109,Verbruggen,BHA,1,5,5,100.0,VERY_STABLE,900,46
+109,Verbruggen,BHA,1,5,5,100.0,VERY_STABLE,900,47
 504,Vuskovic,BHA,2,5,5,100.0,VERY_STABLE,887,53
 8,Calafiori,ARS,2,5,4,80.0,STABLE,767,59
 599,Cherif,COV,4,5,3,60.0,MODERATE,253,50
