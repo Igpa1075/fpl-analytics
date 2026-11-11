@@ -1,10 +1,10 @@
 {
   "target_gw": 11,
-  "forecast_captured_at_utc": "2026-11-10T04:17:59.747963+00:00",
-  "forecast_source": "data/contextual_forecasts/2026-11-10.json",
+  "forecast_captured_at_utc": "2026-11-11T04:22:51.793319+00:00",
+  "forecast_source": "data/contextual_forecasts/2026-11-11.json",
   "squad_source": "data/picks.json (latest publicly published GW; may be stale)",
   "squad_event": 10,
-  "expected_xi_points_with_captain": 70.044,
+  "expected_xi_points_with_captain": 69.138,
   "formation": {
     "defenders": 3,
     "midfielders": 5,
@@ -16,7 +16,7 @@
       "name": "Verbruggen",
       "team_id": 5,
       "position_id": 1,
-      "price_tenths_million": 46,
+      "price_tenths_million": 47,
       "availability": 1.0,
       "fixtures": [
         {
@@ -146,32 +146,6 @@
       ]
     },
     {
-      "player_id": 236,
-      "name": "Dewsbury-Hall",
-      "team_id": 9,
-      "position_id": 3,
-      "price_tenths_million": 66,
-      "availability": 1.0,
-      "fixtures": [
-        {
-          "opponent": 4,
-          "home": false,
-          "difficulty": 4
-        }
-      ],
-      "expected_points": 5.088,
-      "baseline_expected_points": 5.088,
-      "context_factor": 1.0,
-      "context_signals": [
-        {
-          "kind": "verified_espn_starts",
-          "starts": 5,
-          "matches": 5,
-          "factor": 1.0
-        }
-      ]
-    },
-    {
       "player_id": 156,
       "name": "Neto",
       "team_id": 6,
@@ -198,6 +172,32 @@
         {
           "kind": "forward_midfielder_slot_proxy",
           "factor": 1.03
+        }
+      ]
+    },
+    {
+      "player_id": 236,
+      "name": "Dewsbury-Hall",
+      "team_id": 9,
+      "position_id": 3,
+      "price_tenths_million": 67,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 4,
+          "home": false,
+          "difficulty": 4
+        }
+      ],
+      "expected_points": 4.182,
+      "baseline_expected_points": 4.182,
+      "context_factor": 1.0,
+      "context_signals": [
+        {
+          "kind": "verified_espn_starts",
+          "starts": 5,
+          "matches": 5,
+          "factor": 1.0
         }
       ]
     },
