@@ -46,6 +46,9 @@ jobs:
       - name: Compare position calibration on untouched GW8-10
         run: python fpl_gw11_position_calibration_experiment.py
 
+      - name: Backtest full-component GW11 xPts formulas on historical weeks
+        run: python fpl_gw11_full_xpts_walkforward.py
+
       - name: Freeze predeadline captain predictions (when eligible)
         run: python fpl_captain_forward_snapshot.py
 
