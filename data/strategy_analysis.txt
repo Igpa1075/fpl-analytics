@@ -11,7 +11,7 @@ Rival captain choices in the completed GW:
 \nYour owned players: rival ownership and heuristic
   Ouattara               DEF rivals  0/12 | score  3.10
   O'Shea                 DEF rivals  0/12 | score  2.15
-  Cherif                 FWD rivals  0/12 | score  3.26
+  Cherif                 FWD rivals  0/12 | score  1.83
   Neto                   MID rivals  0/12 | score  5.01
   Palmer                 MID rivals  1/12 | score  3.47
   Dewsbury-Hall          MID rivals  1/12 | score  4.48
@@ -61,6 +61,6 @@ Only players with >=180 season minutes and non-unavailable status.
     Petrović            BOU £4.5m | rivals  0/12 | score 4.43
     Tzolakis            HUL £4.7m | rivals  5/12 | score 3.80
     A.Becker            LIV £5.5m | rivals  0/12 | score 3.75
-    Pickford            EVE £5.5m | rivals  2/12 | score 3.45
+    Horníček            NEW £5.0m | rivals  1/12 | score 3.65
 \nNEXT: model transfers with current selling prices, free transfers,
 future fixtures, minutes risk, and uncertainty before estimating rank gains.

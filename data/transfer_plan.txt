@@ -43,10 +43,10 @@ OUT? Palmer (MID, CHE) | heuristic 3.42 | estimated budget ceiling £10.7m
   -> Wirtz                LIV £7.2m | FDR 2.7 | rivals 0/12 | score +2.20
   -> E.Le Fée             SUN £5.7m | FDR 3.3 | rivals 0/12 | score +1.93
   -> Manzambi             AVL £6.2m | FDR 2.3 | rivals 2/12 | score +1.88
-OUT? Cherif (FWD, COV) | heuristic 3.22 | estimated budget ceiling £5.9m
-  -> Barry                EVE £5.7m | FDR 3.7 | rivals 2/12 | score +2.68
-  -> McBurnie             HUL £5.5m | FDR 3.0 | rivals 0/12 | score +1.70
-  -> Delap                NFO £5.3m | FDR 3.3 | rivals 0/12 | score +0.70
+OUT? Cherif (FWD, COV) | heuristic 1.81 | estimated budget ceiling £5.9m
+  -> Barry                EVE £5.7m | FDR 3.7 | rivals 2/12 | score +4.09
+  -> McBurnie             HUL £5.5m | FDR 3.0 | rivals 0/12 | score +3.11
+  -> Delap                NFO £5.3m | FDR 3.3 | rivals 0/12 | score +2.11
 OUT? Haaland (FWD, MCI) | heuristic 5.94 | estimated budget ceiling £16.7m
   -> Evanilson            BOU £6.5m | FDR 3.3 | rivals 4/12 | score +1.38
   -> Isak                 LIV £9.3m | FDR 2.7 | rivals 4/12 | score +0.74
