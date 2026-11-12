@@ -1,9 +1,9 @@
 {
   "target_gw": 11,
   "last_gw": 15,
-  "captured_at_utc": "2026-11-11T04:22:51.271662+00:00",
-  "forecast_source": "data/contextual_forecasts/2026-11-11.json",
-  "snapshot_source": "data/snapshots/2026-11-11.json",
+  "captured_at_utc": "2026-11-12T04:23:33.943907+00:00",
+  "forecast_source": "data/contextual_forecasts/2026-11-12.json",
+  "snapshot_source": "data/snapshots/2026-11-12.json",
   "hold_five_gw_expected_points": 333.139,
   "verified_private_inputs_used": true,
   "user_confirmed_bank_and_free_transfers": true,
