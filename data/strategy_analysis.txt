@@ -40,9 +40,9 @@ Only players with >=180 season minutes and non-unavailable status.
     Wirtz               LIV £7.2m | rivals  0/12 | score 5.83
     E.Le Fée            SUN £5.7m | rivals  0/12 | score 5.83
     Rice                ARS £7.5m | rivals  0/12 | score 5.52
-    Manzambi            AVL £6.2m | rivals  2/12 | score 5.38
     Gomez               BHA £5.0m | rivals  0/12 | score 5.36
     Groß                BHA £6.3m | rivals 12/12 | score 5.18
+    Manzambi            AVL £6.2m | rivals  2/12 | score 5.12
     Ødegaard            ARS £6.7m | rivals  1/12 | score 5.00
   FWD:
     Evanilson           BOU £6.5m | rivals  4/12 | score 7.98
