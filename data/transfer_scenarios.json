@@ -1,6 +1,6 @@
 {
   "target_gw": 11,
-  "forecast_source": "data/contextual_forecasts/2026-11-12.json",
+  "forecast_source": "data/contextual_forecasts/2026-11-13.json",
   "squad_source": "data/picks.json, latest publicly published GW",
   "squad_event": 10,
   "bank_tenths_million_proxy": 9,

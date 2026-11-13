@@ -1,7 +1,7 @@
 {
   "target_gw": 11,
-  "forecast_captured_at_utc": "2026-11-12T04:23:34.434673+00:00",
-  "forecast_source": "data/contextual_forecasts/2026-11-12.json",
+  "forecast_captured_at_utc": "2026-11-13T04:22:50.872567+00:00",
+  "forecast_source": "data/contextual_forecasts/2026-11-13.json",
   "squad_source": "data/picks.json (latest publicly published GW; may be stale)",
   "squad_event": 10,
   "expected_xi_points_with_captain": 69.138,
