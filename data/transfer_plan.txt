@@ -9,7 +9,7 @@ Scores are heuristics, NOT predicted points or rank probabilities.
 OUT? Leno (GKP, FUL) | heuristic 4.01 | estimated budget ceiling £5.4m
   -> Trafford             LEE £5.0m | FDR 3.7 | rivals 0/12 | score +1.17
   -> Kinsky               TOT £4.4m | FDR 2.3 | rivals 0/12 | score +0.45
-  -> Roefs                SUN £4.9m | FDR 3.3 | rivals 0/12 | score +0.15
+  -> Roefs                SUN £4.8m | FDR 3.3 | rivals 0/12 | score +0.15
 OUT? Calafiori (DEF, ARS) | heuristic 4.57 | estimated budget ceiling £6.8m
   -> Konsa                ARS £4.8m | FDR 3.7 | rivals 7/12 | score +3.32
   -> Van Hecke            TOT £5.1m | FDR 2.3 | rivals 3/12 | score +2.21
