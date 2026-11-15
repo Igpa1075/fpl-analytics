@@ -1,6 +1,6 @@
 {
   "status": "public_data_audit_not_authenticated_trade_verification",
-  "updated_at_utc": "2026-11-14T04:58:04.661832+00:00",
+  "updated_at_utc": "2026-11-15T04:59:19.753973+00:00",
   "source_published_squad_gw": 10,
   "bank_tenths": 9,
   "players": {
@@ -25,7 +25,7 @@
       "full_name": "Ezri Konsa Ngoyo",
       "club": "Arsenal",
       "position_id": 2,
-      "market_price_tenths": 48,
+      "market_price_tenths": 49,
       "status": "a",
       "news": "",
       "chance_next_round": 100,
@@ -36,7 +36,7 @@
     }
   },
   "club_limit_ok": true,
-  "minimum_actual_sale_price_tenths_required": 39,
+  "minimum_actual_sale_price_tenths_required": 40,
   "current_market_sale_proxy_tenths": 40,
   "affordable_if_market_sale_proxy_used": true,
   "actual_sale_price_verified": false,

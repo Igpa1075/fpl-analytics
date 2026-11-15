@@ -161,7 +161,7 @@ fpl_id,player,team,fpl_position,matches_available,starts_with_position,most_comm
 82,Kelleher,BRE,GK,5,5,1,GOALKEEPER,0,NONE,"1,1,1,1,1",50,35
 358,Kerkez,LIV,DEF,5,5,3,WIDE_DEFENSIVE_SLOT,0,NONE,"3,3,3,3,3",53,25
 496,Kinsky,TOT,GK,5,5,1,GOALKEEPER,0,NONE,"1,1,1,1,1",44,40
-31,Konsa,ARS,DEF,5,5,5,CENTRAL_DEFENSIVE_SLOT,0,NONE,"5,5,5,5,5",48,57
+31,Konsa,ARS,DEF,5,5,5,CENTRAL_DEFENSIVE_SLOT,0,NONE,"5,5,5,5,5",49,57
 412,Lammens,MUN,GK,5,5,1,GOALKEEPER,0,NONE,"1,1,1,1,1",48,21
 250,Leno,FUL,GK,5,5,1,GOALKEEPER,0,NONE,"1,1,1,1,1",45,39
 37,Lindelöf,AVL,DEF,5,5,5,CENTRAL_DEFENSIVE_SLOT,0,NONE,"5,5,5,5,5",45,26
@@ -432,7 +432,7 @@ fpl_id,player,team,fpl_position,matches_available,starts_with_position,most_comm
 58,Forster,BOU,GK,5,0,,NO_DATA,0,NONE,,40,0
 660,Fredrick,BRE,DEF,5,0,,NO_DATA,0,NONE,,40,0
 425,Fredricson,MUN,DEF,5,0,,NO_DATA,0,NONE,,40,0
-357,Frimpong,LIV,DEF,5,0,,NO_DATA,0,NONE,,52,4
+357,Frimpong,LIV,DEF,5,0,,NO_DATA,0,NONE,,51,4
 308,Furlong,IPS,DEF,5,0,,NO_DATA,0,NONE,,39,1
 107,Furo,BRE,FWD,5,0,,NO_DATA,0,NONE,,44,0
 23,Fábio Vieira,ARS,MID,5,0,,NO_DATA,0,NONE,,55,0
@@ -623,7 +623,7 @@ fpl_id,player,team,fpl_position,matches_available,starts_with_position,most_comm
 205,Sosa,CRY,DEF,5,0,,NO_DATA,0,NONE,,45,0
 511,Souza,TOT,DEF,5,0,,NO_DATA,0,NONE,,40,0
 505,Spence,TOT,DEF,5,0,,NO_DATA,0,NONE,,45,0
-111,Steele,BHA,GK,5,0,,NO_DATA,0,NONE,,40,0
+111,Steele,BHA,GK,5,0,,NO_DATA,0,NONE,,39,0
 670,Subuloye,CHE,DEF,5,0,,NO_DATA,0,NONE,,40,0
 120,Svoboda,BHA,DEF,5,0,,NO_DATA,0,NONE,,50,2
 319,Szmodics,IPS,MID,5,0,,NO_DATA,0,NONE,,50,0

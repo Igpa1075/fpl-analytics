@@ -11,22 +11,22 @@ OUT? Leno (GKP, FUL) | heuristic 4.01 | estimated budget ceiling £5.4m
   -> Kinsky               TOT £4.4m | FDR 2.3 | rivals 0/12 | score +0.45
   -> Roefs                SUN £4.8m | FDR 3.3 | rivals 0/12 | score +0.15
 OUT? Calafiori (DEF, ARS) | heuristic 4.57 | estimated budget ceiling £6.8m
-  -> Konsa                ARS £4.8m | FDR 3.7 | rivals 7/12 | score +3.32
+  -> Konsa                ARS £4.9m | FDR 3.7 | rivals 7/12 | score +3.32
   -> Van Hecke            TOT £5.1m | FDR 2.3 | rivals 3/12 | score +2.21
   -> Muharemović          LEE £5.1m | FDR 3.7 | rivals 1/12 | score +1.13
 OUT? De Cuyper (DEF, BHA) | heuristic 5.83 | estimated budget ceiling £6.4m
-  -> Konsa                ARS £4.8m | FDR 3.7 | rivals 7/12 | score +2.06
+  -> Konsa                ARS £4.9m | FDR 3.7 | rivals 7/12 | score +2.06
   -> Van Hecke            TOT £5.1m | FDR 2.3 | rivals 3/12 | score +0.95
 OUT? O'Shea (DEF, IPS) | heuristic 2.07 | estimated budget ceiling £4.9m
-  -> Konsa                ARS £4.8m | FDR 3.7 | rivals 7/12 | score +5.82
+  -> Konsa                ARS £4.9m | FDR 3.7 | rivals 7/12 | score +5.82
   -> Castagne             FUL £4.5m | FDR 3.7 | rivals 0/12 | score +2.94
   -> Robertson            TOT £4.3m | FDR 2.3 | rivals 1/12 | score +2.71
 OUT? Ouattara (DEF, IPS) | heuristic 2.98 | estimated budget ceiling £4.9m
-  -> Konsa                ARS £4.8m | FDR 3.7 | rivals 7/12 | score +4.91
+  -> Konsa                ARS £4.9m | FDR 3.7 | rivals 7/12 | score +4.91
   -> Castagne             FUL £4.5m | FDR 3.7 | rivals 0/12 | score +2.03
   -> Robertson            TOT £4.3m | FDR 2.3 | rivals 1/12 | score +1.80
 OUT? Vuskovic (DEF, BHA) | heuristic 6.89 | estimated budget ceiling £6.2m
-  -> Konsa                ARS £4.8m | FDR 3.7 | rivals 7/12 | score +1.01
+  -> Konsa                ARS £4.9m | FDR 3.7 | rivals 7/12 | score +1.01
 OUT? Dewsbury-Hall (MID, EVE) | heuristic 4.00 | estimated budget ceiling £7.6m
   -> Wirtz                LIV £7.2m | FDR 2.7 | rivals 0/12 | score +1.62
   -> E.Le Fée             SUN £5.7m | FDR 3.3 | rivals 0/12 | score +1.35

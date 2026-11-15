@@ -27,7 +27,7 @@ Rival captain choices in the completed GW:
 \nPotential DIFFERENTIALS (not purchase recommendations):
 Only players with >=180 season minutes and non-unavailable status.
   DEF:
-    Konsa               ARS £4.8m | rivals  7/12 | score 8.84
+    Konsa               ARS £4.9m | rivals  7/12 | score 8.84
     Gabriel             ARS £8.1m | rivals  3/12 | score 8.68
     Van Hecke           TOT £5.1m | rivals  3/12 | score 6.87
     Muharemović         LEE £5.1m | rivals  1/12 | score 6.38
