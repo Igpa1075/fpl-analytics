@@ -1,9 +1,9 @@
 {
   "target_gw": 11,
   "last_gw": 15,
-  "captured_at_utc": "2026-11-14T04:18:03.925547+00:00",
-  "forecast_source": "data/contextual_forecasts/2026-11-14.json",
-  "snapshot_source": "data/snapshots/2026-11-14.json",
+  "captured_at_utc": "2026-11-15T04:20:21.137618+00:00",
+  "forecast_source": "data/contextual_forecasts/2026-11-15.json",
+  "snapshot_source": "data/snapshots/2026-11-15.json",
   "hold_five_gw_expected_points": 333.139,
   "verified_private_inputs_used": true,
   "user_confirmed_bank_and_free_transfers": true,
@@ -24,7 +24,7 @@
           "in_name": "Konsa"
         }
       ],
-      "remaining_bank_proxy": 8,
+      "remaining_bank_proxy": 7,
       "weekly": [
         {
           "gw": 11,
@@ -69,7 +69,7 @@
           "in_name": "Konsa"
         }
       ],
-      "remaining_bank_proxy": 8,
+      "remaining_bank_proxy": 7,
       "weekly": [
         {
           "gw": 11,
@@ -114,7 +114,7 @@
           "in_name": "Konsa"
         }
       ],
-      "remaining_bank_proxy": 42,
+      "remaining_bank_proxy": 41,
       "weekly": [
         {
           "gw": 11,
@@ -159,7 +159,7 @@
           "in_name": "Konsa"
         }
       ],
-      "remaining_bank_proxy": 42,
+      "remaining_bank_proxy": 41,
       "weekly": [
         {
           "gw": 11,
@@ -204,7 +204,7 @@
           "in_name": "Konsa"
         }
       ],
-      "remaining_bank_proxy": 23,
+      "remaining_bank_proxy": 22,
       "weekly": [
         {
           "gw": 11,
@@ -249,7 +249,7 @@
           "in_name": "Konsa"
         }
       ],
-      "remaining_bank_proxy": 23,
+      "remaining_bank_proxy": 22,
       "weekly": [
         {
           "gw": 11,
@@ -294,7 +294,7 @@
           "in_name": "Konsa"
         }
       ],
-      "remaining_bank_proxy": 27,
+      "remaining_bank_proxy": 26,
       "weekly": [
         {
           "gw": 11,
@@ -339,7 +339,7 @@
           "in_name": "Konsa"
         }
       ],
-      "remaining_bank_proxy": 27,
+      "remaining_bank_proxy": 26,
       "weekly": [
         {
           "gw": 11,
@@ -384,7 +384,7 @@
           "in_name": "Konsa"
         }
       ],
-      "remaining_bank_proxy": 8,
+      "remaining_bank_proxy": 7,
       "weekly": [
         {
           "gw": 11,
@@ -429,7 +429,7 @@
           "in_name": "Konsa"
         }
       ],
-      "remaining_bank_proxy": 8,
+      "remaining_bank_proxy": 7,
       "weekly": [
         {
           "gw": 11,
@@ -468,7 +468,7 @@
           "in_name": "Konsa"
         }
       ],
-      "remaining_bank_proxy": 1,
+      "remaining_bank_proxy": 0,
       "weekly": [
         {
           "gw": 11,
@@ -507,7 +507,7 @@
           "in_name": "Konsa"
         }
       ],
-      "remaining_bank_proxy": 1,
+      "remaining_bank_proxy": 0,
       "weekly": [
         {
           "gw": 11,
@@ -585,7 +585,7 @@
           "in_name": "Konsa"
         }
       ],
-      "remaining_bank_proxy": 20,
+      "remaining_bank_proxy": 19,
       "weekly": [
         {
           "gw": 11,

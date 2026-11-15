@@ -1,6 +1,6 @@
 {
   "target_gw": 11,
-  "forecast_source": "data/contextual_forecasts/2026-11-14.json",
+  "forecast_source": "data/contextual_forecasts/2026-11-15.json",
   "squad_source": "data/picks.json, latest publicly published GW",
   "squad_event": 10,
   "bank_tenths_million_proxy": 9,
@@ -28,7 +28,7 @@
         ],
         "projected_xi_with_captain": 72.759,
         "gross_gain_vs_hold": 3.621,
-        "remaining_bank_proxy": 1,
+        "remaining_bank_proxy": 0,
         "hit_cost": 0,
         "net_gain_vs_hold": 3.621
       },
@@ -43,7 +43,7 @@
         ],
         "projected_xi_with_captain": 72.759,
         "gross_gain_vs_hold": 3.621,
-        "remaining_bank_proxy": 1,
+        "remaining_bank_proxy": 0,
         "hit_cost": 0,
         "net_gain_vs_hold": 3.621
       },
@@ -58,7 +58,7 @@
         ],
         "projected_xi_with_captain": 71.784,
         "gross_gain_vs_hold": 2.646,
-        "remaining_bank_proxy": 20,
+        "remaining_bank_proxy": 19,
         "hit_cost": 0,
         "net_gain_vs_hold": 2.646
       },
@@ -186,7 +186,7 @@
         ],
         "projected_xi_with_captain": 75.395,
         "gross_gain_vs_hold": 6.257,
-        "remaining_bank_proxy": 8,
+        "remaining_bank_proxy": 7,
         "hit_cost": 0,
         "net_gain_vs_hold": 6.257
       },
@@ -207,7 +207,7 @@
         ],
         "projected_xi_with_captain": 75.395,
         "gross_gain_vs_hold": 6.257,
-        "remaining_bank_proxy": 8,
+        "remaining_bank_proxy": 7,
         "hit_cost": 0,
         "net_gain_vs_hold": 6.257
       },
@@ -228,7 +228,7 @@
         ],
         "projected_xi_with_captain": 74.639,
         "gross_gain_vs_hold": 5.501,
-        "remaining_bank_proxy": 42,
+        "remaining_bank_proxy": 41,
         "hit_cost": 0,
         "net_gain_vs_hold": 5.501
       },
@@ -249,7 +249,7 @@
         ],
         "projected_xi_with_captain": 74.639,
         "gross_gain_vs_hold": 5.501,
-        "remaining_bank_proxy": 42,
+        "remaining_bank_proxy": 41,
         "hit_cost": 0,
         "net_gain_vs_hold": 5.501
       },
@@ -270,7 +270,7 @@
         ],
         "projected_xi_with_captain": 74.639,
         "gross_gain_vs_hold": 5.501,
-        "remaining_bank_proxy": 23,
+        "remaining_bank_proxy": 22,
         "hit_cost": 0,
         "net_gain_vs_hold": 5.501
       },
@@ -291,7 +291,7 @@
         ],
         "projected_xi_with_captain": 74.639,
         "gross_gain_vs_hold": 5.501,
-        "remaining_bank_proxy": 23,
+        "remaining_bank_proxy": 22,
         "hit_cost": 0,
         "net_gain_vs_hold": 5.501
       },
@@ -312,7 +312,7 @@
         ],
         "projected_xi_with_captain": 74.348,
         "gross_gain_vs_hold": 5.21,
-        "remaining_bank_proxy": 27,
+        "remaining_bank_proxy": 26,
         "hit_cost": 0,
         "net_gain_vs_hold": 5.21
       },
@@ -333,7 +333,7 @@
         ],
         "projected_xi_with_captain": 74.348,
         "gross_gain_vs_hold": 5.21,
-        "remaining_bank_proxy": 27,
+        "remaining_bank_proxy": 26,
         "hit_cost": 0,
         "net_gain_vs_hold": 5.21
       },
@@ -354,7 +354,7 @@
         ],
         "projected_xi_with_captain": 74.348,
         "gross_gain_vs_hold": 5.21,
-        "remaining_bank_proxy": 8,
+        "remaining_bank_proxy": 7,
         "hit_cost": 0,
         "net_gain_vs_hold": 5.21
       },
@@ -375,7 +375,7 @@
         ],
         "projected_xi_with_captain": 74.348,
         "gross_gain_vs_hold": 5.21,
-        "remaining_bank_proxy": 8,
+        "remaining_bank_proxy": 7,
         "hit_cost": 0,
         "net_gain_vs_hold": 5.21
       }
