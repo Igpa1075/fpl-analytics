@@ -1,10 +1,10 @@
 {
   "target_gw": 11,
-  "forecast_captured_at_utc": "2026-11-17T04:21:16.236709+00:00",
-  "forecast_source": "data/contextual_forecasts/2026-11-17.json",
+  "forecast_captured_at_utc": "2026-11-18T04:23:37.181962+00:00",
+  "forecast_source": "data/contextual_forecasts/2026-11-18.json",
   "squad_source": "data/picks.json (latest publicly published GW; may be stale)",
   "squad_event": 10,
-  "expected_xi_points_with_captain": 68.151,
+  "expected_xi_points_with_captain": 65.777,
   "formation": {
     "defenders": 3,
     "midfielders": 5,
@@ -25,8 +25,8 @@
           "difficulty": 2
         }
       ],
-      "expected_points": 6.453,
-      "baseline_expected_points": 6.453,
+      "expected_points": 6.512,
+      "baseline_expected_points": 6.512,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -51,8 +51,8 @@
           "difficulty": 2
         }
       ],
-      "expected_points": 7.775,
-      "baseline_expected_points": 7.775,
+      "expected_points": 7.072,
+      "baseline_expected_points": 7.072,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -77,8 +77,8 @@
           "difficulty": 2
         }
       ],
-      "expected_points": 6.76,
-      "baseline_expected_points": 6.5,
+      "expected_points": 6.648,
+      "baseline_expected_points": 6.392,
       "context_factor": 1.04,
       "context_signals": [
         {
@@ -107,8 +107,8 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 4.589,
-      "baseline_expected_points": 4.731,
+      "expected_points": 4.362,
+      "baseline_expected_points": 4.497,
       "context_factor": 0.97,
       "context_signals": [
         {
@@ -133,8 +133,8 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 5.906,
-      "baseline_expected_points": 5.906,
+      "expected_points": 5.29,
+      "baseline_expected_points": 5.29,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -198,36 +198,6 @@
       ]
     },
     {
-      "player_id": 427,
-      "name": "Mbeumo",
-      "team_id": 16,
-      "position_id": 3,
-      "price_tenths_million": 79,
-      "availability": 1.0,
-      "fixtures": [
-        {
-          "opponent": 14,
-          "home": false,
-          "difficulty": 4
-        }
-      ],
-      "expected_points": 3.614,
-      "baseline_expected_points": 3.509,
-      "context_factor": 1.03,
-      "context_signals": [
-        {
-          "kind": "verified_espn_starts",
-          "starts": 5,
-          "matches": 5,
-          "factor": 1.0
-        },
-        {
-          "kind": "forward_midfielder_slot_proxy",
-          "factor": 1.03
-        }
-      ]
-    },
-    {
       "player_id": 156,
       "name": "Neto",
       "team_id": 6,
@@ -243,6 +213,36 @@
       ],
       "expected_points": 2.997,
       "baseline_expected_points": 2.91,
+      "context_factor": 1.03,
+      "context_signals": [
+        {
+          "kind": "verified_espn_starts",
+          "starts": 5,
+          "matches": 5,
+          "factor": 1.0
+        },
+        {
+          "kind": "forward_midfielder_slot_proxy",
+          "factor": 1.03
+        }
+      ]
+    },
+    {
+      "player_id": 427,
+      "name": "Mbeumo",
+      "team_id": 16,
+      "position_id": 3,
+      "price_tenths_million": 79,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 14,
+          "home": false,
+          "difficulty": 4
+        }
+      ],
+      "expected_points": 2.839,
+      "baseline_expected_points": 2.756,
       "context_factor": 1.03,
       "context_signals": [
         {
@@ -350,8 +350,8 @@
         "difficulty": 2
       }
     ],
-    "expected_points": 7.775,
-    "baseline_expected_points": 7.775,
+    "expected_points": 7.072,
+    "baseline_expected_points": 7.072,
     "context_factor": 1.0,
     "context_signals": [
       {

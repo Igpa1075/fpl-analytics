@@ -23,7 +23,7 @@
     },
     "contextual_forecast_used": true,
     "elite_and_control_cohorts_used_for_points": false,
-    "starting_xi_expected_points": 68.151,
+    "starting_xi_expected_points": 65.777,
     "transfer_scenarios": 21,
     "multiweek_scenarios": 21
   }
