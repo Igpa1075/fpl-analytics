@@ -7,52 +7,57 @@ injury news MUST be confirmed before any real transfer.
 Scores are heuristics, NOT predicted points or rank probabilities.
 
 OUT? Leno (GKP, FUL) | heuristic 3.72 | estimated budget ceiling £5.4m
-  -> Trafford             LEE £5.0m | FDR 3.7 | rivals 0/12 | score +1.46
+  -> Trafford             LEE £5.0m | FDR 3.7 | rivals 0/12 | score +2.21
+  -> Roefs                SUN £4.8m | FDR 3.3 | rivals 0/12 | score +1.10
   -> Kinsky               TOT £4.4m | FDR 2.3 | rivals 0/12 | score +0.74
-  -> Roefs                SUN £4.8m | FDR 3.3 | rivals 0/12 | score +0.44
-OUT? Calafiori (DEF, ARS) | heuristic 4.57 | estimated budget ceiling £6.8m
-  -> Konsa                ARS £4.9m | FDR 3.7 | rivals 7/12 | score +3.32
-  -> Van Hecke            TOT £5.1m | FDR 2.3 | rivals 3/12 | score +2.21
-  -> Araujo               LIV £5.5m | FDR 2.7 | rivals 0/12 | score +1.30
-OUT? De Cuyper (DEF, BHA) | heuristic 5.83 | estimated budget ceiling £6.4m
-  -> Konsa                ARS £4.9m | FDR 3.7 | rivals 7/12 | score +2.06
-  -> Van Hecke            TOT £5.1m | FDR 2.3 | rivals 3/12 | score +0.95
-  -> Araujo               LIV £5.5m | FDR 2.7 | rivals 0/12 | score +0.04
+OUT? Verbruggen (GKP, BHA) | heuristic 5.72 | estimated budget ceiling £5.6m
+  -> Trafford             LEE £5.0m | FDR 3.7 | rivals 0/12 | score +0.20
+OUT? Calafiori (DEF, ARS) | heuristic 4.28 | estimated budget ceiling £6.8m
+  -> Konsa                ARS £4.9m | FDR 3.7 | rivals 7/12 | score +3.90
+  -> Van Hecke            TOT £5.1m | FDR 2.3 | rivals 3/12 | score +2.50
+  -> Muharemović          LEE £5.1m | FDR 3.7 | rivals 1/12 | score +1.71
+OUT? De Cuyper (DEF, BHA) | heuristic 5.71 | estimated budget ceiling £6.4m
+  -> Konsa                ARS £4.9m | FDR 3.7 | rivals 7/12 | score +2.48
+  -> Van Hecke            TOT £5.1m | FDR 2.3 | rivals 3/12 | score +1.07
+  -> Muharemović          LEE £5.1m | FDR 3.7 | rivals 1/12 | score +0.28
 OUT? O'Shea (DEF, IPS) | heuristic 1.76 | estimated budget ceiling £4.9m
-  -> Konsa                ARS £4.9m | FDR 3.7 | rivals 7/12 | score +6.13
-  -> Robertson            TOT £4.3m | FDR 2.3 | rivals 1/12 | score +3.03
-  -> Castagne             FUL £4.5m | FDR 3.7 | rivals 0/12 | score +2.85
+  -> Konsa                ARS £4.9m | FDR 3.7 | rivals 7/12 | score +6.42
+  -> Justin               LEE £4.5m | FDR 3.7 | rivals 0/12 | score +3.15
+  -> O'Nien               SUN £3.9m | FDR 3.3 | rivals 0/12 | score +3.10
 OUT? Ouattara (DEF, IPS) | heuristic 3.04 | estimated budget ceiling £4.9m
-  -> Konsa                ARS £4.9m | FDR 3.7 | rivals 7/12 | score +4.85
-  -> Robertson            TOT £4.3m | FDR 2.3 | rivals 1/12 | score +1.74
-  -> Castagne             FUL £4.5m | FDR 3.7 | rivals 0/12 | score +1.57
-OUT? Vuskovic (DEF, BHA) | heuristic 6.89 | estimated budget ceiling £6.2m
-  -> Konsa                ARS £4.9m | FDR 3.7 | rivals 7/12 | score +1.01
+  -> Konsa                ARS £4.9m | FDR 3.7 | rivals 7/12 | score +5.14
+  -> Justin               LEE £4.5m | FDR 3.7 | rivals 0/12 | score +1.86
+  -> O'Nien               SUN £3.9m | FDR 3.3 | rivals 0/12 | score +1.81
+OUT? Vuskovic (DEF, BHA) | heuristic 6.15 | estimated budget ceiling £6.2m
+  -> Konsa                ARS £4.9m | FDR 3.7 | rivals 7/12 | score +2.03
+  -> Van Hecke            TOT £5.1m | FDR 2.3 | rivals 3/12 | score +0.63
 OUT? Dewsbury-Hall (MID, EVE) | heuristic 4.47 | estimated budget ceiling £7.6m
   -> Wirtz                LIV £7.2m | FDR 2.7 | rivals 0/12 | score +1.47
-  -> E.Le Fée             SUN £5.7m | FDR 3.3 | rivals 0/12 | score +0.88
+  -> E.Le Fée             SUN £5.7m | FDR 3.3 | rivals 0/12 | score +1.36
   -> Enciso               IPS £5.5m | FDR 2.7 | rivals 0/12 | score +0.76
-OUT? Mbeumo (MID, MUN) | heuristic 3.38 | estimated budget ceiling £8.8m
-  -> Wirtz                LIV £7.2m | FDR 2.7 | rivals 0/12 | score +2.55
-  -> E.Le Fée             SUN £5.7m | FDR 3.3 | rivals 0/12 | score +1.97
-  -> Enciso               IPS £5.5m | FDR 2.7 | rivals 0/12 | score +1.84
+OUT? Mbeumo (MID, MUN) | heuristic 2.49 | estimated budget ceiling £8.8m
+  -> Wirtz                LIV £7.2m | FDR 2.7 | rivals 0/12 | score +3.45
+  -> E.Le Fée             SUN £5.7m | FDR 3.3 | rivals 0/12 | score +3.34
+  -> Enciso               IPS £5.5m | FDR 2.7 | rivals 0/12 | score +2.74
 OUT? Neto (MID, CHE) | heuristic 2.89 | estimated budget ceiling £7.5m
   -> Wirtz                LIV £7.2m | FDR 2.7 | rivals 0/12 | score +3.04
-  -> E.Le Fée             SUN £5.7m | FDR 3.3 | rivals 0/12 | score +2.46
+  -> E.Le Fée             SUN £5.7m | FDR 3.3 | rivals 0/12 | score +2.93
   -> Enciso               IPS £5.5m | FDR 2.7 | rivals 0/12 | score +2.34
 OUT? Palmer (MID, CHE) | heuristic 3.55 | estimated budget ceiling £10.7m
   -> Wirtz                LIV £7.2m | FDR 2.7 | rivals 0/12 | score +2.39
-  -> E.Le Fée             SUN £5.7m | FDR 3.3 | rivals 0/12 | score +1.80
+  -> E.Le Fée             SUN £5.7m | FDR 3.3 | rivals 0/12 | score +2.28
   -> Enciso               IPS £5.5m | FDR 2.7 | rivals 0/12 | score +1.68
-OUT? Tavernier (MID, BOU) | heuristic 5.73 | estimated budget ceiling £7.6m
-  -> Wirtz                LIV £7.2m | FDR 2.7 | rivals 0/12 | score +0.20
+OUT? Tavernier (MID, BOU) | heuristic 5.02 | estimated budget ceiling £7.6m
+  -> Wirtz                LIV £7.2m | FDR 2.7 | rivals 0/12 | score +0.92
+  -> E.Le Fée             SUN £5.7m | FDR 3.3 | rivals 0/12 | score +0.81
+  -> Enciso               IPS £5.5m | FDR 2.7 | rivals 0/12 | score +0.21
 OUT? Cherif (FWD, COV) | heuristic 1.81 | estimated budget ceiling £5.9m
   -> Barry                EVE £5.7m | FDR 3.7 | rivals 2/12 | score +5.14
   -> McBurnie             HUL £5.5m | FDR 3.0 | rivals 0/12 | score +3.90
-  -> Delap                NFO £5.3m | FDR 3.3 | rivals 0/12 | score +2.11
+  -> Delap                NFO £5.3m | FDR 3.3 | rivals 0/12 | score +2.65
 OUT? Haaland (FWD, MCI) | heuristic 4.63 | estimated budget ceiling £16.7m
-  -> Evanilson            BOU £6.5m | FDR 3.3 | rivals 4/12 | score +2.69
   -> Barry                EVE £5.7m | FDR 3.7 | rivals 2/12 | score +2.32
+  -> Evanilson            BOU £6.5m | FDR 3.3 | rivals 4/12 | score +2.09
   -> Isak                 LIV £9.3m | FDR 2.7 | rivals 4/12 | score +1.61
 
 These are research candidates only. Do not execute without checking
