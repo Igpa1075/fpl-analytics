@@ -1,7 +1,7 @@
 {
   "target_gw": 11,
-  "forecast_captured_at_utc": "2026-11-18T04:23:37.181962+00:00",
-  "forecast_source": "data/contextual_forecasts/2026-11-18.json",
+  "forecast_captured_at_utc": "2026-11-19T04:26:02.506280+00:00",
+  "forecast_source": "data/contextual_forecasts/2026-11-19.json",
   "squad_source": "data/picks.json (latest publicly published GW; may be stale)",
   "squad_event": 10,
   "expected_xi_points_with_captain": 65.777,
@@ -431,8 +431,8 @@
           "difficulty": 2
         }
       ],
-      "expected_points": 2.033,
-      "baseline_expected_points": 2.163,
+      "expected_points": 2.049,
+      "baseline_expected_points": 2.18,
       "context_factor": 0.94,
       "context_signals": [
         {

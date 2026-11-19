@@ -1,6 +1,6 @@
 {
   "target_gw": 11,
-  "forecast_source": "data/contextual_forecasts/2026-11-18.json",
+  "forecast_source": "data/contextual_forecasts/2026-11-19.json",
   "squad_source": "data/picks.json, latest publicly published GW",
   "squad_event": 10,
   "bank_tenths_million_proxy": 9,
@@ -67,6 +67,21 @@
           {
             "out": 8,
             "out_name": "Calafiori",
+            "in": 112,
+            "in_name": "Van Hecke"
+          }
+        ],
+        "projected_xi_with_captain": 69.353,
+        "gross_gain_vs_hold": 3.576,
+        "remaining_bank_proxy": 17,
+        "hit_cost": 0,
+        "net_gain_vs_hold": 3.576
+      },
+      {
+        "transfers": [
+          {
+            "out": 8,
+            "out_name": "Calafiori",
             "in": 31,
             "in_name": "Konsa"
           }
@@ -106,21 +121,6 @@
         "remaining_bank_proxy": 18,
         "hit_cost": 0,
         "net_gain_vs_hold": 2.92
-      },
-      {
-        "transfers": [
-          {
-            "out": 8,
-            "out_name": "Calafiori",
-            "in": 112,
-            "in_name": "Van Hecke"
-          }
-        ],
-        "projected_xi_with_captain": 68.64,
-        "gross_gain_vs_hold": 2.863,
-        "remaining_bank_proxy": 17,
-        "hit_cost": 0,
-        "net_gain_vs_hold": 2.863
       },
       {
         "transfers": [
@@ -172,6 +172,48 @@
       {
         "transfers": [
           {
+            "out": 8,
+            "out_name": "Calafiori",
+            "in": 112,
+            "in_name": "Van Hecke"
+          },
+          {
+            "out": 304,
+            "out_name": "O'Shea",
+            "in": 31,
+            "in_name": "Konsa"
+          }
+        ],
+        "projected_xi_with_captain": 73.972,
+        "gross_gain_vs_hold": 8.195,
+        "remaining_bank_proxy": 7,
+        "hit_cost": 0,
+        "net_gain_vs_hold": 8.195
+      },
+      {
+        "transfers": [
+          {
+            "out": 8,
+            "out_name": "Calafiori",
+            "in": 112,
+            "in_name": "Van Hecke"
+          },
+          {
+            "out": 592,
+            "out_name": "Ouattara",
+            "in": 31,
+            "in_name": "Konsa"
+          }
+        ],
+        "projected_xi_with_captain": 73.972,
+        "gross_gain_vs_hold": 8.195,
+        "remaining_bank_proxy": 7,
+        "hit_cost": 0,
+        "net_gain_vs_hold": 8.195
+      },
+      {
+        "transfers": [
+          {
             "out": 427,
             "out_name": "Mbeumo",
             "in": 542,
@@ -262,38 +304,17 @@
             "in_name": "Van Hecke"
           },
           {
-            "out": 304,
-            "out_name": "O'Shea",
-            "in": 31,
-            "in_name": "Konsa"
+            "out": 599,
+            "out_name": "Cherif",
+            "in": 249,
+            "in_name": "Barry"
           }
         ],
-        "projected_xi_with_captain": 73.259,
-        "gross_gain_vs_hold": 7.482,
-        "remaining_bank_proxy": 7,
+        "projected_xi_with_captain": 73.073,
+        "gross_gain_vs_hold": 7.296,
+        "remaining_bank_proxy": 9,
         "hit_cost": 0,
-        "net_gain_vs_hold": 7.482
-      },
-      {
-        "transfers": [
-          {
-            "out": 8,
-            "out_name": "Calafiori",
-            "in": 112,
-            "in_name": "Van Hecke"
-          },
-          {
-            "out": 592,
-            "out_name": "Ouattara",
-            "in": 31,
-            "in_name": "Konsa"
-          }
-        ],
-        "projected_xi_with_captain": 73.259,
-        "gross_gain_vs_hold": 7.482,
-        "remaining_bank_proxy": 7,
-        "hit_cost": 0,
-        "net_gain_vs_hold": 7.482
+        "net_gain_vs_hold": 7.296
       },
       {
         "transfers": [
@@ -357,27 +378,6 @@
         "remaining_bank_proxy": 11,
         "hit_cost": 0,
         "net_gain_vs_hold": 6.816
-      },
-      {
-        "transfers": [
-          {
-            "out": 154,
-            "out_name": "Palmer",
-            "in": 542,
-            "in_name": "E.Le Fée"
-          },
-          {
-            "out": 304,
-            "out_name": "O'Shea",
-            "in": 31,
-            "in_name": "Konsa"
-          }
-        ],
-        "projected_xi_with_captain": 72.591,
-        "gross_gain_vs_hold": 6.814,
-        "remaining_bank_proxy": 41,
-        "hit_cost": 0,
-        "net_gain_vs_hold": 6.814
       }
     ]
   },
