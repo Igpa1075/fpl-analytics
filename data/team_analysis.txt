@@ -19,7 +19,7 @@ Slot Player                 Club  Pos     £m  Form   PPG  Score Status
   12 Verbruggen             BHA   GKP    4.7   6.3   5.7   6.12 a
   13 Ouattara               IPS   DEF    4.0   3.3   2.9   3.18 a
   14 O'Shea                 IPS   DEF    4.0   1.3   2.8   1.75 a
-  15 Cherif                 COV   FWD    5.0   1.2   3.0   1.74 a
+  15 Cherif                 COV   FWD    5.0   1.3   3.0   1.81 a
 
 Suggested XI based on the heuristic (review injury/news before deadline):
 Formation: 4-4-2
