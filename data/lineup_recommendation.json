@@ -1,7 +1,7 @@
 {
   "target_gw": 11,
-  "forecast_captured_at_utc": "2026-11-19T04:26:02.506280+00:00",
-  "forecast_source": "data/contextual_forecasts/2026-11-19.json",
+  "forecast_captured_at_utc": "2026-11-20T04:21:47.361374+00:00",
+  "forecast_source": "data/contextual_forecasts/2026-11-20.json",
   "squad_source": "data/picks.json (latest publicly published GW; may be stale)",
   "squad_event": 10,
   "expected_xi_points_with_captain": 65.777,
@@ -262,7 +262,7 @@
       "name": "N.Jackson",
       "team_id": 2,
       "position_id": 4,
-      "price_tenths_million": 71,
+      "price_tenths_million": 72,
       "availability": 1.0,
       "fixtures": [
         {
@@ -315,7 +315,7 @@
     "name": "N.Jackson",
     "team_id": 2,
     "position_id": 4,
-    "price_tenths_million": 71,
+    "price_tenths_million": 72,
     "availability": 1.0,
     "fixtures": [
       {
