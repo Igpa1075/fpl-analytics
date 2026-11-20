@@ -3,7 +3,7 @@ Score is a ranking heuristic, NOT a predicted points value.
 
 Player                   Team  Pos     £m   Form    PPG   FDR   Score
 ------------------------------------------------------------------------
-N.Jackson                AVL   FWD    7.1   11.0    6.0   2.3    9.13
+N.Jackson                AVL   FWD    7.2   11.0    6.0   2.3    9.13
 Konsa                    ARS   DEF    4.9   10.7    6.3   3.7    8.18
 Gabriel                  ARS   DEF    8.1   10.3    6.6   3.7    8.04
 Van Hecke                TOT   DEF    5.1    8.7    5.7   2.3    7.55

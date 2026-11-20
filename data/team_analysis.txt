@@ -15,7 +15,7 @@ Slot Player                 Club  Pos     £m  Form   PPG  Score Status
    8 Dewsbury-Hall          EVE   MID    6.7   5.0   5.0   5.00 a
    9 Tavernier              BOU   MID    6.7   5.3   5.8   5.45 a
   10 Haaland (C)            MCI   FWD   15.8   4.0   7.0   4.90 a
-  11 N.Jackson (VC)         AVL   FWD    7.1  11.0   6.0   9.50 a
+  11 N.Jackson (VC)         AVL   FWD    7.2  11.0   6.0   9.50 a
   12 Verbruggen             BHA   GKP    4.7   6.3   5.7   6.12 a
   13 Ouattara               IPS   DEF    4.0   3.3   2.9   3.18 a
   14 O'Shea                 IPS   DEF    4.0   1.3   2.8   1.75 a
