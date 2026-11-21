@@ -1,7 +1,7 @@
 {
   "target_gw": 11,
-  "forecast_captured_at_utc": "2026-11-20T04:21:47.361374+00:00",
-  "forecast_source": "data/contextual_forecasts/2026-11-20.json",
+  "forecast_captured_at_utc": "2026-11-21T04:19:06.195274+00:00",
+  "forecast_source": "data/contextual_forecasts/2026-11-21.json",
   "squad_source": "data/picks.json (latest publicly published GW; may be stale)",
   "squad_event": 10,
   "expected_xi_points_with_captain": 65.777,
@@ -232,7 +232,7 @@
       "name": "Mbeumo",
       "team_id": 16,
       "position_id": 3,
-      "price_tenths_million": 79,
+      "price_tenths_million": 78,
       "availability": 1.0,
       "fixtures": [
         {

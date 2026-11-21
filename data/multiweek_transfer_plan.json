@@ -1,9 +1,9 @@
 {
   "target_gw": 11,
   "last_gw": 15,
-  "captured_at_utc": "2026-11-20T04:21:46.886494+00:00",
-  "forecast_source": "data/contextual_forecasts/2026-11-20.json",
-  "snapshot_source": "data/snapshots/2026-11-20.json",
+  "captured_at_utc": "2026-11-21T04:19:05.857820+00:00",
+  "forecast_source": "data/contextual_forecasts/2026-11-21.json",
+  "snapshot_source": "data/snapshots/2026-11-21.json",
   "hold_five_gw_expected_points": 319.108,
   "verified_private_inputs_used": true,
   "user_confirmed_bank_and_free_transfers": true,
@@ -384,7 +384,7 @@
           "in_name": "Konsa"
         }
       ],
-      "remaining_bank_proxy": 7,
+      "remaining_bank_proxy": 6,
       "weekly": [
         {
           "gw": 11,
@@ -429,7 +429,7 @@
           "in_name": "Konsa"
         }
       ],
-      "remaining_bank_proxy": 7,
+      "remaining_bank_proxy": 6,
       "weekly": [
         {
           "gw": 11,
@@ -702,7 +702,7 @@
           "in_name": "E.Le Fée"
         }
       ],
-      "remaining_bank_proxy": 31,
+      "remaining_bank_proxy": 30,
       "weekly": [
         {
           "gw": 11,
@@ -741,7 +741,7 @@
           "in_name": "Wirtz"
         }
       ],
-      "remaining_bank_proxy": 3,
+      "remaining_bank_proxy": 2,
       "weekly": [
         {
           "gw": 11,
@@ -780,7 +780,7 @@
           "in_name": "Wirtz"
         }
       ],
-      "remaining_bank_proxy": 16,
+      "remaining_bank_proxy": 14,
       "weekly": [
         {
           "gw": 11,
@@ -819,7 +819,7 @@
           "in_name": "Ødegaard"
         }
       ],
-      "remaining_bank_proxy": 21,
+      "remaining_bank_proxy": 20,
       "weekly": [
         {
           "gw": 11,
