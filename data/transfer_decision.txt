@@ -1,6 +1,6 @@
-Chubais | GW11 decision support | 1 free transfer(s) confirmed for GW10
-Latest saved squad: GW10; user confirmed unchanged since GW9: True
-Last saved bank: £0.9m (NOT verified current balance).
+Chubais | GW12 decision support | 1 free transfer(s) confirmed for GW10
+Latest saved squad: GW11; user confirmed unchanged since GW9: True
+Last saved bank: £0.1m (NOT verified current balance).
 All numerical ratings are HEURISTICS, NOT predicted FPL points.
 No validated future-point model or rival rank-win probabilities yet.
 Actual selling prices and future transfer counts are NOT available in public data.

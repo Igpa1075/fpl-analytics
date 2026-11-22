@@ -1,25 +1,25 @@
 {
-  "saved_squad_gw": 10,
+  "saved_squad_gw": 11,
   "future_gws": [
-    11,
     12,
-    13
+    13,
+    14
   ],
-  "saved_bank_m": 0.9,
-  "baseline_3gw_proxy": 171.99,
-  "positive_candidates": 72,
-  "outgoing_players_with_options": 13,
+  "saved_bank_m": 0.1,
+  "baseline_3gw_proxy": 164.92,
+  "positive_candidates": 55,
+  "outgoing_players_with_options": 9,
   "best_candidate": {
-    "out": "Ouattara",
-    "out_id": 592,
-    "out_team": "IPS",
-    "in": "Konsa",
-    "in_id": 31,
-    "in_team": "ARS",
-    "position": "DEF",
-    "out_market_price": 4.0,
-    "in_price": 4.9,
-    "gain_3gw_proxy": 8.59,
+    "out": "Neto",
+    "out_id": 156,
+    "out_team": "CHE",
+    "in": "Kluivert",
+    "in_id": 70,
+    "in_team": "BOU",
+    "position": "MID",
+    "out_market_price": 6.6,
+    "in_price": 5.9,
+    "gain_3gw_proxy": 4.49,
     "budget_status": "UNVERIFIED"
   },
   "limitations": [

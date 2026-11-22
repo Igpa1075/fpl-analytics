@@ -1,11 +1,11 @@
 {
-  "players": 672,
-  "eligible_players": 198,
+  "players": 674,
+  "eligible_players": 212,
   "my_players": 15,
   "future_gameweeks": [
-    11,
     12,
-    13
+    13,
+    14
   ],
   "ranking_type": "heuristic",
   "notes": [
