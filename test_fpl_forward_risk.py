@@ -1,6 +1,7 @@
 import unittest
 from fpl_forward_risk import team_form, forecast, participation
 from fpl_recent_minutes import collect
+from fpl_defensive_risk import defensive_form, defensive_availability, squad_defensive_concentration
 
 class RiskForecastTests(unittest.TestCase):
     def setUp(self):
@@ -62,6 +63,43 @@ class RiskForecastTests(unittest.TestCase):
         out=collect(boot,getter)
         self.assertEqual(paths,["/event/1/live/"])
         self.assertEqual(out["completed_gws"],[1])
+
+    def test_defensive_downturn_increases_conceding_risk(self):
+        self.assertGreater(defensive_form({"defense":1.0,"recent_defense":1.8},1.4),1.0)
+        self.assertLessEqual(defensive_form({"defense":1.0,"recent_defense":4},1.4),1.16)
+
+    def test_keeper_injury_is_flagged_not_assumed_penalty(self):
+        keeper={"id":12,"team":1,"element_type":1,"minutes":900,
+                "web_name":"FirstGK","status":"a"}
+        defender={"id":13,"team":1,"element_type":2,"minutes":800,
+                  "web_name":"Fullback","status":"a"}
+        self.boot["elements"].extend([keeper,defender])
+        base=next(x for x in forecast(self.boot,self.fixtures)["ranking"] if x["id"]==13)
+        keeper["status"]="i"
+        changed=next(x for x in forecast(self.boot,self.fixtures)["ranking"] if x["id"]==13)
+        self.assertTrue(changed["defensive_absence_flags"]["primary_gk_flag"])
+        self.assertTrue(defensive_availability(self.boot["elements"],1)["review_required"])
+        # Injury flag is not converted into an arbitrary clean-sheet penalty.
+        self.assertEqual(base["expected_points_proxy"],changed["expected_points_proxy"])
+
+    def test_double_defender_concentration_detected(self):
+        a={"id":11,"team":1,"element_type":2,"web_name":"DefA"}
+        b={"id":12,"team":1,"element_type":2,"web_name":"DefB"}
+        picks={"picks":[{"element":11,"position":2},{"element":12,"position":3}]}
+        audit=squad_defensive_concentration(picks,{11:a,12:b})
+        self.assertEqual(audit["same_club_clusters"][0]["count"],2)
+
+    def test_cameo_less_clean_sheet_eligibility(self):
+        defender={"id":20,"team":1,"element_type":2,"minutes":540,"web_name":"Def",
+                  "expected_goals":0,"expected_assists":0,"status":"a"}
+        self.boot["elements"].append(defender)
+        regular={"completed_gws":[1,2,3],
+                 "players":{"20":[{"gw":i,"minutes":90} for i in (1,2,3)]}}
+        cameo={"completed_gws":[1,2,3],
+               "players":{"20":[{"gw":i,"minutes":15} for i in (1,2,3)]}}
+        a=next(x for x in forecast(self.boot,self.fixtures,recent_minutes=regular)["ranking"] if x["id"]==20)
+        b=next(x for x in forecast(self.boot,self.fixtures,recent_minutes=cameo)["ranking"] if x["id"]==20)
+        self.assertGreater(a["expected_points_proxy"],b["expected_points_proxy"])
 
     def test_no_news_penalty(self):
         a=forecast(self.boot,self.fixtures)["ranking"][0]["expected_points_proxy"]
