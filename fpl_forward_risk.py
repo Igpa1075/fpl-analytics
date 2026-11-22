@@ -6,6 +6,7 @@ import json, math
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
+from fpl_defensive_risk import defensive_form, defensive_availability, squad_defensive_concentration
 
 DATA=Path(__file__).resolve().parent/"data"
 def clip(x,a,b): return max(a,min(b,x))
@@ -86,6 +87,7 @@ def forecast(boot,fixtures,picks=None,recent_minutes=None):
         fixture_by_team.setdefault(int(f["team_a"]),[]).append((int(f["team_h"]),False))
     teams={int(t["id"]):t["short_name"] for t in boot["teams"]}
     rows=[]
+    defensive_flags={int(t["id"]):defensive_availability(boot["elements"],int(t["id"])) for t in boot["teams"]}
     recent_minutes=recent_minutes or {}
     minute_weeks=[int(g) for g in recent_minutes.get("completed_gws",[]) if int(g)<target]
     # Ensure the archive is current for the last five completed GWs; incomplete
@@ -131,12 +133,18 @@ def forecast(boot,fixtures,picks=None,recent_minutes=None):
             assist=xa90*expected_minutes/90*factor
             oppattack=other.get("attack",league)*other.get("attack_trend",1.)
             owndef=own.get("defense",league)
-            conceded=clip(oppattack*owndef/league*(.93 if home else 1.07),.2,3.5)
+            defense_trend=defensive_form(own,league)
+            conceded=clip(oppattack*owndef/league*defense_trend*(.93 if home else 1.07),.2,3.5)
             cs=math.exp(-conceded)
             appearance=play+(expected_minutes/max(1,usage["conditional_minutes"]))*clip(
                 (usage["conditional_minutes"]-30)/30,0,1)
             attacking=(goal*{1:6,2:6,3:5,4:4}[pos]+assist*3)*teammate_penalty
-            cspts=play*cs*{1:4,2:4,3:1,4:0}[pos]
+            # Clean-sheet points require playing >=60 minutes. Avoid granting
+            # full CS credit to a likely cameo or a player who may not feature.
+            sixty=usage["sixty_plus_rate"]
+            eligible60=(play*clip((usage["conditional_minutes"]-30)/50,0,1)
+                        if sixty is None else min(play,sixty))
+            cspts=eligible60*cs*{1:4,2:4,3:1,4:0}[pos]
             bonus=clip(num(p.get("bonus"))*90/max(450,mins)*.55,0,1.25)*play
             defensive=clip(num(p.get("defensive_contribution_points"))*90/max(450,mins),0,1.4)*play
             output+=appearance+attacking+cspts+bonus+defensive
@@ -157,6 +165,8 @@ def forecast(boot,fixtures,picks=None,recent_minutes=None):
                      "key_teammates_unavailable":len(unavailable_peers),
                      "teammate_attack_factor_experimental":round(teammate_penalty,3),
                      "attack_trend":round(trend,3),
+                     "defense_trend":round(defensive_form(own,league),3),
+                     "defensive_absence_flags":defensive_flags[team],
                      "trend_label":"downturn" if trend<.96 else ("upturn" if trend>1.04 else "neutral"),
                      "status":p.get("status"),"news":p.get("news") or ""})
     rows.sort(key=lambda r:(-r["conservative_score"],-r["expected_points_proxy"]))
@@ -165,9 +175,12 @@ def forecast(boot,fixtures,picks=None,recent_minutes=None):
         ids={int(x["element"]) for x in picks.get("picks",[])}
         squad=[r for r in rows if r["id"] in ids]
         squad.sort(key=lambda r:-r["conservative_score"])
+    lookup={int(p["id"]):p for p in boot["elements"]}
+    concentration=squad_defensive_concentration(picks,lookup)
     return {"status":"exploratory_unvalidated_forward_risk_model",
             "gw":target,"created_at_utc":datetime.now(timezone.utc).isoformat(),
-            "model_version":"forward-risk-0.2",
+            "model_version":"forward-risk-0.3",
+            "defensive_concentration":concentration,
             "recent_minutes_completed_gws":minute_weeks if valid_archive else [],
             "ranking":rows,"published_prior_gw_squad_candidates":squad,
             "warnings":["Results are structural proxies, not calibrated xPts or confidence intervals.",
@@ -177,6 +190,9 @@ def forecast(boot,fixtures,picks=None,recent_minutes=None):
                         "Conservative score is a heuristic ranking, not a probability or lower confidence bound.",
                         "Minutes-based 60+ proxy is not an actual starting lineup; substitutes and injuries are confounded.",
                         "Teammate absence factor is experimental, based on FPL status of six season-minute leaders, not validated causal impact.",
+                        "Key goalkeeper and defender injuries are flags only; no unvalidated defensive-absence multiplier.",
+                        "Defensive form uses goals conceded, not xGA, and is not calibrated.",
+                        "Same-club defender concentration is reported, not penalized automatically.",
                         "Predeadline injuries, transfers, real player positions and starting XI need separate checks."]}
 
 def main():
