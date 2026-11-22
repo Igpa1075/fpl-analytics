@@ -76,6 +76,12 @@ jobs:
       - name: Backtest lagged expected-points proxy GW2-10
         run: python fpl_gw11_xpts_backtest_audit.py
 
+      - name: Test risk-aware forward model against future-data leakage
+        run: python -m unittest test_fpl_forward_risk.py
+
+      - name: Forecast next-GW team trends and uncertainty-aware ranking
+        run: python fpl_forward_risk.py
+
       - name: Generate FPL analysis
         run: python fpl_analysis.py > data/analysis.txt
   
