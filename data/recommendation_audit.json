@@ -1,10 +1,10 @@
 {
-  "target_gw": 11,
+  "target_gw": 12,
   "passed": true,
   "error_count": 0,
   "errors": [],
   "warnings": [
-    "Verified selling prices and squad are a dated screenshot, not live API values.",
+    "Selling prices or squad unverified: transfer budget is approximate.",
     "No out-of-sample evaluation yet unless completed-GW forecast evaluations exist.",
     "Five-GW projections reuse frozen form and availability; not independent future forecasts.",
     "Two-transfer shortlist is not exhaustive and may exclude better long-term choices.",
@@ -17,13 +17,13 @@
   "checks": {
     "lineup_formation": {
       "1": 1,
-      "2": 3,
-      "3": 5,
+      "2": 4,
+      "3": 4,
       "4": 2
     },
     "contextual_forecast_used": true,
     "elite_and_control_cohorts_used_for_points": false,
-    "starting_xi_expected_points": 65.777,
+    "starting_xi_expected_points": 61.73,
     "transfer_scenarios": 21,
     "multiweek_scenarios": 21
   }

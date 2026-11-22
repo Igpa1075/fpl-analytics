@@ -1,7 +1,7 @@
 {
   "entry_id": 5150250,
-  "latest_public_picks_gw": 10,
-  "next_deadline_gw": 11,
+  "latest_public_picks_gw": 11,
+  "next_deadline_gw": 12,
   "public_squad_is_current_for_next_deadline": false,
   "source": "Official public entry/event/picks endpoint; published only after GW deadline",
   "limitations": [

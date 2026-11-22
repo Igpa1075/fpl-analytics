@@ -1,13 +1,13 @@
 {
-  "target_gw": 11,
-  "forecast_captured_at_utc": "2026-11-21T04:19:06.195274+00:00",
-  "forecast_source": "data/contextual_forecasts/2026-11-21.json",
+  "target_gw": 12,
+  "forecast_captured_at_utc": "2026-11-22T04:22:10.926189+00:00",
+  "forecast_source": "data/contextual_forecasts/2026-11-22.json",
   "squad_source": "data/picks.json (latest publicly published GW; may be stale)",
-  "squad_event": 10,
-  "expected_xi_points_with_captain": 65.777,
+  "squad_event": 11,
+  "expected_xi_points_with_captain": 61.73,
   "formation": {
-    "defenders": 3,
-    "midfielders": 5,
+    "defenders": 4,
+    "midfielders": 4,
     "forwards": 2
   },
   "starting_xi": [
@@ -20,13 +20,39 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 11,
-          "home": false,
-          "difficulty": 2
+          "opponent": 17,
+          "home": true,
+          "difficulty": 3
         }
       ],
-      "expected_points": 6.512,
-      "baseline_expected_points": 6.512,
+      "expected_points": 5.205,
+      "baseline_expected_points": 5.205,
+      "context_factor": 1.0,
+      "context_signals": [
+        {
+          "kind": "verified_espn_starts",
+          "starts": 5,
+          "matches": 5,
+          "factor": 1.0
+        }
+      ]
+    },
+    {
+      "player_id": 31,
+      "name": "Konsa",
+      "team_id": 1,
+      "position_id": 2,
+      "price_tenths_million": 49,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 15,
+          "home": true,
+          "difficulty": 4
+        }
+      ],
+      "expected_points": 6.137,
+      "baseline_expected_points": 6.137,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -46,13 +72,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 11,
-          "home": false,
-          "difficulty": 2
+          "opponent": 17,
+          "home": true,
+          "difficulty": 3
         }
       ],
-      "expected_points": 7.072,
-      "baseline_expected_points": 7.072,
+      "expected_points": 5.735,
+      "baseline_expected_points": 5.735,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -72,13 +98,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 11,
-          "home": false,
-          "difficulty": 2
+          "opponent": 17,
+          "home": true,
+          "difficulty": 3
         }
       ],
-      "expected_points": 6.648,
-      "baseline_expected_points": 6.392,
+      "expected_points": 5.476,
+      "baseline_expected_points": 5.265,
       "context_factor": 1.04,
       "context_signals": [
         {
@@ -102,13 +128,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 17,
-          "home": false,
-          "difficulty": 3
+          "opponent": 15,
+          "home": true,
+          "difficulty": 4
         }
       ],
-      "expected_points": 4.362,
-      "baseline_expected_points": 4.497,
+      "expected_points": 3.748,
+      "baseline_expected_points": 3.864,
       "context_factor": 0.97,
       "context_signals": [
         {
@@ -128,13 +154,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 18,
-          "home": true,
+          "opponent": 10,
+          "home": false,
           "difficulty": 3
         }
       ],
-      "expected_points": 5.29,
-      "baseline_expected_points": 5.29,
+      "expected_points": 6.0,
+      "baseline_expected_points": 6.0,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -154,13 +180,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 4,
-          "home": false,
+          "opponent": 14,
+          "home": true,
           "difficulty": 4
         }
       ],
-      "expected_points": 4.585,
-      "baseline_expected_points": 4.585,
+      "expected_points": 3.981,
+      "baseline_expected_points": 3.981,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -180,13 +206,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 13,
-          "home": true,
-          "difficulty": 3
+          "opponent": 18,
+          "home": false,
+          "difficulty": 2
         }
       ],
-      "expected_points": 3.722,
-      "baseline_expected_points": 3.722,
+      "expected_points": 3.85,
+      "baseline_expected_points": 3.85,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -206,43 +232,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 13,
-          "home": true,
-          "difficulty": 3
-        }
-      ],
-      "expected_points": 2.997,
-      "baseline_expected_points": 2.91,
-      "context_factor": 1.03,
-      "context_signals": [
-        {
-          "kind": "verified_espn_starts",
-          "starts": 5,
-          "matches": 5,
-          "factor": 1.0
-        },
-        {
-          "kind": "forward_midfielder_slot_proxy",
-          "factor": 1.03
-        }
-      ]
-    },
-    {
-      "player_id": 427,
-      "name": "Mbeumo",
-      "team_id": 16,
-      "position_id": 3,
-      "price_tenths_million": 78,
-      "availability": 1.0,
-      "fixtures": [
-        {
-          "opponent": 14,
+          "opponent": 18,
           "home": false,
-          "difficulty": 4
+          "difficulty": 2
         }
       ],
-      "expected_points": 2.839,
-      "baseline_expected_points": 2.756,
+      "expected_points": 2.99,
+      "baseline_expected_points": 2.903,
       "context_factor": 1.03,
       "context_signals": [
         {
@@ -266,13 +262,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 20,
-          "home": true,
+          "opponent": 12,
+          "home": false,
           "difficulty": 2
         }
       ],
-      "expected_points": 8.008,
-      "baseline_expected_points": 8.008,
+      "expected_points": 7.267,
+      "baseline_expected_points": 7.267,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -292,13 +288,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 10,
-          "home": true,
-          "difficulty": 2
+          "opponent": 1,
+          "home": false,
+          "difficulty": 5
         }
       ],
-      "expected_points": 5.734,
-      "baseline_expected_points": 5.734,
+      "expected_points": 4.074,
+      "baseline_expected_points": 4.074,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -319,13 +315,13 @@
     "availability": 1.0,
     "fixtures": [
       {
-        "opponent": 20,
-        "home": true,
+        "opponent": 12,
+        "home": false,
         "difficulty": 2
       }
     ],
-    "expected_points": 8.008,
-    "baseline_expected_points": 8.008,
+    "expected_points": 7.267,
+    "baseline_expected_points": 7.267,
     "context_factor": 1.0,
     "context_signals": [
       {
@@ -337,21 +333,21 @@
     ]
   },
   "vice_captain": {
-    "player_id": 504,
-    "name": "Vuskovic",
-    "team_id": 5,
+    "player_id": 31,
+    "name": "Konsa",
+    "team_id": 1,
     "position_id": 2,
-    "price_tenths_million": 53,
+    "price_tenths_million": 49,
     "availability": 1.0,
     "fixtures": [
       {
-        "opponent": 11,
-        "home": false,
-        "difficulty": 2
+        "opponent": 15,
+        "home": true,
+        "difficulty": 4
       }
     ],
-    "expected_points": 7.072,
-    "baseline_expected_points": 7.072,
+    "expected_points": 6.137,
+    "baseline_expected_points": 6.137,
     "context_factor": 1.0,
     "context_signals": [
       {
@@ -372,13 +368,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 15,
-          "home": false,
-          "difficulty": 5
+          "opponent": 3,
+          "home": true,
+          "difficulty": 3
         }
       ],
-      "expected_points": 3.461,
-      "baseline_expected_points": 3.461,
+      "expected_points": 3.755,
+      "baseline_expected_points": 3.755,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -392,6 +388,36 @@
   ],
   "bench_outfield_order": [
     {
+      "player_id": 427,
+      "name": "Mbeumo",
+      "team_id": 16,
+      "position_id": 3,
+      "price_tenths_million": 78,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 4,
+          "home": true,
+          "difficulty": 3
+        }
+      ],
+      "expected_points": 2.806,
+      "baseline_expected_points": 2.724,
+      "context_factor": 1.03,
+      "context_signals": [
+        {
+          "kind": "verified_espn_starts",
+          "starts": 5,
+          "matches": 5,
+          "factor": 1.0
+        },
+        {
+          "kind": "forward_midfielder_slot_proxy",
+          "factor": 1.03
+        }
+      ]
+    },
+    {
       "player_id": 592,
       "name": "Ouattara",
       "team_id": 12,
@@ -400,13 +426,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 19,
-          "home": false,
+          "opponent": 2,
+          "home": true,
           "difficulty": 3
         }
       ],
-      "expected_points": 2.723,
-      "baseline_expected_points": 2.723,
+      "expected_points": 2.385,
+      "baseline_expected_points": 2.385,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -426,13 +452,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 8,
-          "home": true,
-          "difficulty": 2
+          "opponent": 13,
+          "home": false,
+          "difficulty": 3
         }
       ],
-      "expected_points": 2.049,
-      "baseline_expected_points": 2.18,
+      "expected_points": 1.841,
+      "baseline_expected_points": 1.959,
       "context_factor": 0.94,
       "context_signals": [
         {
@@ -440,32 +466,6 @@
           "starts": 3,
           "matches": 5,
           "factor": 0.94
-        }
-      ]
-    },
-    {
-      "player_id": 304,
-      "name": "O'Shea",
-      "team_id": 12,
-      "position_id": 2,
-      "price_tenths_million": 40,
-      "availability": 1.0,
-      "fixtures": [
-        {
-          "opponent": 19,
-          "home": false,
-          "difficulty": 3
-        }
-      ],
-      "expected_points": 1.975,
-      "baseline_expected_points": 1.975,
-      "context_factor": 1.0,
-      "context_signals": [
-        {
-          "kind": "verified_espn_starts",
-          "starts": 5,
-          "matches": 5,
-          "factor": 1.0
         }
       ]
     }
