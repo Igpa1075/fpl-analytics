@@ -9,20 +9,20 @@ Rival captain choices in the completed GW:
   Isak: 1/12
   Gabriel: 1/12
 \nYour owned players: rival ownership and heuristic
-  Ouattara               DEF rivals  0/12 | score  2.54
-  O'Shea                 DEF rivals  0/12 | score  2.15
+  Ouattara               DEF rivals  0/12 | score  2.67
+  O'Shea                 DEF rivals  0/12 | score  2.08
   Cherif                 FWD rivals  0/12 | score  1.72
   Neto                   MID rivals  0/12 | score  2.63
   Palmer                 MID rivals  1/12 | score  3.40
   Dewsbury-Hall          MID rivals  1/12 | score  4.22
-  Vuskovic               DEF rivals  1/12 | score  5.57
+  Vuskovic               DEF rivals  1/12 | score  5.36
   Leno                   GKP rivals  2/12 | score  3.76
-  Mbeumo                 MID rivals  3/12 | score  2.39
-  Verbruggen             GKP rivals  6/12 | score  5.12
+  Mbeumo                 MID rivals  3/12 | score  2.48
+  Verbruggen             GKP rivals  6/12 | score  5.27
   N.Jackson              FWD rivals  7/12 | score  7.68
   Calafiori              DEF rivals  7/12 | score  4.13
   Tavernier              MID rivals  9/12 | score  6.00
-  De Cuyper              DEF rivals 10/12 | score  5.22
+  De Cuyper              DEF rivals 10/12 | score  5.14
   Haaland                FWD rivals 11/12 | score  4.55
 \nPotential DIFFERENTIALS (not purchase recommendations):
 Only players with >=180 season minutes and non-unavailable status.
@@ -31,36 +31,36 @@ Only players with >=180 season minutes and non-unavailable status.
     Konsa               ARS £4.9m | rivals  7/12 | score 7.36
     Gabriel             ARS £8.1m | rivals  3/12 | score 7.33
     Van Hecke           TOT £5.2m | rivals  3/12 | score 7.20
+    Araujo              LIV £5.5m | rivals  0/12 | score 6.00
     Silva               BOU £5.1m | rivals  1/12 | score 5.96
     Muharemović         LEE £5.1m | rivals  1/12 | score 5.75
     O'Nien              SUN £3.9m | rivals  0/12 | score 5.41
-    Justin              LEE £4.5m | rivals  0/12 | score 5.13
   MID:
+    Wirtz               LIV £7.4m | rivals  0/12 | score 7.64
     E.Le Fée            SUN £5.7m | rivals  0/12 | score 5.61
     Kluivert            BOU £5.9m | rivals  0/12 | score 5.44
     Rudoni              COV £4.9m | rivals  1/12 | score 5.34
     Ødegaard            ARS £6.7m | rivals  1/12 | score 5.32
-    Wirtz               LIV £7.3m | rivals  0/12 | score 4.99
+    Groß                BHA £6.3m | rivals 12/12 | score 4.94
     Okafor              LEE £5.7m | rivals  0/12 | score 4.88
     Bobb                FUL £5.5m | rivals  0/12 | score 4.87
-    Barnes              NEW £6.0m | rivals  3/12 | score 4.73
   FWD:
+    McBurnie            HUL £5.5m | rivals  0/12 | score 7.33
     Evanilson           BOU £6.6m | rivals  4/12 | score 7.01
     Barry               EVE £5.7m | rivals  2/12 | score 6.34
-    Isak                LIV £9.3m | rivals  4/12 | score 5.50
-    McBurnie            HUL £5.5m | rivals  0/12 | score 4.90
+    Isak                LIV £9.3m | rivals  4/12 | score 6.21
+    Delap               NFO £5.3m | rivals  0/12 | score 4.53
     Osula               NEW £5.8m | rivals  0/12 | score 4.08
     Calvert-Lewin       LEE £6.0m | rivals  1/12 | score 4.01
-    Delap               NFO £5.3m | rivals  0/12 | score 4.01
     Havertz             ARS £7.4m | rivals  1/12 | score 3.99
   GKP:
     Roefs               SUN £4.8m | rivals  0/12 | score 6.28
     Trafford            LEE £5.1m | rivals  0/12 | score 5.68
     Kinsky              TOT £4.4m | rivals  0/12 | score 5.41
+    Tzolakis            HUL £4.7m | rivals  5/12 | score 5.14
     Raya                ARS £6.3m | rivals  3/12 | score 4.80
+    A.Becker            LIV £5.5m | rivals  0/12 | score 4.70
     Petrović            BOU £4.5m | rivals  0/12 | score 4.54
     Horníček            NEW £5.0m | rivals  1/12 | score 3.45
-    A.Becker            LIV £5.5m | rivals  0/12 | score 3.42
-    Tzolakis            HUL £4.7m | rivals  5/12 | score 3.34
 \nNEXT: model transfers with current selling prices, free transfers,
 future fixtures, minutes risk, and uncertainty before estimating rank gains.

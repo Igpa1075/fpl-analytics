@@ -1,6 +1,6 @@
 {
   "status": "exploratory_attack_only_not_calibrated_xpts",
-  "created_at": "2026-11-22T05:03:54.018303+00:00",
+  "created_at": "2026-11-23T05:26:17.465518+00:00",
   "candidates": [
     {
       "id": 68,
@@ -80,9 +80,9 @@
       "fixture_difficulty": 2,
       "season_minutes": 822,
       "season_xg": 2.44,
-      "season_xa": 1.46,
+      "season_xa": 1.91,
       "xg_per90": 0.267,
-      "xa_per90": 0.16,
+      "xa_per90": 0.209,
       "last5_points": 37,
       "last3_points": 16,
       "last5_minutes": 399,
@@ -90,7 +90,7 @@
       "opp_conceded_5": 7,
       "opp_games_10": 10,
       "opp_games_5": 5,
-      "attacking_return_proxy": 1.65,
+      "attacking_return_proxy": 1.767,
       "status": "a",
       "news": ""
     },

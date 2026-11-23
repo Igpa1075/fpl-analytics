@@ -1,25 +1,25 @@
-FPL shortlist | next GW: 12 | players: 330
+FPL shortlist | next GW: 12 | players: 333
 Score is a ranking heuristic, NOT a predicted points value.
 
 Player                   Team  Pos     £m   Form    PPG   FDR   Score
 ------------------------------------------------------------------------
-N.Jackson                AVL   FWD    7.2    8.8    5.6   2.3    7.58
+N.Jackson                AVL   FWD    7.3    8.8    5.6   2.3    7.58
+Wirtz                    LIV   MID    7.4    8.8    5.5   3.0    7.19
 Hill                     BOU   DEF    5.6    8.8    5.1   3.0    7.05
+McBurnie                 HUL   FWD    5.5    8.8    4.6   3.0    6.89
 Van Hecke                TOT   DEF    5.2    8.0    5.7   3.0    6.76
 Evanilson                BOU   FWD    6.6    7.5    6.1   3.0    6.59
 Konsa                    ARS   DEF    4.9    8.2    5.8   3.7    6.57
 Gabriel                  ARS   DEF    8.1    8.0    6.1   3.7    6.55
 Barry                    EVE   FWD    5.7    6.8    5.5   3.0    5.96
+Isak                     LIV   FWD    9.3    6.0    6.6   3.0    5.84
 Roefs                    SUN   GKP    4.8    7.5    4.0   3.3    5.75
 Tavernier                BOU   MID    6.7    6.0    6.0   3.0    5.64
+Araujo                   LIV   DEF    5.5    6.8    4.5   3.0    5.64
 Silva                    BOU   DEF    5.1    6.8    4.4   3.0    5.60
 Muharemović              LEE   DEF    5.1    6.0    5.3   3.0    5.41
 Trafford                 LEE   GKP    5.1    6.0    5.1   3.0    5.34
-Vuskovic                 BHA   DEF    5.3    4.8    7.0   3.0    5.24
-Isak                     LIV   FWD    9.3    4.8    6.8   3.0    5.17
 Rudoni                   COV   MID    4.9    5.8    4.5   2.7    5.15
 E.Le Fée                 SUN   MID    5.7    6.2    4.5   3.3    5.14
 Kluivert                 BOU   MID    5.9    6.0    4.4   3.0    5.11
 Kinsky                   TOT   GKP    4.4    6.0    4.3   3.0    5.08
-O'Nien                   SUN   DEF    3.9    6.0    4.3   3.3    4.95
-De Cuyper                BHA   DEF    5.5    4.0    7.5   3.0    4.91
