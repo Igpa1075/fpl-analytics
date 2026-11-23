@@ -1,10 +1,10 @@
 {
   "target_gw": 12,
-  "forecast_captured_at_utc": "2026-11-22T04:22:10.926189+00:00",
-  "forecast_source": "data/contextual_forecasts/2026-11-22.json",
+  "forecast_captured_at_utc": "2026-11-23T04:38:12.733858+00:00",
+  "forecast_source": "data/contextual_forecasts/2026-11-23.json",
   "squad_source": "data/picks.json (latest publicly published GW; may be stale)",
   "squad_event": 11,
-  "expected_xi_points_with_captain": 61.73,
+  "expected_xi_points_with_captain": 61.785,
   "formation": {
     "defenders": 4,
     "midfielders": 4,
@@ -25,8 +25,8 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 5.205,
-      "baseline_expected_points": 5.205,
+      "expected_points": 5.29,
+      "baseline_expected_points": 5.29,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -54,12 +54,35 @@
       "expected_points": 6.137,
       "baseline_expected_points": 6.137,
       "context_factor": 1.0,
+      "context_signals": []
+    },
+    {
+      "player_id": 115,
+      "name": "De Cuyper",
+      "team_id": 5,
+      "position_id": 2,
+      "price_tenths_million": 55,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 17,
+          "home": true,
+          "difficulty": 3
+        }
+      ],
+      "expected_points": 5.632,
+      "baseline_expected_points": 5.415,
+      "context_factor": 1.04,
       "context_signals": [
         {
           "kind": "verified_espn_starts",
           "starts": 5,
           "matches": 5,
           "factor": 1.0
+        },
+        {
+          "kind": "advanced_defender_slot_proxy",
+          "factor": 1.04
         }
       ]
     },
@@ -77,8 +100,8 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 5.735,
-      "baseline_expected_points": 5.735,
+      "expected_points": 5.52,
+      "baseline_expected_points": 5.52,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -86,36 +109,6 @@
           "starts": 5,
           "matches": 5,
           "factor": 1.0
-        }
-      ]
-    },
-    {
-      "player_id": 115,
-      "name": "De Cuyper",
-      "team_id": 5,
-      "position_id": 2,
-      "price_tenths_million": 55,
-      "availability": 1.0,
-      "fixtures": [
-        {
-          "opponent": 17,
-          "home": true,
-          "difficulty": 3
-        }
-      ],
-      "expected_points": 5.476,
-      "baseline_expected_points": 5.265,
-      "context_factor": 1.04,
-      "context_signals": [
-        {
-          "kind": "verified_espn_starts",
-          "starts": 5,
-          "matches": 5,
-          "factor": 1.0
-        },
-        {
-          "kind": "advanced_defender_slot_proxy",
-          "factor": 1.04
         }
       ]
     },
@@ -133,17 +126,10 @@
           "difficulty": 4
         }
       ],
-      "expected_points": 3.748,
+      "expected_points": 3.864,
       "baseline_expected_points": 3.864,
-      "context_factor": 0.97,
-      "context_signals": [
-        {
-          "kind": "verified_espn_starts",
-          "starts": 4,
-          "matches": 5,
-          "factor": 0.97
-        }
-      ]
+      "context_factor": 1.0,
+      "context_signals": []
     },
     {
       "player_id": 68,
@@ -162,14 +148,7 @@
       "expected_points": 6.0,
       "baseline_expected_points": 6.0,
       "context_factor": 1.0,
-      "context_signals": [
-        {
-          "kind": "verified_espn_starts",
-          "starts": 5,
-          "matches": 5,
-          "factor": 1.0
-        }
-      ]
+      "context_signals": []
     },
     {
       "player_id": 236,
@@ -214,14 +193,7 @@
       "expected_points": 3.85,
       "baseline_expected_points": 3.85,
       "context_factor": 1.0,
-      "context_signals": [
-        {
-          "kind": "verified_espn_starts",
-          "starts": 5,
-          "matches": 5,
-          "factor": 1.0
-        }
-      ]
+      "context_signals": []
     },
     {
       "player_id": 156,
@@ -237,28 +209,17 @@
           "difficulty": 2
         }
       ],
-      "expected_points": 2.99,
+      "expected_points": 2.903,
       "baseline_expected_points": 2.903,
-      "context_factor": 1.03,
-      "context_signals": [
-        {
-          "kind": "verified_espn_starts",
-          "starts": 5,
-          "matches": 5,
-          "factor": 1.0
-        },
-        {
-          "kind": "forward_midfielder_slot_proxy",
-          "factor": 1.03
-        }
-      ]
+      "context_factor": 1.0,
+      "context_signals": []
     },
     {
       "player_id": 166,
       "name": "N.Jackson",
       "team_id": 2,
       "position_id": 4,
-      "price_tenths_million": 72,
+      "price_tenths_million": 73,
       "availability": 1.0,
       "fixtures": [
         {
@@ -311,7 +272,7 @@
     "name": "N.Jackson",
     "team_id": 2,
     "position_id": 4,
-    "price_tenths_million": 72,
+    "price_tenths_million": 73,
     "availability": 1.0,
     "fixtures": [
       {
@@ -349,14 +310,7 @@
     "expected_points": 6.137,
     "baseline_expected_points": 6.137,
     "context_factor": 1.0,
-    "context_signals": [
-      {
-        "kind": "verified_espn_starts",
-        "starts": 5,
-        "matches": 5,
-        "factor": 1.0
-      }
-    ]
+    "context_signals": []
   },
   "bench_goalkeeper": [
     {
@@ -376,14 +330,7 @@
       "expected_points": 3.755,
       "baseline_expected_points": 3.755,
       "context_factor": 1.0,
-      "context_signals": [
-        {
-          "kind": "verified_espn_starts",
-          "starts": 5,
-          "matches": 5,
-          "factor": 1.0
-        }
-      ]
+      "context_signals": []
     }
   ],
   "bench_outfield_order": [
@@ -401,8 +348,8 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 2.806,
-      "baseline_expected_points": 2.724,
+      "expected_points": 2.843,
+      "baseline_expected_points": 2.76,
       "context_factor": 1.03,
       "context_signals": [
         {
@@ -431,17 +378,10 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 2.385,
-      "baseline_expected_points": 2.385,
+      "expected_points": 2.463,
+      "baseline_expected_points": 2.463,
       "context_factor": 1.0,
-      "context_signals": [
-        {
-          "kind": "verified_espn_starts",
-          "starts": 5,
-          "matches": 5,
-          "factor": 1.0
-        }
-      ]
+      "context_signals": []
     },
     {
       "player_id": 599,
@@ -457,17 +397,10 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 1.841,
+      "expected_points": 1.959,
       "baseline_expected_points": 1.959,
-      "context_factor": 0.94,
-      "context_signals": [
-        {
-          "kind": "verified_espn_starts",
-          "starts": 3,
-          "matches": 5,
-          "factor": 0.94
-        }
-      ]
+      "context_factor": 1.0,
+      "context_signals": []
     }
   ],
   "warnings": [

@@ -1,20 +1,46 @@
 {
   "target_gw": 12,
-  "forecast_source": "data/contextual_forecasts/2026-11-22.json",
+  "forecast_source": "data/contextual_forecasts/2026-11-23.json",
   "squad_source": "data/picks.json, latest publicly published GW",
   "squad_event": 11,
   "bank_tenths_million_proxy": 1,
-  "baseline_expected_xi_with_captain": 61.73,
+  "baseline_expected_xi_with_captain": 61.785,
   "scenarios": {
     "0": [
       {
         "transfers": [],
-        "projected_xi_with_captain": 61.73,
+        "projected_xi_with_captain": 61.785,
         "gross_gain_vs_hold": 0.0,
         "remaining_bank_proxy": 1
       }
     ],
     "1": [
+      {
+        "transfers": [
+          {
+            "out": 427,
+            "out_name": "Mbeumo",
+            "in": 366,
+            "in_name": "Wirtz"
+          }
+        ],
+        "projected_xi_with_captain": 66.085,
+        "gross_gain_vs_hold": 4.3,
+        "remaining_bank_proxy": 5
+      },
+      {
+        "transfers": [
+          {
+            "out": 154,
+            "out_name": "Palmer",
+            "in": 366,
+            "in_name": "Wirtz"
+          }
+        ],
+        "projected_xi_with_captain": 65.138,
+        "gross_gain_vs_hold": 3.353,
+        "remaining_bank_proxy": 25
+      },
       {
         "transfers": [
           {
@@ -24,8 +50,8 @@
             "in_name": "Hill"
           }
         ],
-        "projected_xi_with_captain": 65.117,
-        "gross_gain_vs_hold": 3.387,
+        "projected_xi_with_captain": 65.056,
+        "gross_gain_vs_hold": 3.271,
         "remaining_bank_proxy": 4
       },
       {
@@ -37,8 +63,8 @@
             "in_name": "Van Hecke"
           }
         ],
-        "projected_xi_with_captain": 64.947,
-        "gross_gain_vs_hold": 3.217,
+        "projected_xi_with_captain": 64.886,
+        "gross_gain_vs_hold": 3.101,
         "remaining_bank_proxy": 8
       },
       {
@@ -50,7 +76,7 @@
             "in_name": "Evanilson"
           }
         ],
-        "projected_xi_with_captain": 64.526,
+        "projected_xi_with_captain": 64.581,
         "gross_gain_vs_hold": 2.796,
         "remaining_bank_proxy": 93
       },
@@ -63,8 +89,8 @@
             "in_name": "E.Le Fée"
           }
         ],
-        "projected_xi_with_captain": 64.175,
-        "gross_gain_vs_hold": 2.445,
+        "projected_xi_with_captain": 64.317,
+        "gross_gain_vs_hold": 2.532,
         "remaining_bank_proxy": 22
       },
       {
@@ -76,8 +102,8 @@
             "in_name": "E.Le Fée"
           }
         ],
-        "projected_xi_with_captain": 64.175,
-        "gross_gain_vs_hold": 2.445,
+        "projected_xi_with_captain": 64.317,
+        "gross_gain_vs_hold": 2.532,
         "remaining_bank_proxy": 10
       },
       {
@@ -89,22 +115,22 @@
             "in_name": "Muharemović"
           }
         ],
-        "projected_xi_with_captain": 64.122,
-        "gross_gain_vs_hold": 2.392,
+        "projected_xi_with_captain": 64.061,
+        "gross_gain_vs_hold": 2.276,
         "remaining_bank_proxy": 9
       },
       {
         "transfers": [
           {
-            "out": 8,
-            "out_name": "Calafiori",
-            "in": 566,
-            "in_name": "Silva"
+            "out": 411,
+            "out_name": "Haaland",
+            "in": 295,
+            "in_name": "McBurnie"
           }
         ],
-        "projected_xi_with_captain": 63.702,
-        "gross_gain_vs_hold": 1.972,
-        "remaining_bank_proxy": 9
+        "projected_xi_with_captain": 64.055,
+        "gross_gain_vs_hold": 2.27,
+        "remaining_bank_proxy": 104
       },
       {
         "transfers": [
@@ -115,45 +141,19 @@
             "in_name": "Rudoni"
           }
         ],
-        "projected_xi_with_captain": 63.669,
-        "gross_gain_vs_hold": 1.939,
+        "projected_xi_with_captain": 63.811,
+        "gross_gain_vs_hold": 2.026,
         "remaining_bank_proxy": 30
-      },
-      {
-        "transfers": [
-          {
-            "out": 156,
-            "out_name": "Neto",
-            "in": 183,
-            "in_name": "Rudoni"
-          }
-        ],
-        "projected_xi_with_captain": 63.669,
-        "gross_gain_vs_hold": 1.939,
-        "remaining_bank_proxy": 18
-      },
-      {
-        "transfers": [
-          {
-            "out": 427,
-            "out_name": "Mbeumo",
-            "in": 15,
-            "in_name": "Ødegaard"
-          }
-        ],
-        "projected_xi_with_captain": 63.593,
-        "gross_gain_vs_hold": 1.863,
-        "remaining_bank_proxy": 12
       }
     ],
     "2": [
       {
         "transfers": [
           {
-            "out": 411,
-            "out_name": "Haaland",
-            "in": 79,
-            "in_name": "Evanilson"
+            "out": 427,
+            "out_name": "Mbeumo",
+            "in": 366,
+            "in_name": "Wirtz"
           },
           {
             "out": 8,
@@ -162,17 +162,17 @@
             "in_name": "Hill"
           }
         ],
-        "projected_xi_with_captain": 67.913,
-        "gross_gain_vs_hold": 6.183,
-        "remaining_bank_proxy": 96
+        "projected_xi_with_captain": 69.356,
+        "gross_gain_vs_hold": 7.571,
+        "remaining_bank_proxy": 8
       },
       {
         "transfers": [
           {
-            "out": 411,
-            "out_name": "Haaland",
-            "in": 79,
-            "in_name": "Evanilson"
+            "out": 427,
+            "out_name": "Mbeumo",
+            "in": 366,
+            "in_name": "Wirtz"
           },
           {
             "out": 8,
@@ -181,36 +181,36 @@
             "in_name": "Van Hecke"
           }
         ],
-        "projected_xi_with_captain": 67.743,
-        "gross_gain_vs_hold": 6.013,
-        "remaining_bank_proxy": 100
+        "projected_xi_with_captain": 69.186,
+        "gross_gain_vs_hold": 7.401,
+        "remaining_bank_proxy": 12
       },
       {
         "transfers": [
           {
             "out": 427,
             "out_name": "Mbeumo",
-            "in": 542,
-            "in_name": "E.Le Fée"
+            "in": 366,
+            "in_name": "Wirtz"
           },
           {
-            "out": 8,
-            "out_name": "Calafiori",
-            "in": 60,
-            "in_name": "Hill"
+            "out": 411,
+            "out_name": "Haaland",
+            "in": 79,
+            "in_name": "Evanilson"
           }
         ],
-        "projected_xi_with_captain": 67.562,
-        "gross_gain_vs_hold": 5.832,
-        "remaining_bank_proxy": 25
+        "projected_xi_with_captain": 68.881,
+        "gross_gain_vs_hold": 7.096,
+        "remaining_bank_proxy": 97
       },
       {
         "transfers": [
           {
-            "out": 156,
-            "out_name": "Neto",
-            "in": 542,
-            "in_name": "E.Le Fée"
+            "out": 154,
+            "out_name": "Palmer",
+            "in": 366,
+            "in_name": "Wirtz"
           },
           {
             "out": 8,
@@ -219,8 +219,27 @@
             "in_name": "Hill"
           }
         ],
-        "projected_xi_with_captain": 67.562,
-        "gross_gain_vs_hold": 5.832,
+        "projected_xi_with_captain": 68.409,
+        "gross_gain_vs_hold": 6.624,
+        "remaining_bank_proxy": 28
+      },
+      {
+        "transfers": [
+          {
+            "out": 427,
+            "out_name": "Mbeumo",
+            "in": 366,
+            "in_name": "Wirtz"
+          },
+          {
+            "out": 8,
+            "out_name": "Calafiori",
+            "in": 334,
+            "in_name": "Muharemović"
+          }
+        ],
+        "projected_xi_with_captain": 68.361,
+        "gross_gain_vs_hold": 6.576,
         "remaining_bank_proxy": 13
       },
       {
@@ -228,8 +247,27 @@
           {
             "out": 427,
             "out_name": "Mbeumo",
-            "in": 542,
-            "in_name": "E.Le Fée"
+            "in": 366,
+            "in_name": "Wirtz"
+          },
+          {
+            "out": 411,
+            "out_name": "Haaland",
+            "in": 295,
+            "in_name": "McBurnie"
+          }
+        ],
+        "projected_xi_with_captain": 68.355,
+        "gross_gain_vs_hold": 6.57,
+        "remaining_bank_proxy": 108
+      },
+      {
+        "transfers": [
+          {
+            "out": 154,
+            "out_name": "Palmer",
+            "in": 366,
+            "in_name": "Wirtz"
           },
           {
             "out": 8,
@@ -238,74 +276,55 @@
             "in_name": "Van Hecke"
           }
         ],
-        "projected_xi_with_captain": 67.392,
-        "gross_gain_vs_hold": 5.662,
-        "remaining_bank_proxy": 29
-      },
-      {
-        "transfers": [
-          {
-            "out": 156,
-            "out_name": "Neto",
-            "in": 542,
-            "in_name": "E.Le Fée"
-          },
-          {
-            "out": 8,
-            "out_name": "Calafiori",
-            "in": 112,
-            "in_name": "Van Hecke"
-          }
-        ],
-        "projected_xi_with_captain": 67.392,
-        "gross_gain_vs_hold": 5.662,
-        "remaining_bank_proxy": 17
+        "projected_xi_with_captain": 68.239,
+        "gross_gain_vs_hold": 6.454,
+        "remaining_bank_proxy": 32
       },
       {
         "transfers": [
           {
             "out": 427,
             "out_name": "Mbeumo",
-            "in": 183,
-            "in_name": "Rudoni"
+            "in": 366,
+            "in_name": "Wirtz"
           },
           {
             "out": 8,
             "out_name": "Calafiori",
-            "in": 60,
-            "in_name": "Hill"
+            "in": 566,
+            "in_name": "Silva"
           }
         ],
-        "projected_xi_with_captain": 67.056,
-        "gross_gain_vs_hold": 5.326,
-        "remaining_bank_proxy": 33
+        "projected_xi_with_captain": 67.941,
+        "gross_gain_vs_hold": 6.156,
+        "remaining_bank_proxy": 13
       },
       {
         "transfers": [
           {
-            "out": 156,
-            "out_name": "Neto",
-            "in": 183,
-            "in_name": "Rudoni"
+            "out": 154,
+            "out_name": "Palmer",
+            "in": 366,
+            "in_name": "Wirtz"
           },
           {
-            "out": 8,
-            "out_name": "Calafiori",
-            "in": 60,
-            "in_name": "Hill"
+            "out": 411,
+            "out_name": "Haaland",
+            "in": 79,
+            "in_name": "Evanilson"
           }
         ],
-        "projected_xi_with_captain": 67.056,
-        "gross_gain_vs_hold": 5.326,
-        "remaining_bank_proxy": 21
+        "projected_xi_with_captain": 67.934,
+        "gross_gain_vs_hold": 6.149,
+        "remaining_bank_proxy": 117
       },
       {
         "transfers": [
           {
-            "out": 427,
-            "out_name": "Mbeumo",
-            "in": 15,
-            "in_name": "Ødegaard"
+            "out": 411,
+            "out_name": "Haaland",
+            "in": 79,
+            "in_name": "Evanilson"
           },
           {
             "out": 8,
@@ -314,28 +333,9 @@
             "in_name": "Hill"
           }
         ],
-        "projected_xi_with_captain": 66.98,
-        "gross_gain_vs_hold": 5.25,
-        "remaining_bank_proxy": 15
-      },
-      {
-        "transfers": [
-          {
-            "out": 156,
-            "out_name": "Neto",
-            "in": 15,
-            "in_name": "Ødegaard"
-          },
-          {
-            "out": 8,
-            "out_name": "Calafiori",
-            "in": 60,
-            "in_name": "Hill"
-          }
-        ],
-        "projected_xi_with_captain": 66.98,
-        "gross_gain_vs_hold": 5.25,
-        "remaining_bank_proxy": 3
+        "projected_xi_with_captain": 67.852,
+        "gross_gain_vs_hold": 6.067,
+        "remaining_bank_proxy": 96
       }
     ]
   },
