@@ -1,7 +1,7 @@
 {
   "method": "descriptive_fixed_elite_vs_random_id_controls",
   "elite_cohort_size": 100,
-  "control_managers_started": 1526,
+  "control_managers_started": 1626,
   "gameweeks": {
     "1": {
       "elite": {
@@ -71,80 +71,80 @@
         "gw_points_observed": 0
       },
       "control": {
-        "n": 1227,
+        "n": 1306,
         "chip_counts": {
-          "3xc": 36,
-          "bboost": 100,
-          "none": 1091
+          "3xc": 38,
+          "bboost": 109,
+          "none": 1159
         },
         "chip_rates": {
-          "3xc": 0.0293,
-          "bboost": 0.0815,
-          "none": 0.8892
+          "3xc": 0.0291,
+          "bboost": 0.0835,
+          "none": 0.8874
         },
         "top_captains": [
           {
             "player_id": 411,
-            "count": 624,
-            "share": 0.5086
+            "count": 667,
+            "share": 0.5107
           },
           {
             "player_id": 426,
-            "count": 188,
-            "share": 0.1532
+            "count": 204,
+            "share": 0.1562
           },
           {
             "player_id": 165,
-            "count": 90,
-            "share": 0.0733
+            "count": 92,
+            "share": 0.0704
           },
           {
             "player_id": 427,
-            "count": 37,
-            "share": 0.0302
+            "count": 38,
+            "share": 0.0291
           },
           {
             "player_id": 379,
             "count": 37,
-            "share": 0.0302
+            "share": 0.0283
           },
           {
             "player_id": 55,
-            "count": 30,
-            "share": 0.0244
-          },
-          {
-            "player_id": 106,
-            "count": 26,
-            "share": 0.0212
+            "count": 32,
+            "share": 0.0245
           },
           {
             "player_id": 12,
-            "count": 25,
-            "share": 0.0204
+            "count": 28,
+            "share": 0.0214
+          },
+          {
+            "player_id": 106,
+            "count": 27,
+            "share": 0.0207
           },
           {
             "player_id": 25,
             "count": 23,
-            "share": 0.0187
+            "share": 0.0176
           },
           {
             "player_id": 26,
-            "count": 17,
-            "share": 0.0139
+            "count": 18,
+            "share": 0.0138
           }
         ],
         "mean_transfers": 0.0,
-        "transfers_observed": 1227,
+        "transfers_observed": 1306,
         "mean_transfer_cost": 0.0,
-        "transfer_cost_observed": 1227,
-        "mean_gw_points": 50.861,
-        "gw_points_observed": 1227
+        "transfer_cost_observed": 1306,
+        "mean_gw_points": 50.889,
+        "gw_points_observed": 1306
       },
       "elite_minus_control_chip_rate": {
-        "3xc": -0.0093,
-        "bboost": 0.5285,
-        "none": -0.5192
+        "3xc": -0.0091,
+        "bboost": 0.5265,
+        "none": -0.5174
       },
       "comparison_available": true
     },
@@ -193,86 +193,86 @@
         "gw_points_observed": 0
       },
       "control": {
-        "n": 1360,
+        "n": 1445,
         "chip_counts": {
           "3xc": 28,
-          "bboost": 45,
+          "bboost": 50,
           "freehit": 13,
-          "none": 1232,
-          "wildcard": 42
+          "none": 1309,
+          "wildcard": 45
         },
         "chip_rates": {
-          "3xc": 0.0206,
-          "bboost": 0.0331,
-          "freehit": 0.0096,
+          "3xc": 0.0194,
+          "bboost": 0.0346,
+          "freehit": 0.009,
           "none": 0.9059,
-          "wildcard": 0.0309
+          "wildcard": 0.0311
         },
         "top_captains": [
           {
             "player_id": 411,
-            "count": 568,
-            "share": 0.4176
+            "count": 611,
+            "share": 0.4228
           },
           {
             "player_id": 426,
-            "count": 248,
-            "share": 0.1824
+            "count": 266,
+            "share": 0.1841
           },
           {
             "player_id": 165,
-            "count": 184,
-            "share": 0.1353
+            "count": 191,
+            "share": 0.1322
           },
           {
             "player_id": 379,
             "count": 49,
-            "share": 0.036
+            "share": 0.0339
           },
           {
             "player_id": 427,
-            "count": 35,
-            "share": 0.0257
+            "count": 36,
+            "share": 0.0249
           },
           {
             "player_id": 154,
             "count": 35,
-            "share": 0.0257
+            "share": 0.0242
+          },
+          {
+            "player_id": 55,
+            "count": 24,
+            "share": 0.0166
           },
           {
             "player_id": 106,
             "count": 24,
-            "share": 0.0176
-          },
-          {
-            "player_id": 55,
-            "count": 23,
-            "share": 0.0169
+            "share": 0.0166
           },
           {
             "player_id": 368,
-            "count": 21,
-            "share": 0.0154
+            "count": 22,
+            "share": 0.0152
           },
           {
             "player_id": 12,
-            "count": 19,
-            "share": 0.014
+            "count": 22,
+            "share": 0.0152
           }
         ],
-        "mean_transfers": 0.663,
-        "transfers_observed": 1360,
-        "mean_transfer_cost": 1.082,
-        "transfer_cost_observed": 1360,
-        "mean_gw_points": 81.513,
-        "gw_points_observed": 1360
+        "mean_transfers": 0.674,
+        "transfers_observed": 1445,
+        "mean_transfer_cost": 1.121,
+        "transfer_cost_observed": 1445,
+        "mean_gw_points": 81.687,
+        "gw_points_observed": 1445
       },
       "elite_minus_control_chip_rate": {
-        "3xc": 0.0294,
-        "bboost": 0.1569,
-        "freehit": 0.0004,
+        "3xc": 0.0306,
+        "bboost": 0.1554,
+        "freehit": 0.001,
         "none": -0.1559,
-        "wildcard": -0.0309
+        "wildcard": -0.0311
       },
       "comparison_available": true
     },
@@ -316,86 +316,86 @@
         "gw_points_observed": 0
       },
       "control": {
-        "n": 1421,
+        "n": 1512,
         "chip_counts": {
-          "3xc": 247,
+          "3xc": 271,
           "bboost": 16,
-          "freehit": 58,
-          "none": 1011,
-          "wildcard": 89
+          "freehit": 62,
+          "none": 1069,
+          "wildcard": 94
         },
         "chip_rates": {
-          "3xc": 0.1738,
-          "bboost": 0.0113,
-          "freehit": 0.0408,
-          "none": 0.7115,
-          "wildcard": 0.0626
+          "3xc": 0.1792,
+          "bboost": 0.0106,
+          "freehit": 0.041,
+          "none": 0.707,
+          "wildcard": 0.0622
         },
         "top_captains": [
           {
             "player_id": 411,
-            "count": 892,
-            "share": 0.6277
+            "count": 962,
+            "share": 0.6362
           },
           {
             "player_id": 426,
-            "count": 120,
-            "share": 0.0844
+            "count": 128,
+            "share": 0.0847
           },
           {
             "player_id": 165,
-            "count": 93,
-            "share": 0.0654
+            "count": 95,
+            "share": 0.0628
           },
           {
             "player_id": 379,
             "count": 55,
-            "share": 0.0387
+            "share": 0.0364
           },
           {
             "player_id": 399,
             "count": 51,
-            "share": 0.0359
+            "share": 0.0337
           },
           {
             "player_id": 106,
             "count": 24,
-            "share": 0.0169
+            "share": 0.0159
+          },
+          {
+            "player_id": 55,
+            "count": 18,
+            "share": 0.0119
+          },
+          {
+            "player_id": 397,
+            "count": 17,
+            "share": 0.0112
           },
           {
             "player_id": 154,
             "count": 17,
-            "share": 0.012
-          },
-          {
-            "player_id": 55,
-            "count": 17,
-            "share": 0.012
-          },
-          {
-            "player_id": 397,
-            "count": 16,
-            "share": 0.0113
+            "share": 0.0112
           },
           {
             "player_id": 368,
             "count": 14,
-            "share": 0.0099
+            "share": 0.0093
           }
         ],
-        "mean_transfers": 1.003,
-        "transfers_observed": 1421,
-        "mean_transfer_cost": 1.295,
-        "transfer_cost_observed": 1421,
-        "mean_gw_points": 51.521,
-        "gw_points_observed": 1421
+        "mean_transfers": 1.0,
+        "transfers_observed": 1512,
+        "mean_transfer_cost": 1.27,
+        "transfer_cost_observed": 1512,
+        "mean_gw_points": 51.599,
+        "gw_points_observed": 1512
       },
       "elite_minus_control_chip_rate": {
-        "3xc": 0.2062,
-        "bboost": -0.0113,
-        "freehit": 0.3592,
-        "none": -0.5815,
-        "wildcard": 0.0274
+        "3xc": 0.2008,
+        "bboost": -0.0106,
+        "freehit": 0.359,
+        "none": -0.577,
+        "wildcard": 0.0278
       },
       "comparison_available": true
     },
@@ -459,86 +459,86 @@
         "gw_points_observed": 0
       },
       "control": {
-        "n": 1457,
+        "n": 1554,
         "chip_counts": {
-          "3xc": 47,
-          "bboost": 22,
-          "freehit": 53,
-          "none": 1203,
-          "wildcard": 132
+          "3xc": 50,
+          "bboost": 24,
+          "freehit": 55,
+          "none": 1282,
+          "wildcard": 143
         },
         "chip_rates": {
-          "3xc": 0.0323,
-          "bboost": 0.0151,
-          "freehit": 0.0364,
-          "none": 0.8257,
-          "wildcard": 0.0906
+          "3xc": 0.0322,
+          "bboost": 0.0154,
+          "freehit": 0.0354,
+          "none": 0.825,
+          "wildcard": 0.092
         },
         "top_captains": [
           {
             "player_id": 411,
-            "count": 550,
-            "share": 0.3775
+            "count": 590,
+            "share": 0.3797
           },
           {
             "player_id": 165,
-            "count": 279,
-            "share": 0.1915
+            "count": 294,
+            "share": 0.1892
           },
           {
             "player_id": 154,
-            "count": 178,
-            "share": 0.1222
+            "count": 193,
+            "share": 0.1242
           },
           {
             "player_id": 379,
-            "count": 125,
-            "share": 0.0858
+            "count": 128,
+            "share": 0.0824
           },
           {
             "player_id": 426,
-            "count": 102,
-            "share": 0.07
+            "count": 109,
+            "share": 0.0701
           },
           {
             "player_id": 40,
-            "count": 22,
-            "share": 0.0151
+            "count": 25,
+            "share": 0.0161
+          },
+          {
+            "player_id": 15,
+            "count": 21,
+            "share": 0.0135
           },
           {
             "player_id": 106,
             "count": 19,
-            "share": 0.013
-          },
-          {
-            "player_id": 15,
-            "count": 19,
-            "share": 0.013
-          },
-          {
-            "player_id": 55,
-            "count": 15,
-            "share": 0.0103
+            "share": 0.0122
           },
           {
             "player_id": 12,
-            "count": 13,
-            "share": 0.0089
+            "count": 16,
+            "share": 0.0103
+          },
+          {
+            "player_id": 55,
+            "count": 16,
+            "share": 0.0103
           }
         ],
-        "mean_transfers": 0.826,
-        "transfers_observed": 1457,
-        "mean_transfer_cost": 0.991,
-        "transfer_cost_observed": 1457,
-        "mean_gw_points": 68.445,
-        "gw_points_observed": 1457
+        "mean_transfers": 0.819,
+        "transfers_observed": 1554,
+        "mean_transfer_cost": 0.986,
+        "transfer_cost_observed": 1554,
+        "mean_gw_points": 68.696,
+        "gw_points_observed": 1554
       },
       "elite_minus_control_chip_rate": {
-        "3xc": 0.0077,
-        "bboost": -0.0151,
-        "freehit": -0.0164,
-        "none": -0.4757,
-        "wildcard": 0.4994
+        "3xc": 0.0078,
+        "bboost": -0.0154,
+        "freehit": -0.0154,
+        "none": -0.475,
+        "wildcard": 0.498
       },
       "comparison_available": true
     },
@@ -594,86 +594,86 @@
         "gw_points_observed": 0
       },
       "control": {
-        "n": 1473,
+        "n": 1570,
         "chip_counts": {
-          "3xc": 26,
-          "bboost": 15,
-          "freehit": 43,
-          "none": 1335,
-          "wildcard": 54
+          "3xc": 29,
+          "bboost": 16,
+          "freehit": 46,
+          "none": 1422,
+          "wildcard": 57
         },
         "chip_rates": {
-          "3xc": 0.0177,
+          "3xc": 0.0185,
           "bboost": 0.0102,
-          "freehit": 0.0292,
-          "none": 0.9063,
-          "wildcard": 0.0367
+          "freehit": 0.0293,
+          "none": 0.9057,
+          "wildcard": 0.0363
         },
         "top_captains": [
           {
             "player_id": 411,
-            "count": 857,
-            "share": 0.5818
+            "count": 922,
+            "share": 0.5873
           },
           {
             "player_id": 165,
-            "count": 112,
-            "share": 0.076
+            "count": 117,
+            "share": 0.0745
           },
           {
             "player_id": 426,
-            "count": 103,
-            "share": 0.0699
+            "count": 108,
+            "share": 0.0688
           },
           {
             "player_id": 379,
-            "count": 67,
-            "share": 0.0455
+            "count": 70,
+            "share": 0.0446
           },
           {
             "player_id": 480,
-            "count": 55,
-            "share": 0.0373
+            "count": 61,
+            "share": 0.0389
           },
           {
             "player_id": 154,
-            "count": 40,
-            "share": 0.0272
+            "count": 41,
+            "share": 0.0261
           },
           {
             "player_id": 106,
             "count": 20,
-            "share": 0.0136
+            "share": 0.0127
           },
           {
             "player_id": 346,
-            "count": 18,
-            "share": 0.0122
+            "count": 19,
+            "share": 0.0121
           },
           {
             "player_id": 40,
             "count": 18,
-            "share": 0.0122
+            "share": 0.0115
           },
           {
             "player_id": 399,
             "count": 17,
-            "share": 0.0115
+            "share": 0.0108
           }
         ],
-        "mean_transfers": 0.855,
-        "transfers_observed": 1473,
-        "mean_transfer_cost": 1.021,
-        "transfer_cost_observed": 1473,
-        "mean_gw_points": 48.493,
-        "gw_points_observed": 1473
+        "mean_transfers": 0.85,
+        "transfers_observed": 1570,
+        "mean_transfer_cost": 1.004,
+        "transfer_cost_observed": 1570,
+        "mean_gw_points": 48.525,
+        "gw_points_observed": 1570
       },
       "elite_minus_control_chip_rate": {
-        "3xc": 0.0223,
+        "3xc": 0.0215,
         "bboost": -0.0002,
-        "freehit": 0.0808,
-        "none": -0.0863,
-        "wildcard": -0.0167
+        "freehit": 0.0807,
+        "none": -0.0857,
+        "wildcard": -0.0163
       },
       "comparison_available": true
     },
@@ -750,86 +750,86 @@
         "gw_points_observed": 0
       },
       "control": {
-        "n": 1498,
+        "n": 1596,
         "chip_counts": {
           "3xc": 15,
-          "bboost": 15,
-          "freehit": 28,
-          "none": 1341,
-          "wildcard": 99
+          "bboost": 16,
+          "freehit": 30,
+          "none": 1429,
+          "wildcard": 106
         },
         "chip_rates": {
-          "3xc": 0.01,
+          "3xc": 0.0094,
           "bboost": 0.01,
-          "freehit": 0.0187,
-          "none": 0.8952,
-          "wildcard": 0.0661
+          "freehit": 0.0188,
+          "none": 0.8954,
+          "wildcard": 0.0664
         },
         "top_captains": [
           {
             "player_id": 411,
-            "count": 611,
-            "share": 0.4079
+            "count": 665,
+            "share": 0.4167
           },
           {
             "player_id": 165,
-            "count": 160,
-            "share": 0.1068
+            "count": 167,
+            "share": 0.1046
           },
           {
             "player_id": 426,
-            "count": 150,
-            "share": 0.1001
+            "count": 159,
+            "share": 0.0996
           },
           {
             "player_id": 12,
-            "count": 85,
-            "share": 0.0567
+            "count": 92,
+            "share": 0.0576
           },
           {
             "player_id": 154,
-            "count": 68,
-            "share": 0.0454
+            "count": 71,
+            "share": 0.0445
           },
           {
             "player_id": 124,
-            "count": 47,
-            "share": 0.0314
+            "count": 48,
+            "share": 0.0301
           },
           {
             "player_id": 379,
-            "count": 45,
-            "share": 0.03
+            "count": 46,
+            "share": 0.0288
           },
           {
             "player_id": 40,
-            "count": 35,
-            "share": 0.0234
+            "count": 38,
+            "share": 0.0238
           },
           {
             "player_id": 15,
             "count": 28,
-            "share": 0.0187
+            "share": 0.0175
           },
           {
             "player_id": 464,
             "count": 24,
-            "share": 0.016
+            "share": 0.015
           }
         ],
-        "mean_transfers": 0.776,
-        "transfers_observed": 1498,
-        "mean_transfer_cost": 0.908,
-        "transfer_cost_observed": 1498,
-        "mean_gw_points": 58.861,
-        "gw_points_observed": 1498
+        "mean_transfers": 0.771,
+        "transfers_observed": 1596,
+        "mean_transfer_cost": 0.877,
+        "transfer_cost_observed": 1596,
+        "mean_gw_points": 58.877,
+        "gw_points_observed": 1596
       },
       "elite_minus_control_chip_rate": {
-        "3xc": -0.01,
+        "3xc": -0.0094,
         "bboost": 0.0,
-        "freehit": -0.0187,
-        "none": 0.0848,
-        "wildcard": -0.0561
+        "freehit": -0.0188,
+        "none": 0.0846,
+        "wildcard": -0.0564
       },
       "comparison_available": true
     },
@@ -865,86 +865,86 @@
         "gw_points_observed": 0
       },
       "control": {
-        "n": 1506,
+        "n": 1606,
         "chip_counts": {
-          "3xc": 102,
+          "3xc": 108,
           "bboost": 24,
-          "freehit": 11,
-          "none": 1318,
-          "wildcard": 51
+          "freehit": 12,
+          "none": 1408,
+          "wildcard": 54
         },
         "chip_rates": {
-          "3xc": 0.0677,
-          "bboost": 0.0159,
-          "freehit": 0.0073,
-          "none": 0.8752,
-          "wildcard": 0.0339
+          "3xc": 0.0672,
+          "bboost": 0.0149,
+          "freehit": 0.0075,
+          "none": 0.8767,
+          "wildcard": 0.0336
         },
         "top_captains": [
           {
             "player_id": 411,
-            "count": 936,
-            "share": 0.6215
+            "count": 1011,
+            "share": 0.6295
           },
           {
             "player_id": 165,
-            "count": 139,
-            "share": 0.0923
+            "count": 145,
+            "share": 0.0903
           },
           {
             "player_id": 426,
-            "count": 84,
-            "share": 0.0558
+            "count": 89,
+            "share": 0.0554
+          },
+          {
+            "player_id": 399,
+            "count": 34,
+            "share": 0.0212
           },
           {
             "player_id": 154,
             "count": 33,
-            "share": 0.0219
-          },
-          {
-            "player_id": 399,
-            "count": 33,
-            "share": 0.0219
+            "share": 0.0205
           },
           {
             "player_id": 379,
-            "count": 29,
-            "share": 0.0193
+            "count": 30,
+            "share": 0.0187
           },
           {
             "player_id": 106,
             "count": 20,
-            "share": 0.0133
+            "share": 0.0125
+          },
+          {
+            "player_id": 12,
+            "count": 19,
+            "share": 0.0118
           },
           {
             "player_id": 124,
             "count": 18,
-            "share": 0.012
-          },
-          {
-            "player_id": 12,
-            "count": 17,
-            "share": 0.0113
+            "share": 0.0112
           },
           {
             "player_id": 55,
-            "count": 14,
+            "count": 15,
             "share": 0.0093
           }
         ],
-        "mean_transfers": 0.795,
-        "transfers_observed": 1506,
-        "mean_transfer_cost": 0.738,
-        "transfer_cost_observed": 1506,
-        "mean_gw_points": 58.907,
-        "gw_points_observed": 1506
+        "mean_transfers": 0.778,
+        "transfers_observed": 1606,
+        "mean_transfer_cost": 0.732,
+        "transfer_cost_observed": 1606,
+        "mean_gw_points": 59.025,
+        "gw_points_observed": 1606
       },
       "elite_minus_control_chip_rate": {
-        "3xc": 0.3323,
-        "bboost": 0.0341,
-        "freehit": 0.0127,
-        "none": -0.3552,
-        "wildcard": -0.0239
+        "3xc": 0.3328,
+        "bboost": 0.0351,
+        "freehit": 0.0125,
+        "none": -0.3567,
+        "wildcard": -0.0236
       },
       "comparison_available": true
     },
@@ -1004,86 +1004,86 @@
         "gw_points_observed": 0
       },
       "control": {
-        "n": 1511,
+        "n": 1611,
         "chip_counts": {
-          "3xc": 15,
-          "bboost": 13,
-          "freehit": 17,
-          "none": 1434,
-          "wildcard": 32
+          "3xc": 16,
+          "bboost": 15,
+          "freehit": 18,
+          "none": 1529,
+          "wildcard": 33
         },
         "chip_rates": {
           "3xc": 0.0099,
-          "bboost": 0.0086,
-          "freehit": 0.0113,
-          "none": 0.949,
-          "wildcard": 0.0212
+          "bboost": 0.0093,
+          "freehit": 0.0112,
+          "none": 0.9491,
+          "wildcard": 0.0205
         },
         "top_captains": [
           {
             "player_id": 411,
-            "count": 838,
-            "share": 0.5546
+            "count": 904,
+            "share": 0.5611
           },
           {
             "player_id": 165,
-            "count": 238,
-            "share": 0.1575
+            "count": 253,
+            "share": 0.157
           },
           {
             "player_id": 426,
-            "count": 80,
-            "share": 0.0529
+            "count": 84,
+            "share": 0.0521
           },
           {
             "player_id": 154,
             "count": 65,
-            "share": 0.043
+            "share": 0.0403
           },
           {
             "player_id": 379,
-            "count": 35,
-            "share": 0.0232
+            "count": 36,
+            "share": 0.0223
           },
           {
             "player_id": 106,
             "count": 21,
-            "share": 0.0139
+            "share": 0.013
           },
           {
             "player_id": 399,
             "count": 19,
-            "share": 0.0126
+            "share": 0.0118
           },
           {
             "player_id": 40,
-            "count": 15,
+            "count": 16,
             "share": 0.0099
           },
           {
             "player_id": 55,
-            "count": 14,
+            "count": 15,
             "share": 0.0093
           },
           {
             "player_id": 124,
             "count": 13,
-            "share": 0.0086
+            "share": 0.0081
           }
         ],
-        "mean_transfers": 0.636,
-        "transfers_observed": 1511,
-        "mean_transfer_cost": 0.511,
-        "transfer_cost_observed": 1511,
-        "mean_gw_points": 44.915,
-        "gw_points_observed": 1511
+        "mean_transfers": 0.637,
+        "transfers_observed": 1611,
+        "mean_transfer_cost": 0.504,
+        "transfer_cost_observed": 1611,
+        "mean_gw_points": 45.095,
+        "gw_points_observed": 1611
       },
       "elite_minus_control_chip_rate": {
         "3xc": -0.0099,
-        "bboost": 0.0414,
-        "freehit": -0.0113,
-        "none": 0.001,
-        "wildcard": -0.0212
+        "bboost": 0.0407,
+        "freehit": -0.0112,
+        "none": 0.0009,
+        "wildcard": -0.0205
       },
       "comparison_available": true
     },
@@ -1135,86 +1135,86 @@
         "gw_points_observed": 0
       },
       "control": {
-        "n": 1517,
+        "n": 1617,
         "chip_counts": {
-          "3xc": 15,
+          "3xc": 16,
           "bboost": 17,
-          "freehit": 50,
-          "none": 1400,
-          "wildcard": 35
+          "freehit": 55,
+          "none": 1491,
+          "wildcard": 38
         },
         "chip_rates": {
           "3xc": 0.0099,
-          "bboost": 0.0112,
-          "freehit": 0.033,
-          "none": 0.9229,
-          "wildcard": 0.0231
+          "bboost": 0.0105,
+          "freehit": 0.034,
+          "none": 0.9221,
+          "wildcard": 0.0235
         },
         "top_captains": [
           {
             "player_id": 411,
-            "count": 929,
-            "share": 0.6124
+            "count": 1003,
+            "share": 0.6203
           },
           {
             "player_id": 165,
-            "count": 84,
-            "share": 0.0554
+            "count": 89,
+            "share": 0.055
           },
           {
             "player_id": 166,
-            "count": 76,
-            "share": 0.0501
+            "count": 77,
+            "share": 0.0476
           },
           {
             "player_id": 426,
-            "count": 63,
-            "share": 0.0415
+            "count": 67,
+            "share": 0.0414
           },
           {
             "player_id": 154,
-            "count": 46,
-            "share": 0.0303
+            "count": 47,
+            "share": 0.0291
           },
           {
             "player_id": 379,
-            "count": 43,
-            "share": 0.0283
+            "count": 45,
+            "share": 0.0278
           },
           {
             "player_id": 79,
             "count": 21,
-            "share": 0.0138
+            "share": 0.013
           },
           {
             "player_id": 68,
             "count": 18,
-            "share": 0.0119
-          },
-          {
-            "player_id": 106,
-            "count": 17,
-            "share": 0.0112
+            "share": 0.0111
           },
           {
             "player_id": 399,
+            "count": 18,
+            "share": 0.0111
+          },
+          {
+            "player_id": 40,
             "count": 17,
-            "share": 0.0112
+            "share": 0.0105
           }
         ],
-        "mean_transfers": 0.897,
-        "transfers_observed": 1517,
-        "mean_transfer_cost": 0.72,
-        "transfer_cost_observed": 1517,
-        "mean_gw_points": 47.592,
-        "gw_points_observed": 1517
+        "mean_transfers": 0.891,
+        "transfers_observed": 1617,
+        "mean_transfer_cost": 0.703,
+        "transfer_cost_observed": 1617,
+        "mean_gw_points": 47.542,
+        "gw_points_observed": 1617
       },
       "elite_minus_control_chip_rate": {
         "3xc": -0.0099,
-        "bboost": -0.0112,
-        "freehit": 0.117,
-        "none": -0.1529,
-        "wildcard": 0.0569
+        "bboost": -0.0105,
+        "freehit": 0.116,
+        "none": -0.1521,
+        "wildcard": 0.0565
       },
       "comparison_available": true
     }
