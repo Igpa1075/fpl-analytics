@@ -1,10 +1,10 @@
 {
   "target_gw": 12,
-  "forecast_captured_at_utc": "2026-11-23T04:38:12.733858+00:00",
-  "forecast_source": "data/contextual_forecasts/2026-11-23.json",
+  "forecast_captured_at_utc": "2026-11-24T04:27:49.799382+00:00",
+  "forecast_source": "data/contextual_forecasts/2026-11-24.json",
   "squad_source": "data/picks.json (latest publicly published GW; may be stale)",
   "squad_event": 11,
-  "expected_xi_points_with_captain": 61.785,
+  "expected_xi_points_with_captain": 59.876,
   "formation": {
     "defenders": 4,
     "midfielders": 4,
@@ -28,63 +28,7 @@
       "expected_points": 5.29,
       "baseline_expected_points": 5.29,
       "context_factor": 1.0,
-      "context_signals": [
-        {
-          "kind": "verified_espn_starts",
-          "starts": 5,
-          "matches": 5,
-          "factor": 1.0
-        }
-      ]
-    },
-    {
-      "player_id": 31,
-      "name": "Konsa",
-      "team_id": 1,
-      "position_id": 2,
-      "price_tenths_million": 49,
-      "availability": 1.0,
-      "fixtures": [
-        {
-          "opponent": 15,
-          "home": true,
-          "difficulty": 4
-        }
-      ],
-      "expected_points": 6.137,
-      "baseline_expected_points": 6.137,
-      "context_factor": 1.0,
       "context_signals": []
-    },
-    {
-      "player_id": 115,
-      "name": "De Cuyper",
-      "team_id": 5,
-      "position_id": 2,
-      "price_tenths_million": 55,
-      "availability": 1.0,
-      "fixtures": [
-        {
-          "opponent": 17,
-          "home": true,
-          "difficulty": 3
-        }
-      ],
-      "expected_points": 5.632,
-      "baseline_expected_points": 5.415,
-      "context_factor": 1.04,
-      "context_signals": [
-        {
-          "kind": "verified_espn_starts",
-          "starts": 5,
-          "matches": 5,
-          "factor": 1.0
-        },
-        {
-          "kind": "advanced_defender_slot_proxy",
-          "factor": 1.04
-        }
-      ]
     },
     {
       "player_id": 504,
@@ -103,14 +47,45 @@
       "expected_points": 5.52,
       "baseline_expected_points": 5.52,
       "context_factor": 1.0,
-      "context_signals": [
+      "context_signals": []
+    },
+    {
+      "player_id": 115,
+      "name": "De Cuyper",
+      "team_id": 5,
+      "position_id": 2,
+      "price_tenths_million": 55,
+      "availability": 1.0,
+      "fixtures": [
         {
-          "kind": "verified_espn_starts",
-          "starts": 5,
-          "matches": 5,
-          "factor": 1.0
+          "opponent": 17,
+          "home": true,
+          "difficulty": 3
         }
-      ]
+      ],
+      "expected_points": 5.415,
+      "baseline_expected_points": 5.415,
+      "context_factor": 1.0,
+      "context_signals": []
+    },
+    {
+      "player_id": 31,
+      "name": "Konsa",
+      "team_id": 1,
+      "position_id": 2,
+      "price_tenths_million": 49,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 15,
+          "home": true,
+          "difficulty": 4
+        }
+      ],
+      "expected_points": 5.26,
+      "baseline_expected_points": 5.26,
+      "context_factor": 1.0,
+      "context_signals": []
     },
     {
       "player_id": 8,
@@ -126,8 +101,8 @@
           "difficulty": 4
         }
       ],
-      "expected_points": 3.864,
-      "baseline_expected_points": 3.864,
+      "expected_points": 4.249,
+      "baseline_expected_points": 4.249,
       "context_factor": 1.0,
       "context_signals": []
     },
@@ -136,7 +111,7 @@
       "name": "Tavernier",
       "team_id": 3,
       "position_id": 3,
-      "price_tenths_million": 67,
+      "price_tenths_million": 68,
       "availability": 1.0,
       "fixtures": [
         {
@@ -147,6 +122,25 @@
       ],
       "expected_points": 6.0,
       "baseline_expected_points": 6.0,
+      "context_factor": 1.0,
+      "context_signals": []
+    },
+    {
+      "player_id": 154,
+      "name": "Palmer",
+      "team_id": 6,
+      "position_id": 3,
+      "price_tenths_million": 98,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 18,
+          "home": false,
+          "difficulty": 2
+        }
+      ],
+      "expected_points": 4.563,
+      "baseline_expected_points": 4.563,
       "context_factor": 1.0,
       "context_signals": []
     },
@@ -164,8 +158,8 @@
           "difficulty": 4
         }
       ],
-      "expected_points": 3.981,
-      "baseline_expected_points": 3.981,
+      "expected_points": 4.476,
+      "baseline_expected_points": 4.476,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -177,40 +171,21 @@
       ]
     },
     {
-      "player_id": 154,
-      "name": "Palmer",
-      "team_id": 6,
+      "player_id": 427,
+      "name": "Mbeumo",
+      "team_id": 16,
       "position_id": 3,
-      "price_tenths_million": 98,
+      "price_tenths_million": 78,
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 18,
-          "home": false,
-          "difficulty": 2
+          "opponent": 4,
+          "home": true,
+          "difficulty": 3
         }
       ],
-      "expected_points": 3.85,
-      "baseline_expected_points": 3.85,
-      "context_factor": 1.0,
-      "context_signals": []
-    },
-    {
-      "player_id": 156,
-      "name": "Neto",
-      "team_id": 6,
-      "position_id": 3,
-      "price_tenths_million": 66,
-      "availability": 1.0,
-      "fixtures": [
-        {
-          "opponent": 18,
-          "home": false,
-          "difficulty": 2
-        }
-      ],
-      "expected_points": 2.903,
-      "baseline_expected_points": 2.903,
+      "expected_points": 2.76,
+      "baseline_expected_points": 2.76,
       "context_factor": 1.0,
       "context_signals": []
     },
@@ -228,8 +203,8 @@
           "difficulty": 2
         }
       ],
-      "expected_points": 7.267,
-      "baseline_expected_points": 7.267,
+      "expected_points": 6.481,
+      "baseline_expected_points": 6.481,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -254,17 +229,10 @@
           "difficulty": 5
         }
       ],
-      "expected_points": 4.074,
-      "baseline_expected_points": 4.074,
+      "expected_points": 3.381,
+      "baseline_expected_points": 3.381,
       "context_factor": 1.0,
-      "context_signals": [
-        {
-          "kind": "verified_espn_starts",
-          "starts": 5,
-          "matches": 5,
-          "factor": 1.0
-        }
-      ]
+      "context_signals": []
     }
   ],
   "captain": {
@@ -281,8 +249,8 @@
         "difficulty": 2
       }
     ],
-    "expected_points": 7.267,
-    "baseline_expected_points": 7.267,
+    "expected_points": 6.481,
+    "baseline_expected_points": 6.481,
     "context_factor": 1.0,
     "context_signals": [
       {
@@ -294,21 +262,21 @@
     ]
   },
   "vice_captain": {
-    "player_id": 31,
-    "name": "Konsa",
-    "team_id": 1,
-    "position_id": 2,
-    "price_tenths_million": 49,
+    "player_id": 68,
+    "name": "Tavernier",
+    "team_id": 3,
+    "position_id": 3,
+    "price_tenths_million": 68,
     "availability": 1.0,
     "fixtures": [
       {
-        "opponent": 15,
-        "home": true,
-        "difficulty": 4
+        "opponent": 10,
+        "home": false,
+        "difficulty": 3
       }
     ],
-    "expected_points": 6.137,
-    "baseline_expected_points": 6.137,
+    "expected_points": 6.0,
+    "baseline_expected_points": 6.0,
     "context_factor": 1.0,
     "context_signals": []
   },
@@ -327,42 +295,31 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 3.755,
-      "baseline_expected_points": 3.755,
+      "expected_points": 2.93,
+      "baseline_expected_points": 2.93,
       "context_factor": 1.0,
       "context_signals": []
     }
   ],
   "bench_outfield_order": [
     {
-      "player_id": 427,
-      "name": "Mbeumo",
-      "team_id": 16,
+      "player_id": 156,
+      "name": "Neto",
+      "team_id": 6,
       "position_id": 3,
-      "price_tenths_million": 78,
+      "price_tenths_million": 66,
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 4,
-          "home": true,
-          "difficulty": 3
+          "opponent": 18,
+          "home": false,
+          "difficulty": 2
         }
       ],
-      "expected_points": 2.843,
-      "baseline_expected_points": 2.76,
-      "context_factor": 1.03,
-      "context_signals": [
-        {
-          "kind": "verified_espn_starts",
-          "starts": 5,
-          "matches": 5,
-          "factor": 1.0
-        },
-        {
-          "kind": "forward_midfielder_slot_proxy",
-          "factor": 1.03
-        }
-      ]
+      "expected_points": 2.751,
+      "baseline_expected_points": 2.751,
+      "context_factor": 1.0,
+      "context_signals": []
     },
     {
       "player_id": 592,
@@ -397,8 +354,8 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 1.959,
-      "baseline_expected_points": 1.959,
+      "expected_points": 1.922,
+      "baseline_expected_points": 1.922,
       "context_factor": 1.0,
       "context_signals": []
     }
