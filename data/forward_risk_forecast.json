@@ -1,7 +1,7 @@
 {
   "status": "exploratory_unvalidated_forward_risk_model",
   "gw": 12,
-  "created_at_utc": "2026-11-23T05:26:18.603396+00:00",
+  "created_at_utc": "2026-11-24T05:15:38.483140+00:00",
   "model_version": "forward-risk-0.3",
   "defensive_concentration": {
     "status": "diagnostic_not_selection_penalty",
@@ -121,34 +121,6 @@
       "news": ""
     },
     {
-      "id": 249,
-      "name": "Barry",
-      "club": "EVE",
-      "position": 4,
-      "opponents": [
-        "LIV"
-      ],
-      "expected_points_proxy": 4.81,
-      "conservative_score": 3.45,
-      "availability_proxy": 0.89,
-      "expected_minutes": 76.9,
-      "sixty_plus_minute_rate_proxy": 0.86,
-      "cameo_rate": 0.0,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 1.005,
-      "defense_trend": 1.095,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "neutral",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 330,
       "name": "Bogle",
       "club": "LEE",
@@ -201,6 +173,42 @@
         "review_required": false
       },
       "trend_label": "downturn",
+      "status": "a",
+      "news": ""
+    },
+    {
+      "id": 249,
+      "name": "Barry",
+      "club": "EVE",
+      "position": 4,
+      "opponents": [
+        "LIV"
+      ],
+      "expected_points_proxy": 4.56,
+      "conservative_score": 3.23,
+      "availability_proxy": 0.9,
+      "expected_minutes": 76.5,
+      "sixty_plus_minute_rate_proxy": 0.86,
+      "cameo_rate": 0.0,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 1.005,
+      "defense_trend": 1.095,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 229,
+            "name": "Tarkowski",
+            "type": 2,
+            "status": "s",
+            "minutes": 939.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "neutral",
       "status": "a",
       "news": ""
     },
@@ -264,7 +272,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -435,7 +443,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -690,7 +698,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -1358,34 +1366,6 @@
       "news": ""
     },
     {
-      "id": 236,
-      "name": "Dewsbury-Hall",
-      "club": "EVE",
-      "position": 3,
-      "opponents": [
-        "LIV"
-      ],
-      "expected_points_proxy": 3.57,
-      "conservative_score": 2.37,
-      "availability_proxy": 0.9,
-      "expected_minutes": 76.7,
-      "sixty_plus_minute_rate_proxy": 0.86,
-      "cameo_rate": 0.0,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 1.005,
-      "defense_trend": 1.095,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "neutral",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 67,
       "name": "Rayan",
       "club": "BOU",
@@ -1470,6 +1450,42 @@
       "news": ""
     },
     {
+      "id": 88,
+      "name": "Kayode",
+      "club": "BRE",
+      "position": 2,
+      "opponents": [
+        "MUN"
+      ],
+      "expected_points_proxy": 3.52,
+      "conservative_score": 2.33,
+      "availability_proxy": 0.89,
+      "expected_minutes": 77.8,
+      "sixty_plus_minute_rate_proxy": 0.86,
+      "cameo_rate": 0.0,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.916,
+      "defense_trend": 1.068,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 90,
+            "name": "Hickey",
+            "type": 2,
+            "status": "i",
+            "minutes": 350.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "downturn",
+      "status": "a",
+      "news": ""
+    },
+    {
       "id": 627,
       "name": "Barcola",
       "club": "LIV",
@@ -1492,6 +1508,42 @@
         "key_defensive_absences": [],
         "primary_gk_flag": false,
         "review_required": false
+      },
+      "trend_label": "neutral",
+      "status": "a",
+      "news": ""
+    },
+    {
+      "id": 236,
+      "name": "Dewsbury-Hall",
+      "club": "EVE",
+      "position": 3,
+      "opponents": [
+        "LIV"
+      ],
+      "expected_points_proxy": 3.48,
+      "conservative_score": 2.29,
+      "availability_proxy": 0.9,
+      "expected_minutes": 79.2,
+      "sixty_plus_minute_rate_proxy": 0.86,
+      "cameo_rate": 0.0,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 1.005,
+      "defense_trend": 1.095,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 229,
+            "name": "Tarkowski",
+            "type": 2,
+            "status": "s",
+            "minutes": 939.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
       },
       "trend_label": "neutral",
       "status": "a",
@@ -1702,6 +1754,42 @@
       "news": ""
     },
     {
+      "id": 86,
+      "name": "Lewis-Potter",
+      "club": "BRE",
+      "position": 3,
+      "opponents": [
+        "MUN"
+      ],
+      "expected_points_proxy": 3.55,
+      "conservative_score": 2.21,
+      "availability_proxy": 0.89,
+      "expected_minutes": 70.1,
+      "sixty_plus_minute_rate_proxy": 0.71,
+      "cameo_rate": 0.2,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.916,
+      "defense_trend": 1.068,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 90,
+            "name": "Hickey",
+            "type": 2,
+            "status": "i",
+            "minutes": 350.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "downturn",
+      "status": "a",
+      "news": ""
+    },
+    {
       "id": 526,
       "name": "Solanke",
       "club": "TOT",
@@ -1796,70 +1884,6 @@
         ],
         "primary_gk_flag": true,
         "review_required": true
-      },
-      "trend_label": "neutral",
-      "status": "a",
-      "news": ""
-    },
-    {
-      "id": 88,
-      "name": "Kayode",
-      "club": "BRE",
-      "position": 2,
-      "opponents": [
-        "MUN"
-      ],
-      "expected_points_proxy": 3.35,
-      "conservative_score": 2.18,
-      "availability_proxy": 0.89,
-      "expected_minutes": 77.3,
-      "sixty_plus_minute_rate_proxy": 0.86,
-      "cameo_rate": 0.0,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 1,
-      "teammate_attack_factor_experimental": 0.975,
-      "attack_trend": 0.916,
-      "defense_trend": 1.068,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [
-          {
-            "id": 90,
-            "name": "Hickey",
-            "type": 2,
-            "status": "i",
-            "minutes": 350.0
-          }
-        ],
-        "primary_gk_flag": false,
-        "review_required": true
-      },
-      "trend_label": "downturn",
-      "status": "a",
-      "news": ""
-    },
-    {
-      "id": 229,
-      "name": "Tarkowski",
-      "club": "EVE",
-      "position": 2,
-      "opponents": [
-        "LIV"
-      ],
-      "expected_points_proxy": 3.34,
-      "conservative_score": 2.18,
-      "availability_proxy": 0.9,
-      "expected_minutes": 77.4,
-      "sixty_plus_minute_rate_proxy": 0.86,
-      "cameo_rate": 0.0,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 1.005,
-      "defense_trend": 1.095,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
       },
       "trend_label": "neutral",
       "status": "a",
@@ -2378,6 +2402,42 @@
       "news": ""
     },
     {
+      "id": 94,
+      "name": "Schade",
+      "club": "BRE",
+      "position": 3,
+      "opponents": [
+        "MUN"
+      ],
+      "expected_points_proxy": 3.4,
+      "conservative_score": 1.95,
+      "availability_proxy": 0.89,
+      "expected_minutes": 68.1,
+      "sixty_plus_minute_rate_proxy": 0.57,
+      "cameo_rate": 0.4,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.916,
+      "defense_trend": 1.068,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 90,
+            "name": "Hickey",
+            "type": 2,
+            "status": "i",
+            "minutes": 350.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "downturn",
+      "status": "a",
+      "news": ""
+    },
+    {
       "id": 529,
       "name": "Roefs",
       "club": "SUN",
@@ -2400,42 +2460,6 @@
         "key_defensive_absences": [],
         "primary_gk_flag": false,
         "review_required": false
-      },
-      "trend_label": "downturn",
-      "status": "a",
-      "news": ""
-    },
-    {
-      "id": 87,
-      "name": "Ajer",
-      "club": "BRE",
-      "position": 2,
-      "opponents": [
-        "MUN"
-      ],
-      "expected_points_proxy": 3.06,
-      "conservative_score": 1.95,
-      "availability_proxy": 0.9,
-      "expected_minutes": 77.4,
-      "sixty_plus_minute_rate_proxy": 0.86,
-      "cameo_rate": 0.0,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 1,
-      "teammate_attack_factor_experimental": 0.975,
-      "attack_trend": 0.916,
-      "defense_trend": 1.068,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [
-          {
-            "id": 90,
-            "name": "Hickey",
-            "type": 2,
-            "status": "i",
-            "minutes": 350.0
-          }
-        ],
-        "primary_gk_flag": false,
-        "review_required": true
       },
       "trend_label": "downturn",
       "status": "a",
@@ -2526,42 +2550,6 @@
       "news": ""
     },
     {
-      "id": 94,
-      "name": "Schade",
-      "club": "BRE",
-      "position": 3,
-      "opponents": [
-        "MUN"
-      ],
-      "expected_points_proxy": 3.38,
-      "conservative_score": 1.93,
-      "availability_proxy": 0.89,
-      "expected_minutes": 67.0,
-      "sixty_plus_minute_rate_proxy": 0.57,
-      "cameo_rate": 0.4,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 1,
-      "teammate_attack_factor_experimental": 0.975,
-      "attack_trend": 0.916,
-      "defense_trend": 1.068,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [
-          {
-            "id": 90,
-            "name": "Hickey",
-            "type": 2,
-            "status": "i",
-            "minutes": 350.0
-          }
-        ],
-        "primary_gk_flag": false,
-        "review_required": true
-      },
-      "trend_label": "downturn",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 400,
       "name": "Doku",
       "club": "MCI",
@@ -2590,30 +2578,38 @@
       "news": ""
     },
     {
-      "id": 226,
-      "name": "Pickford",
-      "club": "EVE",
-      "position": 1,
+      "id": 87,
+      "name": "Ajer",
+      "club": "BRE",
+      "position": 2,
       "opponents": [
-        "LIV"
+        "MUN"
       ],
-      "expected_points_proxy": 2.99,
-      "conservative_score": 1.89,
+      "expected_points_proxy": 3.04,
+      "conservative_score": 1.93,
       "availability_proxy": 0.9,
-      "expected_minutes": 77.4,
+      "expected_minutes": 77.8,
       "sixty_plus_minute_rate_proxy": 0.86,
       "cameo_rate": 0.0,
       "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 1.005,
-      "defense_trend": 1.095,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.916,
+      "defense_trend": 1.068,
       "defensive_absence_flags": {
-        "key_defensive_absences": [],
+        "key_defensive_absences": [
+          {
+            "id": 90,
+            "name": "Hickey",
+            "type": 2,
+            "status": "i",
+            "minutes": 350.0
+          }
+        ],
         "primary_gk_flag": false,
-        "review_required": false
+        "review_required": true
       },
-      "trend_label": "neutral",
+      "trend_label": "downturn",
       "status": "a",
       "news": ""
     },
@@ -2646,38 +2642,38 @@
       "news": ""
     },
     {
-      "id": 86,
-      "name": "Lewis-Potter",
-      "club": "BRE",
-      "position": 3,
+      "id": 226,
+      "name": "Pickford",
+      "club": "EVE",
+      "position": 1,
       "opponents": [
-        "MUN"
+        "LIV"
       ],
-      "expected_points_proxy": 3.16,
+      "expected_points_proxy": 2.99,
       "conservative_score": 1.88,
-      "availability_proxy": 0.89,
-      "expected_minutes": 70.5,
-      "sixty_plus_minute_rate_proxy": 0.71,
-      "cameo_rate": 0.2,
+      "availability_proxy": 0.9,
+      "expected_minutes": 77.8,
+      "sixty_plus_minute_rate_proxy": 0.86,
+      "cameo_rate": 0.0,
       "recent_minutes_sample": 5,
       "key_teammates_unavailable": 1,
       "teammate_attack_factor_experimental": 0.975,
-      "attack_trend": 0.916,
-      "defense_trend": 1.068,
+      "attack_trend": 1.005,
+      "defense_trend": 1.095,
       "defensive_absence_flags": {
         "key_defensive_absences": [
           {
-            "id": 90,
-            "name": "Hickey",
+            "id": 229,
+            "name": "Tarkowski",
             "type": 2,
-            "status": "i",
-            "minutes": 350.0
+            "status": "s",
+            "minutes": 939.0
           }
         ],
         "primary_gk_flag": false,
         "review_required": true
       },
-      "trend_label": "downturn",
+      "trend_label": "neutral",
       "status": "a",
       "news": ""
     },
@@ -3014,34 +3010,6 @@
       "news": ""
     },
     {
-      "id": 233,
-      "name": "Mykolenko",
-      "club": "EVE",
-      "position": 2,
-      "opponents": [
-        "LIV"
-      ],
-      "expected_points_proxy": 2.99,
-      "conservative_score": 1.77,
-      "availability_proxy": 0.82,
-      "expected_minutes": 70.9,
-      "sixty_plus_minute_rate_proxy": 0.71,
-      "cameo_rate": 0.0,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 1.005,
-      "defense_trend": 1.095,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "neutral",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 428,
       "name": "Cunha",
       "club": "MUN",
@@ -3282,6 +3250,42 @@
       "news": ""
     },
     {
+      "id": 233,
+      "name": "Mykolenko",
+      "club": "EVE",
+      "position": 2,
+      "opponents": [
+        "LIV"
+      ],
+      "expected_points_proxy": 2.95,
+      "conservative_score": 1.73,
+      "availability_proxy": 0.82,
+      "expected_minutes": 71.2,
+      "sixty_plus_minute_rate_proxy": 0.71,
+      "cameo_rate": 0.0,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 1.005,
+      "defense_trend": 1.095,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 229,
+            "name": "Tarkowski",
+            "type": 2,
+            "status": "s",
+            "minutes": 939.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "neutral",
+      "status": "a",
+      "news": ""
+    },
+    {
       "id": 110,
       "name": "Rushworth",
       "club": "COV",
@@ -3310,34 +3314,6 @@
       "news": ""
     },
     {
-      "id": 230,
-      "name": "Branthwaite",
-      "club": "EVE",
-      "position": 2,
-      "opponents": [
-        "LIV"
-      ],
-      "expected_points_proxy": 2.93,
-      "conservative_score": 1.71,
-      "availability_proxy": 0.82,
-      "expected_minutes": 71.8,
-      "sixty_plus_minute_rate_proxy": 0.71,
-      "cameo_rate": 0.0,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 1.005,
-      "defense_trend": 1.095,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "neutral",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 82,
       "name": "Kelleher",
       "club": "BRE",
@@ -3348,7 +3324,7 @@
       "expected_points_proxy": 2.78,
       "conservative_score": 1.71,
       "availability_proxy": 0.9,
-      "expected_minutes": 77.4,
+      "expected_minutes": 77.8,
       "sixty_plus_minute_rate_proxy": 0.86,
       "cameo_rate": 0.0,
       "recent_minutes_sample": 5,
@@ -3406,6 +3382,42 @@
         "review_required": true
       },
       "trend_label": "downturn",
+      "status": "a",
+      "news": ""
+    },
+    {
+      "id": 230,
+      "name": "Branthwaite",
+      "club": "EVE",
+      "position": 2,
+      "opponents": [
+        "LIV"
+      ],
+      "expected_points_proxy": 2.89,
+      "conservative_score": 1.69,
+      "availability_proxy": 0.82,
+      "expected_minutes": 72.1,
+      "sixty_plus_minute_rate_proxy": 0.71,
+      "cameo_rate": 0.0,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 1.005,
+      "defense_trend": 1.095,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 229,
+            "name": "Tarkowski",
+            "type": 2,
+            "status": "s",
+            "minutes": 939.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "neutral",
       "status": "a",
       "news": ""
     },
@@ -3666,42 +3678,6 @@
       "news": ""
     },
     {
-      "id": 85,
-      "name": "Van den Berg",
-      "club": "BRE",
-      "position": 2,
-      "opponents": [
-        "MUN"
-      ],
-      "expected_points_proxy": 2.84,
-      "conservative_score": 1.6,
-      "availability_proxy": 0.79,
-      "expected_minutes": 63.0,
-      "sixty_plus_minute_rate_proxy": 0.71,
-      "cameo_rate": 0.0,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 1,
-      "teammate_attack_factor_experimental": 0.975,
-      "attack_trend": 0.916,
-      "defense_trend": 1.068,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [
-          {
-            "id": 90,
-            "name": "Hickey",
-            "type": 2,
-            "status": "i",
-            "minutes": 350.0
-          }
-        ],
-        "primary_gk_flag": false,
-        "review_required": true
-      },
-      "trend_label": "downturn",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 237,
       "name": "Ndiaye",
       "club": "MCI",
@@ -3730,19 +3706,19 @@
       "news": ""
     },
     {
-      "id": 95,
-      "name": "O.Dango",
+      "id": 85,
+      "name": "Van den Berg",
       "club": "BRE",
-      "position": 3,
+      "position": 2,
       "opponents": [
         "MUN"
       ],
-      "expected_points_proxy": 3.16,
-      "conservative_score": 1.57,
-      "availability_proxy": 0.88,
-      "expected_minutes": 59.8,
-      "sixty_plus_minute_rate_proxy": 0.43,
-      "cameo_rate": 0.6,
+      "expected_points_proxy": 2.79,
+      "conservative_score": 1.58,
+      "availability_proxy": 0.8,
+      "expected_minutes": 64.4,
+      "sixty_plus_minute_rate_proxy": 0.71,
+      "cameo_rate": 0.0,
       "recent_minutes_sample": 5,
       "key_teammates_unavailable": 1,
       "teammate_attack_factor_experimental": 0.975,
@@ -3762,62 +3738,6 @@
         "review_required": true
       },
       "trend_label": "downturn",
-      "status": "a",
-      "news": ""
-    },
-    {
-      "id": 340,
-      "name": "Gelhardt",
-      "club": "HUL",
-      "position": 3,
-      "opponents": [
-        "CRY"
-      ],
-      "expected_points_proxy": 3.36,
-      "conservative_score": 1.56,
-      "availability_proxy": 0.85,
-      "expected_minutes": 35.6,
-      "sixty_plus_minute_rate_proxy": 0.29,
-      "cameo_rate": 0.8,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 0.985,
-      "defense_trend": 1.068,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "neutral",
-      "status": "a",
-      "news": ""
-    },
-    {
-      "id": 244,
-      "name": "Armstrong",
-      "club": "EVE",
-      "position": 3,
-      "opponents": [
-        "LIV"
-      ],
-      "expected_points_proxy": 2.6,
-      "conservative_score": 1.56,
-      "availability_proxy": 0.89,
-      "expected_minutes": 75.2,
-      "sixty_plus_minute_rate_proxy": 0.86,
-      "cameo_rate": 0.0,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 1.005,
-      "defense_trend": 1.095,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "neutral",
       "status": "a",
       "news": ""
     },
@@ -3853,7 +3773,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -3921,6 +3841,42 @@
       "news": ""
     },
     {
+      "id": 95,
+      "name": "O.Dango",
+      "club": "BRE",
+      "position": 3,
+      "opponents": [
+        "MUN"
+      ],
+      "expected_points_proxy": 3.1,
+      "conservative_score": 1.53,
+      "availability_proxy": 0.88,
+      "expected_minutes": 58.6,
+      "sixty_plus_minute_rate_proxy": 0.43,
+      "cameo_rate": 0.6,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.916,
+      "defense_trend": 1.068,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 90,
+            "name": "Hickey",
+            "type": 2,
+            "status": "i",
+            "minutes": 350.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "downturn",
+      "status": "a",
+      "news": ""
+    },
+    {
       "id": 384,
       "name": "Donnarumma",
       "club": "MCI",
@@ -3949,38 +3905,38 @@
       "news": ""
     },
     {
-      "id": 105,
-      "name": "Anthony",
-      "club": "BRE",
+      "id": 244,
+      "name": "Armstrong",
+      "club": "EVE",
       "position": 3,
       "opponents": [
-        "MUN"
+        "LIV"
       ],
-      "expected_points_proxy": 3.03,
-      "conservative_score": 1.5,
-      "availability_proxy": 0.81,
-      "expected_minutes": 51.4,
-      "sixty_plus_minute_rate_proxy": 0.43,
-      "cameo_rate": 0.4,
+      "expected_points_proxy": 2.55,
+      "conservative_score": 1.52,
+      "availability_proxy": 0.9,
+      "expected_minutes": 75.5,
+      "sixty_plus_minute_rate_proxy": 0.86,
+      "cameo_rate": 0.0,
       "recent_minutes_sample": 5,
       "key_teammates_unavailable": 1,
       "teammate_attack_factor_experimental": 0.975,
-      "attack_trend": 0.916,
-      "defense_trend": 1.068,
+      "attack_trend": 1.005,
+      "defense_trend": 1.095,
       "defensive_absence_flags": {
         "key_defensive_absences": [
           {
-            "id": 90,
-            "name": "Hickey",
+            "id": 229,
+            "name": "Tarkowski",
             "type": 2,
-            "status": "i",
-            "minutes": 350.0
+            "status": "s",
+            "minutes": 939.0
           }
         ],
         "primary_gk_flag": false,
         "review_required": true
       },
-      "trend_label": "downturn",
+      "trend_label": "neutral",
       "status": "a",
       "news": ""
     },
@@ -4097,6 +4053,42 @@
       "news": ""
     },
     {
+      "id": 105,
+      "name": "Anthony",
+      "club": "BRE",
+      "position": 3,
+      "opponents": [
+        "MUN"
+      ],
+      "expected_points_proxy": 3.0,
+      "conservative_score": 1.48,
+      "availability_proxy": 0.81,
+      "expected_minutes": 51.7,
+      "sixty_plus_minute_rate_proxy": 0.43,
+      "cameo_rate": 0.4,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.916,
+      "defense_trend": 1.068,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 90,
+            "name": "Hickey",
+            "type": 2,
+            "status": "i",
+            "minutes": 350.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "downturn",
+      "status": "a",
+      "news": ""
+    },
+    {
       "id": 282,
       "name": "Giles",
       "club": "HUL",
@@ -4181,34 +4173,6 @@
       "news": ""
     },
     {
-      "id": 239,
-      "name": "Garner",
-      "club": "EVE",
-      "position": 3,
-      "opponents": [
-        "LIV"
-      ],
-      "expected_points_proxy": 2.49,
-      "conservative_score": 1.46,
-      "availability_proxy": 0.89,
-      "expected_minutes": 78.8,
-      "sixty_plus_minute_rate_proxy": 0.86,
-      "cameo_rate": 0.0,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 1.005,
-      "defense_trend": 1.095,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "neutral",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 290,
       "name": "Slater",
       "club": "HUL",
@@ -4265,34 +4229,6 @@
       "news": ""
     },
     {
-      "id": 242,
-      "name": "George",
-      "club": "EVE",
-      "position": 3,
-      "opponents": [
-        "LIV"
-      ],
-      "expected_points_proxy": 2.8,
-      "conservative_score": 1.43,
-      "availability_proxy": 0.89,
-      "expected_minutes": 67.8,
-      "sixty_plus_minute_rate_proxy": 0.57,
-      "cameo_rate": 0.4,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 1.005,
-      "defense_trend": 1.095,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "neutral",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 101,
       "name": "Henderson",
       "club": "CHE",
@@ -4319,6 +4255,42 @@
             "type": 2,
             "status": "i",
             "minutes": 634.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "neutral",
+      "status": "a",
+      "news": ""
+    },
+    {
+      "id": 239,
+      "name": "Garner",
+      "club": "EVE",
+      "position": 3,
+      "opponents": [
+        "LIV"
+      ],
+      "expected_points_proxy": 2.45,
+      "conservative_score": 1.43,
+      "availability_proxy": 0.89,
+      "expected_minutes": 79.0,
+      "sixty_plus_minute_rate_proxy": 0.86,
+      "cameo_rate": 0.0,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 1.005,
+      "defense_trend": 1.095,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 229,
+            "name": "Tarkowski",
+            "type": 2,
+            "status": "s",
+            "minutes": 939.0
           }
         ],
         "primary_gk_flag": false,
@@ -4524,7 +4496,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -4568,6 +4540,42 @@
         "review_required": true
       },
       "trend_label": "downturn",
+      "status": "a",
+      "news": ""
+    },
+    {
+      "id": 242,
+      "name": "George",
+      "club": "EVE",
+      "position": 3,
+      "opponents": [
+        "LIV"
+      ],
+      "expected_points_proxy": 2.72,
+      "conservative_score": 1.37,
+      "availability_proxy": 0.89,
+      "expected_minutes": 66.2,
+      "sixty_plus_minute_rate_proxy": 0.57,
+      "cameo_rate": 0.4,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 1.005,
+      "defense_trend": 1.095,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 229,
+            "name": "Tarkowski",
+            "type": 2,
+            "status": "s",
+            "minutes": 939.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "neutral",
       "status": "a",
       "news": ""
     },
@@ -4664,6 +4672,42 @@
       "news": ""
     },
     {
+      "id": 98,
+      "name": "Janelt",
+      "club": "BRE",
+      "position": 3,
+      "opponents": [
+        "MUN"
+      ],
+      "expected_points_proxy": 2.47,
+      "conservative_score": 1.33,
+      "availability_proxy": 0.82,
+      "expected_minutes": 73.4,
+      "sixty_plus_minute_rate_proxy": 0.71,
+      "cameo_rate": 0.0,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.916,
+      "defense_trend": 1.068,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 90,
+            "name": "Hickey",
+            "type": 2,
+            "status": "i",
+            "minutes": 350.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "downturn",
+      "status": "a",
+      "news": ""
+    },
+    {
       "id": 522,
       "name": "Gray",
       "club": "TOT",
@@ -4752,34 +4796,6 @@
         "review_required": false
       },
       "trend_label": "downturn",
-      "status": "a",
-      "news": ""
-    },
-    {
-      "id": 499,
-      "name": "Pedro Porro",
-      "club": "TOT",
-      "position": 2,
-      "opponents": [
-        "SUN"
-      ],
-      "expected_points_proxy": 2.94,
-      "conservative_score": 1.31,
-      "availability_proxy": 0.73,
-      "expected_minutes": 45.3,
-      "sixty_plus_minute_rate_proxy": 0.29,
-      "cameo_rate": 0.4,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 1.13,
-      "defense_trend": 0.893,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "upturn",
       "status": "a",
       "news": ""
     },
@@ -4968,38 +4984,30 @@
       "news": ""
     },
     {
-      "id": 98,
-      "name": "Janelt",
-      "club": "BRE",
-      "position": 3,
+      "id": 499,
+      "name": "Pedro Porro",
+      "club": "TOT",
+      "position": 2,
       "opponents": [
-        "MUN"
+        "SUN"
       ],
-      "expected_points_proxy": 2.36,
-      "conservative_score": 1.25,
-      "availability_proxy": 0.82,
-      "expected_minutes": 70.4,
-      "sixty_plus_minute_rate_proxy": 0.71,
-      "cameo_rate": 0.0,
+      "expected_points_proxy": 2.86,
+      "conservative_score": 1.24,
+      "availability_proxy": 0.73,
+      "expected_minutes": 45.3,
+      "sixty_plus_minute_rate_proxy": 0.29,
+      "cameo_rate": 0.4,
       "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 1,
-      "teammate_attack_factor_experimental": 0.975,
-      "attack_trend": 0.916,
-      "defense_trend": 1.068,
+      "key_teammates_unavailable": 0,
+      "teammate_attack_factor_experimental": 1.0,
+      "attack_trend": 1.13,
+      "defense_trend": 0.893,
       "defensive_absence_flags": {
-        "key_defensive_absences": [
-          {
-            "id": 90,
-            "name": "Hickey",
-            "type": 2,
-            "status": "i",
-            "minutes": 350.0
-          }
-        ],
+        "key_defensive_absences": [],
         "primary_gk_flag": false,
-        "review_required": true
+        "review_required": false
       },
-      "trend_label": "downturn",
+      "trend_label": "upturn",
       "status": "a",
       "news": ""
     },
@@ -5339,7 +5347,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -5474,7 +5482,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -5650,6 +5658,34 @@
       "news": ""
     },
     {
+      "id": 389,
+      "name": "Matheus N.",
+      "club": "MCI",
+      "position": 2,
+      "opponents": [
+        "ARS"
+      ],
+      "expected_points_proxy": 2.4,
+      "conservative_score": 1.12,
+      "availability_proxy": 0.81,
+      "expected_minutes": 64.2,
+      "sixty_plus_minute_rate_proxy": 0.57,
+      "cameo_rate": 0.2,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 0,
+      "teammate_attack_factor_experimental": 1.0,
+      "attack_trend": 0.904,
+      "defense_trend": 1.056,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [],
+        "primary_gk_flag": false,
+        "review_required": false
+      },
+      "trend_label": "downturn",
+      "status": "a",
+      "news": ""
+    },
+    {
       "id": 34,
       "name": "Pau",
       "club": "AVL",
@@ -5681,7 +5717,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -5724,7 +5760,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -5746,7 +5782,7 @@
       "expected_points_proxy": 2.58,
       "conservative_score": 1.1,
       "availability_proxy": 0.89,
-      "expected_minutes": 63.3,
+      "expected_minutes": 63.8,
       "sixty_plus_minute_rate_proxy": 0.43,
       "cameo_rate": 0.6,
       "recent_minutes_sample": 5,
@@ -5956,6 +5992,42 @@
       "news": ""
     },
     {
+      "id": 209,
+      "name": "Johnson",
+      "club": "EVE",
+      "position": 3,
+      "opponents": [
+        "LIV"
+      ],
+      "expected_points_proxy": 2.54,
+      "conservative_score": 1.05,
+      "availability_proxy": 0.88,
+      "expected_minutes": 49.8,
+      "sixty_plus_minute_rate_proxy": 0.43,
+      "cameo_rate": 0.6,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 1.005,
+      "defense_trend": 1.095,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 229,
+            "name": "Tarkowski",
+            "type": 2,
+            "status": "s",
+            "minutes": 939.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "neutral",
+      "status": "a",
+      "news": ""
+    },
+    {
       "id": 368,
       "name": "Szoboszlai",
       "club": "LIV",
@@ -6079,7 +6151,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -6121,34 +6193,6 @@
         ],
         "primary_gk_flag": false,
         "review_required": true
-      },
-      "trend_label": "neutral",
-      "status": "a",
-      "news": ""
-    },
-    {
-      "id": 209,
-      "name": "Johnson",
-      "club": "EVE",
-      "position": 3,
-      "opponents": [
-        "LIV"
-      ],
-      "expected_points_proxy": 2.47,
-      "conservative_score": 1.0,
-      "availability_proxy": 0.88,
-      "expected_minutes": 48.1,
-      "sixty_plus_minute_rate_proxy": 0.43,
-      "cameo_rate": 0.6,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 1.005,
-      "defense_trend": 1.095,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
       },
       "trend_label": "neutral",
       "status": "a",
@@ -6283,34 +6327,6 @@
       "news": ""
     },
     {
-      "id": 232,
-      "name": "O'Brien",
-      "club": "EVE",
-      "position": 2,
-      "opponents": [
-        "LIV"
-      ],
-      "expected_points_proxy": 2.41,
-      "conservative_score": 0.95,
-      "availability_proxy": 0.78,
-      "expected_minutes": 48.9,
-      "sixty_plus_minute_rate_proxy": 0.43,
-      "cameo_rate": 0.4,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 1.005,
-      "defense_trend": 1.095,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "neutral",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 153,
       "name": "Disasi",
       "club": "CRY",
@@ -6382,21 +6398,29 @@
       "opponents": [
         "LIV"
       ],
-      "expected_points_proxy": 2.01,
+      "expected_points_proxy": 1.99,
       "conservative_score": 0.94,
       "availability_proxy": 0.81,
-      "expected_minutes": 68.9,
+      "expected_minutes": 68.4,
       "sixty_plus_minute_rate_proxy": 0.71,
       "cameo_rate": 0.0,
       "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
       "attack_trend": 1.005,
       "defense_trend": 1.095,
       "defensive_absence_flags": {
-        "key_defensive_absences": [],
+        "key_defensive_absences": [
+          {
+            "id": 229,
+            "name": "Tarkowski",
+            "type": 2,
+            "status": "s",
+            "minutes": 939.0
+          }
+        ],
         "primary_gk_flag": false,
-        "review_required": false
+        "review_required": true
       },
       "trend_label": "neutral",
       "status": "a",
@@ -6431,30 +6455,38 @@
       "news": "Suspended until 2 Dec"
     },
     {
-      "id": 605,
-      "name": "Yalcouyé",
-      "club": "BHA",
-      "position": 3,
+      "id": 232,
+      "name": "O'Brien",
+      "club": "EVE",
+      "position": 2,
       "opponents": [
-        "NEW"
+        "LIV"
       ],
-      "expected_points_proxy": 2.73,
+      "expected_points_proxy": 2.35,
       "conservative_score": 0.92,
-      "availability_proxy": 0.87,
-      "expected_minutes": 39.6,
-      "sixty_plus_minute_rate_proxy": 0.14,
-      "cameo_rate": 1.0,
+      "availability_proxy": 0.79,
+      "expected_minutes": 50.9,
+      "sixty_plus_minute_rate_proxy": 0.43,
+      "cameo_rate": 0.4,
       "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 0.896,
-      "defense_trend": 0.94,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 1.005,
+      "defense_trend": 1.095,
       "defensive_absence_flags": {
-        "key_defensive_absences": [],
+        "key_defensive_absences": [
+          {
+            "id": 229,
+            "name": "Tarkowski",
+            "type": 2,
+            "status": "s",
+            "minutes": 939.0
+          }
+        ],
         "primary_gk_flag": false,
-        "review_required": false
+        "review_required": true
       },
-      "trend_label": "downturn",
+      "trend_label": "neutral",
       "status": "a",
       "news": ""
     },
@@ -6556,7 +6588,7 @@
       },
       "trend_label": "neutral",
       "status": "d",
-      "news": "Shoulder injury - 75% chance of playing"
+      "news": "Shoulder injury - 50% chance of playing"
     },
     {
       "id": 656,
@@ -6619,6 +6651,42 @@
         "review_required": true
       },
       "trend_label": "neutral",
+      "status": "a",
+      "news": ""
+    },
+    {
+      "id": 97,
+      "name": "Jensen",
+      "club": "BRE",
+      "position": 3,
+      "opponents": [
+        "MUN"
+      ],
+      "expected_points_proxy": 2.35,
+      "conservative_score": 0.89,
+      "availability_proxy": 0.87,
+      "expected_minutes": 56.3,
+      "sixty_plus_minute_rate_proxy": 0.43,
+      "cameo_rate": 0.6,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.916,
+      "defense_trend": 1.068,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 90,
+            "name": "Hickey",
+            "type": 2,
+            "status": "i",
+            "minutes": 350.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "downturn",
       "status": "a",
       "news": ""
     },
@@ -6939,42 +7007,6 @@
       "news": ""
     },
     {
-      "id": 97,
-      "name": "Jensen",
-      "club": "BRE",
-      "position": 3,
-      "opponents": [
-        "MUN"
-      ],
-      "expected_points_proxy": 2.26,
-      "conservative_score": 0.81,
-      "availability_proxy": 0.87,
-      "expected_minutes": 54.7,
-      "sixty_plus_minute_rate_proxy": 0.43,
-      "cameo_rate": 0.6,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 1,
-      "teammate_attack_factor_experimental": 0.975,
-      "attack_trend": 0.916,
-      "defense_trend": 1.068,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [
-          {
-            "id": 90,
-            "name": "Hickey",
-            "type": 2,
-            "status": "i",
-            "minutes": 350.0
-          }
-        ],
-        "primary_gk_flag": false,
-        "review_required": true
-      },
-      "trend_label": "downturn",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 445,
       "name": "Thiaw",
       "club": "NEW",
@@ -7231,6 +7263,42 @@
       "news": ""
     },
     {
+      "id": 229,
+      "name": "Tarkowski",
+      "club": "EVE",
+      "position": 2,
+      "opponents": [
+        "LIV"
+      ],
+      "expected_points_proxy": 2.19,
+      "conservative_score": 0.75,
+      "availability_proxy": 0.58,
+      "expected_minutes": 51.2,
+      "sixty_plus_minute_rate_proxy": 0.86,
+      "cameo_rate": 0.0,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 0,
+      "teammate_attack_factor_experimental": 1.0,
+      "attack_trend": 1.005,
+      "defense_trend": 1.095,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 229,
+            "name": "Tarkowski",
+            "type": 2,
+            "status": "s",
+            "minutes": 939.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "neutral",
+      "status": "s",
+      "news": "Suspended until 13 Dec"
+    },
+    {
       "id": 260,
       "name": "Wilson",
       "club": "LEE",
@@ -7354,7 +7422,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -7642,34 +7710,6 @@
       "news": ""
     },
     {
-      "id": 649,
-      "name": "Maitland-Niles",
-      "club": "EVE",
-      "position": 2,
-      "opponents": [
-        "LIV"
-      ],
-      "expected_points_proxy": 2.15,
-      "conservative_score": 0.67,
-      "availability_proxy": 0.64,
-      "expected_minutes": 45.4,
-      "sixty_plus_minute_rate_proxy": 0.29,
-      "cameo_rate": 0.2,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 1.005,
-      "defense_trend": 1.095,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "neutral",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 28,
       "name": "Martinez",
       "club": "CHE",
@@ -7734,6 +7774,42 @@
       "news": ""
     },
     {
+      "id": 649,
+      "name": "Maitland-Niles",
+      "club": "EVE",
+      "position": 2,
+      "opponents": [
+        "LIV"
+      ],
+      "expected_points_proxy": 2.14,
+      "conservative_score": 0.66,
+      "availability_proxy": 0.64,
+      "expected_minutes": 45.4,
+      "sixty_plus_minute_rate_proxy": 0.29,
+      "cameo_rate": 0.2,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 1.005,
+      "defense_trend": 1.095,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 229,
+            "name": "Tarkowski",
+            "type": 2,
+            "status": "s",
+            "minutes": 939.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "neutral",
+      "status": "a",
+      "news": ""
+    },
+    {
       "id": 245,
       "name": "Dibling",
       "club": "EVE",
@@ -7741,21 +7817,29 @@
       "opponents": [
         "LIV"
       ],
-      "expected_points_proxy": 2.26,
-      "conservative_score": 0.66,
+      "expected_points_proxy": 2.24,
+      "conservative_score": 0.65,
       "availability_proxy": 0.68,
       "expected_minutes": 39.0,
       "sixty_plus_minute_rate_proxy": 0.29,
       "cameo_rate": 0.4,
       "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
       "attack_trend": 1.005,
       "defense_trend": 1.095,
       "defensive_absence_flags": {
-        "key_defensive_absences": [],
+        "key_defensive_absences": [
+          {
+            "id": 229,
+            "name": "Tarkowski",
+            "type": 2,
+            "status": "s",
+            "minutes": 939.0
+          }
+        ],
         "primary_gk_flag": false,
-        "review_required": false
+        "review_required": true
       },
       "trend_label": "neutral",
       "status": "a",
@@ -7829,7 +7913,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -7865,34 +7949,6 @@
         "review_required": false
       },
       "trend_label": "downturn",
-      "status": "a",
-      "news": ""
-    },
-    {
-      "id": 238,
-      "name": "Grealish",
-      "club": "EVE",
-      "position": 3,
-      "opponents": [
-        "LIV"
-      ],
-      "expected_points_proxy": 1.9,
-      "conservative_score": 0.61,
-      "availability_proxy": 0.64,
-      "expected_minutes": 51.9,
-      "sixty_plus_minute_rate_proxy": 0.43,
-      "cameo_rate": 0.0,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 1.005,
-      "defense_trend": 1.095,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "neutral",
       "status": "a",
       "news": ""
     },
@@ -7984,7 +8040,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -7992,6 +8048,42 @@
         "review_required": true
       },
       "trend_label": "upturn",
+      "status": "a",
+      "news": ""
+    },
+    {
+      "id": 238,
+      "name": "Grealish",
+      "club": "EVE",
+      "position": 3,
+      "opponents": [
+        "LIV"
+      ],
+      "expected_points_proxy": 1.85,
+      "conservative_score": 0.57,
+      "availability_proxy": 0.64,
+      "expected_minutes": 55.1,
+      "sixty_plus_minute_rate_proxy": 0.43,
+      "cameo_rate": 0.0,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 1.005,
+      "defense_trend": 1.095,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 229,
+            "name": "Tarkowski",
+            "type": 2,
+            "status": "s",
+            "minutes": 939.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "neutral",
       "status": "a",
       "news": ""
     },
@@ -8208,6 +8300,42 @@
       "news": ""
     },
     {
+      "id": 102,
+      "name": "Yarmoliuk",
+      "club": "BRE",
+      "position": 3,
+      "opponents": [
+        "MUN"
+      ],
+      "expected_points_proxy": 1.99,
+      "conservative_score": 0.52,
+      "availability_proxy": 0.73,
+      "expected_minutes": 51.0,
+      "sixty_plus_minute_rate_proxy": 0.29,
+      "cameo_rate": 0.4,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.916,
+      "defense_trend": 1.068,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 90,
+            "name": "Hickey",
+            "type": 2,
+            "status": "i",
+            "minutes": 350.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "downturn",
+      "status": "a",
+      "news": ""
+    },
+    {
       "id": 655,
       "name": "Gboho",
       "club": "COV",
@@ -8260,6 +8388,42 @@
         "review_required": false
       },
       "trend_label": "neutral",
+      "status": "a",
+      "news": ""
+    },
+    {
+      "id": 96,
+      "name": "Damsgaard",
+      "club": "BRE",
+      "position": 3,
+      "opponents": [
+        "MUN"
+      ],
+      "expected_points_proxy": 2.11,
+      "conservative_score": 0.48,
+      "availability_proxy": 0.73,
+      "expected_minutes": 38.0,
+      "sixty_plus_minute_rate_proxy": 0.14,
+      "cameo_rate": 0.6,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.916,
+      "defense_trend": 1.068,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 90,
+            "name": "Hickey",
+            "type": 2,
+            "status": "i",
+            "minutes": 350.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "downturn",
       "status": "a",
       "news": ""
     },
@@ -8359,7 +8523,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -8619,42 +8783,6 @@
       "news": ""
     },
     {
-      "id": 102,
-      "name": "Yarmoliuk",
-      "club": "BRE",
-      "position": 3,
-      "opponents": [
-        "MUN"
-      ],
-      "expected_points_proxy": 1.84,
-      "conservative_score": 0.39,
-      "availability_proxy": 0.72,
-      "expected_minutes": 50.5,
-      "sixty_plus_minute_rate_proxy": 0.29,
-      "cameo_rate": 0.4,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 1,
-      "teammate_attack_factor_experimental": 0.975,
-      "attack_trend": 0.916,
-      "defense_trend": 1.068,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [
-          {
-            "id": 90,
-            "name": "Hickey",
-            "type": 2,
-            "status": "i",
-            "minutes": 350.0
-          }
-        ],
-        "primary_gk_flag": false,
-        "review_required": true
-      },
-      "trend_label": "downturn",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 552,
       "name": "Brobbey",
       "club": "SUN",
@@ -8863,42 +8991,6 @@
         "review_required": false
       },
       "trend_label": "upturn",
-      "status": "a",
-      "news": ""
-    },
-    {
-      "id": 96,
-      "name": "Damsgaard",
-      "club": "BRE",
-      "position": 3,
-      "opponents": [
-        "MUN"
-      ],
-      "expected_points_proxy": 1.95,
-      "conservative_score": 0.34,
-      "availability_proxy": 0.72,
-      "expected_minutes": 37.5,
-      "sixty_plus_minute_rate_proxy": 0.14,
-      "cameo_rate": 0.6,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 1,
-      "teammate_attack_factor_experimental": 0.975,
-      "attack_trend": 0.916,
-      "defense_trend": 1.068,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [
-          {
-            "id": 90,
-            "name": "Hickey",
-            "type": 2,
-            "status": "i",
-            "minutes": 350.0
-          }
-        ],
-        "primary_gk_flag": false,
-        "review_required": true
-      },
-      "trend_label": "downturn",
       "status": "a",
       "news": ""
     },
@@ -9138,7 +9230,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -9533,21 +9625,29 @@
       "opponents": [
         "LIV"
       ],
-      "expected_points_proxy": 1.72,
-      "conservative_score": 0.23,
+      "expected_points_proxy": 1.71,
+      "conservative_score": 0.22,
       "availability_proxy": 0.68,
       "expected_minutes": 39.6,
       "sixty_plus_minute_rate_proxy": 0.29,
       "cameo_rate": 0.4,
       "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
       "attack_trend": 1.005,
       "defense_trend": 1.095,
       "defensive_absence_flags": {
-        "key_defensive_absences": [],
+        "key_defensive_absences": [
+          {
+            "id": 229,
+            "name": "Tarkowski",
+            "type": 2,
+            "status": "s",
+            "minutes": 939.0
+          }
+        ],
         "primary_gk_flag": false,
-        "review_required": false
+        "review_required": true
       },
       "trend_label": "neutral",
       "status": "a",
@@ -9585,7 +9685,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -9621,8 +9721,8 @@
         "review_required": false
       },
       "trend_label": "neutral",
-      "status": "d",
-      "news": "Hamstring injury - 75% chance of playing"
+      "status": "i",
+      "news": "Hamstring injury - Unknown return date"
     },
     {
       "id": 93,
@@ -9717,6 +9817,34 @@
       "news": "Ankle injury - 75% chance of playing"
     },
     {
+      "id": 340,
+      "name": "Gelhardt",
+      "club": "HUL",
+      "position": 3,
+      "opponents": [
+        "CRY"
+      ],
+      "expected_points_proxy": 2.22,
+      "conservative_score": 0.16,
+      "availability_proxy": 0.55,
+      "expected_minutes": 23.1,
+      "sixty_plus_minute_rate_proxy": 0.29,
+      "cameo_rate": 0.8,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 0,
+      "teammate_attack_factor_experimental": 1.0,
+      "attack_trend": 0.985,
+      "defense_trend": 1.068,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [],
+        "primary_gk_flag": false,
+        "review_required": false
+      },
+      "trend_label": "neutral",
+      "status": "i",
+      "news": "Thigh injury - Unknown return date"
+    },
+    {
       "id": 32,
       "name": "Cash",
       "club": "AVL",
@@ -9748,7 +9876,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -9756,8 +9884,8 @@
         "review_required": true
       },
       "trend_label": "upturn",
-      "status": "i",
-      "news": "Concussion - Expected back 28 Nov"
+      "status": "d",
+      "news": "Concussion - 75% chance of playing"
     },
     {
       "id": 46,
@@ -9791,7 +9919,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -9873,34 +10001,6 @@
       "trend_label": "downturn",
       "status": "a",
       "news": ""
-    },
-    {
-      "id": 389,
-      "name": "Matheus N.",
-      "club": "MCI",
-      "position": 2,
-      "opponents": [
-        "ARS"
-      ],
-      "expected_points_proxy": 1.69,
-      "conservative_score": 0.12,
-      "availability_proxy": 0.52,
-      "expected_minutes": 41.7,
-      "sixty_plus_minute_rate_proxy": 0.57,
-      "cameo_rate": 0.2,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 0.904,
-      "defense_trend": 1.056,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "downturn",
-      "status": "d",
-      "news": "Unspecified injury - 50% chance of playing"
     },
     {
       "id": 337,
@@ -10335,34 +10435,6 @@
       "news": ""
     },
     {
-      "id": 247,
-      "name": "Hackney",
-      "club": "EVE",
-      "position": 3,
-      "opponents": [
-        "LIV"
-      ],
-      "expected_points_proxy": 1.45,
-      "conservative_score": -0.11,
-      "availability_proxy": 0.77,
-      "expected_minutes": 36.1,
-      "sixty_plus_minute_rate_proxy": 0.14,
-      "cameo_rate": 0.8,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 1.005,
-      "defense_trend": 1.095,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "neutral",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 144,
       "name": "Gusto",
       "club": "CHE",
@@ -10389,6 +10461,78 @@
             "type": 2,
             "status": "i",
             "minutes": 634.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "neutral",
+      "status": "a",
+      "news": ""
+    },
+    {
+      "id": 108,
+      "name": "Wilson",
+      "club": "BRE",
+      "position": 4,
+      "opponents": [
+        "MUN"
+      ],
+      "expected_points_proxy": 1.44,
+      "conservative_score": -0.13,
+      "availability_proxy": 0.77,
+      "expected_minutes": 30.1,
+      "sixty_plus_minute_rate_proxy": 0.14,
+      "cameo_rate": 0.8,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.916,
+      "defense_trend": 1.068,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 90,
+            "name": "Hickey",
+            "type": 2,
+            "status": "i",
+            "minutes": 350.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "downturn",
+      "status": "a",
+      "news": ""
+    },
+    {
+      "id": 247,
+      "name": "Hackney",
+      "club": "EVE",
+      "position": 3,
+      "opponents": [
+        "LIV"
+      ],
+      "expected_points_proxy": 1.43,
+      "conservative_score": -0.13,
+      "availability_proxy": 0.77,
+      "expected_minutes": 36.1,
+      "sixty_plus_minute_rate_proxy": 0.14,
+      "cameo_rate": 0.8,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 1.005,
+      "defense_trend": 1.095,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 229,
+            "name": "Tarkowski",
+            "type": 2,
+            "status": "s",
+            "minutes": 939.0
           }
         ],
         "primary_gk_flag": false,
@@ -10831,6 +10975,34 @@
       "news": ""
     },
     {
+      "id": 605,
+      "name": "Yalcouyé",
+      "club": "BHA",
+      "position": 3,
+      "opponents": [
+        "NEW"
+      ],
+      "expected_points_proxy": 1.8,
+      "conservative_score": -0.29,
+      "availability_proxy": 0.56,
+      "expected_minutes": 25.8,
+      "sixty_plus_minute_rate_proxy": 0.14,
+      "cameo_rate": 1.0,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 0,
+      "teammate_attack_factor_experimental": 1.0,
+      "attack_trend": 0.896,
+      "defense_trend": 0.94,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [],
+        "primary_gk_flag": false,
+        "review_required": false
+      },
+      "trend_label": "downturn",
+      "status": "i",
+      "news": "Unspecified injury - Unknown return date"
+    },
+    {
       "id": 488,
       "name": "I.Sangaré",
       "club": "NFO",
@@ -11146,7 +11318,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -11225,7 +11397,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -11644,7 +11816,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -11937,7 +12109,7 @@
             "id": 32,
             "name": "Cash",
             "type": 2,
-            "status": "i",
+            "status": "d",
             "minutes": 656.0
           }
         ],
@@ -12120,21 +12292,29 @@
       "opponents": [
         "LIV"
       ],
-      "expected_points_proxy": 3.57,
-      "conservative_score": 2.37,
+      "expected_points_proxy": 3.48,
+      "conservative_score": 2.29,
       "availability_proxy": 0.9,
-      "expected_minutes": 76.7,
+      "expected_minutes": 79.2,
       "sixty_plus_minute_rate_proxy": 0.86,
       "cameo_rate": 0.0,
       "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
       "attack_trend": 1.005,
       "defense_trend": 1.095,
       "defensive_absence_flags": {
-        "key_defensive_absences": [],
+        "key_defensive_absences": [
+          {
+            "id": 229,
+            "name": "Tarkowski",
+            "type": 2,
+            "status": "s",
+            "minutes": 939.0
+          }
+        ],
         "primary_gk_flag": false,
-        "review_required": false
+        "review_required": true
       },
       "trend_label": "neutral",
       "status": "a",

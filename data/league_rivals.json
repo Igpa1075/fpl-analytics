@@ -114,47 +114,10 @@
       ]
     },
     {
-      "entry": 1653100,
-      "team_name": "Yerazzurri",
-      "total": 673,
-      "rank": 4,
-      "captain_id": 411,
-      "starting_ids": [
-        250,
-        115,
-        391,
-        8,
-        427,
-        40,
-        68,
-        124,
-        411,
-        379,
-        138
-      ],
-      "all_ids": [
-        250,
-        115,
-        391,
-        8,
-        427,
-        40,
-        68,
-        124,
-        411,
-        379,
-        138,
-        572,
-        453,
-        305,
-        31
-      ]
-    },
-    {
       "entry": 1936456,
       "team_name": "Team_D",
-      "total": 672,
-      "rank": 5,
+      "total": 674,
+      "rank": 4,
       "captain_id": 411,
       "starting_ids": [
         109,
@@ -190,8 +153,8 @@
     {
       "entry": 2639391,
       "team_name": "S.W.A.T. LA",
-      "total": 670,
-      "rank": 6,
+      "total": 673,
+      "rank": 5,
       "captain_id": 411,
       "starting_ids": [
         572,
@@ -225,9 +188,46 @@
       ]
     },
     {
+      "entry": 1653100,
+      "team_name": "Yerazzurri",
+      "total": 673,
+      "rank": 5,
+      "captain_id": 411,
+      "starting_ids": [
+        250,
+        115,
+        391,
+        8,
+        427,
+        40,
+        68,
+        124,
+        411,
+        379,
+        138
+      ],
+      "all_ids": [
+        250,
+        115,
+        391,
+        8,
+        427,
+        40,
+        68,
+        124,
+        411,
+        379,
+        138,
+        572,
+        453,
+        305,
+        31
+      ]
+    },
+    {
       "entry": 1347510,
       "team_name": "WΞΞKΞND WΛRRIOR",
-      "total": 649,
+      "total": 647,
       "rank": 7,
       "captain_id": 4,
       "starting_ids": [
@@ -336,47 +336,10 @@
       ]
     },
     {
-      "entry": 478722,
-      "team_name": "FC Barcelona SD",
-      "total": 616,
-      "rank": 10,
-      "captain_id": 411,
-      "starting_ids": [
-        226,
-        115,
-        229,
-        8,
-        124,
-        453,
-        40,
-        68,
-        411,
-        79,
-        138
-      ],
-      "all_ids": [
-        226,
-        115,
-        229,
-        8,
-        124,
-        453,
-        40,
-        68,
-        411,
-        79,
-        138,
-        250,
-        449,
-        94,
-        445
-      ]
-    },
-    {
       "entry": 7057301,
       "team_name": "Team Ansar",
       "total": 614,
-      "rank": 11,
+      "rank": 10,
       "captain_id": 411,
       "starting_ids": [
         351,
@@ -407,6 +370,43 @@
         259,
         212,
         165
+      ]
+    },
+    {
+      "entry": 478722,
+      "team_name": "FC Barcelona SD",
+      "total": 613,
+      "rank": 11,
+      "captain_id": 411,
+      "starting_ids": [
+        226,
+        115,
+        229,
+        8,
+        124,
+        453,
+        40,
+        68,
+        411,
+        79,
+        138
+      ],
+      "all_ids": [
+        226,
+        115,
+        229,
+        8,
+        124,
+        453,
+        40,
+        68,
+        411,
+        79,
+        138,
+        250,
+        449,
+        94,
+        445
       ]
     },
     {
@@ -449,7 +449,7 @@
     {
       "entry": 5150250,
       "team_name": "Chubais",
-      "total": 550,
+      "total": 552,
       "rank": 13,
       "captain_id": 411,
       "starting_ids": [

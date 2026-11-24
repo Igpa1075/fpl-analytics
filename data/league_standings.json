@@ -37,48 +37,48 @@
       "total": 687
     },
     {
+      "club_badge_src": "https://fantasy.premierleague.com/gcs/plfpl-production-adobe-approved/plfpl-production/1936456/f8058955-5a95-4498-9d79-d85181502ed8.png",
+      "entry": 1936456,
+      "entry_name": "Team_D",
+      "event_total": 36,
+      "last_rank": 4,
+      "player_name": "Duman Utegenov",
+      "rank": 4,
+      "rank_sort": 4,
+      "total": 674
+    },
+    {
+      "club_badge_src": "https://fantasy.premierleague.com/gcs/plfpl-production-adobe-approved/plfpl-production/2639391/9f6d8a42-a0f3-4bab-9a9f-95e488637cb6.png",
+      "entry": 2639391,
+      "entry_name": "S.W.A.T. LA",
+      "event_total": 35,
+      "last_rank": 4,
+      "player_name": "Aniyar Abulkassimov",
+      "rank": 5,
+      "rank_sort": 5,
+      "total": 673
+    },
+    {
       "club_badge_src": null,
       "entry": 1653100,
       "entry_name": "Yerazzurri",
       "event_total": 46,
       "last_rank": 6,
       "player_name": "Yernur Tasbulatov",
-      "rank": 4,
-      "rank_sort": 4,
-      "total": 673
-    },
-    {
-      "club_badge_src": "https://fantasy.premierleague.com/gcs/plfpl-production-adobe-approved/plfpl-production/1936456/f8058955-5a95-4498-9d79-d85181502ed8.png",
-      "entry": 1936456,
-      "entry_name": "Team_D",
-      "event_total": 34,
-      "last_rank": 4,
-      "player_name": "Duman Utegenov",
       "rank": 5,
-      "rank_sort": 5,
-      "total": 672
-    },
-    {
-      "club_badge_src": "https://fantasy.premierleague.com/gcs/plfpl-production-adobe-approved/plfpl-production/2639391/9f6d8a42-a0f3-4bab-9a9f-95e488637cb6.png",
-      "entry": 2639391,
-      "entry_name": "S.W.A.T. LA",
-      "event_total": 32,
-      "last_rank": 4,
-      "player_name": "Aniyar Abulkassimov",
-      "rank": 6,
       "rank_sort": 6,
-      "total": 670
+      "total": 673
     },
     {
       "club_badge_src": "https://fantasy.premierleague.com/gcs/plfpl-production-adobe-approved/plfpl-production/1347510/3e24da8f-71d4-46e1-a9fd-5b6b412e2ac2.png",
       "entry": 1347510,
       "entry_name": "WΞΞKΞND WΛRRIOR",
-      "event_total": 38,
+      "event_total": 36,
       "last_rank": 7,
       "player_name": "HuAN Sebas",
       "rank": 7,
       "rank_sort": 7,
-      "total": 649
+      "total": 647
     },
     {
       "club_badge_src": "https://fantasy.premierleague.com/gcs/plfpl-production-adobe-approved/plfpl-production/1497937/6eaba77f-4629-420d-a5f5-da805c7a09c7.png",
@@ -104,25 +104,25 @@
     },
     {
       "club_badge_src": null,
-      "entry": 478722,
-      "entry_name": "FC Barcelona SD",
-      "event_total": 32,
-      "last_rank": 11,
-      "player_name": "Serik Makashev",
-      "rank": 10,
-      "rank_sort": 10,
-      "total": 616
-    },
-    {
-      "club_badge_src": null,
       "entry": 7057301,
       "entry_name": "Team Ansar",
       "event_total": 25,
       "last_rank": 10,
       "player_name": "Ansar Tokenov",
+      "rank": 10,
+      "rank_sort": 10,
+      "total": 614
+    },
+    {
+      "club_badge_src": null,
+      "entry": 478722,
+      "entry_name": "FC Barcelona SD",
+      "event_total": 29,
+      "last_rank": 11,
+      "player_name": "Serik Makashev",
       "rank": 11,
       "rank_sort": 11,
-      "total": 614
+      "total": 613
     },
     {
       "club_badge_src": null,
@@ -139,12 +139,12 @@
       "club_badge_src": null,
       "entry": 5150250,
       "entry_name": "Chubais",
-      "event_total": 22,
+      "event_total": 24,
       "last_rank": 13,
       "player_name": "Igor Panov",
       "rank": 13,
       "rank_sort": 13,
-      "total": 550
+      "total": 552
     }
   ]
 }

@@ -8,32 +8,32 @@ Slot Player                 Club  Pos     £m  Form   PPG  Score Status
    1 Verbruggen             BHA   GKP    4.7   5.2   5.4   5.26 a
    2 De Cuyper              BHA   DEF    5.5   4.2   6.9   5.01 a
    3 Vuskovic               BHA   DEF    5.3   4.8   6.4   5.28 a
-   4 Konsa                  ARS   DEF    4.9   8.2   5.8   7.48 a
+   4 Konsa                  ARS   DEF    4.9   6.3   5.8   6.15 a
    5 Mbeumo                 MUN   MID    7.8   1.5   4.3   2.34 a
-   6 Neto                   CHE   MID    6.6   2.0   3.8   2.54 a
-   7 Palmer                 CHE   MID    9.8   2.8   4.5   3.31 a
-   8 Dewsbury-Hall          EVE   MID    6.7   3.8   5.0   4.16 a
-   9 Tavernier              BOU   MID    6.7   6.0   6.0   6.00 a
-  10 Haaland (C)            MCI   FWD   15.8   3.5   6.5   4.40 a
-  11 N.Jackson (VC)         AVL   FWD    7.3   8.8   5.6   7.84 a
-  12 Leno                   FUL   GKP    4.5   3.8   3.7   3.77 a
-  13 Calafiori              ARS   DEF    5.9   3.5   5.3   4.04 a
-  14 Cherif                 COV   FWD    5.0   1.2   2.7   1.65 a
+   6 Neto                   CHE   MID    6.6   1.7   3.8   2.33 a
+   7 Palmer                 CHE   MID    9.8   4.0   4.5   4.15 a
+   8 Dewsbury-Hall          EVE   MID    6.7   5.0   4.7   4.91 a
+   9 Tavernier              BOU   MID    6.8   6.0   6.0   6.00 a
+  10 Haaland (C)            MCI   FWD   15.8   2.0   6.5   3.35 a
+  11 N.Jackson (VC)         AVL   FWD    7.3   7.3   5.6   6.79 a
+  12 Leno                   FUL   GKP    4.5   2.3   3.7   2.72 a
+  13 Calafiori              ARS   DEF    5.9   4.3   5.3   4.60 a
+  14 Cherif                 COV   FWD    5.0   1.0   2.7   1.51 a
   15 Ouattara               IPS   DEF    4.0   2.7   2.6   2.67 a
 
 Suggested XI based on the heuristic (review injury/news before deadline):
 Formation: 5-3-2
   GKP Verbruggen             BHA  score 5.26
-  DEF Konsa                  ARS  score 7.48
+  DEF Konsa                  ARS  score 6.15
   DEF Vuskovic               BHA  score 5.28
   DEF De Cuyper              BHA  score 5.01
-  DEF Calafiori              ARS  score 4.04
+  DEF Calafiori              ARS  score 4.60
   DEF Ouattara               IPS  score 2.67
   MID Tavernier              BOU  score 6.00
-  MID Dewsbury-Hall          EVE  score 4.16
-  MID Palmer                 CHE  score 3.31
-  FWD N.Jackson              AVL  score 7.84
-  FWD Haaland                MCI  score 4.40
+  MID Dewsbury-Hall          EVE  score 4.91
+  MID Palmer                 CHE  score 4.15
+  FWD N.Jackson              AVL  score 6.79
+  FWD Haaland                MCI  score 3.35
 Heuristic captain candidate: N.Jackson (verify minutes and fixture)
 Bench: Mbeumo, Neto, Leno, Cherif
 
