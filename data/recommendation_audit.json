@@ -12,7 +12,7 @@
     "ESPN role and start-rate factors are experimental, not backtested.",
     "Elite and random-control manager cohorts are diagnostics, not predictive inputs."
   ],
-  "completed_gws_evaluated": 0,
+  "completed_gws_evaluated": 1,
   "ready_for_automatic_transfers": false,
   "checks": {
     "lineup_formation": {
@@ -23,7 +23,7 @@
     },
     "contextual_forecast_used": true,
     "elite_and_control_cohorts_used_for_points": false,
-    "starting_xi_expected_points": 59.876,
+    "starting_xi_expected_points": 61.022,
     "transfer_scenarios": 21,
     "multiweek_scenarios": 21
   }

@@ -1,10 +1,10 @@
 {
   "target_gw": 12,
-  "forecast_captured_at_utc": "2026-11-24T04:27:49.799382+00:00",
-  "forecast_source": "data/contextual_forecasts/2026-11-24.json",
+  "forecast_captured_at_utc": "2026-11-25T04:34:25.658244+00:00",
+  "forecast_source": "data/contextual_forecasts/2026-11-25.json",
   "squad_source": "data/picks.json (latest publicly published GW; may be stale)",
   "squad_event": 11,
-  "expected_xi_points_with_captain": 59.876,
+  "expected_xi_points_with_captain": 61.022,
   "formation": {
     "defenders": 4,
     "midfielders": 4,
@@ -25,8 +25,8 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 5.29,
-      "baseline_expected_points": 5.29,
+      "expected_points": 5.895,
+      "baseline_expected_points": 5.895,
       "context_factor": 1.0,
       "context_signals": []
     },
@@ -44,8 +44,8 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 5.52,
-      "baseline_expected_points": 5.52,
+      "expected_points": 6.18,
+      "baseline_expected_points": 6.18,
       "context_factor": 1.0,
       "context_signals": []
     },
@@ -63,8 +63,8 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 5.415,
-      "baseline_expected_points": 5.415,
+      "expected_points": 6.02,
+      "baseline_expected_points": 6.02,
       "context_factor": 1.0,
       "context_signals": []
     },
@@ -120,8 +120,8 @@
           "difficulty": 3
         }
       ],
-      "expected_points": 6.0,
-      "baseline_expected_points": 6.0,
+      "expected_points": 5.285,
+      "baseline_expected_points": 5.285,
       "context_factor": 1.0,
       "context_signals": []
     },
@@ -161,31 +161,24 @@
       "expected_points": 4.476,
       "baseline_expected_points": 4.476,
       "context_factor": 1.0,
-      "context_signals": [
-        {
-          "kind": "verified_espn_starts",
-          "starts": 5,
-          "matches": 5,
-          "factor": 1.0
-        }
-      ]
+      "context_signals": []
     },
     {
-      "player_id": 427,
-      "name": "Mbeumo",
-      "team_id": 16,
+      "player_id": 156,
+      "name": "Neto",
+      "team_id": 6,
       "position_id": 3,
-      "price_tenths_million": 78,
+      "price_tenths_million": 66,
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 4,
-          "home": true,
-          "difficulty": 3
+          "opponent": 18,
+          "home": false,
+          "difficulty": 2
         }
       ],
-      "expected_points": 2.76,
-      "baseline_expected_points": 2.76,
+      "expected_points": 2.751,
+      "baseline_expected_points": 2.751,
       "context_factor": 1.0,
       "context_signals": []
     },
@@ -206,14 +199,7 @@
       "expected_points": 6.481,
       "baseline_expected_points": 6.481,
       "context_factor": 1.0,
-      "context_signals": [
-        {
-          "kind": "verified_espn_starts",
-          "starts": 5,
-          "matches": 5,
-          "factor": 1.0
-        }
-      ]
+      "context_signals": []
     },
     {
       "player_id": 411,
@@ -252,31 +238,24 @@
     "expected_points": 6.481,
     "baseline_expected_points": 6.481,
     "context_factor": 1.0,
-    "context_signals": [
-      {
-        "kind": "verified_espn_starts",
-        "starts": 5,
-        "matches": 5,
-        "factor": 1.0
-      }
-    ]
+    "context_signals": []
   },
   "vice_captain": {
-    "player_id": 68,
-    "name": "Tavernier",
-    "team_id": 3,
-    "position_id": 3,
-    "price_tenths_million": 68,
+    "player_id": 504,
+    "name": "Vuskovic",
+    "team_id": 5,
+    "position_id": 2,
+    "price_tenths_million": 53,
     "availability": 1.0,
     "fixtures": [
       {
-        "opponent": 10,
-        "home": false,
+        "opponent": 17,
+        "home": true,
         "difficulty": 3
       }
     ],
-    "expected_points": 6.0,
-    "baseline_expected_points": 6.0,
+    "expected_points": 6.18,
+    "baseline_expected_points": 6.18,
     "context_factor": 1.0,
     "context_signals": []
   },
@@ -303,21 +282,21 @@
   ],
   "bench_outfield_order": [
     {
-      "player_id": 156,
-      "name": "Neto",
-      "team_id": 6,
+      "player_id": 427,
+      "name": "Mbeumo",
+      "team_id": 16,
       "position_id": 3,
-      "price_tenths_million": 66,
+      "price_tenths_million": 78,
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 18,
-          "home": false,
-          "difficulty": 2
+          "opponent": 4,
+          "home": true,
+          "difficulty": 3
         }
       ],
-      "expected_points": 2.751,
-      "baseline_expected_points": 2.751,
+      "expected_points": 2.65,
+      "baseline_expected_points": 2.65,
       "context_factor": 1.0,
       "context_signals": []
     },

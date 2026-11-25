@@ -1,7 +1,69 @@
 {
   "method": "latest_predeadline_snapshot_per_completed_gw",
-  "completed_gws_evaluated": 0,
-  "gameweeks": [],
+  "completed_gws_evaluated": 1,
+  "gameweeks": [
+    {
+      "gw": 11,
+      "forecast_file": "data/forecasts/2026-11-21.json",
+      "captured_at_utc": "2026-11-21T04:19:05.857820+00:00",
+      "all_players": {
+        "n": 672,
+        "mae": 1.5588,
+        "rmse": 2.3812,
+        "bias": 0.4137,
+        "actual_mean": 1.4048,
+        "predicted_mean": 1.8184
+      },
+      "scheduled_players": {
+        "n": 672,
+        "mae": 1.5588,
+        "rmse": 2.3812,
+        "bias": 0.4137,
+        "actual_mean": 1.4048,
+        "predicted_mean": 1.8184
+      },
+      "players_with_minutes": {
+        "n": 313,
+        "mae": 2.1782,
+        "rmse": 3.1309,
+        "bias": -0.2805,
+        "actual_mean": 3.016,
+        "predicted_mean": 2.7355
+      },
+      "frozen_ppg_baseline_scheduled": {
+        "n": 672,
+        "mae": 1.4746,
+        "rmse": 2.4534,
+        "bias": 0.3731,
+        "actual_mean": 1.4048,
+        "predicted_mean": 1.7778
+      },
+      "model_on_ppg_comparable_players": {
+        "n": 672,
+        "mae": 1.5588,
+        "rmse": 2.3812,
+        "bias": 0.4137,
+        "actual_mean": 1.4048,
+        "predicted_mean": 1.8184
+      },
+      "model_mae_improvement_vs_ppg": -0.0842,
+      "zero_prediction_baseline_scheduled": {
+        "n": 672,
+        "mae": 1.4345,
+        "rmse": 2.9464,
+        "bias": -1.4048,
+        "actual_mean": 1.4048,
+        "predicted_mean": 0.0
+      },
+      "limitations": [
+        "Actual points use the FPL event live endpoint after data_checked.",
+        "This evaluates all listed players, not a selected fantasy XI.",
+        "Playing-time filter uses outcomes and is diagnostic only.",
+        "Multiple daily snapshots per GW are NOT independent tests.",
+        "PPG baseline uses frozen predeadline PPG multiplied by scheduled fixtures."
+      ]
+    }
+  ],
   "warnings": [
     "Small samples of completed GWs do not establish forecast skill.",
     "Do not tune model coefficients on the same GWs used to claim out-of-sample accuracy.",
