@@ -1,20 +1,20 @@
 {
   "cohort": "current_overall_top100",
   "weeks": [
-    8,
     9,
-    10
+    10,
+    11
   ],
   "coverage": {
-    "8": {
-      "managers_observed": 100,
-      "managers_compared": 71
-    },
     "9": {
       "managers_observed": 100,
       "managers_compared": 100
     },
     "10": {
+      "managers_observed": 100,
+      "managers_compared": 100
+    },
+    "11": {
       "managers_observed": 100,
       "managers_compared": 100
     }

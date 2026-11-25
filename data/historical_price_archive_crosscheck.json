@@ -47,46 +47,37 @@
     },
     {
       "gw": 7,
-      "status": "archive_not_published_http_404",
-      "archive_rows": 0,
-      "players_with_prices": 0,
-      "players_compared": 0,
-      "exact_fixture_value_matches": 0
+      "archive_rows": 668,
+      "players_with_prices": 668,
+      "players_compared": 668,
+      "exact_fixture_value_matches": 668
     },
     {
       "gw": 8,
-      "status": "archive_not_published_http_404",
-      "archive_rows": 0,
-      "players_with_prices": 0,
-      "players_compared": 0,
-      "exact_fixture_value_matches": 0
+      "archive_rows": 669,
+      "players_with_prices": 669,
+      "players_compared": 669,
+      "exact_fixture_value_matches": 669
     },
     {
       "gw": 9,
-      "status": "archive_not_published_http_404",
-      "archive_rows": 0,
-      "players_with_prices": 0,
-      "players_compared": 0,
-      "exact_fixture_value_matches": 0
+      "archive_rows": 670,
+      "players_with_prices": 670,
+      "players_compared": 670,
+      "exact_fixture_value_matches": 670
     },
     {
       "gw": 10,
-      "status": "archive_not_published_http_404",
-      "archive_rows": 0,
-      "players_with_prices": 0,
-      "players_compared": 0,
-      "exact_fixture_value_matches": 0
+      "archive_rows": 672,
+      "players_with_prices": 672,
+      "players_compared": 672,
+      "exact_fixture_value_matches": 672
     }
   ],
-  "missing_archive_gws": [
-    7,
-    8,
-    9,
-    10
-  ],
-  "archive_coverage_complete": false,
-  "total_compared": 3883,
-  "total_matched": 3883,
+  "missing_archive_gws": [],
+  "archive_coverage_complete": true,
+  "total_compared": 6562,
+  "total_matched": 6562,
   "mismatch_count": 0,
   "mismatches_first_100": [],
   "warnings": [

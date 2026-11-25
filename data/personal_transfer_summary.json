@@ -6,8 +6,8 @@
     14
   ],
   "saved_bank_m": 0.1,
-  "baseline_3gw_proxy": 159.14,
-  "positive_candidates": 56,
+  "baseline_3gw_proxy": 161.89,
+  "positive_candidates": 58,
   "outgoing_players_with_options": 10,
   "best_candidate": {
     "out": "Mbeumo",
@@ -19,7 +19,7 @@
     "position": "MID",
     "out_market_price": 7.8,
     "in_price": 7.4,
-    "gain_3gw_proxy": 7.85,
+    "gain_3gw_proxy": 9.27,
     "budget_status": "UNVERIFIED"
   },
   "limitations": [

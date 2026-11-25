@@ -1,66 +1,66 @@
-ASG rival-aware shortlist | completed GW10 | 12 rivals
+ASG rival-aware shortlist | completed GW11 | 12 rivals
 CAUTION: rival squads and your own squad are from the last COMPLETED GW.
 Ownership is based on these rivals, not worldwide FPL ownership.
 Scores are ranking HEURISTICS, not projected points or probabilities.
 No automatic transfer advice: current squad, sale prices, free transfers,
 and future fixtures must be checked before a decision.\n
 Rival captain choices in the completed GW:
-  Haaland: 10/12
-  Isak: 1/12
-  Gabriel: 1/12
+  Haaland: 9/12
+  N.Jackson: 2/12
+  Evanilson: 1/12
 \nYour owned players: rival ownership and heuristic
   Ouattara               DEF rivals  0/12 | score  2.67
-  O'Shea                 DEF rivals  0/12 | score  2.08
   Cherif                 FWD rivals  0/12 | score  1.59
   Neto                   MID rivals  0/12 | score  2.43
-  Palmer                 MID rivals  1/12 | score  4.17
   Dewsbury-Hall          MID rivals  1/12 | score  4.89
-  Vuskovic               DEF rivals  1/12 | score  5.36
+  Palmer                 MID rivals  1/12 | score  4.17
   Leno                   GKP rivals  2/12 | score  2.79
-  Mbeumo                 MID rivals  3/12 | score  2.48
-  Verbruggen             GKP rivals  6/12 | score  5.27
-  N.Jackson              FWD rivals  7/12 | score  6.71
+  Mbeumo                 MID rivals  2/12 | score  2.35
+  Vuskovic               DEF rivals  2/12 | score  6.14
+  Verbruggen             GKP rivals  6/12 | score  5.98
   Calafiori              DEF rivals  7/12 | score  4.65
-  Tavernier              MID rivals  9/12 | score  6.00
-  De Cuyper              DEF rivals 10/12 | score  5.14
+  Konsa                  DEF rivals  7/12 | score  6.12
+  Tavernier              MID rivals 10/12 | score  5.16
+  N.Jackson              FWD rivals 10/12 | score  6.71
+  De Cuyper              DEF rivals 10/12 | score  5.86
   Haaland                FWD rivals 11/12 | score  3.57
 \nPotential DIFFERENTIALS (not purchase recommendations):
 Only players with >=180 season minutes and non-unavailable status.
   DEF:
-    Hill                BOU £5.6m | rivals  0/12 | score 7.51
-    Van Hecke           TOT £5.2m | rivals  3/12 | score 7.39
-    Konsa               ARS £4.9m | rivals  7/12 | score 6.12
-    Araujo              LIV £5.5m | rivals  0/12 | score 6.00
-    Silva               BOU £5.1m | rivals  1/12 | score 5.96
-    Muharemović         LEE £5.1m | rivals  1/12 | score 5.75
-    O'Nien              SUN £3.9m | rivals  0/12 | score 5.41
+    Van Hecke           TOT £5.2m | rivals  8/12 | score 7.39
+    Hill                BOU £5.7m | rivals  0/12 | score 6.98
+    Silva               BOU £5.1m | rivals  1/12 | score 5.63
+    Boscagli            BHA £4.5m | rivals  0/12 | score 5.51
     Gabriel             ARS £8.1m | rivals  3/12 | score 5.38
+    Araujo              LIV £5.5m | rivals  0/12 | score 5.28
+    Mukiele             SUN £5.3m | rivals  0/12 | score 5.14
+    Van den Berg        BRE £4.9m | rivals  0/12 | score 5.11
   MID:
-    Wirtz               LIV £7.4m | rivals  0/12 | score 7.64
+    Wirtz               LIV £7.4m | rivals  0/12 | score 8.23
+    E.Le Fée            SUN £5.7m | rivals  0/12 | score 6.32
     Rudoni              COV £5.0m | rivals  1/12 | score 6.12
+    Lewis-Potter        BRE £5.5m | rivals  0/12 | score 6.11
+    Okafor              LEE £5.7m | rivals  0/12 | score 5.86
     Ødegaard            ARS £6.7m | rivals  1/12 | score 5.84
+    Groß                BHA £6.3m | rivals 12/12 | score 5.79
     Alysson             AVL £4.9m | rivals  0/12 | score 5.63
-    E.Le Fée            SUN £5.7m | rivals  0/12 | score 5.61
-    Kluivert            BOU £5.9m | rivals  0/12 | score 5.44
-    Lewis-Potter        BRE £5.5m | rivals  1/12 | score 5.32
-    Rogers              CHE £8.3m | rivals 11/12 | score 5.27
   FWD:
     Barry               EVE £5.7m | rivals  2/12 | score 7.67
-    McBurnie            HUL £5.5m | rivals  0/12 | score 7.33
-    Evanilson           BOU £6.6m | rivals  4/12 | score 7.01
-    Isak                LIV £9.3m | rivals  4/12 | score 6.21
-    Havertz             ARS £7.4m | rivals  1/12 | score 4.71
+    McBurnie            HUL £5.5m | rivals  0/12 | score 7.46
+    Evanilson           BOU £6.6m | rivals  4/12 | score 7.33
+    Isak                LIV £9.3m | rivals  5/12 | score 5.56
+    Havertz             ARS £7.4m | rivals  0/12 | score 4.71
     Delap               NFO £5.3m | rivals  0/12 | score 4.53
-    Osula               NEW £5.8m | rivals  0/12 | score 4.08
-    Calvert-Lewin       LEE £6.0m | rivals  1/12 | score 4.01
+    Calvert-Lewin       LEE £6.0m | rivals  1/12 | score 4.33
+    Awoniyi             COV £5.4m | rivals  0/12 | score 3.99
   GKP:
-    Roefs               SUN £4.8m | rivals  0/12 | score 6.28
-    Trafford            LEE £5.1m | rivals  0/12 | score 5.68
-    Tzolakis            HUL £4.7m | rivals  5/12 | score 5.14
+    Roefs               SUN £4.8m | rivals  0/12 | score 5.95
+    Tzolakis            HUL £4.7m | rivals  5/12 | score 5.60
+    Trafford            LEE £5.1m | rivals  0/12 | score 4.84
     Kinsky              TOT £4.4m | rivals  0/12 | score 4.75
-    A.Becker            LIV £5.5m | rivals  0/12 | score 4.70
-    Petrović            BOU £4.5m | rivals  0/12 | score 4.54
+    Kelleher            BRE £5.0m | rivals  0/12 | score 4.54
+    A.Becker            LIV £5.5m | rivals  0/12 | score 4.37
+    Petrović            BOU £4.5m | rivals  0/12 | score 4.21
     Raya                ARS £6.3m | rivals  3/12 | score 4.12
-    Kelleher            BRE £5.0m | rivals  0/12 | score 4.03
 \nNEXT: model transfers with current selling prices, free transfers,
 future fixtures, minutes risk, and uncertainty before estimating rank gains.
