@@ -3,10 +3,10 @@
   "seed": 20261108,
   "id_upper_bound_at_creation": 11259503,
   "target": 5000,
-  "processed": 3600,
-  "valid": 3600,
+  "processed": 3800,
+  "valid": 3800,
   "status_counts": {
-    "ok": 3600
+    "ok": 3800
   },
   "sample_id_quartiles": [
     1293,
@@ -15,63 +15,63 @@
     1234
   ],
   "valid_started_event_counts": {
-    "1": 2858,
-    "10": 9,
+    "1": 3013,
+    "10": 12,
     "11": 4,
-    "2": 313,
-    "3": 164,
-    "4": 98,
-    "5": 46,
-    "6": 52,
-    "7": 23,
-    "8": 17,
-    "9": 16
+    "2": 333,
+    "3": 172,
+    "4": 100,
+    "5": 52,
+    "6": 54,
+    "7": 25,
+    "8": 18,
+    "9": 17
   },
   "elite_overlap_valid": 0,
-  "history_managers": 1726,
+  "history_managers": 1826,
   "history_gw_coverage": {
     "1": {
-      "ok": 1377,
-      "not_available": 348,
+      "ok": 1451,
+      "not_available": 374,
       "missing": 1
     },
     "2": {
-      "ok": 1525,
-      "not_available": 200,
+      "ok": 1612,
+      "not_available": 213,
       "missing": 1
     },
     "3": {
-      "ok": 1599,
-      "not_available": 126,
+      "ok": 1693,
+      "not_available": 132,
       "missing": 1
     },
     "4": {
-      "ok": 1643,
-      "not_available": 82,
+      "ok": 1737,
+      "not_available": 88,
       "missing": 1
     },
     "5": {
-      "ok": 1663,
-      "not_available": 62,
+      "ok": 1758,
+      "not_available": 67,
       "missing": 1
     },
     "6": {
-      "ok": 1691,
-      "not_available": 34,
+      "ok": 1786,
+      "not_available": 39,
       "missing": 1
     },
     "7": {
-      "ok": 1702,
-      "not_available": 23,
+      "ok": 1799,
+      "not_available": 26,
       "missing": 1
     },
     "8": {
-      "ok": 1708,
-      "not_available": 17,
+      "ok": 1806,
+      "not_available": 19,
       "missing": 1
     },
     "9": {
-      "ok": 1716,
+      "ok": 1816,
       "not_available": 9,
       "missing": 1
     }
