@@ -8,8 +8,8 @@ Rank Team                          Points Gap to leader  Gap to me
    2 ⫷ GΛMBLΞR ⫸                      705            46        153
    3 Maestroni                        687            64        135
    4 Team_D                           674            77        122
-   5 Yerazzurri                       673            78        121
    5 S.W.A.T. LA                      673            78        121
+   5 Yerazzurri                       673            78        121
    7 WΞΞKΞND WΛRRIOR                  647           104         95
    8 Atashka team                     644           107         92
    9 Kananir                          643           108         91
@@ -26,8 +26,8 @@ Rival comparison (latest completed GW):
   ⫷ GΛMBLΞR ⫸: 7/15 shared players; captain N.Jackson
   Maestroni: 4/15 shared players; captain Haaland
   Team_D: 7/15 shared players; captain Haaland
-  Yerazzurri: 7/15 shared players; captain Haaland
   S.W.A.T. LA: 5/15 shared players; captain Haaland
+  Yerazzurri: 7/15 shared players; captain Haaland
   WΞΞKΞND WΛRRIOR: 3/15 shared players; captain Evanilson
   Atashka team: 7/15 shared players; captain Haaland
   Kananir: 7/15 shared players; captain Haaland

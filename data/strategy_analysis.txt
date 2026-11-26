@@ -30,9 +30,9 @@ Only players with >=180 season minutes and non-unavailable status.
     Van Hecke           TOT £5.2m | rivals  8/12 | score 7.39
     Hill                BOU £5.7m | rivals  0/12 | score 6.98
     Silva               BOU £5.1m | rivals  1/12 | score 5.63
-    Boscagli            BHA £4.5m | rivals  0/12 | score 5.51
     Gabriel             ARS £8.1m | rivals  3/12 | score 5.38
     Araujo              LIV £5.5m | rivals  0/12 | score 5.28
+    Boscagli            BHA £4.5m | rivals  0/12 | score 5.21
     Mukiele             SUN £5.3m | rivals  0/12 | score 5.14
     Van den Berg        BRE £4.9m | rivals  0/12 | score 5.11
   MID:
@@ -48,7 +48,7 @@ Only players with >=180 season minutes and non-unavailable status.
     Barry               EVE £5.7m | rivals  2/12 | score 7.67
     McBurnie            HUL £5.5m | rivals  0/12 | score 7.46
     Evanilson           BOU £6.6m | rivals  4/12 | score 7.33
-    Isak                LIV £9.3m | rivals  5/12 | score 5.56
+    Isak                LIV £9.4m | rivals  5/12 | score 5.56
     Havertz             ARS £7.4m | rivals  0/12 | score 4.71
     Delap               NFO £5.3m | rivals  0/12 | score 4.53
     Calvert-Lewin       LEE £6.0m | rivals  1/12 | score 4.33
@@ -61,6 +61,6 @@ Only players with >=180 season minutes and non-unavailable status.
     Kelleher            BRE £5.0m | rivals  0/12 | score 4.54
     A.Becker            LIV £5.5m | rivals  0/12 | score 4.37
     Petrović            BOU £4.5m | rivals  0/12 | score 4.21
-    Raya                ARS £6.3m | rivals  3/12 | score 4.12
+    Raya                ARS £6.2m | rivals  3/12 | score 4.12
 \nNEXT: model transfers with current selling prices, free transfers,
 future fixtures, minutes risk, and uncertainty before estimating rank gains.

@@ -1,7 +1,7 @@
 {
   "status": "exploratory_unvalidated_forward_risk_model",
   "gw": 12,
-  "created_at_utc": "2026-11-25T05:18:11.469840+00:00",
+  "created_at_utc": "2026-11-26T05:18:15.561270+00:00",
   "model_version": "forward-risk-0.3",
   "defensive_concentration": {
     "status": "diagnostic_not_selection_penalty",
@@ -44,21 +44,29 @@
       "opponents": [
         "NEW"
       ],
-      "expected_points_proxy": 5.46,
-      "conservative_score": 4.02,
+      "expected_points_proxy": 5.42,
+      "conservative_score": 3.98,
       "availability_proxy": 0.9,
       "expected_minutes": 75.1,
       "sixty_plus_minute_rate_proxy": 0.86,
       "cameo_rate": 0.0,
       "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
       "attack_trend": 0.864,
       "defense_trend": 1.02,
       "defensive_absence_flags": {
-        "key_defensive_absences": [],
+        "key_defensive_absences": [
+          {
+            "id": 114,
+            "name": "Boscagli",
+            "type": 2,
+            "status": "d",
+            "minutes": 848.0
+          }
+        ],
         "primary_gk_flag": false,
-        "review_required": false
+        "review_required": true
       },
       "trend_label": "downturn",
       "status": "a",
@@ -184,21 +192,29 @@
       "opponents": [
         "NEW"
       ],
-      "expected_points_proxy": 4.62,
-      "conservative_score": 3.28,
+      "expected_points_proxy": 4.57,
+      "conservative_score": 3.24,
       "availability_proxy": 0.9,
       "expected_minutes": 78.0,
       "sixty_plus_minute_rate_proxy": 0.86,
       "cameo_rate": 0.0,
       "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
       "attack_trend": 0.864,
       "defense_trend": 1.02,
       "defensive_absence_flags": {
-        "key_defensive_absences": [],
+        "key_defensive_absences": [
+          {
+            "id": 114,
+            "name": "Boscagli",
+            "type": 2,
+            "status": "d",
+            "minutes": 848.0
+          }
+        ],
         "primary_gk_flag": false,
-        "review_required": false
+        "review_required": true
       },
       "trend_label": "downturn",
       "status": "a",
@@ -361,34 +377,6 @@
       "news": ""
     },
     {
-      "id": 123,
-      "name": "Hinshelwood",
-      "club": "BHA",
-      "position": 3,
-      "opponents": [
-        "NEW"
-      ],
-      "expected_points_proxy": 5.2,
-      "conservative_score": 3.01,
-      "availability_proxy": 0.85,
-      "expected_minutes": 45.1,
-      "sixty_plus_minute_rate_proxy": 0.14,
-      "cameo_rate": 1.0,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 0.864,
-      "defense_trend": 1.02,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "downturn",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 249,
       "name": "Barry",
       "club": "EVE",
@@ -461,6 +449,42 @@
       "news": ""
     },
     {
+      "id": 123,
+      "name": "Hinshelwood",
+      "club": "BHA",
+      "position": 3,
+      "opponents": [
+        "NEW"
+      ],
+      "expected_points_proxy": 5.12,
+      "conservative_score": 2.94,
+      "availability_proxy": 0.85,
+      "expected_minutes": 45.1,
+      "sixty_plus_minute_rate_proxy": 0.14,
+      "cameo_rate": 1.0,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.864,
+      "defense_trend": 1.02,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 114,
+            "name": "Boscagli",
+            "type": 2,
+            "status": "d",
+            "minutes": 848.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "downturn",
+      "status": "a",
+      "news": ""
+    },
+    {
       "id": 504,
       "name": "Vuskovic",
       "club": "BHA",
@@ -468,21 +492,29 @@
       "opponents": [
         "NEW"
       ],
-      "expected_points_proxy": 4.2,
-      "conservative_score": 2.92,
+      "expected_points_proxy": 4.19,
+      "conservative_score": 2.91,
       "availability_proxy": 0.9,
       "expected_minutes": 80.2,
       "sixty_plus_minute_rate_proxy": 0.86,
       "cameo_rate": 0.0,
       "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
       "attack_trend": 0.864,
       "defense_trend": 1.02,
       "defensive_absence_flags": {
-        "key_defensive_absences": [],
+        "key_defensive_absences": [
+          {
+            "id": 114,
+            "name": "Boscagli",
+            "type": 2,
+            "status": "d",
+            "minutes": 848.0
+          }
+        ],
         "primary_gk_flag": false,
-        "review_required": false
+        "review_required": true
       },
       "trend_label": "downturn",
       "status": "a",
@@ -977,34 +1009,6 @@
       "news": ""
     },
     {
-      "id": 129,
-      "name": "Ayari",
-      "club": "BHA",
-      "position": 3,
-      "opponents": [
-        "NEW"
-      ],
-      "expected_points_proxy": 3.77,
-      "conservative_score": 2.54,
-      "availability_proxy": 0.89,
-      "expected_minutes": 73.9,
-      "sixty_plus_minute_rate_proxy": 0.86,
-      "cameo_rate": 0.0,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 0.864,
-      "defense_trend": 1.02,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "downturn",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 334,
       "name": "Muharemović",
       "club": "LEE",
@@ -1141,6 +1145,42 @@
         "review_required": false
       },
       "trend_label": "upturn",
+      "status": "a",
+      "news": ""
+    },
+    {
+      "id": 129,
+      "name": "Ayari",
+      "club": "BHA",
+      "position": 3,
+      "opponents": [
+        "NEW"
+      ],
+      "expected_points_proxy": 3.73,
+      "conservative_score": 2.51,
+      "availability_proxy": 0.89,
+      "expected_minutes": 73.9,
+      "sixty_plus_minute_rate_proxy": 0.86,
+      "cameo_rate": 0.0,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.864,
+      "defense_trend": 1.02,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 114,
+            "name": "Boscagli",
+            "type": 2,
+            "status": "d",
+            "minutes": 848.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "downturn",
       "status": "a",
       "news": ""
     },
@@ -1583,14 +1623,22 @@
       "sixty_plus_minute_rate_proxy": 0.86,
       "cameo_rate": 0.0,
       "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
       "attack_trend": 0.864,
       "defense_trend": 1.02,
       "defensive_absence_flags": {
-        "key_defensive_absences": [],
+        "key_defensive_absences": [
+          {
+            "id": 114,
+            "name": "Boscagli",
+            "type": 2,
+            "status": "d",
+            "minutes": 848.0
+          }
+        ],
         "primary_gk_flag": false,
-        "review_required": false
+        "review_required": true
       },
       "trend_label": "downturn",
       "status": "a",
@@ -1737,34 +1785,6 @@
       "news": ""
     },
     {
-      "id": 127,
-      "name": "Gomez",
-      "club": "BHA",
-      "position": 3,
-      "opponents": [
-        "NEW"
-      ],
-      "expected_points_proxy": 3.47,
-      "conservative_score": 2.29,
-      "availability_proxy": 0.9,
-      "expected_minutes": 77.5,
-      "sixty_plus_minute_rate_proxy": 0.86,
-      "cameo_rate": 0.0,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 0.864,
-      "defense_trend": 1.02,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "downturn",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 201,
       "name": "Muñoz",
       "club": "NFO",
@@ -1789,6 +1809,42 @@
         "review_required": false
       },
       "trend_label": "neutral",
+      "status": "a",
+      "news": ""
+    },
+    {
+      "id": 127,
+      "name": "Gomez",
+      "club": "BHA",
+      "position": 3,
+      "opponents": [
+        "NEW"
+      ],
+      "expected_points_proxy": 3.44,
+      "conservative_score": 2.27,
+      "availability_proxy": 0.9,
+      "expected_minutes": 77.5,
+      "sixty_plus_minute_rate_proxy": 0.86,
+      "cameo_rate": 0.0,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.864,
+      "defense_trend": 1.02,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 114,
+            "name": "Boscagli",
+            "type": 2,
+            "status": "d",
+            "minutes": 848.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "downturn",
       "status": "a",
       "news": ""
     },
@@ -1835,14 +1891,22 @@
       "sixty_plus_minute_rate_proxy": 0.86,
       "cameo_rate": 0.0,
       "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
       "attack_trend": 0.864,
       "defense_trend": 1.02,
       "defensive_absence_flags": {
-        "key_defensive_absences": [],
+        "key_defensive_absences": [
+          {
+            "id": 114,
+            "name": "Boscagli",
+            "type": 2,
+            "status": "d",
+            "minutes": 848.0
+          }
+        ],
         "primary_gk_flag": false,
-        "review_required": false
+        "review_required": true
       },
       "trend_label": "downturn",
       "status": "a",
@@ -1907,34 +1971,6 @@
         ],
         "primary_gk_flag": false,
         "review_required": true
-      },
-      "trend_label": "downturn",
-      "status": "a",
-      "news": ""
-    },
-    {
-      "id": 114,
-      "name": "Boscagli",
-      "club": "BHA",
-      "position": 2,
-      "opponents": [
-        "NEW"
-      ],
-      "expected_points_proxy": 3.54,
-      "conservative_score": 2.2,
-      "availability_proxy": 0.89,
-      "expected_minutes": 68.0,
-      "sixty_plus_minute_rate_proxy": 0.71,
-      "cameo_rate": 0.2,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 0.864,
-      "defense_trend": 1.02,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
       },
       "trend_label": "downturn",
       "status": "a",
@@ -2457,34 +2493,6 @@
       "news": ""
     },
     {
-      "id": 138,
-      "name": "Kostoulas",
-      "club": "BHA",
-      "position": 4,
-      "opponents": [
-        "NEW"
-      ],
-      "expected_points_proxy": 3.27,
-      "conservative_score": 1.98,
-      "availability_proxy": 0.89,
-      "expected_minutes": 66.2,
-      "sixty_plus_minute_rate_proxy": 0.71,
-      "cameo_rate": 0.2,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 0.864,
-      "defense_trend": 1.02,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "downturn",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 486,
       "name": "McAtee",
       "club": "NFO",
@@ -2565,6 +2573,42 @@
         "review_required": false
       },
       "trend_label": "neutral",
+      "status": "a",
+      "news": ""
+    },
+    {
+      "id": 138,
+      "name": "Kostoulas",
+      "club": "BHA",
+      "position": 4,
+      "opponents": [
+        "NEW"
+      ],
+      "expected_points_proxy": 3.24,
+      "conservative_score": 1.95,
+      "availability_proxy": 0.89,
+      "expected_minutes": 66.2,
+      "sixty_plus_minute_rate_proxy": 0.71,
+      "cameo_rate": 0.2,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.864,
+      "defense_trend": 1.02,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 114,
+            "name": "Boscagli",
+            "type": 2,
+            "status": "d",
+            "minutes": 848.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "downturn",
       "status": "a",
       "news": ""
     },
@@ -5597,34 +5641,6 @@
       "news": ""
     },
     {
-      "id": 639,
-      "name": "Andrés",
-      "club": "BHA",
-      "position": 3,
-      "opponents": [
-        "NEW"
-      ],
-      "expected_points_proxy": 2.5,
-      "conservative_score": 1.17,
-      "availability_proxy": 0.88,
-      "expected_minutes": 68.7,
-      "sixty_plus_minute_rate_proxy": 0.57,
-      "cameo_rate": 0.4,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 0.864,
-      "defense_trend": 1.02,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "downturn",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 388,
       "name": "Guéhi",
       "club": "MCI",
@@ -5647,6 +5663,42 @@
         "key_defensive_absences": [],
         "primary_gk_flag": false,
         "review_required": false
+      },
+      "trend_label": "downturn",
+      "status": "a",
+      "news": ""
+    },
+    {
+      "id": 639,
+      "name": "Andrés",
+      "club": "BHA",
+      "position": 3,
+      "opponents": [
+        "NEW"
+      ],
+      "expected_points_proxy": 2.49,
+      "conservative_score": 1.16,
+      "availability_proxy": 0.88,
+      "expected_minutes": 68.7,
+      "sixty_plus_minute_rate_proxy": 0.57,
+      "cameo_rate": 0.4,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.864,
+      "defense_trend": 1.02,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 114,
+            "name": "Boscagli",
+            "type": 2,
+            "status": "d",
+            "minutes": 848.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
       },
       "trend_label": "downturn",
       "status": "a",
@@ -6301,34 +6353,6 @@
       "news": ""
     },
     {
-      "id": 119,
-      "name": "Costinha",
-      "club": "BHA",
-      "position": 2,
-      "opponents": [
-        "NEW"
-      ],
-      "expected_points_proxy": 2.57,
-      "conservative_score": 0.97,
-      "availability_proxy": 0.52,
-      "expected_minutes": 45.9,
-      "sixty_plus_minute_rate_proxy": 0.71,
-      "cameo_rate": 0.0,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 0.864,
-      "defense_trend": 1.02,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "downturn",
-      "status": "s",
-      "news": "Suspended until 2 Dec"
-    },
-    {
       "id": 157,
       "name": "Estêvão",
       "club": "CHE",
@@ -6521,6 +6545,42 @@
       "news": ""
     },
     {
+      "id": 119,
+      "name": "Costinha",
+      "club": "BHA",
+      "position": 2,
+      "opponents": [
+        "NEW"
+      ],
+      "expected_points_proxy": 2.55,
+      "conservative_score": 0.95,
+      "availability_proxy": 0.52,
+      "expected_minutes": 45.9,
+      "sixty_plus_minute_rate_proxy": 0.71,
+      "cameo_rate": 0.0,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.864,
+      "defense_trend": 1.02,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 114,
+            "name": "Boscagli",
+            "type": 2,
+            "status": "d",
+            "minutes": 848.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "downturn",
+      "status": "s",
+      "news": "Suspended until 2 Dec"
+    },
+    {
       "id": 97,
       "name": "Jensen",
       "club": "BRE",
@@ -6693,34 +6753,6 @@
       "news": ""
     },
     {
-      "id": 377,
-      "name": "Munoz",
-      "club": "LIV",
-      "position": 3,
-      "opponents": [
-        "EVE"
-      ],
-      "expected_points_proxy": 2.46,
-      "conservative_score": 0.88,
-      "availability_proxy": 0.81,
-      "expected_minutes": 42.5,
-      "sixty_plus_minute_rate_proxy": 0.29,
-      "cameo_rate": 0.6,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 1.088,
-      "defense_trend": 0.942,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "upturn",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 1,
       "name": "Raya",
       "club": "ARS",
@@ -6791,6 +6823,42 @@
       "trend_label": "downturn",
       "status": "a",
       "news": ""
+    },
+    {
+      "id": 114,
+      "name": "Boscagli",
+      "club": "BHA",
+      "position": 2,
+      "opponents": [
+        "NEW"
+      ],
+      "expected_points_proxy": 2.5,
+      "conservative_score": 0.86,
+      "availability_proxy": 0.58,
+      "expected_minutes": 44.2,
+      "sixty_plus_minute_rate_proxy": 0.71,
+      "cameo_rate": 0.2,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 0,
+      "teammate_attack_factor_experimental": 1.0,
+      "attack_trend": 0.864,
+      "defense_trend": 1.02,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 114,
+            "name": "Boscagli",
+            "type": 2,
+            "status": "d",
+            "minutes": 848.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "downturn",
+      "status": "d",
+      "news": "Illness - 75% chance of playing"
     },
     {
       "id": 203,
@@ -7365,34 +7433,6 @@
       "news": ""
     },
     {
-      "id": 125,
-      "name": "Georginio",
-      "club": "BHA",
-      "position": 4,
-      "opponents": [
-        "NEW"
-      ],
-      "expected_points_proxy": 2.32,
-      "conservative_score": 0.71,
-      "availability_proxy": 0.86,
-      "expected_minutes": 39.1,
-      "sixty_plus_minute_rate_proxy": 0.29,
-      "cameo_rate": 0.8,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 0.864,
-      "defense_trend": 1.02,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "downturn",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 454,
       "name": "Elanga",
       "club": "NEW",
@@ -7479,6 +7519,42 @@
         "key_defensive_absences": [],
         "primary_gk_flag": false,
         "review_required": false
+      },
+      "trend_label": "downturn",
+      "status": "a",
+      "news": ""
+    },
+    {
+      "id": 125,
+      "name": "Georginio",
+      "club": "BHA",
+      "position": 4,
+      "opponents": [
+        "NEW"
+      ],
+      "expected_points_proxy": 2.3,
+      "conservative_score": 0.69,
+      "availability_proxy": 0.86,
+      "expected_minutes": 39.1,
+      "sixty_plus_minute_rate_proxy": 0.29,
+      "cameo_rate": 0.8,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.864,
+      "defense_trend": 1.02,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 114,
+            "name": "Boscagli",
+            "type": 2,
+            "status": "d",
+            "minutes": 848.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
       },
       "trend_label": "downturn",
       "status": "a",
@@ -7639,14 +7715,22 @@
       "sixty_plus_minute_rate_proxy": 0.29,
       "cameo_rate": 0.4,
       "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
       "attack_trend": 0.864,
       "defense_trend": 1.02,
       "defensive_absence_flags": {
-        "key_defensive_absences": [],
+        "key_defensive_absences": [
+          {
+            "id": 114,
+            "name": "Boscagli",
+            "type": 2,
+            "status": "d",
+            "minutes": 848.0
+          }
+        ],
         "primary_gk_flag": false,
-        "review_required": false
+        "review_required": true
       },
       "trend_label": "downturn",
       "status": "a",
@@ -7957,8 +8041,8 @@
         "review_required": false
       },
       "trend_label": "upturn",
-      "status": "d",
-      "news": "Calf injury - 75% chance of playing"
+      "status": "i",
+      "news": "Calf injury - Expected back 2 Dec"
     },
     {
       "id": 548,
@@ -9329,34 +9413,6 @@
       "news": ""
     },
     {
-      "id": 130,
-      "name": "Wieffer",
-      "club": "BHA",
-      "position": 2,
-      "opponents": [
-        "NEW"
-      ],
-      "expected_points_proxy": 1.75,
-      "conservative_score": 0.19,
-      "availability_proxy": 0.63,
-      "expected_minutes": 33.9,
-      "sixty_plus_minute_rate_proxy": 0.14,
-      "cameo_rate": 0.4,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 0.864,
-      "defense_trend": 1.02,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "downturn",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 589,
       "name": "Gourna-Douath",
       "club": "HUL",
@@ -9381,6 +9437,42 @@
         "review_required": false
       },
       "trend_label": "neutral",
+      "status": "a",
+      "news": ""
+    },
+    {
+      "id": 130,
+      "name": "Wieffer",
+      "club": "BHA",
+      "position": 2,
+      "opponents": [
+        "NEW"
+      ],
+      "expected_points_proxy": 1.74,
+      "conservative_score": 0.18,
+      "availability_proxy": 0.63,
+      "expected_minutes": 33.9,
+      "sixty_plus_minute_rate_proxy": 0.14,
+      "cameo_rate": 0.4,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.864,
+      "defense_trend": 1.02,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 114,
+            "name": "Boscagli",
+            "type": 2,
+            "status": "d",
+            "minutes": 848.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "downturn",
       "status": "a",
       "news": ""
     },
@@ -9456,21 +9548,29 @@
       "opponents": [
         "NEW"
       ],
-      "expected_points_proxy": 1.65,
-      "conservative_score": 0.15,
+      "expected_points_proxy": 1.64,
+      "conservative_score": 0.14,
       "availability_proxy": 0.47,
       "expected_minutes": 36.2,
       "sixty_plus_minute_rate_proxy": 0.14,
       "cameo_rate": 0.0,
       "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
       "attack_trend": 0.864,
       "defense_trend": 1.02,
       "defensive_absence_flags": {
-        "key_defensive_absences": [],
+        "key_defensive_absences": [
+          {
+            "id": 114,
+            "name": "Boscagli",
+            "type": 2,
+            "status": "d",
+            "minutes": 848.0
+          }
+        ],
         "primary_gk_flag": false,
-        "review_required": false
+        "review_required": true
       },
       "trend_label": "downturn",
       "status": "a",
@@ -10261,6 +10361,34 @@
       "news": ""
     },
     {
+      "id": 423,
+      "name": "Shaw",
+      "club": "MUN",
+      "position": 2,
+      "opponents": [
+        "BRE"
+      ],
+      "expected_points_proxy": 1.23,
+      "conservative_score": -0.13,
+      "availability_proxy": 0.5,
+      "expected_minutes": 42.5,
+      "sixty_plus_minute_rate_proxy": 0.14,
+      "cameo_rate": 0.0,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 0,
+      "teammate_attack_factor_experimental": 1.0,
+      "attack_trend": 0.943,
+      "defense_trend": 1.073,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [],
+        "primary_gk_flag": false,
+        "review_required": false
+      },
+      "trend_label": "downturn",
+      "status": "a",
+      "news": ""
+    },
+    {
       "id": 247,
       "name": "Hackney",
       "club": "EVE",
@@ -10435,6 +10563,34 @@
       "trend_label": "downturn",
       "status": "a",
       "news": ""
+    },
+    {
+      "id": 377,
+      "name": "Munoz",
+      "club": "LIV",
+      "position": 3,
+      "opponents": [
+        "EVE"
+      ],
+      "expected_points_proxy": 1.64,
+      "conservative_score": -0.2,
+      "availability_proxy": 0.52,
+      "expected_minutes": 27.6,
+      "sixty_plus_minute_rate_proxy": 0.29,
+      "cameo_rate": 0.6,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 0,
+      "teammate_attack_factor_experimental": 1.0,
+      "attack_trend": 1.088,
+      "defense_trend": 0.942,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [],
+        "primary_gk_flag": false,
+        "review_required": false
+      },
+      "trend_label": "upturn",
+      "status": "d",
+      "news": "Knee injury - 75% chance of playing"
     },
     {
       "id": 136,
@@ -11056,21 +11212,29 @@
       "opponents": [
         "NEW"
       ],
-      "expected_points_proxy": 1.58,
-      "conservative_score": -0.4,
+      "expected_points_proxy": 1.56,
+      "conservative_score": -0.41,
       "availability_proxy": 0.52,
       "expected_minutes": 23.2,
       "sixty_plus_minute_rate_proxy": 0.14,
       "cameo_rate": 0.8,
       "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
       "attack_trend": 0.864,
       "defense_trend": 1.02,
       "defensive_absence_flags": {
-        "key_defensive_absences": [],
+        "key_defensive_absences": [
+          {
+            "id": 114,
+            "name": "Boscagli",
+            "type": 2,
+            "status": "d",
+            "minutes": 848.0
+          }
+        ],
         "primary_gk_flag": false,
-        "review_required": false
+        "review_required": true
       },
       "trend_label": "downturn",
       "status": "i",
@@ -11221,8 +11385,8 @@
         "review_required": false
       },
       "trend_label": "upturn",
-      "status": "d",
-      "news": "Foot injury - 75% chance of playing"
+      "status": "i",
+      "news": "Foot injury - Unknown return date"
     },
     {
       "id": 207,
@@ -11399,34 +11563,6 @@
       "trend_label": "upturn",
       "status": "i",
       "news": "Calf injury - Unknown return date"
-    },
-    {
-      "id": 423,
-      "name": "Shaw",
-      "club": "MUN",
-      "position": 2,
-      "opponents": [
-        "BRE"
-      ],
-      "expected_points_proxy": 0.82,
-      "conservative_score": -0.74,
-      "availability_proxy": 0.33,
-      "expected_minutes": 27.6,
-      "sixty_plus_minute_rate_proxy": 0.14,
-      "cameo_rate": 0.0,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
-      "attack_trend": 0.943,
-      "defense_trend": 1.073,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "downturn",
-      "status": "d",
-      "news": "Unspecified injury - 75% chance of playing"
     },
     {
       "id": 501,
@@ -11686,21 +11822,29 @@
       "opponents": [
         "NEW"
       ],
-      "expected_points_proxy": 5.46,
-      "conservative_score": 4.02,
+      "expected_points_proxy": 5.42,
+      "conservative_score": 3.98,
       "availability_proxy": 0.9,
       "expected_minutes": 75.1,
       "sixty_plus_minute_rate_proxy": 0.86,
       "cameo_rate": 0.0,
       "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
       "attack_trend": 0.864,
       "defense_trend": 1.02,
       "defensive_absence_flags": {
-        "key_defensive_absences": [],
+        "key_defensive_absences": [
+          {
+            "id": 114,
+            "name": "Boscagli",
+            "type": 2,
+            "status": "d",
+            "minutes": 848.0
+          }
+        ],
         "primary_gk_flag": false,
-        "review_required": false
+        "review_required": true
       },
       "trend_label": "downturn",
       "status": "a",
@@ -11806,21 +11950,29 @@
       "opponents": [
         "NEW"
       ],
-      "expected_points_proxy": 4.2,
-      "conservative_score": 2.92,
+      "expected_points_proxy": 4.19,
+      "conservative_score": 2.91,
       "availability_proxy": 0.9,
       "expected_minutes": 80.2,
       "sixty_plus_minute_rate_proxy": 0.86,
       "cameo_rate": 0.0,
       "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
       "attack_trend": 0.864,
       "defense_trend": 1.02,
       "defensive_absence_flags": {
-        "key_defensive_absences": [],
+        "key_defensive_absences": [
+          {
+            "id": 114,
+            "name": "Boscagli",
+            "type": 2,
+            "status": "d",
+            "minutes": 848.0
+          }
+        ],
         "primary_gk_flag": false,
-        "review_required": false
+        "review_required": true
       },
       "trend_label": "downturn",
       "status": "a",
@@ -11941,14 +12093,22 @@
       "sixty_plus_minute_rate_proxy": 0.86,
       "cameo_rate": 0.0,
       "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 0,
-      "teammate_attack_factor_experimental": 1.0,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
       "attack_trend": 0.864,
       "defense_trend": 1.02,
       "defensive_absence_flags": {
-        "key_defensive_absences": [],
+        "key_defensive_absences": [
+          {
+            "id": 114,
+            "name": "Boscagli",
+            "type": 2,
+            "status": "d",
+            "minutes": 848.0
+          }
+        ],
         "primary_gk_flag": false,
-        "review_required": false
+        "review_required": true
       },
       "trend_label": "downturn",
       "status": "a",
