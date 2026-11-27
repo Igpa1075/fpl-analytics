@@ -1,7 +1,7 @@
 {
   "target_gw": 12,
-  "forecast_captured_at_utc": "2026-11-26T04:31:24.632526+00:00",
-  "forecast_source": "data/contextual_forecasts/2026-11-26.json",
+  "forecast_captured_at_utc": "2026-11-27T04:32:11.660975+00:00",
+  "forecast_source": "data/contextual_forecasts/2026-11-27.json",
   "squad_source": "data/picks.json (latest publicly published GW; may be stale)",
   "squad_event": 11,
   "expected_xi_points_with_captain": 61.134,
@@ -42,7 +42,7 @@
       "name": "De Cuyper",
       "team_id": 5,
       "position_id": 2,
-      "price_tenths_million": 55,
+      "price_tenths_million": 56,
       "availability": 1.0,
       "fixtures": [
         {
@@ -284,7 +284,7 @@
       "name": "Haaland",
       "team_id": 15,
       "position_id": 4,
-      "price_tenths_million": 158,
+      "price_tenths_million": 157,
       "availability": 1.0,
       "fixtures": [
         {
@@ -337,7 +337,7 @@
     "name": "De Cuyper",
     "team_id": 5,
     "position_id": 2,
-    "price_tenths_million": 55,
+    "price_tenths_million": 56,
     "availability": 1.0,
     "fixtures": [
       {

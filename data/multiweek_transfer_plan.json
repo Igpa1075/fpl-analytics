@@ -1,9 +1,9 @@
 {
   "target_gw": 12,
   "last_gw": 16,
-  "captured_at_utc": "2026-11-26T04:31:24.081555+00:00",
-  "forecast_source": "data/contextual_forecasts/2026-11-26.json",
-  "snapshot_source": "data/snapshots/2026-11-26.json",
+  "captured_at_utc": "2026-11-27T04:32:11.301436+00:00",
+  "forecast_source": "data/contextual_forecasts/2026-11-27.json",
+  "snapshot_source": "data/snapshots/2026-11-27.json",
   "hold_five_gw_expected_points": 310.168,
   "verified_private_inputs_used": false,
   "user_confirmed_bank_and_free_transfers": false,
@@ -24,7 +24,7 @@
           "in_name": "Barry"
         }
       ],
-      "remaining_bank_proxy": 106,
+      "remaining_bank_proxy": 104,
       "weekly": [
         {
           "gw": 12,
@@ -67,7 +67,7 @@
           "in_name": "Evanilson"
         }
       ],
-      "remaining_bank_proxy": 97,
+      "remaining_bank_proxy": 95,
       "weekly": [
         {
           "gw": 12,
@@ -110,7 +110,7 @@
           "in_name": "Van Hecke"
         }
       ],
-      "remaining_bank_proxy": 12,
+      "remaining_bank_proxy": 11,
       "weekly": [
         {
           "gw": 12,
@@ -153,7 +153,7 @@
           "in_name": "Hill"
         }
       ],
-      "remaining_bank_proxy": 7,
+      "remaining_bank_proxy": 6,
       "weekly": [
         {
           "gw": 12,
@@ -196,7 +196,7 @@
           "in_name": "E.Le Fée"
         }
       ],
-      "remaining_bank_proxy": 14,
+      "remaining_bank_proxy": 13,
       "weekly": [
         {
           "gw": 12,
@@ -239,7 +239,7 @@
           "in_name": "Evanilson"
         }
       ],
-      "remaining_bank_proxy": 117,
+      "remaining_bank_proxy": 115,
       "weekly": [
         {
           "gw": 12,
@@ -282,7 +282,7 @@
           "in_name": "McBurnie"
         }
       ],
-      "remaining_bank_proxy": 108,
+      "remaining_bank_proxy": 106,
       "weekly": [
         {
           "gw": 12,
@@ -325,7 +325,7 @@
           "in_name": "Rudoni"
         }
       ],
-      "remaining_bank_proxy": 21,
+      "remaining_bank_proxy": 20,
       "weekly": [
         {
           "gw": 12,
@@ -368,7 +368,7 @@
           "in_name": "Lewis-Potter"
         }
       ],
-      "remaining_bank_proxy": 16,
+      "remaining_bank_proxy": 15,
       "weekly": [
         {
           "gw": 12,
@@ -411,7 +411,7 @@
           "in_name": "Isak"
         }
       ],
-      "remaining_bank_proxy": 69,
+      "remaining_bank_proxy": 67,
       "weekly": [
         {
           "gw": 12,
@@ -448,7 +448,7 @@
           "in_name": "Wirtz"
         }
       ],
-      "remaining_bank_proxy": 5,
+      "remaining_bank_proxy": 4,
       "weekly": [
         {
           "gw": 12,
@@ -485,7 +485,7 @@
           "in_name": "Wirtz"
         }
       ],
-      "remaining_bank_proxy": 25,
+      "remaining_bank_proxy": 24,
       "weekly": [
         {
           "gw": 12,
@@ -522,7 +522,7 @@
           "in_name": "Barry"
         }
       ],
-      "remaining_bank_proxy": 102,
+      "remaining_bank_proxy": 101,
       "weekly": [
         {
           "gw": 12,
@@ -559,7 +559,7 @@
           "in_name": "Evanilson"
         }
       ],
-      "remaining_bank_proxy": 93,
+      "remaining_bank_proxy": 92,
       "weekly": [
         {
           "gw": 12,
@@ -781,7 +781,7 @@
           "in_name": "McBurnie"
         }
       ],
-      "remaining_bank_proxy": 104,
+      "remaining_bank_proxy": 103,
       "weekly": [
         {
           "gw": 12,

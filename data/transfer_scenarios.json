@@ -1,6 +1,6 @@
 {
   "target_gw": 12,
-  "forecast_source": "data/contextual_forecasts/2026-11-26.json",
+  "forecast_source": "data/contextual_forecasts/2026-11-27.json",
   "squad_source": "data/picks.json, latest publicly published GW",
   "squad_event": 11,
   "bank_tenths_million_proxy": 1,
@@ -26,7 +26,7 @@
         ],
         "projected_xi_with_captain": 67.278,
         "gross_gain_vs_hold": 6.144,
-        "remaining_bank_proxy": 5
+        "remaining_bank_proxy": 4
       },
       {
         "transfers": [
@@ -39,7 +39,7 @@
         ],
         "projected_xi_with_captain": 65.562,
         "gross_gain_vs_hold": 4.428,
-        "remaining_bank_proxy": 93
+        "remaining_bank_proxy": 92
       },
       {
         "transfers": [
@@ -52,7 +52,7 @@
         ],
         "projected_xi_with_captain": 65.464,
         "gross_gain_vs_hold": 4.33,
-        "remaining_bank_proxy": 25
+        "remaining_bank_proxy": 24
       },
       {
         "transfers": [
@@ -78,7 +78,7 @@
         ],
         "projected_xi_with_captain": 64.686,
         "gross_gain_vs_hold": 3.552,
-        "remaining_bank_proxy": 102
+        "remaining_bank_proxy": 101
       },
       {
         "transfers": [
@@ -117,7 +117,7 @@
         ],
         "projected_xi_with_captain": 64.198,
         "gross_gain_vs_hold": 3.064,
-        "remaining_bank_proxy": 104
+        "remaining_bank_proxy": 103
       },
       {
         "transfers": [
@@ -164,7 +164,7 @@
         ],
         "projected_xi_with_captain": 71.042,
         "gross_gain_vs_hold": 9.908,
-        "remaining_bank_proxy": 97
+        "remaining_bank_proxy": 95
       },
       {
         "transfers": [
@@ -183,7 +183,7 @@
         ],
         "projected_xi_with_captain": 70.604,
         "gross_gain_vs_hold": 9.47,
-        "remaining_bank_proxy": 106
+        "remaining_bank_proxy": 104
       },
       {
         "transfers": [
@@ -202,7 +202,7 @@
         ],
         "projected_xi_with_captain": 70.342,
         "gross_gain_vs_hold": 9.208,
-        "remaining_bank_proxy": 108
+        "remaining_bank_proxy": 106
       },
       {
         "transfers": [
@@ -221,7 +221,7 @@
         ],
         "projected_xi_with_captain": 70.286,
         "gross_gain_vs_hold": 9.152,
-        "remaining_bank_proxy": 12
+        "remaining_bank_proxy": 11
       },
       {
         "transfers": [
@@ -240,7 +240,7 @@
         ],
         "projected_xi_with_captain": 69.937,
         "gross_gain_vs_hold": 8.803,
-        "remaining_bank_proxy": 14
+        "remaining_bank_proxy": 13
       },
       {
         "transfers": [
@@ -259,7 +259,7 @@
         ],
         "projected_xi_with_captain": 69.851,
         "gross_gain_vs_hold": 8.717,
-        "remaining_bank_proxy": 7
+        "remaining_bank_proxy": 6
       },
       {
         "transfers": [
@@ -278,7 +278,7 @@
         ],
         "projected_xi_with_captain": 69.596,
         "gross_gain_vs_hold": 8.462,
-        "remaining_bank_proxy": 16
+        "remaining_bank_proxy": 15
       },
       {
         "transfers": [
@@ -297,7 +297,7 @@
         ],
         "projected_xi_with_captain": 69.428,
         "gross_gain_vs_hold": 8.294,
-        "remaining_bank_proxy": 21
+        "remaining_bank_proxy": 20
       },
       {
         "transfers": [
@@ -316,7 +316,7 @@
         ],
         "projected_xi_with_captain": 69.332,
         "gross_gain_vs_hold": 8.198,
-        "remaining_bank_proxy": 69
+        "remaining_bank_proxy": 67
       },
       {
         "transfers": [
@@ -335,7 +335,7 @@
         ],
         "projected_xi_with_captain": 69.228,
         "gross_gain_vs_hold": 8.094,
-        "remaining_bank_proxy": 117
+        "remaining_bank_proxy": 115
       }
     ]
   },
