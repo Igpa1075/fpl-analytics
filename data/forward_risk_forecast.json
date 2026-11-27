@@ -1,7 +1,7 @@
 {
   "status": "exploratory_unvalidated_forward_risk_model",
   "gw": 12,
-  "created_at_utc": "2026-11-26T05:18:15.561270+00:00",
+  "created_at_utc": "2026-11-27T05:18:43.703118+00:00",
   "model_version": "forward-risk-0.3",
   "defensive_concentration": {
     "status": "diagnostic_not_selection_penalty",
@@ -6725,6 +6725,42 @@
       "news": ""
     },
     {
+      "id": 159,
+      "name": "Caicedo",
+      "club": "CHE",
+      "position": 3,
+      "opponents": [
+        "NFO"
+      ],
+      "expected_points_proxy": 2.03,
+      "conservative_score": 0.92,
+      "availability_proxy": 0.88,
+      "expected_minutes": 71.7,
+      "sixty_plus_minute_rate_proxy": 0.71,
+      "cameo_rate": 0.2,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.836,
+      "defense_trend": 0.923,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [
+          {
+            "id": 200,
+            "name": "Lacroix",
+            "type": 2,
+            "status": "i",
+            "minutes": 634.0
+          }
+        ],
+        "primary_gk_flag": false,
+        "review_required": true
+      },
+      "trend_label": "downturn",
+      "status": "a",
+      "news": ""
+    },
+    {
       "id": 241,
       "name": "McNeil",
       "club": "CRY",
@@ -9209,8 +9245,8 @@
         "review_required": false
       },
       "trend_label": "upturn",
-      "status": "d",
-      "news": "Ankle injury - 75% chance of playing"
+      "status": "i",
+      "news": "Ankle injury - Unknown return date"
     },
     {
       "id": 462,
@@ -9607,6 +9643,34 @@
         ],
         "primary_gk_flag": false,
         "review_required": true
+      },
+      "trend_label": "downturn",
+      "status": "a",
+      "news": ""
+    },
+    {
+      "id": 207,
+      "name": "Mingueza",
+      "club": "CRY",
+      "position": 2,
+      "opponents": [
+        "HUL"
+      ],
+      "expected_points_proxy": 1.5,
+      "conservative_score": 0.12,
+      "availability_proxy": 0.62,
+      "expected_minutes": 47.2,
+      "sixty_plus_minute_rate_proxy": 0.29,
+      "cameo_rate": 0.2,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.886,
+      "defense_trend": 1.04,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [],
+        "primary_gk_flag": false,
+        "review_required": false
       },
       "trend_label": "downturn",
       "status": "a",
@@ -10123,42 +10187,6 @@
       "trend_label": "upturn",
       "status": "a",
       "news": ""
-    },
-    {
-      "id": 159,
-      "name": "Caicedo",
-      "club": "CHE",
-      "position": 3,
-      "opponents": [
-        "NFO"
-      ],
-      "expected_points_proxy": 1.35,
-      "conservative_score": -0.07,
-      "availability_proxy": 0.57,
-      "expected_minutes": 46.6,
-      "sixty_plus_minute_rate_proxy": 0.71,
-      "cameo_rate": 0.2,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 1,
-      "teammate_attack_factor_experimental": 0.975,
-      "attack_trend": 0.836,
-      "defense_trend": 0.923,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [
-          {
-            "id": 200,
-            "name": "Lacroix",
-            "type": 2,
-            "status": "i",
-            "minutes": 634.0
-          }
-        ],
-        "primary_gk_flag": false,
-        "review_required": true
-      },
-      "trend_label": "downturn",
-      "status": "d",
-      "news": "Back injury - 75% chance of playing"
     },
     {
       "id": 308,
@@ -10821,34 +10849,6 @@
       "news": ""
     },
     {
-      "id": 612,
-      "name": "Methalie",
-      "club": "SUN",
-      "position": 2,
-      "opponents": [
-        "TOT"
-      ],
-      "expected_points_proxy": 1.14,
-      "conservative_score": -0.28,
-      "availability_proxy": 0.45,
-      "expected_minutes": 40.5,
-      "sixty_plus_minute_rate_proxy": 0.14,
-      "cameo_rate": 0.0,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 1,
-      "teammate_attack_factor_experimental": 0.975,
-      "attack_trend": 0.93,
-      "defense_trend": 0.896,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "downturn",
-      "status": "a",
-      "news": ""
-    },
-    {
       "id": 458,
       "name": "Joelinton",
       "club": "NEW",
@@ -11389,34 +11389,6 @@
       "news": "Foot injury - Unknown return date"
     },
     {
-      "id": 207,
-      "name": "Mingueza",
-      "club": "CRY",
-      "position": 2,
-      "opponents": [
-        "HUL"
-      ],
-      "expected_points_proxy": 1.04,
-      "conservative_score": -0.55,
-      "availability_proxy": 0.4,
-      "expected_minutes": 30.7,
-      "sixty_plus_minute_rate_proxy": 0.29,
-      "cameo_rate": 0.2,
-      "recent_minutes_sample": 5,
-      "key_teammates_unavailable": 1,
-      "teammate_attack_factor_experimental": 0.975,
-      "attack_trend": 0.886,
-      "defense_trend": 1.04,
-      "defensive_absence_flags": {
-        "key_defensive_absences": [],
-        "primary_gk_flag": false,
-        "review_required": false
-      },
-      "trend_label": "downturn",
-      "status": "d",
-      "news": "Thigh injury - 75% chance of playing"
-    },
-    {
       "id": 429,
       "name": "Rashford",
       "club": "MUN",
@@ -11627,6 +11599,34 @@
       "trend_label": "upturn",
       "status": "i",
       "news": "Hamstring injury - Expected back 2 Jan"
+    },
+    {
+      "id": 612,
+      "name": "Methalie",
+      "club": "SUN",
+      "position": 2,
+      "opponents": [
+        "TOT"
+      ],
+      "expected_points_proxy": 0.8,
+      "conservative_score": -0.81,
+      "availability_proxy": 0.29,
+      "expected_minutes": 26.3,
+      "sixty_plus_minute_rate_proxy": 0.14,
+      "cameo_rate": 0.0,
+      "recent_minutes_sample": 5,
+      "key_teammates_unavailable": 1,
+      "teammate_attack_factor_experimental": 0.975,
+      "attack_trend": 0.93,
+      "defense_trend": 0.896,
+      "defensive_absence_flags": {
+        "key_defensive_absences": [],
+        "primary_gk_flag": false,
+        "review_required": false
+      },
+      "trend_label": "downturn",
+      "status": "d",
+      "news": "Illness - 75% chance of playing"
     },
     {
       "id": 186,

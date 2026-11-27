@@ -36,11 +36,11 @@ Only players with >=180 season minutes and non-unavailable status.
     Mukiele             SUN £5.3m | rivals  0/12 | score 5.14
     Van den Berg        BRE £4.9m | rivals  0/12 | score 5.11
   MID:
-    Wirtz               LIV £7.4m | rivals  0/12 | score 8.23
+    Wirtz               LIV £7.5m | rivals  0/12 | score 8.23
     E.Le Fée            SUN £5.7m | rivals  0/12 | score 6.32
     Rudoni              COV £5.0m | rivals  1/12 | score 6.12
     Lewis-Potter        BRE £5.5m | rivals  0/12 | score 6.11
-    Okafor              LEE £5.7m | rivals  0/12 | score 5.86
+    Okafor              LEE £5.8m | rivals  0/12 | score 5.86
     Ødegaard            ARS £6.7m | rivals  1/12 | score 5.84
     Groß                BHA £6.3m | rivals 12/12 | score 5.79
     Alysson             AVL £4.9m | rivals  0/12 | score 5.63
@@ -52,12 +52,12 @@ Only players with >=180 season minutes and non-unavailable status.
     Havertz             ARS £7.4m | rivals  0/12 | score 4.71
     Delap               NFO £5.3m | rivals  0/12 | score 4.53
     Calvert-Lewin       LEE £6.0m | rivals  1/12 | score 4.33
-    Awoniyi             COV £5.4m | rivals  0/12 | score 3.99
+    Strand Larsen       CRY £5.9m | rivals  0/12 | score 3.89
   GKP:
     Roefs               SUN £4.8m | rivals  0/12 | score 5.95
     Tzolakis            HUL £4.7m | rivals  5/12 | score 5.60
     Trafford            LEE £5.1m | rivals  0/12 | score 4.84
-    Kinsky              TOT £4.4m | rivals  0/12 | score 4.75
+    Kinsky              TOT £4.5m | rivals  0/12 | score 4.75
     Kelleher            BRE £5.0m | rivals  0/12 | score 4.54
     A.Becker            LIV £5.5m | rivals  0/12 | score 4.37
     Petrović            BOU £4.5m | rivals  0/12 | score 4.21

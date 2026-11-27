@@ -1,7 +1,7 @@
 fpl_id,player,team,position,matches_available,starts,start_rate_pct,reliability,minutes_season,now_cost
-115,De Cuyper,BHA,2,5,5,100.0,VERY_STABLE,912,55
+115,De Cuyper,BHA,2,5,5,100.0,VERY_STABLE,912,56
 236,Dewsbury-Hall,EVE,3,5,5,100.0,VERY_STABLE,963,67
-411,Haaland,MCI,4,5,5,100.0,VERY_STABLE,979,158
+411,Haaland,MCI,4,5,5,100.0,VERY_STABLE,979,157
 31,Konsa,ARS,2,5,5,100.0,VERY_STABLE,821,49
 250,Leno,FUL,1,5,5,100.0,VERY_STABLE,990,45
 427,Mbeumo,MUN,3,5,5,100.0,VERY_STABLE,913,78
