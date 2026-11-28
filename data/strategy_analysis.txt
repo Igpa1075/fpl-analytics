@@ -9,58 +9,58 @@ Rival captain choices in the completed GW:
   N.Jackson: 2/12
   Evanilson: 1/12
 \nYour owned players: rival ownership and heuristic
-  Ouattara               DEF rivals  0/12 | score  2.67
-  Cherif                 FWD rivals  0/12 | score  1.59
-  Neto                   MID rivals  0/12 | score  2.43
-  Dewsbury-Hall          MID rivals  1/12 | score  4.89
-  Palmer                 MID rivals  1/12 | score  4.17
-  Leno                   GKP rivals  2/12 | score  2.79
-  Mbeumo                 MID rivals  2/12 | score  2.35
-  Vuskovic               DEF rivals  2/12 | score  6.14
-  Verbruggen             GKP rivals  6/12 | score  5.98
-  Calafiori              DEF rivals  7/12 | score  4.65
-  Konsa                  DEF rivals  7/12 | score  6.12
-  Tavernier              MID rivals 10/12 | score  5.16
-  N.Jackson              FWD rivals 10/12 | score  6.71
-  De Cuyper              DEF rivals 10/12 | score  5.86
-  Haaland                FWD rivals 11/12 | score  3.57
+  Ouattara               DEF rivals  0/12 | score  2.21
+  Cherif                 FWD rivals  0/12 | score  1.46
+  Neto                   MID rivals  0/12 | score  3.75
+  Dewsbury-Hall          MID rivals  1/12 | score  4.12
+  Palmer                 MID rivals  1/12 | score  3.75
+  Leno                   GKP rivals  2/12 | score  2.46
+  Mbeumo                 MID rivals  2/12 | score  2.15
+  Vuskovic               DEF rivals  2/12 | score  5.17
+  Verbruggen             GKP rivals  6/12 | score  5.01
+  Calafiori              DEF rivals  7/12 | score  3.94
+  Konsa                  DEF rivals  7/12 | score  5.15
+  Tavernier              MID rivals 10/12 | score  4.38
+  N.Jackson              FWD rivals 10/12 | score  5.54
+  De Cuyper              DEF rivals 10/12 | score  5.01
+  Haaland                FWD rivals 11/12 | score  3.25
 \nPotential DIFFERENTIALS (not purchase recommendations):
 Only players with >=180 season minutes and non-unavailable status.
   DEF:
-    Van Hecke           TOT £5.2m | rivals  8/12 | score 7.39
-    Hill                BOU £5.7m | rivals  0/12 | score 6.98
-    Silva               BOU £5.1m | rivals  1/12 | score 5.63
-    Gabriel             ARS £8.1m | rivals  3/12 | score 5.38
-    Araujo              LIV £5.5m | rivals  0/12 | score 5.28
-    Boscagli            BHA £4.5m | rivals  0/12 | score 5.21
-    Mukiele             SUN £5.3m | rivals  0/12 | score 5.14
-    Van den Berg        BRE £4.9m | rivals  0/12 | score 5.11
+    Van Hecke           TOT £5.2m | rivals  8/12 | score 6.03
+    Hill                BOU £5.7m | rivals  0/12 | score 5.68
+    Silva               BOU £5.1m | rivals  1/12 | score 4.66
+    Gabriel             ARS £8.1m | rivals  3/12 | score 4.60
+    Muharemović         LEE £5.2m | rivals  1/12 | score 4.32
+    Boscagli            BHA £4.5m | rivals  0/12 | score 4.31
+    Araujo              LIV £5.5m | rivals  0/12 | score 4.30
+    Justin              LEE £4.6m | rivals  0/12 | score 4.22
   MID:
-    Wirtz               LIV £7.5m | rivals  0/12 | score 8.23
-    E.Le Fée            SUN £5.7m | rivals  0/12 | score 6.32
-    Rudoni              COV £5.0m | rivals  1/12 | score 6.12
-    Lewis-Potter        BRE £5.5m | rivals  0/12 | score 6.11
-    Okafor              LEE £5.8m | rivals  0/12 | score 5.86
-    Ødegaard            ARS £6.7m | rivals  1/12 | score 5.84
-    Groß                BHA £6.3m | rivals 12/12 | score 5.79
-    Alysson             AVL £4.9m | rivals  0/12 | score 5.63
+    Wirtz               LIV £7.6m | rivals  0/12 | score 6.61
+    Gibbs-White         NFO £7.8m | rivals  2/12 | score 5.29
+    E.Le Fée            SUN £5.7m | rivals  0/12 | score 5.15
+    Lewis-Potter        BRE £5.5m | rivals  0/12 | score 5.00
+    Rudoni              COV £5.0m | rivals  1/12 | score 4.96
+    Groß                BHA £6.4m | rivals 12/12 | score 4.94
+    Ødegaard            ARS £6.7m | rivals  1/12 | score 4.87
+    Okafor              LEE £5.8m | rivals  0/12 | score 4.75
   FWD:
-    Barry               EVE £5.7m | rivals  2/12 | score 7.67
-    McBurnie            HUL £5.5m | rivals  0/12 | score 7.46
-    Evanilson           BOU £6.6m | rivals  4/12 | score 7.33
-    Isak                LIV £9.4m | rivals  5/12 | score 5.56
-    Havertz             ARS £7.4m | rivals  0/12 | score 4.71
-    Delap               NFO £5.3m | rivals  0/12 | score 4.53
-    Calvert-Lewin       LEE £6.0m | rivals  1/12 | score 4.33
-    Strand Larsen       CRY £5.9m | rivals  0/12 | score 3.89
+    Barry               EVE £5.7m | rivals  2/12 | score 6.24
+    Evanilson           BOU £6.6m | rivals  4/12 | score 6.04
+    McBurnie            HUL £5.5m | rivals  0/12 | score 6.03
+    Isak                LIV £9.4m | rivals  5/12 | score 4.78
+    Delap               NFO £5.3m | rivals  0/12 | score 4.37
+    Havertz             ARS £7.4m | rivals  0/12 | score 3.86
+    Calvert-Lewin       LEE £6.1m | rivals  1/12 | score 3.62
+    Strand Larsen       CRY £5.9m | rivals  0/12 | score 3.25
   GKP:
-    Roefs               SUN £4.8m | rivals  0/12 | score 5.95
-    Tzolakis            HUL £4.7m | rivals  5/12 | score 5.60
-    Trafford            LEE £5.1m | rivals  0/12 | score 4.84
-    Kinsky              TOT £4.5m | rivals  0/12 | score 4.75
-    Kelleher            BRE £5.0m | rivals  0/12 | score 4.54
-    A.Becker            LIV £5.5m | rivals  0/12 | score 4.37
-    Petrović            BOU £4.5m | rivals  0/12 | score 4.21
-    Raya                ARS £6.2m | rivals  3/12 | score 4.12
+    Roefs               SUN £4.8m | rivals  0/12 | score 4.78
+    Tzolakis            HUL £4.7m | rivals  5/12 | score 4.62
+    Trafford            LEE £5.1m | rivals  0/12 | score 4.06
+    Kinsky              TOT £4.5m | rivals  0/12 | score 3.97
+    Kelleher            BRE £5.0m | rivals  0/12 | score 3.76
+    Raya                ARS £6.2m | rivals  3/12 | score 3.71
+    A.Becker            LIV £5.5m | rivals  0/12 | score 3.66
+    Petrović            BOU £4.5m | rivals  0/12 | score 3.43
 \nNEXT: model transfers with current selling prices, free transfers,
 future fixtures, minutes risk, and uncertainty before estimating rank gains.

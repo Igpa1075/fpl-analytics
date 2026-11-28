@@ -1,7 +1,15 @@
 espn_event_id,match_date,teams,status,fpl_fixture_id,time_difference_hours
+401879225,2026-11-27T20:00Z,Chelsea / Nottingham Forest,UNVERIFIED,,
+401879238,2026-11-21T15:00Z,AFC Bournemouth / Nottingham Forest,VERIFIED,102,0.0
+401878757,2026-11-07T17:30Z,Manchester City / Nottingham Forest,VERIFIED,99,0.0
+401879249,2026-10-31T15:00Z,Brentford / Nottingham Forest,VERIFIED,83,0.0
+401879253,2026-10-23T19:00Z,Ipswich Town / Nottingham Forest,VERIFIED,77,0.0
+401879236,2026-11-21T15:00Z,Chelsea / Leeds United,VERIFIED,104,0.0
+401879239,2026-11-08T14:00Z,Chelsea / Sunderland,VERIFIED,100,0.0
+401879248,2026-10-31T12:30Z,Chelsea / Manchester United,VERIFIED,84,0.0
+401878767,2026-10-24T16:30Z,Chelsea / Tottenham Hotspur,VERIFIED,73,0.0
 401879237,2026-11-23T20:00Z,Brentford / Everton,VERIFIED,103,0.0
 401879244,2026-11-08T14:00Z,Brentford / Brighton & Hove Albion,VERIFIED,92,0.0
-401879249,2026-10-31T15:00Z,Brentford / Nottingham Forest,VERIFIED,83,0.0
 401878766,2026-10-25T14:00Z,Brentford / Hull City,VERIFIED,76,0.0
 401879262,2026-10-17T14:00Z,Brentford / Liverpool,VERIFIED,62,0.0
 401879242,2026-11-06T20:00Z,Coventry City / Everton,VERIFIED,94,0.0
@@ -19,29 +27,21 @@ espn_event_id,match_date,teams,status,fpl_fixture_id,time_difference_hours
 401879243,2026-11-08T14:00Z,Crystal Palace / Liverpool,VERIFIED,93,0.0
 401879246,2026-11-01T16:30Z,Arsenal / Liverpool,VERIFIED,87,0.0
 401879240,2026-11-08T16:30Z,Aston Villa / Manchester United,VERIFIED,98,0.0
-401879248,2026-10-31T12:30Z,Chelsea / Manchester United,VERIFIED,84,0.0
 401879252,2026-10-25T14:00Z,AFC Bournemouth / Manchester United,VERIFIED,79,0.0
 401879260,2026-10-18T13:00Z,Leeds United / Manchester United,VERIFIED,66,0.0
 401879233,2026-11-21T12:30Z,Fulham / Manchester City,VERIFIED,108,0.0
-401878757,2026-11-07T17:30Z,Manchester City / Nottingham Forest,VERIFIED,99,0.0
 401879256,2026-10-24T11:30Z,Aston Villa / Manchester City,VERIFIED,72,0.0
 401879259,2026-10-17T14:00Z,Ipswich Town / Manchester City,VERIFIED,67,0.0
 401879241,2026-11-07T15:00Z,Fulham / Newcastle United,VERIFIED,95,0.0
 401879250,2026-10-31T20:00Z,Aston Villa / Fulham,VERIFIED,81,0.0
 401879255,2026-10-24T14:00Z,Coventry City / Fulham,VERIFIED,74,0.0
-401879238,2026-11-21T15:00Z,AFC Bournemouth / Nottingham Forest,VERIFIED,102,0.0
 401878759,2026-11-08T14:00Z,AFC Bournemouth / Ipswich Town,VERIFIED,96,0.0
 401879251,2026-10-31T15:00Z,AFC Bournemouth / Leeds United,VERIFIED,82,0.0
 401879263,2026-10-18T13:00Z,AFC Bournemouth / Sunderland,VERIFIED,61,0.0
-401879253,2026-10-23T19:00Z,Ipswich Town / Nottingham Forest,VERIFIED,77,0.0
-401878769,2026-10-18T15:30Z,Arsenal / Nottingham Forest,VERIFIED,69,0.0
 401878756,2026-11-21T15:00Z,Aston Villa / Sunderland,VERIFIED,101,0.0
 401879258,2026-10-17T16:30Z,Aston Villa / Newcastle United,VERIFIED,68,0.0
-401879239,2026-11-08T14:00Z,Chelsea / Sunderland,VERIFIED,100,0.0
 401879247,2026-10-31T15:00Z,Coventry City / Sunderland,VERIFIED,85,0.0
 401878764,2026-10-25T16:30Z,Leeds United / Sunderland,VERIFIED,80,0.0
-401879236,2026-11-21T15:00Z,Chelsea / Leeds United,VERIFIED,104,0.0
-401878767,2026-10-24T16:30Z,Chelsea / Tottenham Hotspur,VERIFIED,73,0.0
 401878758,2026-11-07T12:30Z,Leeds United / Tottenham Hotspur,VERIFIED,97,0.0
 401879235,2026-11-21T15:00Z,Coventry City / Crystal Palace,VERIFIED,105,0.0
 401879257,2026-10-19T19:00Z,Coventry City / Tottenham Hotspur,VERIFIED,70,0.0
@@ -49,3 +49,4 @@ espn_event_id,match_date,teams,status,fpl_fixture_id,time_difference_hours
 401879254,2026-10-25T14:00Z,Crystal Palace / Newcastle United,VERIFIED,75,0.0
 401878754,2026-11-21T15:00Z,Ipswich Town / Tottenham Hotspur,VERIFIED,110,0.0
 401879232,2026-11-21T17:30Z,Arsenal / Newcastle United,VERIFIED,109,0.0
+401878769,2026-10-18T15:30Z,Arsenal / Nottingham Forest,VERIFIED,69,0.0

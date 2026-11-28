@@ -1,25 +1,25 @@
 {
-  "saved_squad_gw": 11,
+  "saved_squad_gw": 12,
   "future_gws": [
-    12,
     13,
-    14
+    14,
+    15
   ],
   "saved_bank_m": 0.1,
-  "baseline_3gw_proxy": 161.89,
-  "positive_candidates": 58,
-  "outgoing_players_with_options": 10,
+  "baseline_3gw_proxy": 150.46,
+  "positive_candidates": 52,
+  "outgoing_players_with_options": 9,
   "best_candidate": {
-    "out": "Mbeumo",
-    "out_id": 427,
-    "out_team": "MUN",
+    "out": "Palmer",
+    "out_id": 154,
+    "out_team": "CHE",
     "in": "Wirtz",
     "in_id": 366,
     "in_team": "LIV",
     "position": "MID",
-    "out_market_price": 7.8,
-    "in_price": 7.5,
-    "gain_3gw_proxy": 9.27,
+    "out_market_price": 9.7,
+    "in_price": 7.6,
+    "gain_3gw_proxy": 6.72,
     "budget_status": "UNVERIFIED"
   },
   "limitations": [

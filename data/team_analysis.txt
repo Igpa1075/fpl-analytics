@@ -1,40 +1,40 @@
-FPL team review | Chubais | last completed GW 11
-Bank at GW11 deadline: £0.1m
+FPL team review | Chubais | last completed GW 12
+Bank at GW12 deadline: £0.1m
 WARNING: picks are from the last completed GW, not confirmed live next-GW transfers.
 Score is a simple heuristic, NOT a calibrated points prediction.
 
 Slot Player                 Club  Pos     £m  Form   PPG  Score Status
 ---------------------------------------------------------------------------------
-   1 Verbruggen             BHA   GKP    4.7   6.3   5.4   6.03 a
-   2 De Cuyper              BHA   DEF    5.6   5.3   6.9   5.78 a
-   3 Vuskovic               BHA   DEF    5.3   6.0   6.4   6.12 a
-   4 Konsa                  ARS   DEF    4.9   6.3   5.8   6.15 a
-   5 Mbeumo                 MUN   MID    7.8   1.3   4.3   2.20 a
-   6 Neto                   CHE   MID    6.6   1.7   3.8   2.33 a
-   7 Palmer                 CHE   MID    9.8   4.0   4.5   4.15 a
-   8 Dewsbury-Hall          EVE   MID    6.7   5.0   4.7   4.91 a
-   9 Tavernier              BOU   MID    6.8   4.7   6.0   5.09 a
-  10 Haaland (C)            MCI   FWD   15.7   2.0   6.5   3.35 a
-  11 N.Jackson (VC)         AVL   FWD    7.3   7.3   5.6   6.79 a
-  12 Leno                   FUL   GKP    4.5   2.3   3.7   2.72 a
-  13 Calafiori              ARS   DEF    5.9   4.3   5.3   4.60 a
-  14 Cherif                 COV   FWD    5.0   1.0   2.7   1.51 a
-  15 Ouattara               IPS   DEF    4.0   2.7   2.6   2.67 a
+   1 Verbruggen             BHA   GKP    4.8   4.8   5.4   4.98 a
+   2 De Cuyper              BHA   DEF    5.6   4.0   6.9   4.87 a
+   3 Vuskovic               BHA   DEF    5.4   4.5   6.4   5.07 a
+   4 Konsa                  ARS   DEF    4.9   4.8   5.8   5.10 a
+   5 Calafiori              ARS   DEF    5.9   3.2   5.3   3.83 a
+   6 Mbeumo                 MUN   MID    7.8   1.0   4.3   1.99 a
+   7 Palmer                 CHE   MID    9.7   3.5   4.2   3.71 a
+   8 Dewsbury-Hall          EVE   MID    6.7   3.8   4.7   4.07 a
+   9 Tavernier (VC)         BOU   MID    6.8   3.5   6.0   4.25 a
+  10 Haaland                MCI   FWD   15.7   1.5   6.5   3.00 a
+  11 N.Jackson (C)          AVL   FWD    7.3   5.5   5.6   5.53 a
+  12 Leno                   FUL   GKP    4.5   1.8   3.7   2.37 a
+  13 Neto                   CHE   MID    6.6   3.5   4.2   3.71 a
+  14 Ouattara               IPS   DEF    4.0   2.0   2.6   2.18 a
+  15 Cherif                 COV   FWD    5.0   0.8   2.7   1.37 a
 
 Suggested XI based on the heuristic (review injury/news before deadline):
-Formation: 5-3-2
-  GKP Verbruggen             BHA  score 6.03
-  DEF Konsa                  ARS  score 6.15
-  DEF Vuskovic               BHA  score 6.12
-  DEF De Cuyper              BHA  score 5.78
-  DEF Calafiori              ARS  score 4.60
-  DEF Ouattara               IPS  score 2.67
-  MID Tavernier              BOU  score 5.09
-  MID Dewsbury-Hall          EVE  score 4.91
-  MID Palmer                 CHE  score 4.15
-  FWD N.Jackson              AVL  score 6.79
-  FWD Haaland                MCI  score 3.35
+Formation: 4-4-2
+  GKP Verbruggen             BHA  score 4.98
+  DEF Konsa                  ARS  score 5.10
+  DEF Vuskovic               BHA  score 5.07
+  DEF De Cuyper              BHA  score 4.87
+  DEF Calafiori              ARS  score 3.83
+  MID Tavernier              BOU  score 4.25
+  MID Dewsbury-Hall          EVE  score 4.07
+  MID Palmer                 CHE  score 3.71
+  MID Neto                   CHE  score 3.71
+  FWD N.Jackson              AVL  score 5.53
+  FWD Haaland                MCI  score 3.00
 Heuristic captain candidate: N.Jackson (verify minutes and fixture)
-Bench: Mbeumo, Neto, Leno, Cherif
+Bench: Mbeumo, Leno, Ouattara, Cherif
 
 Transfer recommendations require live squad, free transfers, selling prices, and current fixtures.
