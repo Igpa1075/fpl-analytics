@@ -1,10 +1,10 @@
 {
-  "target_gw": 12,
-  "forecast_captured_at_utc": "2026-11-27T04:32:11.660975+00:00",
-  "forecast_source": "data/contextual_forecasts/2026-11-27.json",
+  "target_gw": 13,
+  "forecast_captured_at_utc": "2026-11-28T04:25:48.039476+00:00",
+  "forecast_source": "data/contextual_forecasts/2026-11-28.json",
   "squad_source": "data/picks.json (latest publicly published GW; may be stale)",
-  "squad_event": 11,
-  "expected_xi_points_with_captain": 61.134,
+  "squad_event": 12,
+  "expected_xi_points_with_captain": 53.442,
   "formation": {
     "defenders": 4,
     "midfielders": 4,
@@ -16,17 +16,17 @@
       "name": "Verbruggen",
       "team_id": 5,
       "position_id": 1,
-      "price_tenths_million": 47,
+      "price_tenths_million": 48,
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 17,
-          "home": true,
-          "difficulty": 3
+          "opponent": 3,
+          "home": false,
+          "difficulty": 4
         }
       ],
-      "expected_points": 5.895,
-      "baseline_expected_points": 5.895,
+      "expected_points": 4.664,
+      "baseline_expected_points": 4.664,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -46,13 +46,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 17,
-          "home": true,
-          "difficulty": 3
+          "opponent": 3,
+          "home": false,
+          "difficulty": 4
         }
       ],
-      "expected_points": 6.261,
-      "baseline_expected_points": 6.02,
+      "expected_points": 5.076,
+      "baseline_expected_points": 4.881,
       "context_factor": 1.04,
       "context_signals": [
         {
@@ -72,17 +72,17 @@
       "name": "Vuskovic",
       "team_id": 5,
       "position_id": 2,
-      "price_tenths_million": 53,
+      "price_tenths_million": 54,
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 17,
-          "home": true,
-          "difficulty": 3
+          "opponent": 3,
+          "home": false,
+          "difficulty": 4
         }
       ],
-      "expected_points": 6.18,
-      "baseline_expected_points": 6.18,
+      "expected_points": 4.927,
+      "baseline_expected_points": 4.927,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -102,13 +102,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 15,
-          "home": true,
+          "opponent": 4,
+          "home": false,
           "difficulty": 4
         }
       ],
-      "expected_points": 5.26,
-      "baseline_expected_points": 5.26,
+      "expected_points": 4.568,
+      "baseline_expected_points": 4.568,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -128,13 +128,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 15,
-          "home": true,
+          "opponent": 4,
+          "home": false,
           "difficulty": 4
         }
       ],
-      "expected_points": 4.122,
-      "baseline_expected_points": 4.249,
+      "expected_points": 3.607,
+      "baseline_expected_points": 3.719,
       "context_factor": 0.97,
       "context_signals": [
         {
@@ -154,39 +154,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 10,
-          "home": false,
-          "difficulty": 3
+          "opponent": 5,
+          "home": true,
+          "difficulty": 4
         }
       ],
-      "expected_points": 5.285,
-      "baseline_expected_points": 5.285,
-      "context_factor": 1.0,
-      "context_signals": [
-        {
-          "kind": "verified_espn_starts",
-          "starts": 5,
-          "matches": 5,
-          "factor": 1.0
-        }
-      ]
-    },
-    {
-      "player_id": 154,
-      "name": "Palmer",
-      "team_id": 6,
-      "position_id": 3,
-      "price_tenths_million": 98,
-      "availability": 1.0,
-      "fixtures": [
-        {
-          "opponent": 18,
-          "home": false,
-          "difficulty": 2
-        }
-      ],
-      "expected_points": 4.563,
-      "baseline_expected_points": 4.563,
+      "expected_points": 4.255,
+      "baseline_expected_points": 4.255,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -206,13 +180,39 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 14,
-          "home": true,
-          "difficulty": 4
+          "opponent": 2,
+          "home": false,
+          "difficulty": 3
         }
       ],
-      "expected_points": 4.476,
-      "baseline_expected_points": 4.476,
+      "expected_points": 4.205,
+      "baseline_expected_points": 4.205,
+      "context_factor": 1.0,
+      "context_signals": [
+        {
+          "kind": "verified_espn_starts",
+          "starts": 5,
+          "matches": 5,
+          "factor": 1.0
+        }
+      ]
+    },
+    {
+      "player_id": 154,
+      "name": "Palmer",
+      "team_id": 6,
+      "position_id": 3,
+      "price_tenths_million": 97,
+      "availability": 1.0,
+      "fixtures": [
+        {
+          "opponent": 8,
+          "home": true,
+          "difficulty": 2
+        }
+      ],
+      "expected_points": 4.12,
+      "baseline_expected_points": 4.12,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -232,13 +232,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 18,
-          "home": false,
+          "opponent": 8,
+          "home": true,
           "difficulty": 2
         }
       ],
-      "expected_points": 2.749,
-      "baseline_expected_points": 2.751,
+      "expected_points": 4.016,
+      "baseline_expected_points": 4.02,
       "context_factor": 0.9991,
       "context_signals": [
         {
@@ -262,13 +262,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 12,
-          "home": false,
-          "difficulty": 2
+          "opponent": 9,
+          "home": true,
+          "difficulty": 3
         }
       ],
-      "expected_points": 6.481,
-      "baseline_expected_points": 6.481,
+      "expected_points": 5.127,
+      "baseline_expected_points": 5.127,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -288,13 +288,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 1,
-          "home": false,
-          "difficulty": 5
+          "opponent": 13,
+          "home": true,
+          "difficulty": 3
         }
       ],
-      "expected_points": 3.381,
-      "baseline_expected_points": 3.381,
+      "expected_points": 3.75,
+      "baseline_expected_points": 3.75,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -315,13 +315,13 @@
     "availability": 1.0,
     "fixtures": [
       {
-        "opponent": 12,
-        "home": false,
-        "difficulty": 2
+        "opponent": 9,
+        "home": true,
+        "difficulty": 3
       }
     ],
-    "expected_points": 6.481,
-    "baseline_expected_points": 6.481,
+    "expected_points": 5.127,
+    "baseline_expected_points": 5.127,
     "context_factor": 1.0,
     "context_signals": [
       {
@@ -341,13 +341,13 @@
     "availability": 1.0,
     "fixtures": [
       {
-        "opponent": 17,
-        "home": true,
-        "difficulty": 3
+        "opponent": 3,
+        "home": false,
+        "difficulty": 4
       }
     ],
-    "expected_points": 6.261,
-    "baseline_expected_points": 6.02,
+    "expected_points": 5.076,
+    "baseline_expected_points": 4.881,
     "context_factor": 1.04,
     "context_signals": [
       {
@@ -372,13 +372,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 3,
-          "home": true,
+          "opponent": 19,
+          "home": false,
           "difficulty": 3
         }
       ],
-      "expected_points": 2.93,
-      "baseline_expected_points": 2.93,
+      "expected_points": 2.655,
+      "baseline_expected_points": 2.655,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -400,13 +400,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 4,
-          "home": true,
+          "opponent": 17,
+          "home": false,
           "difficulty": 3
         }
       ],
-      "expected_points": 2.729,
-      "baseline_expected_points": 2.65,
+      "expected_points": 2.56,
+      "baseline_expected_points": 2.485,
       "context_factor": 1.03,
       "context_signals": [
         {
@@ -430,13 +430,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 2,
-          "home": true,
-          "difficulty": 3
+          "opponent": 7,
+          "home": false,
+          "difficulty": 2
         }
       ],
-      "expected_points": 2.463,
-      "baseline_expected_points": 2.463,
+      "expected_points": 2.366,
+      "baseline_expected_points": 2.366,
       "context_factor": 1.0,
       "context_signals": [
         {
@@ -456,13 +456,13 @@
       "availability": 1.0,
       "fixtures": [
         {
-          "opponent": 13,
-          "home": false,
-          "difficulty": 3
+          "opponent": 12,
+          "home": true,
+          "difficulty": 2
         }
       ],
-      "expected_points": 1.749,
-      "baseline_expected_points": 1.922,
+      "expected_points": 1.854,
+      "baseline_expected_points": 2.037,
       "context_factor": 0.91,
       "context_signals": [
         {
